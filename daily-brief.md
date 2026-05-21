@@ -6,79 +6,79 @@
 
 ---
 
-## 📅 2026-05-20 周三
+## 📅 2026-05-21 周四
 
 ### 📌 今日焦点
 
-**[Gemini 3.5 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/)** · `HackerNews` ⭐
+**[An OpenAI model has disproved a central conjecture in discrete geometry](https://openai.com/index/model-disproves-discrete-geometry-conjecture/)** · `HackerNews` ⭐
 
-> Gemini 3.5 Flash 成为今天焦点，因为它把大模型竞争从“更会聊天”推向“更会执行任务”的代理时代，影响搜索、办公与应用开发的产品形态。开发者应尽快评估其函数调用、工具使用与延迟/成本表现，优先在 Agent、自动化工作流和多步骤任务中做小规模试点。
+> 这是少见的“模型直接推进数学前沿”的时刻，意味着 AI 正从辅助证明走向产出原创研究结论。开发者应关注其使用的推理与验证流程，把“可复核的研究型 agent”纳入科研、搜索和工程验证场景。 
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Gemini Omni](https://deepmind.google/models/gemini-omni/)** · `HackerNews`
+**1. [Anthropic will pay xAI $1.25B per month for compute](https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/)** · `TechCrunch AI` ⭐
 
-若 Omni 强化多模态统一接口，开发者可减少模型切换与系统拼装成本。
+算力采购规模刷新上限，预示大模型竞争正转向基础设施战争。
 
-**2. [OpenAI Adopts Google's SynthID Watermark for AI Images with Verification Tool](https://openai.com/index/advancing-content-provenance/)** · `HackerNews`
+**2. [Qwen3.7-Max: The Agent Frontier](https://qwen.ai/blog?id=qwen3.7)** · `HackerNews`
 
-AI 图像水印走向跨厂商互认，关系到生成内容合规与溯源基建。
+Agent 能力仍是产品分水岭，值得关注新模型的任务闭环表现。
 
-**3. [Google can now vibe-code you an Android app](https://www.theverge.com/tech/932364/google-ai-studio-native-android-apps-vibe-code-google-io-2026)** · `The Verge AI`
+**3. [SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents](https://huggingface.co/papers/2605.21384)** · `HuggingFace Papers`
 
-AI 直接生成 Android 应用，正在改写原型开发和移动端工具链。
+奖励黑客是编码 agent 落地隐患，评测方法将影响真实可用性。
 
-**4. [The last six months in LLMs in five minutes](https://simonwillison.net/2026/May/19/5-minute-llms/)** · `HackerNews`
+**4. [100 things we announced at I/O 2026](https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/)** · `Google AI Blog`
 
-高密度行业回顾能帮团队快速校准路线，避免追逐短期噪音。
+Google 一次性释放路线图，能帮助开发者判断平台押注方向。
 
-**5. [Google’s Genie world model can now simulate real streets with Street View](https://techcrunch.com/2026/05/19/googles-genie-world-model-can-now-simulate-real-streets-with-street-view/)** · `TechCrunch AI`
+**5. [A new era for AI Search](https://blog.google/products-and-platforms/products/search/search-io-2026/)** · `Google AI Blog`
 
-世界模型逼近真实街景，预示机器人、自动驾驶与仿真训练提速。
+搜索正在被 AI 重写，相关应用的流量入口和分发逻辑会变。
 
-**6. [AgentWall: A Runtime Safety Layer for Local AI Agents](https://arxiv.org/abs/2605.16265)** · `arXiv cs.AI`
+**6. [Nvidia posts another record quarter, reveals $43B of holdings in startups](https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/)** · `TechCrunch AI`
 
-本地 Agent 安全层是落地关键，没有运行时约束就难进生产环境。
+Nvidia 的业绩与持仓，仍是观察 AI 资本与生态的关键温度计。
 
-**7. [Skim: Speculative Execution for Fast and Efficient Web Agents](https://arxiv.org/abs/2605.16565)** · `arXiv cs.AI`
+**7. [Google's AI is being manipulated. The search giant is quietly fighting back](https://www.bbc.com/future/article/20260519-google-tackles-attempts-to-hack-its-ai-results)** · `HackerNews`
 
-Web Agent 的推理速度决定可用性，推测执行可能成为新性能杠杆。
+搜索对抗操纵升级，做 SEO、RAG 和内容分发的人都该警惕。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Show HN: Forge – Guardrails take an 8B model from 53% to 99% on agentic tasks](https://github.com/antoinezambelli/forge)** · `HackerNews`
+**[milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-Guardrails 将 8B 模型代理任务成功率显著拉升，适合关注小模型可用性的团队参考。
+向量检索仍是 AI 应用底座，Milvus 适合构建高性能、可扩展的检索系统。
 
-**[OpenComputer: Verifiable Software Worlds for Computer-Use Agents](https://huggingface.co/papers/2605.19769)** · `HuggingFace Papers`
+**[I/O 2026](https://blog.google/innovation-and-ai/technology/developers-tools/google-io-2026-collection/)** · `Google AI Blog`
 
-为 computer-use agents 提供可验证的软件世界，有助于评测、复现与安全研究。
+I/O 汇总页适合快速扫描 Google 新工具与平台能力，便于技术选型。
 
 ---
 
 ### 💡 今日洞察
 
-> 2026 年的 AI 分水岭，不是谁最会回答问题，而是谁最能可靠地完成任务。
+> 当 AI 开始提出可被验证的新结论，它就不再只是工具，而是研究流程中的新合作者。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [I/O 2026: Welcome to the agentic Gemini era](https://blog.google/innovation-and-ai/sundar-pichai-io-2026/) · `Google AI Blog`
-- 🚀 [The future of Google is a search box that does everything](https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026) · `The Verge AI`
-- 📊 [The 13 biggest announcements at Google I/O 2026](https://www.theverge.com/tech/933415/google-io-2026-biggest-announcements-ai-gemini) · `The Verge AI`
-- 🚀 [With Gemini 3.5 Flash, Google bets its next AI wave on agents, not chatbots](https://techcrunch.com/2026/05/19/with-gemini-3-5-flash-google-bets-its-next-ai-wave-on-agents-not-chatbots/) · `TechCrunch AI`
-- 📊 [Google Search as you know it is over](https://techcrunch.com/2026/05/19/google-search-as-you-know-it-is-over/) · `TechCrunch AI`
-- 🚀 [Everything new in our Google AI subscriptions, fresh from I/O 2026](https://blog.google/products-and-platforms/products/google-one/google-ai-subscriptions/) · `Google AI Blog`
-- 🚀 [Would you let robots spend your money? Google is betting on it](https://www.theverge.com/news/932927/google-io-agentic-ai-shopping-universal-cart) · `The Verge AI`
-- 🚀 [Gmail is going to start talking to you](https://www.theverge.com/tech/932973/google-gmail-live-ai-keep-docs-io-2026) · `The Verge AI`
-- 📊 [Google just declared itself a contender in AI design at IO 2026](https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/) · `TechCrunch AI`
-- 🛠️ [OpenAI is making it easier to check if an image was made by their models](https://techcrunch.com/2026/05/19/openai-is-making-it-easier-to-check-if-an-image-was-made-by-their-models/) · `TechCrunch AI`
+- 🔬 [OpenAI claims it solved an 80-year-old math problem — for real this time](https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/) · `TechCrunch AI`
+- 📊 [OpenAI barrels toward IPO that may happen in September](https://techcrunch.com/2026/05/20/openai-barrels-toward-ipo-that-may-happen-in-september/) · `TechCrunch AI`
+- 🚀 [How Ramp engineers accelerate code review with Codex](https://openai.com/index/ramp) · `OpenAI Blog`
+- 📊 [xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over](https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/) · `TechCrunch AI`
+- 📊 [Anthropic is expanding to Colossus2. Will use GB200](https://xcancel.com/nottombrown/status/2057194829986300375) · `HackerNews`
+- 🔬 [PlanningBench: Generating Scalable and Verifiable Planning Data for Evaluating and Training Large Language Models](https://huggingface.co/papers/2605.20873) · `HuggingFace Papers`
+- 🔬 [Mem-π: Adaptive Memory through Learning When and What to Generate](https://huggingface.co/papers/2605.21463) · `HuggingFace Papers`
+- 🔬 [Evaluating Temporal Semantic Caching and Workflow Optimization in Agentic Plan-Execute Pipelines](https://huggingface.co/papers/2605.20630) · `HuggingFace Papers`
+- 🔬 [On the limits and opportunities of AI reviewers: Reviewing the reviews of Nature-family papers with 45 expert scientists](https://huggingface.co/papers/2605.20668) · `HuggingFace Papers`
+- 🚀 [How AI Mode is changing the way people search in the U.S.](https://blog.google/products-and-platforms/products/search/ai-mode-us-insights/) · `Google AI Blog`
 
 
 ---
@@ -87,9 +87,9 @@ Guardrails 将 8B 模型代理任务成功率显著拉升，适合关注小模�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 52 篇 | 20 篇 | **10 篇** |
+| 11 源 | 134 篇 | 59 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-05-20 10:54 UTC+8*
+*生成于 2026-05-21 10:58 UTC+8*
 
 ## 📚 往期简报
 
