@@ -6,79 +6,82 @@
 
 ---
 
-## 📅 2026-05-22 周五
+## 📅 2026-05-23 周六
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
+**[Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models](https://huggingface.co/blog/nvidia/nemotron-labs-diffusion)** · `Hugging Face Blog`
 
-> Codex 以终端原生形态切入开发工作流，意味着 AI 编程助手正从“补全工具”升级为可执行、可集成的工程代理。开发者现在应尽快评估其在本地 CLI、CI 脚本和代码审查流程中的适配方式，优先建立权限边界与可回滚机制。
+> 扩散式语言模型若真逼近“光速生成”，将直接改写推理延迟、交互体验和推理成本三角关系。开发者现在就该关注其采样质量、工具链兼容性与部署门槛，评估是否适合低延迟生成场景。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [TerminalWorld: Benchmarking Agents on Real-World Terminal Tasks](https://huggingface.co/papers/2605.22535)** · `HuggingFace Papers`
+**1. [DeepSeek makes the V4 Pro price discount permanent](https://api-docs.deepseek.com/quick_start/pricing)** · `HackerNews`
 
-真实终端基准比聊天测评更接近生产，直接影响代理选型。
+价格战会重塑模型选型，直接影响推理预算与供应商策略。
 
-**2. [Open-World Evaluations for Measuring Frontier AI Capabilities](https://arxiv.org/abs/2605.20520)** · `arXiv cs.AI`
+**2. [Antigravity 2.0 Tops the OpenSCAD Architectural 3D LLM Benchmark](https://modelrift.com/blog/openscad-llm-benchmark/)** · `HackerNews`
 
-开放世界评测决定模型上限，值得关注未来能力基线。
+3D 建模基准突破提示垂直任务里，小模型优化可能胜过盲目堆参数。
 
-**3. [Anthropic is paying $15 billion a year for access to Elon Musk’s data centers](https://www.theverge.com/science/935229/spacex-anthropic-ipo-ai-capacity-deal-colossus)** · `The Verge AI`
+**3. [Launch HN: Superset (YC P26) – IDE for the agents era](https://github.com/superset-sh/superset)** · `HackerNews`
 
-算力合约规模惊人，预示顶级模型竞争已转向基础设施。
+Agent IDE 竞争升温，开发环境正在从写代码转向编排智能体。
 
-**4. [Multi-Stream LLMs: new paper on parallelizing/separating prompts, thinking, I/O](https://arxiv.org/abs/2605.12460)** · `HackerNews`
+**4. [Spotify and Universal Music strike deal allowing fan-made AI covers and remixes](https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/)** · `TechCrunch AI`
 
-多流并行或重写 LLM 系统架构，关系延迟与吞吐优化。
+AI 音乐版权开始制度化，生成式产品落地绕不开授权链路。
 
-**5. [From Reasoning Chains to Verifiable Subproblems: Curriculum Reinforcement Learning Enables Credit Assignment for LLM ...](https://huggingface.co/papers/2605.22074)** · `HuggingFace Papers`
+**5. [Open source Kanban desktop app that runs parallel agents on every card](https://www.kanbots.dev/)** · `HackerNews`
 
-可验证子问题训练法，可能提升推理模型的可控性与调试性。
+把多代理执行嵌入项目管理，或许是团队协作软件的下一波形态。
 
-**6. [AgentCo-op: Retrieval-Based Synthesis of Interoperable Multi-Agent Workflows](https://arxiv.org/abs/2605.20425)** · `arXiv cs.AI`
+**6. [How VCs and founders use inflated ‘ARR’ to crown AI startups](https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/)** · `TechCrunch AI`
 
-多代理工作流互操作是企业落地关键，别只盯单代理能力。
+AI 创业估值泡沫会反噬采购决策，开发者需更重真实使用量与留存。
 
-**7. [AgentAtlas: Beyond Outcome Leaderboards for LLM Agents](https://arxiv.org/abs/2605.20530)** · `arXiv cs.AI`
+**7. [We tried Google’s AI glasses and they’re almost there](https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/)** · `TechCrunch AI`
 
-超越排行榜看代理过程指标，才能判断是否适合生产部署。
+AI 眼镜接近可用，意味着多模态应用该为持续在线交互做准备。
+
+**8. [Specialization Beats Scale: A Strategic Variable Most AI Procurement Decisions Overlook](https://huggingface.co/blog/Dharma-AI/specialization-beats-scale)** · `Hugging Face Blog`
+
+采购不只看大模型排名，垂直专精模型往往更贴近业务 ROI。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[QuantumNous/new-api: A unified AI model hub for aggregation & distribution. I...](https://github.com/QuantumNous/new-api)** · `GitHub Trending`
+**[Models.dev: open-source database of AI model specs, pricing, and capabilities](https://github.com/anomalyco/models.dev)** · `HackerNews`
 
-统一模型聚合与协议转换，适合多模型接入和网关层实验。
+统一查看模型规格、能力与价格，适合做选型评估和成本对比。
 
-**[Launch HN: Runtime (YC P26) – Sandboxed coding agents for everyone on a team](https://www.runtm.com/)** · `HackerNews`
+**[1Panel-dev/1Panel: 🔥 1Panel is a modern, open-source VPS control panel — and ...](https://github.com/1Panel-dev/1Panel)** · `GitHub Trending`
 
-面向团队的沙箱代理平台，值得参考安全执行与协作设计。
+开源 VPS 面板叠加原生 AI Agent 支持，适合自托管自动化运维实验。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正改变开发效率的，不是会说代码的模型，而是能在约束中可靠执行的代理。
+> AI 的下一场竞争，不是谁更会生成，而是谁能把延迟、成本与可靠性同时做对。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [All of the updates from Elon Musk and Sam Altman’s battle over OpenAI](https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit) · `The Verge AI`
-- 🛠️ [I can’t believe how fast Google vibe coded my first Android app](https://www.theverge.com/ai-artificial-intelligence/935056/google-vibe-coding-first-android-app-gemini-ai-studio) · `The Verge AI`
-- 📊 [Trump delays AI security executive order, saying language ‘could have been a blocker’](https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/) · `TechCrunch AI`
-- 🔬 [SOLAR: A Self-Optimizing Open-Ended Autonomous Agent for Lifelong Learning and Continual Adaptation](https://arxiv.org/abs/2605.20189) · `arXiv cs.AI`
-- 🔬 [Maestro: Reinforcement Learning to Orchestrate Hierarchical Model-Skill Ensembles](https://huggingface.co/papers/2605.22177) · `HuggingFace Papers`
-- 🔬 [WorldKV: Efficient World Memory with World Retrieval and Compression](https://huggingface.co/papers/2605.22718) · `HuggingFace Papers`
-- 🚀 [Spotify is launching AI-generated remixes](https://www.theverge.com/ai-artificial-intelligence/935379/spotify-umg-ai-covers-remix) · `The Verge AI`
-- 🚀 [Spotify takes on Google’s NotebookLM with its new app](https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/) · `TechCrunch AI`
-- 🛠️ [Spotify launches an ElevenLabs-powered audiobook creation tool](https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/) · `TechCrunch AI`
-- 📊 [Hark raises $700M Series A for its secretive ‘universal’ AI interface](https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/) · `TechCrunch AI`
+- 📊 [OpenAI named a Leader in enterprise coding agents by Gartner](https://openai.com/index/gartner-2026-agentic-coding-leader) · `OpenAI Blog`
+- 💡 [How Virgin Atlantic ships faster with Codex](https://openai.com/index/virgin-atlantic) · `OpenAI Blog`
+- 📊 [GitHub recognized as a Leader in the Gartner® Magic Quadrant™ for Enterprise AI Coding Agents for the third year in a...](https://github.blog/ai-and-ml/github-copilot/github-recognized-as-a-leader-in-the-gartner-magic-quadrant-for-enterprise-ai-coding-agents-for-the-third-year-in-a-row/) · `GitHub Blog`
+- 🔬 [Tool-Augmented Agent for Closed-loop Optimization,Simulation,and Modeling Orchestration](https://arxiv.org/abs/2605.20190) · `arXiv cs.AI`
+- 🛠️ [Mahjax: A GPU-Accelerated Mahjong Simulator for Reinforcement Learning in JAX](https://arxiv.org/abs/2605.20577) · `arXiv cs.AI`
+- 📊 [Catch up on the Dialogues stage at Google I/O 2026.](https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/) · `Google AI Blog`
+- 🚀 [Spotify says its AI remix tool is for superfans, but I&#8217;m not convinced](https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan) · `The Verge AI`
+- 🚀 [Spotify Studio&#8217;s AI agent creates a daily podcast just for you](https://www.theverge.com/entertainment/935390/spotify-studio-ai-app-personal-podcasts) · `The Verge AI`
+- 🔬 [OSCToM: RL-Guided Adversarial Generation for High-Order Theory of Mind](https://arxiv.org/abs/2605.20423) · `arXiv cs.AI`
 
 
 ---
@@ -87,9 +90,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 138 篇 | 50 篇 | 20 篇 | **10 篇** |
+| 11 源 | 137 篇 | 42 篇 | 20 篇 | **11 篇** |
 
-*生成于 2026-05-22 10:58 UTC+8*
+*生成于 2026-05-23 10:44 UTC+8*
 
 ## 📚 往期简报
 
