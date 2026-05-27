@@ -6,75 +6,75 @@
 
 ---
 
-## 📅 2026-05-26 周二
+## 📅 2026-05-27 周三
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
+**[Toward Reliable Design of LLM-Enabled Agentic Workflows: Optimizing Latency-Reliability-Cost Tradeoffs](https://arxiv.org/abs/2605.23929)** · `arXiv cs.AI`
 
-> OpenAI 将 Codex 做成可在终端运行的轻量 coding agent，意味着 AI 编程正从聊天窗口走向开发者最核心的工作流入口。开发者应尽快评估它在本地代码库、CLI 自动化与团队安全边界中的适配方式，抢先建立可落地的 agent 使用规范。
+> 这项研究直击智能体落地的核心矛盾：延迟、可靠性与成本无法再靠经验调参，必须进入可量化优化阶段。对开发者而言，应该尽快把工作流评测从“能跑通”升级为包含 SLA、成功率与单位任务成本的系统化基准。 
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**1. [How Much Thinking is Enough? Quantifying and Understanding Redundancy in LLM Reasoning](https://arxiv.org/abs/2605.23926)** · `arXiv cs.AI`
 
-本地多模态推理栈成熟，关系到成本、隐私与可控部署。
+推理冗余可直接转化为时延与 token 成本优化空间。
 
-**2. [Microsoft Copilot Cowork Exfiltrates Files](https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files)** · `HackerNews`
+**2. [Confidence Calibration in Large Language Models](https://arxiv.org/abs/2605.23909)** · `arXiv cs.AI`
 
-AI 助手已进入数据外泄威胁面，安全设计必须前置。
+置信度校准决定模型输出能否安全进入生产决策链。
 
-**3. [Energy per Successful Goal: Goal-Level Energy Accounting for Agentic AI Systems](https://arxiv.org/abs/2605.22883)** · `arXiv cs.AI`
+**3. [MobileMoE: Scaling On-Device Mixture of Experts](https://huggingface.co/papers/2605.27358)** · `HuggingFace Papers`
 
-Agent 成本不能只看 token，能耗将成新评估指标。
+端侧 MoE 若成熟，将重塑移动 AI 的性能与隐私边界。
 
-**4. [EVE-Agent: Evidence-Verifiable Self-Evolving Agents](https://arxiv.org/abs/2605.22905)** · `arXiv cs.AI`
+**4. [Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows](https://huggingface.co/papers/2605.24219)** · `HuggingFace Papers`
 
-可验证、自进化 agent 是走向生产级自治的关键一步。
+多智能体真正难点不在答案，而在过程幻觉的审计能力。
 
-**5. [CVE-2026-28952: Apple macOS 26.5 Kernel Vuln found by Claude](https://support.apple.com/en-us/127115)** · `HackerNews`
+**5. [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence](https://huggingface.co/papers/2605.26494)** · `HuggingFace Papers`
 
-Claude 发现内核漏洞，说明 AI 正重塑安全研究流程。
+新模型系列值得关注其真实世界任务表现，而非只看榜单。
 
-**6. [SciAtlas: A Large-Scale Knowledge Graph for Automated Scientific Research](https://arxiv.org/abs/2605.22878)** · `arXiv cs.AI`
+**6. [Context: Proactive Goal-Directed Intelligence via Composable Sandboxed Programs, Declarative Wiring, and Structured I...](https://arxiv.org/abs/2605.23928)** · `arXiv cs.AI`
 
-科研知识图谱基础设施升级，利好检索增强与科学 agent。
+可组合沙箱程序为构建可控智能体提供更工程化范式。
 
-**7. [Harness, Scaffold, and the AI Agent Terms Worth Getting Right](https://huggingface.co/blog/agent-glossary)** · `Hugging Face Blog`
+**7. [OpenRouter more than doubles valuation to $1.3B in a year](https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/)** · `TechCrunch AI`
 
-术语不清会拖慢协作，团队应统一 agent 系统语言。
+OpenRouter 估值飙升，说明多模型分发层正成为新基础设施。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[GitHub for Beginners: Getting started with Git and GitHub in VS Code](https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-git-and-github-in-vs-code/)** · `GitHub Blog`
+**[AI tools are only as good as your judgment](https://theaileverageweekly.com/posts/your-ai-tools-are-only-as-good-as-your-judgment-and-that-s-the-point.html)** · `HackerNews`
 
-适合带新人快速补齐 Git/GitHub 与 VS Code 基础，降低团队上手成本。
+虽非传统工具，但它提醒团队先建立判断与评估机制，再谈 AI 提效。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正有价值的 AI，不是替你写更多代码，而是让每一次自动化都更可验证、可控、可交付。
+> AI 系统的竞争力，越来越不取决于它会不会回答，而取决于你能不能度量、约束并审计它的回答过程。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🔬 [RMA: an Agentic System for Research-Level Mathematical Problems](https://arxiv.org/abs/2605.22875) · `arXiv cs.AI`
-- 🔬 [ImProver 2: Iteratively Self-Improving LMs for Neurosymbolic Proof Optimization](https://arxiv.org/abs/2605.22885) · `arXiv cs.AI`
-- 💡 [Using AI to write better code more slowly](https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/) · `HackerNews`
-- 📊 [Norway's 2 petabytes of Huawei flash storage and LLM training](https://www.blocksandfiles.com/flash/2026/05/22/norways-2-petabytes-of-huawei-flash-storage-and-llm-training/5244910) · `HackerNews`
-- 📊 [OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership](https://openai.com/index/grupo-folha-grupo-uol-partnership) · `OpenAI Blog`
-- 🔬 [DVAO: Dynamic Variance-adaptive Advantage Optimization for Multi-reward Reinforcement Learning](https://huggingface.co/papers/2605.25604) · `HuggingFace Papers`
-- 🔬 [Pantheon360: Taming Digital Twin Generation via 3D-Aware 360° Video Diffusion](https://huggingface.co/papers/2605.25449) · `HuggingFace Papers`
-- 📊 [Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks](https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/) · `HackerNews`
-- 🔬 [MetaphorVU: Towards Metaphorical Video Understanding](https://huggingface.co/papers/2605.25461) · `HuggingFace Papers`
-- 📊 [Pope Leo calls for being ‘profoundly human’ in the age of AI](https://www.theverge.com/news/936945/pope-leo-letter-encyclical-ai-anthropic-labor-warfare) · `The Verge AI`
+- 🔬 [When Correct Beliefs Collapse: Epistemic Resilience of LLMs under Clinical Pressure](https://arxiv.org/abs/2605.23932) · `arXiv cs.AI`
+- 🔬 [Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement](https://huggingface.co/papers/2605.26952) · `HuggingFace Papers`
+- 🔬 [Negligible in Size, Significant in Effect: On Scale Vectors in Large Language Models](https://huggingface.co/papers/2605.26895) · `HuggingFace Papers`
+- 📊 [Sundar Pichai on AI, the future of search, and what’s happening to the web](https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web) · `The Verge AI`
+- 📊 [DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search](https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/) · `TechCrunch AI`
+- 📊 [This startup is betting India’s gig economy can train the world’s robots](https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/) · `TechCrunch AI`
+- 📊 [Outsourcing plus local AI will soon become more economical vs. frontier labs](https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/) · `HackerNews`
+- 📊 [Universal Music Group and TikTok renew agreement to combat unauthorized AI music](https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/) · `TechCrunch AI`
+- 📊 [AI warfare is already here](https://www.theverge.com/ai-artificial-intelligence/937028/military-ai-warfare-red-lines) · `The Verge AI`
+- 📊 [Uber president says AI spending is getting ‘harder to justify’](https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify) · `The Verge AI`
 
 
 ---
@@ -83,9 +83,9 @@ Claude 发现内核漏洞，说明 AI 正重塑安全研究流程。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 137 篇 | 29 篇 | 20 篇 | **9 篇** |
+| 11 源 | 134 篇 | 29 篇 | 20 篇 | **9 篇** |
 
-*生成于 2026-05-26 10:51 UTC+8*
+*生成于 2026-05-27 11:29 UTC+8*
 
 ## 📚 往期简报
 
