@@ -6,75 +6,75 @@
 
 ---
 
-## 📅 2026-05-27 周三
+## 📅 2026-05-28 周四
 
 ### 📌 今日焦点
 
-**[Toward Reliable Design of LLM-Enabled Agentic Workflows: Optimizing Latency-Reliability-Cost Tradeoffs](https://arxiv.org/abs/2605.23929)** · `arXiv cs.AI`
+**[ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial An...](https://huggingface.co/blog/ibm-research/itbench-aa)** · `Hugging Face Blog`
 
-> 这项研究直击智能体落地的核心矛盾：延迟、可靠性与成本无法再靠经验调参，必须进入可量化优化阶段。对开发者而言，应该尽快把工作流评测从“能跑通”升级为包含 SLA、成功率与单位任务成本的系统化基准。 
+> 这项面向企业 IT 代理任务的首个基准显示，前沿模型准确率仍低于 50%，直接击穿了“Agent 已可大规模落地”的乐观预期。对开发者而言，现在应优先建设评测集、回放机制与人工兜底流程，再决定把 Agent 放进哪些生产链路。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [How Much Thinking is Enough? Quantifying and Understanding Redundancy in LLM Reasoning](https://arxiv.org/abs/2605.23926)** · `arXiv cs.AI`
+**1. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-推理冗余可直接转化为时延与 token 成本优化空间。
+向量数据库仍是 RAG 与检索系统底座，选型会影响延迟、成本与扩展性。
 
-**2. [Confidence Calibration in Large Language Models](https://arxiv.org/abs/2605.23909)** · `arXiv cs.AI`
+**2. [Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco)** · `OpenAI Blog`
 
-置信度校准决定模型输出能否安全进入生产决策链。
+Codex 进入企业工程场景，说明 AI 编程正从助手走向组织级工作流。
 
-**3. [MobileMoE: Scaling On-Device Mixture of Experts](https://huggingface.co/papers/2605.27358)** · `HuggingFace Papers`
+**3. [AI coding startup Cognition raises $1B at $25B pre-money valuation](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/)** · `TechCrunch AI`
 
-端侧 MoE 若成熟，将重塑移动 AI 的性能与隐私边界。
+巨额融资反映 AI 编程赛道升温，开发者应关注平台锁定与生态迁移成本。
 
-**4. [Beyond Final Answers: Auditing Trajectory-Level Hallucinations in Multi-Agent Industrial Workflows](https://huggingface.co/papers/2605.24219)** · `HuggingFace Papers`
+**4. [Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory](https://arxiv.org/abs/2605.26252)** · `arXiv cs.AI`
 
-多智能体真正难点不在答案，而在过程幻觉的审计能力。
+Agent 记忆不只是存储问题，数据模型将决定长期行为是否可靠。
 
-**5. [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence](https://huggingface.co/papers/2605.26494)** · `HuggingFace Papers`
+**5. [Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems](https://arxiv.org/abs/2605.26302)** · `arXiv cs.AI`
 
-新模型系列值得关注其真实世界任务表现，而非只看榜单。
+长生命周期 Agent 的退化与漂移会成为线上运维新难题，值得提前设计。
 
-**6. [Context: Proactive Goal-Directed Intelligence via Composable Sandboxed Programs, Declarative Wiring, and Structured I...](https://arxiv.org/abs/2605.23928)** · `arXiv cs.AI`
+**6. [Warp’s big bet on building open source with GPT-5.5](https://openai.com/index/warp)** · `OpenAI Blog`
 
-可组合沙箱程序为构建可控智能体提供更工程化范式。
+终端工具与新模型深度耦合，预示开发体验将由模型能力重新定义。
 
-**7. [OpenRouter more than doubles valuation to $1.3B in a year](https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/)** · `TechCrunch AI`
+**7. [Building self-improving tax agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex)** · `OpenAI Blog`
 
-OpenRouter 估值飙升，说明多模型分发层正成为新基础设施。
+真实业务中的自改进代理案例，比炫技 demo 更值得团队借鉴落地路径。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[AI tools are only as good as your judgment](https://theaileverageweekly.com/posts/your-ai-tools-are-only-as-good-as-your-judgment-and-that-s-the-point.html)** · `HackerNews`
+**[Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs](https://arps18.github.io/posts/claude-code-mastery/)** · `HackerNews`
 
-虽非传统工具，但它提醒团队先建立判断与评估机制，再谈 AI 提效。
+系统梳理 Claude Code 的工作流拼装方式，适合想把 AI 编程助手用成主力环境的开发者。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 系统的竞争力，越来越不取决于它会不会回答，而取决于你能不能度量、约束并审计它的回答过程。
+> 真正决定 AI 能否进入生产的，不是它会不会回答，而是它在基准、边界和回滚里是否可信。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🔬 [When Correct Beliefs Collapse: Epistemic Resilience of LLMs under Clinical Pressure](https://arxiv.org/abs/2605.23932) · `arXiv cs.AI`
-- 🔬 [Efficient Agentic Reinforcement Learning with On-Policy Intrinsic Knowledge Boundary Enhancement](https://huggingface.co/papers/2605.26952) · `HuggingFace Papers`
-- 🔬 [Negligible in Size, Significant in Effect: On Scale Vectors in Large Language Models](https://huggingface.co/papers/2605.26895) · `HuggingFace Papers`
-- 📊 [Sundar Pichai on AI, the future of search, and what’s happening to the web](https://www.theverge.com/podcast/936445/sundar-pichai-ai-search-google-zero-youtube-web) · `The Verge AI`
-- 📊 [DuckDuckGo installs are up 30% as users reject being ‘force-fed’ Google’s AI Search](https://techcrunch.com/2026/05/26/duckduckgo-installs-are-up-30-as-users-reject-being-force-fed-googles-ai-search/) · `TechCrunch AI`
-- 📊 [This startup is betting India’s gig economy can train the world’s robots](https://techcrunch.com/2026/05/26/human-archive-taps-into-indias-services-startups-to-collect-data-for-physical-ai/) · `TechCrunch AI`
-- 📊 [Outsourcing plus local AI will soon become more economical vs. frontier labs](https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/) · `HackerNews`
-- 📊 [Universal Music Group and TikTok renew agreement to combat unauthorized AI music](https://techcrunch.com/2026/05/26/universal-music-group-and-tiktok-renew-agreement-to-combat-unauthorized-ai-music/) · `TechCrunch AI`
-- 📊 [AI warfare is already here](https://www.theverge.com/ai-artificial-intelligence/937028/military-ai-warfare-red-lines) · `The Verge AI`
-- 📊 [Uber president says AI spending is getting ‘harder to justify’](https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify) · `The Verge AI`
+- 📊 [I think Anthropic and OpenAI have found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/) · `HackerNews`
+- 🔬 [Training our own AI models](https://posthog.com/blog/training-ai-models) · `HackerNews`
+- 🔬 [Self-Improving Language Models with Bidirectional Evolutionary Search](https://huggingface.co/papers/2605.28814) · `HuggingFace Papers`
+- 🔬 [AutoScientists: Self-Organizing Agent Teams for Long-Running Scientific Experimentation](https://huggingface.co/papers/2605.28655) · `HuggingFace Papers`
+- 🔬 [Can LLMs Introspect? A Reality Check](https://arxiv.org/abs/2605.26242) · `arXiv cs.AI`
+- 🔬 [Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions](https://arxiv.org/abs/2605.26256) · `arXiv cs.AI`
+- 🔬 [Experiments in Agentic AI for Science](https://arxiv.org/abs/2605.26305) · `arXiv cs.AI`
+- 📊 [YouTube to automatically label AI-generated videos](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/) · `HackerNews`
+- 🔬 [Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents](https://huggingface.co/papers/2605.28775) · `HuggingFace Papers`
+- 🔬 [Agent Explorative Policy Optimization for Multimodal Agentic Reasoning](https://huggingface.co/papers/2605.28774) · `HuggingFace Papers`
 
 
 ---
@@ -83,9 +83,9 @@ OpenRouter 估值飙升，说明多模型分发层正成为新基础设施。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 134 篇 | 29 篇 | 20 篇 | **9 篇** |
+| 11 源 | 137 篇 | 52 篇 | 20 篇 | **9 篇** |
 
-*生成于 2026-05-27 11:29 UTC+8*
+*生成于 2026-05-28 10:50 UTC+8*
 
 ## 📚 往期简报
 
