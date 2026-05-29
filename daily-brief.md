@@ -6,75 +6,75 @@
 
 ---
 
-## 📅 2026-05-28 周四
+## 📅 2026-05-29 周五
 
 ### 📌 今日焦点
 
-**[ITBench-AA: Frontier Models Score Below 50% on the First Benchmark for Agentic Enterprise IT Tasks — by Artificial An...](https://huggingface.co/blog/ibm-research/itbench-aa)** · `Hugging Face Blog`
+**[Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)** · `HackerNews` ⭐
 
-> 这项面向企业 IT 代理任务的首个基准显示，前沿模型准确率仍低于 50%，直接击穿了“Agent 已可大规模落地”的乐观预期。对开发者而言，现在应优先建设评测集、回放机制与人工兜底流程，再决定把 Agent 放进哪些生产链路。
+> Claude Opus 4.8 代表顶级通用模型继续向更强编码、推理与代理工作流演进，直接影响开发者选型、成本结构与产品能力边界。建议团队尽快做同任务基准对测，并评估是否用其新工作流能力重构复杂多步 Agent 流程。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
+**1. [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)** · `HackerNews` ⭐
 
-向量数据库仍是 RAG 与检索系统底座，选型会影响延迟、成本与扩展性。
+超大融资将重塑模型供给、定价与生态合作格局。
 
-**2. [Cisco and OpenAI redefine enterprise engineering with Codex](https://openai.com/index/cisco)** · `OpenAI Blog`
+**2. [Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments](https://huggingface.co/papers/2605.30280)** · `HuggingFace Papers`
 
-Codex 进入企业工程场景，说明 AI 编程正从助手走向组织级工作流。
+VLA 统一建模若落地，机器人 Agent 开发范式会被改写。
 
-**3. [AI coding startup Cognition raises $1B at $25B pre-money valuation](https://techcrunch.com/2026/05/27/ai-coding-startup-cognition-raises-1b-at-25b-pre-money-valuation/)** · `TechCrunch AI`
+**3. [CNN sues Perplexity over ‘verbatim’ copycat articles](https://www.theverge.com/ai-artificial-intelligence/938893/cnn-perplexity-ai-copyright-lawsuit)** · `The Verge AI`
 
-巨额融资反映 AI 编程赛道升温，开发者应关注平台锁定与生态迁移成本。
+版权诉讼将影响检索生成产品的数据策略与风控设计。
 
-**4. [Is Agent Memory a Database? Rethinking Data Foundations for Long-Term AI Agent Memory](https://arxiv.org/abs/2605.26252)** · `arXiv cs.AI`
+**4. [RULER: Representation-Level Verification of Machine Unlearning](https://arxiv.org/abs/2605.27569)** · `arXiv cs.AI`
 
-Agent 记忆不只是存储问题，数据模型将决定长期行为是否可靠。
+机器遗忘可验证性正成合规刚需，值得提前布局。
 
-**5. [Your Agents Are Aging Too: Agent Lifespan Engineering for Deployed Systems](https://arxiv.org/abs/2605.26302)** · `arXiv cs.AI`
+**5. [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework)** · `OpenAI Blog`
 
-长生命周期 Agent 的退化与漂移会成为线上运维新难题，值得提前设计。
+前沿模型治理框架会逐步外溢到企业 AI 开发规范。
 
-**6. [Warp’s big bet on building open source with GPT-5.5](https://openai.com/index/warp)** · `OpenAI Blog`
+**6. [Sneak peek at new Siri app reveals Apple’s plans to take on ChatGPT and more](https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/)** · `TechCrunch AI`
 
-终端工具与新模型深度耦合，预示开发体验将由模型能力重新定义。
+Apple 若重塑 Siri，端侧 AI 与生态分发值得重点跟踪。
 
-**7. [Building self-improving tax agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex)** · `OpenAI Blog`
+**7. [Asana acquires no-code agent-builder StackAI](https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/)** · `TechCrunch AI`
 
-真实业务中的自改进代理案例，比炫技 demo 更值得团队借鉴落地路径。
+企业软件并购 Agent Builder，说明 AI 工作流正加速产品化。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs](https://arps18.github.io/posts/claude-code-mastery/)** · `HackerNews`
+**[Agyn: An Open-Source Platform for AI Agents with Scalable On-Demand Execution, Agent Definition as a Code, and Zero-T...](https://arxiv.org/abs/2605.27575)** · `arXiv cs.AI`
 
-系统梳理 Claude Code 的工作流拼装方式，适合想把 AI 编程助手用成主力环境的开发者。
+开源 Agent 平台强调按需执行与零信任访问，适合评估生产级多代理架构。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正决定 AI 能否进入生产的，不是它会不会回答，而是它在基准、边界和回滚里是否可信。
+> 真正有价值的 AI，不是会回答一切，而是能在真实工作流里稳定交付结果。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [I think Anthropic and OpenAI have found product-market fit](https://simonwillison.net/2026/May/27/product-market-fit/) · `HackerNews`
-- 🔬 [Training our own AI models](https://posthog.com/blog/training-ai-models) · `HackerNews`
-- 🔬 [Self-Improving Language Models with Bidirectional Evolutionary Search](https://huggingface.co/papers/2605.28814) · `HuggingFace Papers`
-- 🔬 [AutoScientists: Self-Organizing Agent Teams for Long-Running Scientific Experimentation](https://huggingface.co/papers/2605.28655) · `HuggingFace Papers`
-- 🔬 [Can LLMs Introspect? A Reality Check](https://arxiv.org/abs/2605.26242) · `arXiv cs.AI`
-- 🔬 [Personalizing Embodied Multimodal Large Language Model Agents over Long-term User Interactions](https://arxiv.org/abs/2605.26256) · `arXiv cs.AI`
-- 🔬 [Experiments in Agentic AI for Science](https://arxiv.org/abs/2605.26305) · `arXiv cs.AI`
-- 📊 [YouTube to automatically label AI-generated videos](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/) · `HackerNews`
-- 🔬 [Learn from Weaknesses: Automated Domain Specialization for Small Computer-Use Agents](https://huggingface.co/papers/2605.28775) · `HuggingFace Papers`
-- 🔬 [Agent Explorative Policy Optimization for Multimodal Agentic Reasoning](https://huggingface.co/papers/2605.28774) · `HuggingFace Papers`
+- 📊 [Anthropic raises $65 billion, nears $1T valuation ahead of IPO](https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/) · `TechCrunch AI`
+- 🛠️ [Anthropic releases Opus 4.8 with new ‘dynamic workflow’ tool](https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/) · `TechCrunch AI`
+- 🔬 [LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents](https://huggingface.co/papers/2605.29559) · `HuggingFace Papers`
+- 🚀 [Catch up on 12 major I/O 2026 moments](https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/) · `Google AI Blog`
+- 🔬 [Claude’s new model is more ‘honest’ when it messes up](https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort) · `The Verge AI`
+- 🔬 [DynaSchedBench: Calibrated Dynamic Scheduling Benchmarks and Observability Paradox in LLM-based Scheduling Agents](https://arxiv.org/abs/2605.27566) · `arXiv cs.AI`
+- 🔬 [Why LLMs Fail at Causal Discovery and How Interventional Agents Escape](https://arxiv.org/abs/2605.27567) · `arXiv cs.AI`
+- 📊 [Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions](https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/) · `HackerNews`
+- 🔬 [OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources](https://huggingface.co/papers/2605.29250) · `HuggingFace Papers`
+- 🔬 [AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security](https://huggingface.co/papers/2605.29801) · `HuggingFace Papers`
 
 
 ---
@@ -83,9 +83,9 @@ Agent 记忆不只是存储问题，数据模型将决定长期行为是否可�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 137 篇 | 52 篇 | 20 篇 | **9 篇** |
+| 11 源 | 133 篇 | 50 篇 | 20 篇 | **9 篇** |
 
-*生成于 2026-05-28 10:50 UTC+8*
+*生成于 2026-05-29 10:54 UTC+8*
 
 ## 📚 往期简报
 
