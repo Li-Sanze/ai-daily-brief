@@ -6,75 +6,79 @@
 
 ---
 
-## 📅 2026-05-29 周五
+## 📅 2026-05-30 周六
 
 ### 📌 今日焦点
 
-**[Claude Opus 4.8](https://www.anthropic.com/news/claude-opus-4-8)** · `HackerNews` ⭐
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
 
-> Claude Opus 4.8 代表顶级通用模型继续向更强编码、推理与代理工作流演进，直接影响开发者选型、成本结构与产品能力边界。建议团队尽快做同任务基准对测，并评估是否用其新工作流能力重构复杂多步 Agent 流程。
+> Codex 以终端原生形态把代码代理直接带进开发者主工作流，这比网页演示更可能真实改变日常开发效率与团队协作方式。建议尽快在本地仓库和 CI 辅助场景试点，重点评估权限边界、可审计性与对现有工具链的兼容性。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Anthropic raises $65B in Series H funding at $965B post-money valuation](https://www.anthropic.com/news/series-h)** · `HackerNews` ⭐
+**1. [Real-time LLM Inference on Standard GPUs: 3k tokens/s per request](https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/)** · `HackerNews`
 
-超大融资将重塑模型供给、定价与生态合作格局。
+推理吞吐若真可落地，标准 GPU 成本曲线将被重写。
 
-**2. [Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments](https://huggingface.co/papers/2605.30280)** · `HuggingFace Papers`
+**2. [9 demos of Gemini Omni and Gemini 3.5 in action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/)** · `Google AI Blog`
 
-VLA 统一建模若落地，机器人 Agent 开发范式会被改写。
+Gemini 新能力决定多模态应用的交互上限，值得尽快对标。
 
-**3. [CNN sues Perplexity over ‘verbatim’ copycat articles](https://www.theverge.com/ai-artificial-intelligence/938893/cnn-perplexity-ai-copyright-lawsuit)** · `The Verge AI`
+**3. [Liquid AI reveals 8B-A1B MoE trained on 38T](https://www.liquid.ai/blog/lfm2-5-8b-a1b)** · `HackerNews`
 
-版权诉讼将影响检索生成产品的数据策略与风控设计。
+MoE 训练规模继续抬高，开源模型选型将出现新变量。
 
-**4. [RULER: Representation-Level Verification of Machine Unlearning](https://arxiv.org/abs/2605.27569)** · `arXiv cs.AI`
+**4. [Microsoft 365 Copilot gets a speed boost and cleaner design](https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign)** · `The Verge AI`
 
-机器遗忘可验证性正成合规刚需，值得提前布局。
+Copilot 的速度与界面改进会直接影响企业内 AI 采用率。
 
-**5. [OpenAI’s Frontier Governance Framework](https://openai.com/index/openai-frontier-governance-framework)** · `OpenAI Blog`
+**5. [After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M](https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/)** · `TechCrunch AI`
 
-前沿模型治理框架会逐步外溢到企业 AI 开发规范。
+推理芯片融资升温，说明基础设施竞争正从模型转向算力供给。
 
-**6. [Sneak peek at new Siri app reveals Apple’s plans to take on ChatGPT and more](https://techcrunch.com/2026/05/28/sneak-peek-at-new-siri-app-reveals-apples-plans-to-take-on-chatgpt-and-more/)** · `TechCrunch AI`
+**6. [Review Arcade: On the Human Alignment and Gameability of LLM Reviews](https://arxiv.org/abs/2605.28897)** · `arXiv cs.AI`
 
-Apple 若重塑 Siri，端侧 AI 与生态分发值得重点跟踪。
+LLM 评测可被“刷榜”时，产品验收就不能只看单一分数。
 
-**7. [Asana acquires no-code agent-builder StackAI](https://techcrunch.com/2026/05/28/asana-acquires-no-code-agent-builder-stack-ai/)** · `TechCrunch AI`
+**7. [A shared playbook for trustworthy third party evaluations](https://openai.com/index/trustworthy-third-party-evaluations-foundations)** · `OpenAI Blog`
 
-企业软件并购 Agent Builder，说明 AI 工作流正加速产品化。
+第三方评测若无共识，企业采购与合规都会缺少可信基线。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Agyn: An Open-Source Platform for AI Agents with Scalable On-Demand Execution, Agent Definition as a Code, and Zero-T...](https://arxiv.org/abs/2605.27575)** · `arXiv cs.AI`
+**[Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA](https://github.com/jmaczan/tiny-vllm)** · `HackerNews`
 
-开源 Agent 平台强调按需执行与零信任访问，适合评估生产级多代理架构。
+轻量级 C++/CUDA 推理引擎，适合关注性能、可控部署和二次定制的团队。
+
+**[VFEAgent: A Multimodal Agent Framework for End-to-End Automated Finite Element Analysis](https://arxiv.org/abs/2605.28978)** · `arXiv cs.AI`
+
+把多模态代理引入有限元分析，给工程仿真自动化提供了可复用框架。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正有价值的 AI，不是会回答一切，而是能在真实工作流里稳定交付结果。
+> 真正拉开 AI 差距的，不是你接入了多少模型，而是你把多少工作流改造成了可验证的智能系统。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Anthropic raises $65 billion, nears $1T valuation ahead of IPO](https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/) · `TechCrunch AI`
-- 🛠️ [Anthropic releases Opus 4.8 with new ‘dynamic workflow’ tool](https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/) · `TechCrunch AI`
-- 🔬 [LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents](https://huggingface.co/papers/2605.29559) · `HuggingFace Papers`
-- 🚀 [Catch up on 12 major I/O 2026 moments](https://blog.google/innovation-and-ai/technology/ai/io-2026-keynote-moment-videos/) · `Google AI Blog`
-- 🔬 [Claude’s new model is more ‘honest’ when it messes up](https://www.theverge.com/ai-artificial-intelligence/939094/anthropic-claude-4-8-opus-honesty-effort) · `The Verge AI`
-- 🔬 [DynaSchedBench: Calibrated Dynamic Scheduling Benchmarks and Observability Paradox in LLM-based Scheduling Agents](https://arxiv.org/abs/2605.27566) · `arXiv cs.AI`
-- 🔬 [Why LLMs Fail at Causal Discovery and How Interventional Agents Escape](https://arxiv.org/abs/2605.27567) · `arXiv cs.AI`
-- 📊 [Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions](https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/) · `HackerNews`
-- 🔬 [OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources](https://huggingface.co/papers/2605.29250) · `HuggingFace Papers`
-- 🔬 [AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security](https://huggingface.co/papers/2605.29801) · `HuggingFace Papers`
+- 🚀 [How Braintrust turns customer requests into code with Codex](https://openai.com/index/braintrust) · `OpenAI Blog`
+- 📊 [This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory](https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/) · `TechCrunch AI`
+- 🔬 [Orthogonal Concept Erasure for Diffusion Models](https://arxiv.org/abs/2605.28902) · `arXiv cs.AI`
+- 🔬 [BEAMS: Benchmarking and Evaluating AI for Modeling and Simulation](https://arxiv.org/abs/2605.28994) · `arXiv cs.AI`
+- 📊 [Notes from the Mistral AI Now Summit](https://koenvangilst.nl/lab/mistral-ai-now-summit) · `HackerNews`
+- 📊 [The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin](https://minimaxir.com/2026/05/openrouter-hy3/) · `HackerNews`
+- 📊 [Boston Children’s uses AI to unlock new diagnoses](https://openai.com/index/boston-childrens-hospital) · `OpenAI Blog`
+- 🚀 [Adobe’s conversational AI agent is a mediocre design intern](https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern) · `The Verge AI`
+- 📊 [Coders are refusing to work without AI — and that could come back to bite them](https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/) · `TechCrunch AI`
+- 🔬 [Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes](https://arxiv.org/abs/2605.28965) · `arXiv cs.AI`
 
 
 ---
@@ -83,9 +87,9 @@ Apple 若重塑 Siri，端侧 AI 与生态分发值得重点跟踪。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 133 篇 | 50 篇 | 20 篇 | **9 篇** |
+| 11 源 | 138 篇 | 47 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-05-29 10:54 UTC+8*
+*生成于 2026-05-30 10:47 UTC+8*
 
 ## 📚 往期简报
 
