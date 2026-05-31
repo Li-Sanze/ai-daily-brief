@@ -6,79 +6,77 @@
 
 ---
 
-## 📅 2026-05-30 周六
+## 📅 2026-05-31 周日
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
+**[OpenRouter raises $113M Series B](https://openrouter.ai/announcements/series-b)** · `HackerNews`
 
-> Codex 以终端原生形态把代码代理直接带进开发者主工作流，这比网页演示更可能真实改变日常开发效率与团队协作方式。建议尽快在本地仓库和 CI 辅助场景试点，重点评估权限边界、可审计性与对现有工具链的兼容性。
+> OpenRouter 融资说明模型分发与多模型接入层正成为 AI 基础设施关键入口，开发者生态的话语权开始从单一模型厂商转向聚合平台。建议团队尽快做供应商抽象层设计，评估多模型路由、成本控制与故障切换方案，避免被单一 API 锁定。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Real-time LLM Inference on Standard GPUs: 3k tokens/s per request](https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/)** · `HackerNews`
+**1. [mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
 
-推理吞吐若真可落地，标准 GPU 成本曲线将被重写。
+本地多模态推理持续成熟，私有化部署与边缘 AI 的可行性显著提升。
 
-**2. [9 demos of Gemini Omni and Gemini 3.5 in action](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/)** · `Google AI Blog`
+**2. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-Gemini 新能力决定多模态应用的交互上限，值得尽快对标。
+向量数据库仍是 RAG 基础设施核心，规模化检索能力直接影响 AI 应用上限。
 
-**3. [Liquid AI reveals 8B-A1B MoE trained on 38T](https://www.liquid.ai/blog/lfm2-5-8b-a1b)** · `HackerNews`
+**3. [‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/)** · `TechCrunch AI`
 
-MoE 训练规模继续抬高，开源模型选型将出现新变量。
+Copilot 计费变化会直接影响团队预算，AI 编码工具的 ROI 该重新核算了。
 
-**4. [Microsoft 365 Copilot gets a speed boost and cleaner design](https://www.theverge.com/tech/939273/microsoft-365-copilot-redesign)** · `The Verge AI`
+**4. [SoftBank says it will invest up to €75 billion to build French data centers](https://techcrunch.com/2026/05/30/softbank-says-it-will-invest-up-to-e75-billion-to-build-french-data-centers/)** · `TechCrunch AI`
 
-Copilot 的速度与界面改进会直接影响企业内 AI 采用率。
+超大规模数据中心投资预示欧洲算力版图重构，部署选址与合规策略值得提前布局。
 
-**5. [After Nvidia’s $20B not-acqui-hire, AI chip startup Groq reportedly raising $650M](https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/)** · `TechCrunch AI`
+**5. [Cognition’s Scott Wu says AI coding agents shouldn’t replace humans](https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/)** · `TechCrunch AI`
 
-推理芯片融资升温，说明基础设施竞争正从模型转向算力供给。
+AI 编码代理进入人机协同时代，流程设计比“全替代”叙事更关键。
 
-**6. [Review Arcade: On the Human Alignment and Gameability of LLM Reviews](https://arxiv.org/abs/2605.28897)** · `arXiv cs.AI`
+**6. [I put Google’s 24/7 AI assistant Gemini Spark to work, and it’s actually pretty useful](https://techcrunch.com/2026/05/30/i-put-googles-24-7-ai-assistant-gemini-spark-to-work-and-its-actually-pretty-useful/)** · `TechCrunch AI`
 
-LLM 评测可被“刷榜”时，产品验收就不能只看单一分数。
+常驻型 AI 助手正在逼近真实工作流，开发者应关注持续上下文与隐私边界。
 
-**7. [A shared playbook for trustworthy third party evaluations](https://openai.com/index/trustworthy-third-party-evaluations-foundations)** · `OpenAI Blog`
+**7. [Meta is reportedly developing an AI pendant](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/)** · `TechCrunch AI`
 
-第三方评测若无共识，企业采购与合规都会缺少可信基线。
+AI 硬件入口竞争升温，下一波应用形态可能由可穿戴设备重新定义。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA](https://github.com/jmaczan/tiny-vllm)** · `HackerNews`
+**[gogs/gogs: The painless way to host your own Git service](https://github.com/gogs/gogs)** · `GitHub Trending`
 
-轻量级 C++/CUDA 推理引擎，适合关注性能、可控部署和二次定制的团队。
+轻量自托管 Git 服务适合小团队与内网场景，能快速补齐代码托管自主性。
 
-**[VFEAgent: A Multimodal Agent Framework for End-to-End Automated Finite Element Analysis](https://arxiv.org/abs/2605.28978)** · `arXiv cs.AI`
+**[Show HN: Helios – what plug-in solar could generate for any address in Britain](https://helios.southlondonscientific.com/)** · `HackerNews`
 
-把多模态代理引入有限元分析，给工程仿真自动化提供了可复用框架。
+把地理数据产品化做得很直观，适合关注垂直 AI/数据应用的开发者参考。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正拉开 AI 差距的，不是你接入了多少模型，而是你把多少工作流改造成了可验证的智能系统。
+> 真正有壁垒的不是接入了多少模型，而是你把模型嵌进了多少真实场景。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🚀 [How Braintrust turns customer requests into code with Codex](https://openai.com/index/braintrust) · `OpenAI Blog`
-- 📊 [This chip startup just raised $135M on a bet that AI’s biggest bottleneck isn’t compute — it’s memory](https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/) · `TechCrunch AI`
-- 🔬 [Orthogonal Concept Erasure for Diffusion Models](https://arxiv.org/abs/2605.28902) · `arXiv cs.AI`
-- 🔬 [BEAMS: Benchmarking and Evaluating AI for Modeling and Simulation](https://arxiv.org/abs/2605.28994) · `arXiv cs.AI`
-- 📊 [Notes from the Mistral AI Now Summit](https://koenvangilst.nl/lab/mistral-ai-now-summit) · `HackerNews`
-- 📊 [The mysterious Hy3 LLM is topping OpenRouter Model Rankings by a large margin](https://minimaxir.com/2026/05/openrouter-hy3/) · `HackerNews`
-- 📊 [Boston Children’s uses AI to unlock new diagnoses](https://openai.com/index/boston-childrens-hospital) · `OpenAI Blog`
-- 🚀 [Adobe’s conversational AI agent is a mediocre design intern](https://www.theverge.com/tech/939686/adobes-conversational-ai-agent-is-a-mediocre-design-intern) · `The Verge AI`
-- 📊 [Coders are refusing to work without AI — and that could come back to bite them](https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/) · `TechCrunch AI`
-- 🔬 [Frontier LLM-based agents can overcome the ontology curation bottleneck for natural phenotypes](https://arxiv.org/abs/2605.28965) · `arXiv cs.AI`
+- 📊 [Tech companies desperately want to film you doing chores](https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data) · `The Verge AI`
+- 💡 [Take our I/O 2026 quiz, vibe coded in Google AI Studio.](https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/) · `Google AI Blog`
+- 📊 [Domain expertise has always been the real moat](https://www.brethorsting.com/blog/2026/05/domain-expertise-has-always-been-the-real-moat/) · `HackerNews`
+- 📊 [AI job grief: A psychological crisis hitting tech workers](https://jackmaguire.org/blog/ai-job-grief/) · `HackerNews`
+- 📊 [AI grifters are creating fake Black people to sell Shein junk](https://www.theverge.com/ai-artificial-intelligence/938844/ai-tiktok-shop-blackface-shein-dropshipping) · `The Verge AI`
+- 🚀 [photoprism/photoprism: AI-Powered Photos App for the Decentralized Web 🌈💎✨](https://github.com/photoprism/photoprism) · `GitHub Trending`
+- 📊 [How one founder’s bet on ‘the old school web’ is paying off](https://www.theverge.com/tech/938245/past-maps-website-google-zero-ai) · `The Verge AI`
+- 📊 [The SpaceX IPO is great for Elon Musk and terrible for you](https://www.theverge.com/ai-artificial-intelligence/940001/elon-musk-spacex-ipo-ai) · `The Verge AI`
 
 
 ---
@@ -87,9 +85,9 @@ LLM 评测可被“刷榜”时，产品验收就不能只看单一分数。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 138 篇 | 47 篇 | 20 篇 | **10 篇** |
+| 10 源 | 127 篇 | 22 篇 | 18 篇 | **10 篇** |
 
-*生成于 2026-05-30 10:47 UTC+8*
+*生成于 2026-05-31 11:29 UTC+8*
 
 ## 📚 往期简报
 
