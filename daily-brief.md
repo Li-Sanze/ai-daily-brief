@@ -6,60 +6,79 @@
 
 ---
 
-## 📅 2026-06-01 周一
+## 📅 2026-06-02 周二
 
 ### 📌 今日焦点
 
-**[1-Bit Bonsai Image 4B Image Generation for Local Devices](https://prismml.com/news/bonsai-image-4b)** · `HackerNews`
+**[OpenAI frontier models and Codex are now available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/)** · `HackerNews` ⭐
 
-> 1-Bit Bonsai 把 4B 级图像生成模型推进到本地设备可运行，说明端侧生成式 AI 正从“能跑”走向“可用”，这会重塑隐私、成本与离线体验的边界。开发者应尽快评估端侧推理栈、量化方案与产品场景，优先寻找对延迟、带宽和数据敏感的图像应用切入点。
+> OpenAI 前沿模型与 Codex 进入 AWS，意味着顶级模型能力正更深嵌入主流云生态，企业级采购、部署与治理门槛会明显下降。开发者应尽快评估在 AWS 现有架构中接入 Codex 与模型 API 的路径，优先验证代码代理、权限隔离与成本监控。 
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [ChatGPT for Google Sheets is vulnerable to data exfiltration and phishing](https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration)** · `HackerNews`
+**1. [Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action](https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai)** · `Hugging Face Blog`
 
-AI 办公插件的安全短板会直接变成企业数据外泄入口，集成前必须做红队测试。
+开放物理 AI omni-model 稀缺，机器人与仿真开发者值得抢先验证。
 
-**2. [farion1231/cc-switch: A cross-platform desktop All-in-One assistant for Claud...](https://github.com/farion1231/cc-switch)** · `GitHub Trending`
+**2. [Microsoft to unveil new AI models and Windows improvements at Build](https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect)** · `The Verge AI`
 
-多模型 CLI 入口正在成为开发工作台新层，能显著降低团队切换与试错成本。
+Build 动向常决定微软生态路线，Windows 与 AI 应用开发需提前跟进。
 
-**3. [Odysseus – self-hosted AI workspace](https://github.com/pewdiepie-archdaemon/odysseus)** · `HackerNews`
+**3. [Alphabet announces $80B equity capital raise to expand AI infra and compute](https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx)** · `HackerNews`
 
-自托管 AI 工作区反映企业对数据主权和可控性的需求持续升温。
+800 亿美元级算力投入，预示未来数年模型训练与推理供给格局变化。
 
-**4. [The Speed of Prototyping in the Age of AI](https://darylcecile.net/notes/speed-of-prototyping-age-of-ai)** · `HackerNews`
+**4. [MAVEN: Improving Generalization in Agentic Tool Calling](https://arxiv.org/abs/2605.30738)** · `arXiv cs.AI`
 
-AI 正把原型速度拉到新量级，开发者竞争力将更依赖验证与迭代能力。
+Agent 调工具泛化是落地痛点，这类研究直接影响智能体可靠性。
 
-**5. [Erin Brockovich takes aim at data center secrecy](https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/)** · `TechCrunch AI`
+**5. [Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains](https://huggingface.co/blog/JetBrains/mellum2-launch)** · `Hugging Face Blog`
 
-数据中心透明度争议会影响算力选址、合规审核与基础设施叙事。
+JetBrains 自研代码模型值得关注，IDE 原生 AI 竞争正持续升温。
 
-**6. [Making sense of the debate over AI psychosis](https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/)** · `TechCrunch AI`
+**6. [Meta&#8217;s own AI was exploited to hijack Instagram accounts](https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked)** · `The Verge AI`
 
-围绕 AI 心理影响的讨论可能推动产品安全设计与使用规范升级。
+AI 被用于账号劫持再次敲响安全警钟，风控与滥用防护必须前置。
+
+**7. [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)** · `HackerNews` ⭐
+
+Anthropic 启动上市流程，头部模型公司的资本化将重塑行业竞争节奏。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
 
-成熟的开源自托管代码平台，适合想把 AI 开发流程与源码管理放在私有环境的团队。
+终端可运行的轻量级 coding agent，适合开发者低门槛实测 AI 编程工作流。
 
-**[AlistGo/alist: 🗂️A file list/WebDAV program that supports multiple storages, ...](https://github.com/AlistGo/alist)** · `GitHub Trending`
+**[Gemini’s new AI agent is about as good as Google’s demo](https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on)** · `The Verge AI`
 
-统一多存储与 WebDAV 接口，便于快速搭建 AI 数据集、素材库和团队文件入口。
+Google 新代理能力可作产品形态参照，适合关注多步任务自动化的团队跟踪。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 把试错成本降到接近零后，真正稀缺的将不是代码，而是判断下一次该试什么。
+> AI 的下一道门槛，不是模型会不会回答，而是它能否在真实系统里被可靠地调用、约束与审计。
+
+---
+
+### 📎 延伸阅读
+
+- 📊 [Anthropic has officially filed to go public](https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public) · `The Verge AI`
+- 📊 [Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents](https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/) · `TechCrunch AI`
+- 📊 [Florida sues OpenAI and Sam Altman over AI risks](https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215) · `HackerNews`
+- 🔬 [On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters](https://huggingface.co/papers/2606.02437) · `HuggingFace Papers`
+- 📊 [Building the infrastructure for the Intelligence Age in Michigan](https://openai.com/index/stargate-michigan-data-center) · `OpenAI Blog`
+- 📊 [Alphabet plans to raise $80B to pay for AI buildout](https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/) · `TechCrunch AI`
+- 🚀 [Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP](https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/) · `TechCrunch AI`
+- 🔬 [EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs](https://arxiv.org/abs/2605.30637) · `arXiv cs.AI`
+- 📊 [Can the stockmarket swallow Anthropic, SpaceX and OpenAI?](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) · `HackerNews`
+- 🔬 [VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization](https://huggingface.co/papers/2606.02564) · `HuggingFace Papers`
 
 
 ---
@@ -68,9 +87,9 @@ AI 正把原型速度拉到新量级，开发者竞争力将更依赖验证与�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 128 篇 | 10 篇 | 9 篇 | **9 篇** |
+| 11 源 | 136 篇 | 44 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-06-01 11:42 UTC+8*
+*生成于 2026-06-02 11:38 UTC+8*
 
 ## 📚 往期简报
 
