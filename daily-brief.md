@@ -6,79 +6,81 @@
 
 ---
 
-## 📅 2026-06-02 周二
+## 📅 2026-06-03 周三
 
 ### 📌 今日焦点
 
-**[OpenAI frontier models and Codex are now available on AWS](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/)** · `HackerNews` ⭐
+**[Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow)** · `OpenAI Blog` ⭐
 
-> OpenAI 前沿模型与 Codex 进入 AWS，意味着顶级模型能力正更深嵌入主流云生态，企业级采购、部署与治理门槛会明显下降。开发者应尽快评估在 AWS 现有架构中接入 Codex 与模型 API 的路径，优先验证代码代理、权限隔离与成本监控。 
+> 这很重要，因为 Codex 正从单点编程助手扩展为覆盖角色、工具与流程的通用工作代理，意味着 AI 正在重构开发者与知识工作的操作界面。开发者现在应尽快评估它在编码、评审、文档与自动化链路中的落地方式，并提前设计权限、审计与人机协作边界。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action](https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai)** · `Hugging Face Blog`
+**1. [Microsoft’s first advanced reasoning AI is here](https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026)** · `The Verge AI` ⭐
 
-开放物理 AI omni-model 稀缺，机器人与仿真开发者值得抢先验证。
+微软推理模型入场，意味着高阶 Agent 与复杂任务编排将更快普及。
 
-**2. [Microsoft to unveil new AI models and Windows improvements at Build](https://www.theverge.com/report/940861/microsoft-build-ai-models-windows-dev-mode-what-to-expect)** · `The Verge AI`
+**2. [Trump signs executive order to review AI models before they’re released](https://www.theverge.com/policy/941775/trump-ai-executive-order)** · `The Verge AI` ⭐
 
-Build 动向常决定微软生态路线，Windows 与 AI 应用开发需提前跟进。
+AI 发布前审查若成常态，模型上线、合规与评测流程都得重做。
 
-**3. [Alphabet announces $80B equity capital raise to expand AI infra and compute](https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Proposed-80-Billion-Equity-Capital-Raise-to-Expand-AI-Infrastructure-and-Compute-2026-b0myAMewCa/default.aspx)** · `HackerNews`
+**3. [New Microsoft tool lets devs spin up AI behavior tests using text descriptions](https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/)** · `TechCrunch AI`
 
-800 亿美元级算力投入，预示未来数年模型训练与推理供给格局变化。
+把行为测试文本化，能显著降低 AI 应用回归测试与红队门槛。
 
-**4. [MAVEN: Improving Generalization in Agentic Tool Calling](https://arxiv.org/abs/2605.30738)** · `arXiv cs.AI`
+  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/)
+**4. [Holo3.1: Fast & Local Computer Use Agents](https://huggingface.co/blog/Hcompany/holo31)** · `Hugging Face Blog`
 
-Agent 调工具泛化是落地痛点，这类研究直接影响智能体可靠性。
+本地电脑代理更快更轻，给隐私敏感和离线场景更多可行选择。
 
-**5. [Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains](https://huggingface.co/blog/JetBrains/mellum2-launch)** · `Hugging Face Blog`
+**5. [Microsoft Build 2026: The 7 biggest announcements](https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements)** · `The Verge AI`
 
-JetBrains 自研代码模型值得关注，IDE 原生 AI 竞争正持续升温。
+Build 汇总值得看，它透露微软下一阶段 Agent 平台的全栈布局。
 
-**6. [Meta&#8217;s own AI was exploited to hijack Instagram accounts](https://www.theverge.com/tech/941179/meta-instagram-ai-support-chatbot-exploit-hacked)** · `The Verge AI`
+  📎 延伸: [The Verge AI](https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates)
+**6. [Microsoft&#8217;s Project Solara is an OS for AI agent gadgets](https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets)** · `The Verge AI`
 
-AI 被用于账号劫持再次敲响安全警钟，风控与滥用防护必须前置。
+AI 原生设备操作系统出现，开发者应关注新终端与交互范式。
 
-**7. [Anthropic confidentially submits draft S-1 to the SEC](https://www.anthropic.com/news/confidential-draft-s1-sec)** · `HackerNews` ⭐
+**7. [Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories](https://huggingface.co/papers/2606.03979)** · `HuggingFace Papers`
 
-Anthropic 启动上市流程，头部模型公司的资本化将重塑行业竞争节奏。
+让模型“睡眠”与记忆固化，可能打开长期学习与自我改进新路径。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[GitHub Copilot App](https://github.com/features/preview/github-app)** · `HackerNews`
 
-终端可运行的轻量级 coding agent，适合开发者低门槛实测 AI 编程工作流。
+Copilot 独立桌面化后更接近常驻代理，适合关注多文件、多任务协作流的开发者试用。
 
-**[Gemini’s new AI agent is about as good as Google’s demo](https://www.theverge.com/tech/941138/google-gemini-spark-ai-agent-hands-on)** · `The Verge AI`
+**[MAI-Code-1-Flash](https://microsoft.ai/news/introducingmai-code-1-flash/)** · `HackerNews`
 
-Google 新代理能力可作产品形态参照，适合关注多步任务自动化的团队跟踪。
+MAI-Code-1-Flash 兼具热度与实用性，值得作为轻量代码模型的性能与成本对照样本。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的下一道门槛，不是模型会不会回答，而是它能否在真实系统里被可靠地调用、约束与审计。
+> 真正改变软件的，不是更会聊天的模型，而是能进入工作流、承担责任并留下审计轨迹的代理。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Anthropic has officially filed to go public](https://www.theverge.com/ai-artificial-intelligence/941016/anthropic-has-officially-filed-to-go-public) · `The Verge AI`
-- 📊 [Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents](https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/) · `TechCrunch AI`
-- 📊 [Florida sues OpenAI and Sam Altman over AI risks](https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215) · `HackerNews`
-- 🔬 [On the Scaling of PEFT: Towards Million Personal Models of Trillion Parameters](https://huggingface.co/papers/2606.02437) · `HuggingFace Papers`
-- 📊 [Building the infrastructure for the Intelligence Age in Michigan](https://openai.com/index/stargate-michigan-data-center) · `OpenAI Blog`
-- 📊 [Alphabet plans to raise $80B to pay for AI buildout](https://techcrunch.com/2026/06/01/alphabet-plans-to-raise-80-billion-to-pay-for-ai-buildout/) · `TechCrunch AI`
-- 🚀 [Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP](https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/) · `TechCrunch AI`
-- 🔬 [EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs](https://arxiv.org/abs/2605.30637) · `arXiv cs.AI`
-- 📊 [Can the stockmarket swallow Anthropic, SpaceX and OpenAI?](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai) · `HackerNews`
-- 🔬 [VLMs are Good Teachers for Video Reasoning via Adaptive Test-Time Optimization](https://huggingface.co/papers/2606.02564) · `HuggingFace Papers`
+- 🛠️ [OpenAI launches new Codex tools for white-collar work](https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/) · `TechCrunch AI`
+- 🛠️ [Codex is becoming a productivity tool for everyone](https://openai.com/index/codex-for-knowledge-work) · `OpenAI Blog`
+- 🛠️ [GitHub Copilot app: The agent-native desktop experience](https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/) · `GitHub Blog`
+- 📊 [Trump signs downsized AI order after weeks of reversals](https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389) · `HackerNews`
+- 💡 [How we index images for RAG](https://www.kapa.ai/blog/how-we-index-images-for-rag) · `HackerNews`
+- 💡 [Bringing Up DeepSeek-V4-Flash on AMD MI300X](https://fergusfinn.com/blog/deepseek-v4-flash-mi300x/) · `HackerNews`
+- 🔬 [NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation](https://huggingface.co/papers/2606.03159) · `HuggingFace Papers`
+- 🚀 [Microsoft Scout is a new AI personal assistant built on OpenClaw](https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw) · `The Verge AI`
+- 📊 [Trump signs narrower executive order on AI oversight after industry objections](https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/) · `TechCrunch AI`
+- 🔬 [Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking](https://huggingface.co/papers/2606.03985) · `HuggingFace Papers`
 
 
 ---
@@ -87,9 +89,9 @@ Google 新代理能力可作产品形态参照，适合关注多步任务自动�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 44 篇 | 20 篇 | **10 篇** |
+| 11 源 | 135 篇 | 53 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-06-02 11:38 UTC+8*
+*生成于 2026-06-03 11:45 UTC+8*
 
 ## 📚 往期简报
 
