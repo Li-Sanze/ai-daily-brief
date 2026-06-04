@@ -6,81 +6,76 @@
 
 ---
 
-## 📅 2026-06-03 周三
+## 📅 2026-06-04 周四
 
 ### 📌 今日焦点
 
-**[Codex for every role, tool, and workflow](https://openai.com/index/codex-for-every-role-tool-workflow)** · `OpenAI Blog` ⭐
+**[Introducing new capabilities to GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind)** · `OpenAI Blog`
 
-> 这很重要，因为 Codex 正从单点编程助手扩展为覆盖角色、工具与流程的通用工作代理，意味着 AI 正在重构开发者与知识工作的操作界面。开发者现在应尽快评估它在编码、评审、文档与自动化链路中的落地方式，并提前设计权限、审计与人机协作边界。
+> OpenAI 为 GPT-Rosalind 增强能力，代表前沿模型正继续向更强的专业推理与可用性推进，这类升级会迅速外溢到开发平台、工作流与产品设计。开发者应尽快评估其在代码、科研或复杂推理任务上的边界表现，并为多模型路由、成本控制和回退策略预留架构空间。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Microsoft’s first advanced reasoning AI is here](https://www.theverge.com/tech/941664/microsoft-ai-model-reasoning-mai-thinking-1-build-2026)** · `The Verge AI` ⭐
+**1. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-微软推理模型入场，意味着高阶 Agent 与复杂任务编排将更快普及。
+向量数据库仍是 RAG 基建核心，Milvus 热度说明检索层选型仍值得重视。
 
-**2. [Trump signs executive order to review AI models before they’re released](https://www.theverge.com/policy/941775/trump-ai-executive-order)** · `The Verge AI` ⭐
+**2. [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)** · `HackerNews`
 
-AI 发布前审查若成常态，模型上线、合规与评测流程都得重做。
+模型安全不只靠训练，产品级隔离与权限设计正成为落地关键能力。
 
-**3. [New Microsoft tool lets devs spin up AI behavior tests using text descriptions](https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/)** · `TechCrunch AI`
+**3. [AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?](https://huggingface.co/papers/2606.05080)** · `HuggingFace Papers`
 
-把行为测试文本化，能显著降低 AI 应用回归测试与红队门槛。
+长周期科研自动化若成立，将改变 agent 评测与工程协作方式。
 
-  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/)
-**4. [Holo3.1: Fast & Local Computer Use Agents](https://huggingface.co/blog/Hcompany/holo31)** · `Hugging Face Blog`
+**4. [Microsoft and OpenAI broke up — now they’re ready to fight](https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition)** · `The Verge AI`
 
-本地电脑代理更快更轻，给隐私敏感和离线场景更多可行选择。
+OpenAI 与微软关系变化会影响云、模型分发与企业采购判断。
 
-**5. [Microsoft Build 2026: The 7 biggest announcements](https://www.theverge.com/tech/941738/microsoft-build-2026-biggest-announcements)** · `The Verge AI`
+**5. [I built a vulnerable app and spent $1,500 seeing if LLMs could hack it](https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/)** · `HackerNews`
 
-Build 汇总值得看，它透露微软下一阶段 Agent 平台的全栈布局。
+真实攻防测试比 benchmark 更有价值，适合校准你对 AI 安全能力的预期。
 
-  📎 延伸: [The Verge AI](https://www.theverge.com/tech/941668/microsoft-build-may-2026-live-news-updates)
-**6. [Microsoft&#8217;s Project Solara is an OS for AI agent gadgets](https://www.theverge.com/news/941830/microsoft-project-solara-os-ai-agent-gadgets)** · `The Verge AI`
+**6. [Google must let publishers opt out of AI Search features, rules UK](https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out)** · `The Verge AI`
 
-AI 原生设备操作系统出现，开发者应关注新终端与交互范式。
+监管开始直接约束 AI 搜索分发，内容、SEO 与检索产品都将受影响。
 
-**7. [Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories](https://huggingface.co/papers/2606.03979)** · `HuggingFace Papers`
+  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/)
+**7. [Thinking Past the Answer: Evaluating Harmful Overthinking in Large Reasoning Models](https://arxiv.org/abs/2606.02835)** · `arXiv cs.AI`
 
-让模型“睡眠”与记忆固化，可能打开长期学习与自我改进新路径。
+“过度思考”正在成为新风险，推理模型评测不能只看正确率。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[GitHub Copilot App](https://github.com/features/preview/github-app)** · `HackerNews`
+**[Launch HN: Hyper (YC P26) – Company brain to power agentic development](https://news.ycombinator.com/item?id=48387095)** · `HackerNews`
 
-Copilot 独立桌面化后更接近常驻代理，适合关注多文件、多任务协作流的开发者试用。
-
-**[MAI-Code-1-Flash](https://microsoft.ai/news/introducingmai-code-1-flash/)** · `HackerNews`
-
-MAI-Code-1-Flash 兼具热度与实用性，值得作为轻量代码模型的性能与成本对照样本。
+面向 agentic 开发的“公司大脑”工具，值得关注知识库与执行流如何结合。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正改变软件的，不是更会聊天的模型，而是能进入工作流、承担责任并留下审计轨迹的代理。
+> AI 真正的护城河，不是会回答问题，而是能在约束中可靠地完成任务。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [OpenAI launches new Codex tools for white-collar work](https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/) · `TechCrunch AI`
-- 🛠️ [Codex is becoming a productivity tool for everyone](https://openai.com/index/codex-for-knowledge-work) · `OpenAI Blog`
-- 🛠️ [GitHub Copilot app: The agent-native desktop experience](https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/) · `GitHub Blog`
-- 📊 [Trump signs downsized AI order after weeks of reversals](https://www.politico.com/news/2026/06/02/trump-signs-downsized-ai-order-00946389) · `HackerNews`
-- 💡 [How we index images for RAG](https://www.kapa.ai/blog/how-we-index-images-for-rag) · `HackerNews`
-- 💡 [Bringing Up DeepSeek-V4-Flash on AMD MI300X](https://fergusfinn.com/blog/deepseek-v4-flash-mi300x/) · `HackerNews`
-- 🔬 [NVIDIA OmniDreams: Real-Time Generative World Model for Closed-Loop Autonomous Vehicle Simulation](https://huggingface.co/papers/2606.03159) · `HuggingFace Papers`
-- 🚀 [Microsoft Scout is a new AI personal assistant built on OpenClaw](https://www.theverge.com/news/939713/microsoft-scout-assistant-openclaw) · `The Verge AI`
-- 📊 [Trump signs narrower executive order on AI oversight after industry objections](https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/) · `TechCrunch AI`
-- 🔬 [Humanoid-GPT: Scaling Data and Structure for Zero-Shot Motion Tracking](https://huggingface.co/papers/2606.03985) · `HuggingFace Papers`
+- 📊 [Uber's $1,500/month AI limit is a useful signal for AI tool pricing](https://simonwillison.net/2026/Jun/3/uber-caps-usage/) · `HackerNews`
+- 🔬 [STRIDE: Training Data Attribution via Sparse Recovery from Subset Perturbations](https://huggingface.co/papers/2606.05165) · `HuggingFace Papers`
+- 💡 [How Wasmer used Codex to build a Node.js runtime for the edge](https://openai.com/index/wasmer) · `OpenAI Blog`
+- 📊 [Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal](https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/) · `TechCrunch AI`
+- 📊 [Mathematicians issue warning as AI rapidly gains ground](https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground) · `HackerNews`
+- 🔬 [M^3Eval: Multi-Modal Memory Evaluation through Cognitively-Grounded Video Tasks](https://huggingface.co/papers/2606.05008) · `HuggingFace Papers`
+- 🔬 [MapAgent: An Industrial-Grade Agentic Framework for City-scale Lane-level Map Generation](https://huggingface.co/papers/2606.04513) · `HuggingFace Papers`
+- 📊 [A blueprint for democratic governance of frontier AI](https://openai.com/index/frontier-safety-blueprint) · `OpenAI Blog`
+- 🚀 [Meta’s AI agent for WhatsApp Business is now available globally](https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/) · `TechCrunch AI`
+- 📊 [Coralogix raises $200M on bet that someone needs to watch the AI agents](https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/) · `TechCrunch AI`
 
 
 ---
@@ -89,9 +84,9 @@ MAI-Code-1-Flash 兼具热度与实用性，值得作为轻量代码模型的性
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 53 篇 | 20 篇 | **10 篇** |
+| 11 源 | 135 篇 | 43 篇 | 20 篇 | **9 篇** |
 
-*生成于 2026-06-03 11:45 UTC+8*
+*生成于 2026-06-04 11:41 UTC+8*
 
 ## 📚 往期简报
 
