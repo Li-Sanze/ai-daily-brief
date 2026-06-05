@@ -6,76 +6,79 @@
 
 ---
 
-## 📅 2026-06-04 周四
+## 📅 2026-06-05 周五
 
 ### 📌 今日焦点
 
-**[Introducing new capabilities to GPT-Rosalind](https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind)** · `OpenAI Blog`
+**[Dreaming: Better memory for a more helpful ChatGPT](https://openai.com/index/chatgpt-memory-dreaming)** · `OpenAI Blog` ⭐
 
-> OpenAI 为 GPT-Rosalind 增强能力，代表前沿模型正继续向更强的专业推理与可用性推进，这类升级会迅速外溢到开发平台、工作流与产品设计。开发者应尽快评估其在代码、科研或复杂推理任务上的边界表现，并为多模型路由、成本控制和回退策略预留架构空间。
+> 更强的长期记忆会直接改变 ChatGPT 的可用性边界：从一次性问答走向持续协作，这对产品设计、工作流编排和用户留存都有全局影响。开发者现在应尽快评估记忆特性对隐私、上下文注入、个性化体验和提示工程的影响，并为“有状态 AI”重构应用架构。 
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
+**1. [Anthropic's open-source framework for AI-powered vulnerability discovery](https://github.com/anthropics/defending-code-reference-harness)** · `HackerNews`
 
-向量数据库仍是 RAG 基建核心，Milvus 热度说明检索层选型仍值得重视。
+AI 安全从防守转向攻防自动化，安全开发团队值得尽早试水。
 
-**2. [The ways we contain Claude across products](https://www.anthropic.com/engineering/how-we-contain-claude)** · `HackerNews`
+**2. [World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis](https://huggingface.co/papers/2606.05979)** · `HuggingFace Papers`
 
-模型安全不只靠训练，产品级隔离与权限设计正成为落地关键能力。
+统一世界模型、语言与动作，是通往通用智能体的重要技术路线。
 
-**3. [AutoLab: Can Frontier Models Solve Long-Horizon Auto Research and Engineering Tasks?](https://huggingface.co/papers/2606.05080)** · `HuggingFace Papers`
+**3. [When AI Builds Itself: Our progress toward recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement)** · `HackerNews`
 
-长周期科研自动化若成立，将改变 agent 评测与工程协作方式。
+递归自我改进若持续兑现，将重塑模型迭代速度与研发组织形态。
 
-**4. [Microsoft and OpenAI broke up — now they’re ready to fight](https://www.theverge.com/ai-artificial-intelligence/942242/microsoft-build-ai-agents-openai-competition)** · `The Verge AI`
+**4. [KVarN: Native vLLM backend for KV-cache quantization by Huawei](https://github.com/huawei-csl/KVarN)** · `HackerNews`
 
-OpenAI 与微软关系变化会影响云、模型分发与企业采购判断。
+KV-cache 量化直击推理成本，做大模型服务的团队应重点关注。
 
-**5. [I built a vulnerable app and spent $1,500 seeing if LLMs could hack it](https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/)** · `HackerNews`
+**5. [Do transformers need three projections? Systematic study of QKV variants](https://arxiv.org/abs/2606.04032)** · `HackerNews`
 
-真实攻防测试比 benchmark 更有价值，适合校准你对 AI 安全能力的预期。
+QKV 结构未必不可动，底层架构创新可能带来新的效率红利。
 
-**6. [Google must let publishers opt out of AI Search features, rules UK](https://www.theverge.com/tech/942302/google-search-ai-overviews-uk-cma-publisher-opt-out)** · `The Verge AI`
+**6. [Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI](https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety)** · `Hugging Face Blog`
 
-监管开始直接约束 AI 搜索分发，内容、SEO 与检索产品都将受影响。
+多模态安全正成为企业 AI 落地门槛，合规能力会前置到产品设计。
 
-  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/)
-**7. [Thinking Past the Answer: Evaluating Harmful Overthinking in Large Reasoning Models](https://arxiv.org/abs/2606.02835)** · `arXiv cs.AI`
+**7. [Designing the hf CLI as an agent-optimized way to work with the Hub](https://huggingface.co/blog/hf-cli-for-agents)** · `Hugging Face Blog`
 
-“过度思考”正在成为新风险，推理模型评测不能只看正确率。
+面向 agent 优化的 CLI，预示开发工具将默认服务自动化协作。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Launch HN: Hyper (YC P26) – Company brain to power agentic development](https://news.ycombinator.com/item?id=48387095)** · `HackerNews`
+**[farion1231/cc-switch: A cross-platform desktop All-in-One assistant for Claud...](https://github.com/farion1231/cc-switch)** · `GitHub Trending`
 
-面向 agentic 开发的“公司大脑”工具，值得关注知识库与执行流如何结合。
+一站式整合多家编码代理入口，适合频繁切换模型与工作流的开发者。
+
+**[Open Code Review – An AI-powered code review CLI tool](https://github.com/alibaba/open-code-review)** · `HackerNews`
+
+把代码审查做成 CLI，便于接入现有 Git 与 CI 流程快速验证价值。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 真正的护城河，不是会回答问题，而是能在约束中可靠地完成任务。
+> 下一代 AI 应用的分水岭，不是模型会不会回答，而是它能不能持续记住、可靠行动、并承担结果。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Uber's $1,500/month AI limit is a useful signal for AI tool pricing](https://simonwillison.net/2026/Jun/3/uber-caps-usage/) · `HackerNews`
-- 🔬 [STRIDE: Training Data Attribution via Sparse Recovery from Subset Perturbations](https://huggingface.co/papers/2606.05165) · `HuggingFace Papers`
-- 💡 [How Wasmer used Codex to build a Node.js runtime for the edge](https://openai.com/index/wasmer) · `OpenAI Blog`
-- 📊 [Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal](https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/) · `TechCrunch AI`
-- 📊 [Mathematicians issue warning as AI rapidly gains ground](https://www.science.org/content/article/mathematicians-issue-warning-ai-rapidly-gains-ground) · `HackerNews`
-- 🔬 [M^3Eval: Multi-Modal Memory Evaluation through Cognitively-Grounded Video Tasks](https://huggingface.co/papers/2606.05008) · `HuggingFace Papers`
-- 🔬 [MapAgent: An Industrial-Grade Agentic Framework for City-scale Lane-level Map Generation](https://huggingface.co/papers/2606.04513) · `HuggingFace Papers`
-- 📊 [A blueprint for democratic governance of frontier AI](https://openai.com/index/frontier-safety-blueprint) · `OpenAI Blog`
-- 🚀 [Meta’s AI agent for WhatsApp Business is now available globally](https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/) · `TechCrunch AI`
-- 📊 [Coralogix raises $200M on bet that someone needs to watch the AI agents](https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/) · `TechCrunch AI`
+- 🔬 [LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing](https://huggingface.co/papers/2606.06042) · `HuggingFace Papers`
+- 📊 [AI leaders call for tougher protections against AI-aided bioweapons](https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress) · `The Verge AI`
+- 🔬 [StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis](https://arxiv.org/abs/2606.04246) · `arXiv cs.AI`
+- 📊 [How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers) · `OpenAI Blog`
+- 🔬 [EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios](https://huggingface.co/blog/ServiceNow-AI/eva-bench-data) · `Hugging Face Blog`
+- 🚀 [Amazon develops a warehouse robot that workers can speak to](https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus) · `The Verge AI`
+- 📊 [Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns](https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/) · `TechCrunch AI`
+- 🛠️ [Apple approves Poke as the first AI agent on its Messages for Business platform](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/) · `TechCrunch AI`
+- 📊 [What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates](https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/) · `TechCrunch AI`
+- 🔬 [Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification](https://arxiv.org/abs/2606.04037) · `arXiv cs.AI`
 
 
 ---
@@ -84,9 +87,9 @@ OpenAI 与微软关系变化会影响云、模型分发与企业采购判断。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 43 篇 | 20 篇 | **9 篇** |
+| 11 源 | 136 篇 | 47 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-06-04 11:41 UTC+8*
+*生成于 2026-06-05 11:28 UTC+8*
 
 ## 📚 往期简报
 
