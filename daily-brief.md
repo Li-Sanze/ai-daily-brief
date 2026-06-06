@@ -6,79 +6,79 @@
 
 ---
 
-## 📅 2026-06-05 周五
+## 📅 2026-06-06 周六
 
 ### 📌 今日焦点
 
-**[Dreaming: Better memory for a more helpful ChatGPT](https://openai.com/index/chatgpt-memory-dreaming)** · `OpenAI Blog` ⭐
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
 
-> 更强的长期记忆会直接改变 ChatGPT 的可用性边界：从一次性问答走向持续协作，这对产品设计、工作流编排和用户留存都有全局影响。开发者现在应尽快评估记忆特性对隐私、上下文注入、个性化体验和提示工程的影响，并为“有状态 AI”重构应用架构。 
+> 终端原生编码代理正在把“写代码”升级为“委托完成开发任务”，这会直接改变开发者与代码库、CLI 和自动化工作流的交互方式。建议尽快在非核心仓库试跑，重点评估它的上下文控制、命令执行边界与团队安全策略是否可落地。 
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Anthropic's open-source framework for AI-powered vulnerability discovery](https://github.com/anthropics/defending-code-reference-harness)** · `HackerNews`
+**1. [Google will pay SpaceX $920M per month for compute](https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/)** · `TechCrunch AI`
 
-AI 安全从防守转向攻防自动化，安全开发团队值得尽早试水。
+算力采购规模暴涨，预示顶级模型竞争已转向基础设施战争。
 
-**2. [World-Language-Action Model for Unified World Modeling, Language Reasoning, and Action Synthesis](https://huggingface.co/papers/2606.05979)** · `HuggingFace Papers`
+**2. [The token bill comes due: Inside the industry scramble to manage AI’s runaway costs](https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/)** · `TechCrunch AI`
 
-统一世界模型、语言与动作，是通往通用智能体的重要技术路线。
+Token 成本失控正逼团队重做架构，优化不再只是可选项。
 
-**3. [When AI Builds Itself: Our progress toward recursive self-improvement](https://www.anthropic.com/institute/recursive-self-improvement)** · `HackerNews`
+**3. [Did Claude increase bugs in rsync?](https://alexispurslane.github.io/rsync-analysis/)** · `HackerNews`
 
-递归自我改进若持续兑现，将重塑模型迭代速度与研发组织形态。
+AI 改代码的副作用值得警惕，自动修复需配套回归验证。
 
-**4. [KVarN: Native vLLM backend for KV-cache quantization by Huawei](https://github.com/huawei-csl/KVarN)** · `HackerNews`
+**4. [How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment](https://arxiv.org/abs/2606.05256)** · `arXiv cs.AI`
 
-KV-cache 量化直击推理成本，做大模型服务的团队应重点关注。
+代理说服与操控风险进入实证阶段，关系到产品安全边界设计。
 
-**5. [Do transformers need three projections? Systematic study of QKV variants](https://arxiv.org/abs/2606.04032)** · `HackerNews`
+**5. [SentinelBench: A Benchmark for Long-Running Monitoring Agents](https://arxiv.org/abs/2606.05342)** · `arXiv cs.AI`
 
-QKV 结构未必不可动，底层架构创新可能带来新的效率红利。
+长时监控代理缺少统一评测，这类基准将影响 Agent 选型。
 
-**6. [Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI](https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety)** · `Hugging Face Blog`
+**6. [Stability vs. Manipulability: Evaluating Robustness Under Post-Decision Interaction in LLM Judges](https://arxiv.org/abs/2606.05384)** · `arXiv cs.AI`
 
-多模态安全正成为企业 AI 落地门槛，合规能力会前置到产品设计。
+LLM 评审器可被后续交互操纵，评测与审核链路需更稳健。
 
-**7. [Designing the hf CLI as an agent-optimized way to work with the Hub](https://huggingface.co/blog/hf-cli-for-agents)** · `Hugging Face Blog`
+**7. [New York lawmakers pass one-year ban on new data centers](https://www.theverge.com/policy/944041/new-york-data-center-moratorium)** · `The Verge AI`
 
-面向 agent 优化的 CLI，预示开发工具将默认服务自动化协作。
+数据中心审批收紧会反向影响云成本、部署地点与容量规划。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[farion1231/cc-switch: A cross-platform desktop All-in-One assistant for Claud...](https://github.com/farion1231/cc-switch)** · `GitHub Trending`
+**[Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens](https://github.com/zdk/lowfat)** · `HackerNews`
 
-一站式整合多家编码代理入口，适合频繁切换模型与工作流的开发者。
+直接瞄准 LLM 成本痛点，适合接入 CLI 工作流做提示压缩与省 token 实验。
 
-**[Open Code Review – An AI-powered code review CLI tool](https://github.com/alibaba/open-code-review)** · `HackerNews`
+**[Thousand Token Wood: shipping a multi-agent economy on a 3B model](https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim)** · `Hugging Face Blog`
 
-把代码审查做成 CLI，便于接入现有 Git 与 CI 流程快速验证价值。
+用 3B 模型实现多代理经济系统，给低成本 Agent 设计提供可复用思路。
 
 ---
 
 ### 💡 今日洞察
 
-> 下一代 AI 应用的分水岭，不是模型会不会回答，而是它能不能持续记住、可靠行动、并承担结果。
+> AI 的下一场竞争，不是谁会生成内容，而是谁能把算力、成本与代理行为一起工程化。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🔬 [LoomVideo: Unifying Multimodal Inputs into Video Generation and Editing](https://huggingface.co/papers/2606.06042) · `HuggingFace Papers`
-- 📊 [AI leaders call for tougher protections against AI-aided bioweapons](https://www.theverge.com/ai-artificial-intelligence/942956/ai-biological-weapons-open-letter-congress) · `The Verge AI`
-- 🔬 [StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis](https://arxiv.org/abs/2606.04246) · `arXiv cs.AI`
-- 📊 [How Endava is redesigning software delivery around AI agents](https://openai.com/index/endava-frontiers) · `OpenAI Blog`
-- 🔬 [EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios](https://huggingface.co/blog/ServiceNow-AI/eva-bench-data) · `Hugging Face Blog`
-- 🚀 [Amazon develops a warehouse robot that workers can speak to](https://www.theverge.com/ai-artificial-intelligence/942884/amazon-next-generation-warehouse-robot-proteus) · `The Verge AI`
-- 📊 [Ahead of its IPO, Anthropic’s Daniela Amodei shrugs off doubts about AI’s returns](https://techcrunch.com/2026/06/04/ahead-of-its-ipo-anthropics-daniela-amodei-shrugs-off-doubts-about-ais-returns/) · `TechCrunch AI`
-- 🛠️ [Apple approves Poke as the first AI agent on its Messages for Business platform](https://techcrunch.com/2026/06/04/apple-approves-poke-as-the-first-ai-agent-on-its-messages-for-business-platform/) · `TechCrunch AI`
-- 📊 [What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates](https://techcrunch.com/2026/06/04/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/) · `TechCrunch AI`
-- 🔬 [Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification](https://arxiv.org/abs/2606.04037) · `arXiv cs.AI`
+- 📊 [The latest AI news we announced in May 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/) · `Google AI Blog`
+- 🔬 [Transformers are inherently succinct](https://openreview.net/pdf?id=Yxz92UuPLQ) · `HackerNews`
+- 📊 [AirTrunk commits $30B to build 5GW of AI data centers in India](https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/) · `TechCrunch AI`
+- 📊 [South Korean forums will need to scan every images with AI censorship tools](https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341) · `HackerNews`
+- 📊 [GitHub Universe is back: All together now, in the agentic era](https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/) · `GitHub Blog`
+- 📊 [Airbnb’s Brian Chesky plans to launch a new AI lab](https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/) · `TechCrunch AI`
+- 🔬 [What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems](https://arxiv.org/abs/2606.05304) · `arXiv cs.AI`
+- 🔬 [GITCO: Gated Inference-Time Context Optimization in TSFMs](https://arxiv.org/abs/2606.05332) · `arXiv cs.AI`
+- 💡 [我用 AI 寻找 Bug 的经历](https://newsletter.semianalysis.com/p/finding-miscompiles-for-fun-not-profit) · `阮一峰周刊`
+- 📊 [Ask HN: What was your "oh shit" moment with GenAI?](https://news.ycombinator.com/item?id=48406174) · `HackerNews`
 
 
 ---
@@ -87,9 +87,9 @@ QKV 结构未必不可动，底层架构创新可能带来新的效率红利。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 47 篇 | 20 篇 | **10 篇** |
+| 11 源 | 136 篇 | 38 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-06-05 11:28 UTC+8*
+*生成于 2026-06-06 10:50 UTC+8*
 
 ## 📚 往期简报
 
