@@ -6,79 +6,79 @@
 
 ---
 
-## 📅 2026-06-06 周六
+## 📅 2026-06-07 周日
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
+**[OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks](https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/)** · `TechCrunch AI`
 
-> 终端原生编码代理正在把“写代码”升级为“委托完成开发任务”，这会直接改变开发者与代码库、CLI 和自动化工作流的交互方式。建议尽快在非核心仓库试跑，重点评估它的上下文控制、命令执行边界与团队安全策略是否可落地。 
+> Prompt injection 已从模型风险变成真实的数据安全边界问题，OpenAI 推出 Lockdown Mode 说明 AI 应用安全正在进入默认加固阶段。开发者应立即审视插件、检索、系统提示与敏感工具调用链，按最小权限原则补齐隔离、审计和回退机制。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Google will pay SpaceX $920M per month for compute](https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/)** · `TechCrunch AI`
+**1. [The Trump administration might take an equity stake in OpenAI](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)** · `TechCrunch AI`
 
-算力采购规模暴涨，预示顶级模型竞争已转向基础设施战争。
+OpenAI 股权博弈或重塑 AI 产业与监管边界，值得关注平台风险。
 
-**2. [The token bill comes due: Inside the industry scramble to manage AI’s runaway costs](https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/)** · `TechCrunch AI`
+**2. [Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot](https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/)** · `HackerNews`
 
-Token 成本失控正逼团队重做架构，优化不再只是可选项。
+聊天机器人被滥用致账号被黑，提醒开发者别把 AI 接口当低风险入口。
 
-**3. [Did Claude increase bugs in rsync?](https://alexispurslane.github.io/rsync-analysis/)** · `HackerNews`
+**3. [Harness engineering: Leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)** · `HackerNews`
 
-AI 改代码的副作用值得警惕，自动修复需配套回归验证。
+Codex 进入 agent-first 工程流，开发流程正从“辅助”转向“代办”。
 
-**4. [How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment](https://arxiv.org/abs/2606.05256)** · `arXiv cs.AI`
+**4. [Here comes new Siri again](https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini)** · `The Verge AI`
 
-代理说服与操控风险进入实证阶段，关系到产品安全边界设计。
+Siri 重启不只是产品更新，端侧智能与生态入口之争正在升温。
 
-**5. [SentinelBench: A Benchmark for Long-Running Monitoring Agents](https://arxiv.org/abs/2606.05342)** · `arXiv cs.AI`
+**5. [Google to pay SpaceX $920M a month for compute capacity at xAI data centers](https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html)** · `HackerNews`
 
-长时监控代理缺少统一评测，这类基准将影响 Agent 选型。
+算力采购天价化，意味着模型成本、云议价权和供应链都将再洗牌。
 
-**6. [Stability vs. Manipulability: Evaluating Robustness Under Post-Decision Interaction in LLM Judges](https://arxiv.org/abs/2606.05384)** · `arXiv cs.AI`
+**6. [Synthetic Contrastive Reasoning for Multi-Table Q&A](https://arxiv.org/abs/2606.05382)** · `arXiv cs.AI`
 
-LLM 评审器可被后续交互操纵，评测与审核链路需更稳健。
+多表问答若取得进展，将直接提升企业数据分析与 BI 智能化能力。
 
-**7. [New York lawmakers pass one-year ban on new data centers](https://www.theverge.com/policy/944041/new-york-data-center-moratorium)** · `The Verge AI`
+**7. [Sriram Krishnan is leaving his role as White House AI advisor](https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/)** · `TechCrunch AI`
 
-数据中心审批收紧会反向影响云成本、部署地点与容量规划。
+白宫 AI 顾问变动虽非技术新闻，却会影响政策节奏与合规预期。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens](https://github.com/zdk/lowfat)** · `HackerNews`
+**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
 
-直接瞄准 LLM 成本痛点，适合接入 CLI 工作流做提示压缩与省 token 实验。
+成熟的开源自托管代码平台，适合团队搭建可控的 AI 原生研发基础设施。
 
-**[Thousand Token Wood: shipping a multi-agent economy on a 3B model](https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim)** · `Hugging Face Blog`
+**[juanfont/headscale: An open source, self-hosted implementation of the Tailsca...](https://github.com/juanfont/headscale)** · `GitHub Trending`
 
-用 3B 模型实现多代理经济系统，给低成本 Agent 设计提供可复用思路。
+自托管 Tailscale 控制面，适合需要内网安全接入与远程开发的团队。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的下一场竞争，不是谁会生成内容，而是谁能把算力、成本与代理行为一起工程化。
+> AI 的下一道护城河，不是会不会生成，而是能不能在不泄密的前提下可靠执行。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [The latest AI news we announced in May 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-may-2026/) · `Google AI Blog`
-- 🔬 [Transformers are inherently succinct](https://openreview.net/pdf?id=Yxz92UuPLQ) · `HackerNews`
-- 📊 [AirTrunk commits $30B to build 5GW of AI data centers in India](https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/) · `TechCrunch AI`
-- 📊 [South Korean forums will need to scan every images with AI censorship tools](https://discuss.privacyguides.net/t/south-korean-online-communities-will-need-to-scan-every-images-with-ai-censorship-tools/38341) · `HackerNews`
-- 📊 [GitHub Universe is back: All together now, in the agentic era](https://github.blog/news-insights/company-news/github-universe-is-back-all-together-now-in-the-agentic-era/) · `GitHub Blog`
-- 📊 [Airbnb’s Brian Chesky plans to launch a new AI lab](https://techcrunch.com/2026/06/04/airbnbs-brian-chesky-plans-to-launch-a-new-ai-lab/) · `TechCrunch AI`
-- 🔬 [What Should Agents Say? Action-state Communication for Efficient Multi-Agent Systems](https://arxiv.org/abs/2606.05304) · `arXiv cs.AI`
-- 🔬 [GITCO: Gated Inference-Time Context Optimization in TSFMs](https://arxiv.org/abs/2606.05332) · `arXiv cs.AI`
-- 💡 [我用 AI 寻找 Bug 的经历](https://newsletter.semianalysis.com/p/finding-miscompiles-for-fun-not-profit) · `阮一峰周刊`
-- 📊 [Ask HN: What was your "oh shit" moment with GenAI?](https://news.ycombinator.com/item?id=48406174) · `HackerNews`
+- 🚀 [Meta made its own AI-generated clickbait news feed](https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles) · `The Verge AI`
+- 🚀 [What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates](https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/) · `TechCrunch AI`
+- 🔬 [I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition](https://arxiv.org/abs/2606.05316) · `arXiv cs.AI`
+- 🔬 [Residual Modeling for High-Fidelity Learned Compression of Scientific Data](https://arxiv.org/abs/2606.05389) · `arXiv cs.AI`
+- 🛠️ [ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial i...](https://github.com/ruvnet/RuView) · `GitHub Trending`
+- 🛠️ [seaweedfs/seaweedfs: SeaweedFS is a distributed storage system for object sto...](https://github.com/seaweedfs/seaweedfs) · `GitHub Trending`
+- 💡 [Conventional Commits encourages focus on the wrong things](https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/) · `HackerNews`
+- 📊 [The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center](https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center) · `The Verge AI`
+- 🔬 [Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory](https://arxiv.org/abs/2606.05334) · `arXiv cs.AI`
+- 🔬 [An interpretable and trustworthy AI framework for large-scale longitudinal structure-pain association studies using d...](https://arxiv.org/abs/2606.05357) · `arXiv cs.AI`
 
 
 ---
@@ -87,9 +87,9 @@ LLM 评审器可被后续交互操纵，评测与审核链路需更稳健。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 38 篇 | 20 篇 | **10 篇** |
+| 11 源 | 139 篇 | 26 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-06-06 10:50 UTC+8*
+*生成于 2026-06-07 11:34 UTC+8*
 
 ## 📚 往期简报
 
