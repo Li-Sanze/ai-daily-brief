@@ -6,79 +6,70 @@
 
 ---
 
-## 📅 2026-06-07 周日
+## 📅 2026-06-08 周一
 
 ### 📌 今日焦点
 
-**[OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks](https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/)** · `TechCrunch AI`
+**[DeepSeek V4 Pro beats GPT-5.5 Pro on precision](https://runtimewire.com/article/deepseek-v4-pro-beats-gpt-5-5-pro-on-precision)** · `HackerNews`
 
-> Prompt injection 已从模型风险变成真实的数据安全边界问题，OpenAI 推出 Lockdown Mode 说明 AI 应用安全正在进入默认加固阶段。开发者应立即审视插件、检索、系统提示与敏感工具调用链，按最小权限原则补齐隔离、审计和回退机制。
+> 这类“模型对标并超越头部产品”的消息重要，因为它直接改写开发者对模型选型、成本性能比和供应商格局的判断。建议团队立即用自家关键任务做一轮基准复测，别再只按品牌惯性决定主模型。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [The Trump administration might take an equity stake in OpenAI](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)** · `TechCrunch AI`
+**1. [Show HN: Lathe – Use LLMs to learn a new domain, not skip past it](https://github.com/devenjarvis/lathe)** · `HackerNews`
 
-OpenAI 股权博弈或重塑 AI 产业与监管边界，值得关注平台风险。
+它提醒开发者：LLM 最有价值的场景，是加速理解而非替代理解。
 
-**2. [Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot](https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/)** · `HackerNews`
+**2. [OpenAI is still working on that ‘super app’](https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/)** · `TechCrunch AI`
 
-聊天机器人被滥用致账号被黑，提醒开发者别把 AI 接口当低风险入口。
+OpenAI 若做“超级应用”，开发入口和分发渠道可能随之重构。
 
-**3. [Harness engineering: Leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/)** · `HackerNews`
+**3. [I design with Claude more than Figma now](https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/)** · `HackerNews`
 
-Codex 进入 agent-first 工程流，开发流程正从“辅助”转向“代办”。
+设计工作流正被对话式 AI 重写，前端与产品协作边界会继续模糊。
 
-**4. [Here comes new Siri again](https://www.theverge.com/tech/944245/apple-wwdc-2026-ai-siri-gemini)** · `The Verge AI`
+**4. [Notion restores access to Anthropic after service disruption](https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/)** · `TechCrunch AI`
 
-Siri 重启不只是产品更新，端侧智能与生态入口之争正在升温。
+AI 依赖已成生产基础设施，服务中断风险必须纳入架构设计。
 
-**5. [Google to pay SpaceX $920M a month for compute capacity at xAI data centers](https://www.cnbc.com/2026/06/05/google-to-pay-spacex-920-million-a-month-for-xai-compute-capacity.html)** · `HackerNews`
+**5. [LLMs are eroding my software engineering career and I don't know what to do](https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/)** · `HackerNews`
 
-算力采购天价化，意味着模型成本、云议价权和供应链都将再洗牌。
+职业焦虑不是情绪新闻，它反映了工程岗位能力模型正在变化。
 
-**6. [Synthetic Contrastive Reasoning for Multi-Table Q&A](https://arxiv.org/abs/2606.05382)** · `arXiv cs.AI`
+**6. [AI ‘content creators’ are getting harder to spot](https://www.theverge.com/ai-artificial-intelligence/943187/ai-content-creators)** · `The Verge AI`
 
-多表问答若取得进展，将直接提升企业数据分析与 BI 智能化能力。
+合成内容识别变难，开发者需要更重视内容溯源与信任机制。
 
-**7. [Sriram Krishnan is leaving his role as White House AI advisor](https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/)** · `TechCrunch AI`
+**7. [Is this the dawn of the Tokenpocalypse?](https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/)** · `TechCrunch AI`
 
-白宫 AI 顾问变动虽非技术新闻，却会影响政策节奏与合规预期。
+Token 成本若持续失控，多模型路由和缓存优化会变成刚需。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+**[milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-成熟的开源自托管代码平台，适合团队搭建可控的 AI 原生研发基础设施。
+Milvus 仍是向量检索基础设施热门选项，适合关注 RAG 与大规模相似搜索的团队。
 
-**[juanfont/headscale: An open source, self-hosted implementation of the Tailsca...](https://github.com/juanfont/headscale)** · `GitHub Trending`
+**[gogs/gogs: The painless way to host your own Git service](https://github.com/gogs/gogs)** · `GitHub Trending`
 
-自托管 Tailscale 控制面，适合需要内网安全接入与远程开发的团队。
+Gogs 轻量易自托管，适合需要私有 Git 服务且运维资源有限的团队。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的下一道护城河，不是会不会生成，而是能不能在不泄密的前提下可靠执行。
+> 真正会被 AI 替代的，不是开发者，而是拒绝重写工作流的开发方式。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🚀 [Meta made its own AI-generated clickbait news feed](https://www.theverge.com/ai-artificial-intelligence/944235/meta-app-ai-clickbait-articles) · `The Verge AI`
-- 🚀 [What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates](https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/) · `TechCrunch AI`
-- 🔬 [I Know What You Meme, Even If it Emerged Today: Understanding Evolving Memes through Open-World Knowledge Acquisition](https://arxiv.org/abs/2606.05316) · `arXiv cs.AI`
-- 🔬 [Residual Modeling for High-Fidelity Learned Compression of Scientific Data](https://arxiv.org/abs/2606.05389) · `arXiv cs.AI`
-- 🛠️ [ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial i...](https://github.com/ruvnet/RuView) · `GitHub Trending`
-- 🛠️ [seaweedfs/seaweedfs: SeaweedFS is a distributed storage system for object sto...](https://github.com/seaweedfs/seaweedfs) · `GitHub Trending`
-- 💡 [Conventional Commits encourages focus on the wrong things](https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/) · `HackerNews`
-- 📊 [The mayor of Shelbyville, Indiana, says only people who live in ‘shitty houses’ oppose data center](https://www.theverge.com/ai-artificial-intelligence/944984/shelbyville-indiana-mayor-shitty-houses-data-center) · `The Verge AI`
-- 🔬 [Uncertainty Aware Functional Behavior Prediction and Material Fatigue Assessment for Circular Factory](https://arxiv.org/abs/2606.05334) · `arXiv cs.AI`
-- 🔬 [An interpretable and trustworthy AI framework for large-scale longitudinal structure-pain association studies using d...](https://arxiv.org/abs/2606.05357) · `arXiv cs.AI`
+- 💡 [The Smallest Brain You Can Build: A Perceptron in Python](https://ranpara.net/posts/perceptron-explained-from-scratch/) · `HackerNews`
 
 
 ---
@@ -87,9 +78,9 @@ Siri 重启不只是产品更新，端侧智能与生态入口之争正在升温
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 139 篇 | 26 篇 | 20 篇 | **10 篇** |
+| 8 源 | 108 篇 | 12 篇 | 11 篇 | **10 篇** |
 
-*生成于 2026-06-07 11:34 UTC+8*
+*生成于 2026-06-08 11:39 UTC+8*
 
 ## 📚 往期简报
 
