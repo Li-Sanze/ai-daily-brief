@@ -6,80 +6,81 @@
 
 ---
 
-## 📅 2026-06-09 周二
+## 📅 2026-06-10 周三
 
 ### 📌 今日焦点
 
-**[Apple reveals new AI architecture built around Google Gemini models](https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/)** · `HackerNews`
+**[Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5)** · `HackerNews` ⭐
 
-> 苹果把 Gemini 纳入新一代 AI 架构，意味着端侧入口、系统能力与第三方模型的竞合关系正在重写，这会直接影响移动端 AI 的分发格局。开发者现在就该评估 iOS 端的模型接入、权限边界与多模型策略，提前布局 Apple 生态的新调用路径。
+> Claude Fable 5 之所以重要，在于头部通用模型的每次代际跃迁都会迅速重写编程、客服与内容生产的能力基线。开发者应立即用自家真实任务做回归测试，重点验证成本、延迟、工具调用稳定性与安全边界。
 
+  📎 延伸: [The Verge AI](https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos) · [TechCrunch AI](https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/) · [TechCrunch AI](https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/)
 
 ---
 
 ### 🔥 热点速览
 
-**1. [OpenAI files for IPO, following Anthropic](https://www.theverge.com/ai-artificial-intelligence/946335/openai-ipo-s-1-confidential)** · `The Verge AI` ⭐
+**1. [openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
 
-OpenAI 冲刺 IPO，AI 基础设施与商业化节奏将更受资本市场牵引。
+终端原生 coding agent 正在成为开发工作流新入口，值得尽早上手。
 
-  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo/)
-**2. [Latent Spatial Memory for Video World Models](https://huggingface.co/papers/2606.09828)** · `HuggingFace Papers`
+**2. [Microsoft's open source tools were hacked to steal passwords of AI developers](https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/)** · `HackerNews`
 
-视频世界模型加入空间记忆，机器人与交互式模拟可能更快落地。
+AI 开发基础设施也成攻击目标，安全链路已是团队必修课。
 
-**3. [The Open Source Community is backing OpenEnv for Agentic RL](https://huggingface.co/blog/openenv-agentic-rl)** · `Hugging Face Blog`
+**3. [German ruling declares Google liable for false answers in AI Overviews](https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/)** · `HackerNews`
 
-Agentic RL 若有统一开放环境，评测与复现门槛会明显下降。
+AI 错答开始进入法律责任区，产品方需重估风控与免责声明。
 
-**4. [NotebookLM&#8217;s Gemini 3.5 upgrade adds a cloud computer and help finding sources](https://www.theverge.com/tech/944325/google-notebooklm-ai-gemini-update)** · `The Verge AI`
+**4. [From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/)** · `GitHub Blog`
 
-NotebookLM 升级不只是功能叠加，而是研究型 AI 工作流继续产品化。
+单次 prompt 正在让位给可复用工作流，效率差距会被迅速拉开。
 
-**5. [Attack Selection in Agentic AI Control Evaluations Meaningfully Decreases Safety](https://arxiv.org/abs/2606.06529)** · `arXiv cs.AI`
+**5. [Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech](https://huggingface.co/blog/ServiceNow-AI/code-switching)** · `Hugging Face Blog`
 
-安全评测会被攻击样本选择左右，说明很多“安全结论”并不稳固。
+双语语音客服是现实刚需，基准能力将直接影响出海体验。
 
-**6. [AI is slowing down](https://www.wheresyoured.at/ai-is-slowing-down/)** · `HackerNews`
+**6. [WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more](https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/)** · `TechCrunch AI`
 
-若 AI 增长放缓成共识，团队该更重视效率、成本与真实留存。
+苹果生态的 AI 入口变化会影响端侧应用分发与交互设计。
 
-**7. [Lean4Agent: Formal Modeling and Verification for Agent Workflow and Trajectory](https://arxiv.org/abs/2606.06523)** · `arXiv cs.AI`
+  📎 延伸: [The Verge AI](https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc) · [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/946780/apples-ai-promises-are-finally-almost-sort-of-here) · [TechCrunch AI](https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/)
+**7. [Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning](https://arxiv.org/abs/2606.07720)** · `arXiv cs.AI`
 
-Agent 工作流走向形式化验证，适合高可靠场景提前关注。
+持续潜在推理若成立，可能改写长上下文与记忆机制的实现方式。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Apple Core AI Framework](https://developer.apple.com/documentation/coreai/)** · `HackerNews`
+**[Syll: Open-Source Personal Automation with Cross-Surface Execution](https://arxiv.org/abs/2606.07594)** · `arXiv cs.AI`
 
-Apple Core AI Framework 直接关系 iOS 原生 AI 集成方式，值得尽早熟悉接口与能力边界。
+开源个人自动化框架覆盖多界面执行，适合探索 AI agent 落地场景。
 
-**[Apple will let you build workflows using AI in its new Shortcuts app](https://techcrunch.com/2026/06/08/apple-will-let-you-build-workflows-using-ai-in-its-new-shortcuts-app/)** · `TechCrunch AI`
+**[pingcap/tidb: TiDB is built for agentic workloads that grow unpredictably, wi...](https://github.com/pingcap/tidb)** · `GitHub Trending`
 
-AI Shortcuts 把自动化门槛降到应用层，适合开发者探索轻量智能工作流入口。
+TiDB 面向波动型 agent 负载的数据库能力，值得做生产级评估。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正拉开 AI 团队差距的，不是会不会调用模型，而是能否把模型接进系统。
+> 真正的 AI 护城河，不是模型会回答多少问题，而是它能否稳定接入你的真实工作流。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🚀 [Siri AI](https://www.apple.com/apple-intelligence/) · `HackerNews`
-- 🚀 [WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence and more](https://techcrunch.com/2026/06/08/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/) · `TechCrunch AI`
-- 🔬 [SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks](https://huggingface.co/papers/2606.09669) · `HuggingFace Papers`
-- 📊 [Built to benefit everyone: our plan](https://openai.com/index/built-to-benefit-everyone-our-plan) · `OpenAI Blog`
-- 🛠️ [Apple bets cheaper AI will woo small developers](https://techcrunch.com/2026/06/08/apple-bets-cheaper-ai-will-woo-small-developers/) · `TechCrunch AI`
-- 📊 [xAI is looking more like a datacentre REIT than a frontier lab](https://martinalderson.com/posts/xais-new-rental-business/) · `HackerNews`
-- 📊 [Introducing the OpenAI Economic Research Exchange](https://openai.com/index/economic-research-exchange) · `OpenAI Blog`
-- 🔬 [SafeGene: Reusable Adapters for Transferable Safety Alignment](https://arxiv.org/abs/2606.06519) · `arXiv cs.AI`
-- 🔬 [Position: Don't Just "Fix it in Post": A Science of AI Must Study Training Dynamics](https://arxiv.org/abs/2606.06533) · `arXiv cs.AI`
-- 🚀 [Apple is using AI to fix Safari’s extension problem](https://www.theverge.com/tech/946345/apple-safari-ai-update-extensions) · `The Verge AI`
+- 🛠️ [Lovable says it has hit $500M in annualized revenue, with 1 million new projects a week](https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/) · `TechCrunch AI`
+- 📊 [If Claude Fable stops helping you, you'll never know](https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html) · `HackerNews`
+- 🔬 [Is Grep All You Need? How Agent Harnesses Reshape Agentic Search](https://arxiv.org/abs/2605.15184) · `HackerNews`
+- 📊 [Google just fired a warning shot in the AI subscription price wars](https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/) · `TechCrunch AI`
+- 🔬 [EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents](https://huggingface.co/papers/2606.11182) · `HuggingFace Papers`
+- 🔬 [How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs](https://huggingface.co/papers/2606.10646) · `HuggingFace Papers`
+- 🔬 [When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models](https://huggingface.co/papers/2606.10740) · `HuggingFace Papers`
+- 🔬 [Dynamic Linear Attention](https://huggingface.co/papers/2606.10650) · `HuggingFace Papers`
+- 📊 [Industrial policy for the Intelligence Age](https://openai.com/index/industrial-policy-for-the-intelligence-age) · `OpenAI Blog`
+- 📊 [Can tech companies learn to love cheaper AI models?](https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/) · `TechCrunch AI`
 
 
 ---
@@ -88,9 +89,9 @@ AI Shortcuts 把自动化门槛降到应用层，适合开发者探索轻量智�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 130 篇 | 39 篇 | 20 篇 | **10 篇** |
+| 11 源 | 136 篇 | 53 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-06-09 10:49 UTC+8*
+*生成于 2026-06-10 11:25 UTC+8*
 
 ## 📚 往期简报
 
