@@ -6,81 +6,79 @@
 
 ---
 
-## 📅 2026-06-10 周三
+## 📅 2026-06-11 周四
 
 ### 📌 今日焦点
 
-**[Claude Fable 5](https://www.anthropic.com/news/claude-fable-5-mythos-5)** · `HackerNews` ⭐
+**[Anthropic releases its first Mythos-class model Claude Fable](https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos)** · `The Verge AI` ⭐
 
-> Claude Fable 5 之所以重要，在于头部通用模型的每次代际跃迁都会迅速重写编程、客服与内容生产的能力基线。开发者应立即用自家真实任务做回归测试，重点验证成本、延迟、工具调用稳定性与安全边界。
+> Anthropic 首发 Mythos 级 Claude Fable，意味着前沿大模型竞争进入新的能力与安全边界测试期，足以影响企业选型与生态走向。开发者现在应尽快评估其性能、成本、数据保留条款与合规风险，再决定是否进入生产试点。
 
-  📎 延伸: [The Verge AI](https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos) · [TechCrunch AI](https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/) · [TechCrunch AI](https://techcrunch.com/2026/06/09/anthropics-fable-5-can-make-weirdly-fun-video-games-with-the-click-of-a-button/)
 
 ---
 
 ### 🔥 热点速览
 
-**1. [openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
+**1. [Access OpenAI models and Codex through your Oracle cloud commitment](https://openai.com/index/openai-on-oracle-cloud)** · `OpenAI Blog`
 
-终端原生 coding agent 正在成为开发工作流新入口，值得尽早上手。
+模型采购正加速云渠道化，直接影响企业预算与部署路径。
 
-**2. [Microsoft's open source tools were hacked to steal passwords of AI developers](https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/)** · `HackerNews`
+**2. [A €0.01 bank transfer could compromise a banking AI agent](https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/)** · `HackerNews`
 
-AI 开发基础设施也成攻击目标，安全链路已是团队必修课。
+AI 代理已触达金融风控红线，安全设计必须前置。
 
-**3. [German ruling declares Google liable for false answers in AI Overviews](https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/)** · `HackerNews`
+**3. [Deployment-Time Memorization in Foundation-Model Agents](https://arxiv.org/abs/2606.10062)** · `arXiv cs.AI`
 
-AI 错答开始进入法律责任区，产品方需重估风控与免责声明。
+代理在部署后会“记住什么”，将决定可控性与泄露风险。
 
-**4. [From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI](https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/)** · `GitHub Blog`
+**4. [Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents](https://arxiv.org/abs/2606.10209)** · `arXiv cs.AI`
 
-单次 prompt 正在让位给可复用工作流，效率差距会被迅速拉开。
+长任务代理未必靠更长上下文，工程优化可能更关键。
 
-**5. [Can Voice Agents Handle Bilingual Customers? Benchmarking Frontier ASR on Code-Switched Speech](https://huggingface.co/blog/ServiceNow-AI/code-switching)** · `Hugging Face Blog`
+**5. [Give GitHub Copilot CLI real code intelligence with language servers](https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/)** · `GitHub Blog`
 
-双语语音客服是现实刚需，基准能力将直接影响出海体验。
+把语言服务器接入 Copilot CLI，能显著提升终端编码质量。
 
-**6. [WWDC 2026: Everything announced on Siri AI, iOS 27, Apple Intelligence, and more](https://techcrunch.com/2026/06/09/wwdc-2026-everything-announced-on-siri-ai-os-27-apple-intelligence-and-more/)** · `TechCrunch AI`
+**6. [RealMath-Eval: Why SOTA Judges Struggle with Real Human Reasoning](https://arxiv.org/abs/2606.10254)** · `arXiv cs.AI`
 
-苹果生态的 AI 入口变化会影响端侧应用分发与交互设计。
+评测体系若偏离真人推理，团队会被“高分假象”误导。
 
-  📎 延伸: [The Verge AI](https://www.theverge.com/tech/947432/siri-ai-apple-intelligence-ios-27-wwdc) · [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/946780/apples-ai-promises-are-finally-almost-sort-of-here) · [TechCrunch AI](https://techcrunch.com/2026/06/09/hey-siri-heres-what-i-actually-want-from-ai/)
-**7. [Why Limit the Residual Stream to Layers and Not Tokens? Persistent Memory for Continuous Latent Reasoning](https://arxiv.org/abs/2606.07720)** · `arXiv cs.AI`
+**7. [xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims](https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/)** · `TechCrunch AI`
 
-持续潜在推理若成立，可能改写长上下文与记忆机制的实现方式。
+安全吹哨与治理争议，会持续影响模型公司的可信度。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Syll: Open-Source Personal Automation with Cross-Surface Execution](https://arxiv.org/abs/2606.07594)** · `arXiv cs.AI`
+**[mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
 
-开源个人自动化框架覆盖多界面执行，适合探索 AI agent 落地场景。
+一套开源引擎统一跑多模态模型，本地化与可控部署价值很高。
 
-**[pingcap/tidb: TiDB is built for agentic workloads that grow unpredictably, wi...](https://github.com/pingcap/tidb)** · `GitHub Trending`
+**[Apache Burr: Build reliable AI agents and applications](https://burr.apache.org/)** · `HackerNews`
 
-TiDB 面向波动型 agent 负载的数据库能力，值得做生产级评估。
+面向可靠 AI 代理的工程框架，适合关注可观测性与稳定性的团队。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正的 AI 护城河，不是模型会回答多少问题，而是它能否稳定接入你的真实工作流。
+> AI 的上限越来越像模型能力，AI 的下限越来越像你的工程纪律。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Lovable says it has hit $500M in annualized revenue, with 1 million new projects a week](https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/) · `TechCrunch AI`
-- 📊 [If Claude Fable stops helping you, you'll never know](https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html) · `HackerNews`
-- 🔬 [Is Grep All You Need? How Agent Harnesses Reshape Agentic Search](https://arxiv.org/abs/2605.15184) · `HackerNews`
-- 📊 [Google just fired a warning shot in the AI subscription price wars](https://techcrunch.com/2026/06/09/google-just-fired-a-warning-shot-in-the-ai-subscription-price-wars/) · `TechCrunch AI`
-- 🔬 [EEVEE: Towards Test-time Prompt Learning in the Real World for Self-Improving Agents](https://huggingface.co/papers/2606.11182) · `HuggingFace Papers`
-- 🔬 [How Does Reasoning Flow? Tracing Attention-Induced Information Flow for Targeted RL in LLMs](https://huggingface.co/papers/2606.10646) · `HuggingFace Papers`
-- 🔬 [When the Chain of Thought Knows Better: Failure Modes in Multi-Turn Reasoning Models](https://huggingface.co/papers/2606.10740) · `HuggingFace Papers`
-- 🔬 [Dynamic Linear Attention](https://huggingface.co/papers/2606.10650) · `HuggingFace Papers`
-- 📊 [Industrial policy for the Intelligence Age](https://openai.com/index/industrial-policy-for-the-intelligence-age) · `OpenAI Blog`
-- 📊 [Can tech companies learn to love cheaper AI models?](https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/) · `TechCrunch AI`
+- 📊 [Anthropic requires 30 day data retention for Fable and Mythos](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models) · `HackerNews`
+- 📊 [Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable](https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/) · `HackerNews`
+- 🛠️ [AI agent runs amok in Fedora and elsewhere](https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/) · `HackerNews`
+- 🔬 [Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](https://huggingface.co/papers/2606.11926) · `HuggingFace Papers`
+- 🔬 [InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning](https://huggingface.co/papers/2606.12195) · `HuggingFace Papers`
+- 🔬 [World Model Self-Distillation: Training World Models to Solve General Tasks](https://huggingface.co/papers/2606.12072) · `HuggingFace Papers`
+- 📊 [Microsoft restricts Claude Fable for employees over data retention concerns](https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally) · `The Verge AI`
+- 📊 [Jedify raises $24M to help companies arm AI agents with context on their business](https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/) · `TechCrunch AI`
+- 🔬 [Decart’s new world model can simulate hours of photorealistic driving — with some caveats](https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/) · `TechCrunch AI`
+- 🛠️ [farion1231/cc-switch: A cross-platform desktop All-in-One assistant for Claud...](https://github.com/farion1231/cc-switch) · `GitHub Trending`
 
 
 ---
@@ -89,9 +87,9 @@ TiDB 面向波动型 agent 负载的数据库能力，值得做生产级评估�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 53 篇 | 20 篇 | **10 篇** |
+| 11 源 | 135 篇 | 53 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-06-10 11:25 UTC+8*
+*生成于 2026-06-11 11:38 UTC+8*
 
 ## 📚 往期简报
 
