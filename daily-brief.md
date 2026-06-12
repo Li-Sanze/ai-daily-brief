@@ -6,79 +6,79 @@
 
 ---
 
-## 📅 2026-06-11 周四
+## 📅 2026-06-12 周五
 
 ### 📌 今日焦点
 
-**[Anthropic releases its first Mythos-class model Claude Fable](https://www.theverge.com/news/946725/anthropic-releases-claude-fable-5-mythos)** · `The Verge AI` ⭐
+**[Open Reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)** · `HackerNews` ⭐
 
-> Anthropic 首发 Mythos 级 Claude Fable，意味着前沿大模型竞争进入新的能力与安全边界测试期，足以影响企业选型与生态走向。开发者现在应尽快评估其性能、成本、数据保留条款与合规风险，再决定是否进入生产试点。
+> DeepSeek-R1 的开放复现之所以重要，是因为它把高性能推理模型从“只能看论文”推进到“可验证、可迭代、可移植”的工程现实。开发者应尽快关注其训练配方、数据与评测复现细节，评估能否用于自建推理栈、低成本蒸馏或企业私有化部署。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Access OpenAI models and Codex through your Oracle cloud commitment](https://openai.com/index/openai-on-oracle-cloud)** · `OpenAI Blog`
+**1. [Anthropic apologizes for invisible Claude Fable guardrails](https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail)** · `HackerNews`
 
-模型采购正加速云渠道化，直接影响企业预算与部署路径。
+隐形护栏翻车提醒开发者：模型行为边界必须可审计、可告知。
 
-**2. [A €0.01 bank transfer could compromise a banking AI agent](https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/)** · `HackerNews`
+**2. [Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world](https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/)** · `TechCrunch AI`
 
-AI 代理已触达金融风控红线，安全设计必须前置。
+“物理世界 AGI 工程师”获巨资，机器人与工业 AI 融合在加速。
 
-**3. [Deployment-Time Memorization in Foundation-Model Agents](https://arxiv.org/abs/2606.10062)** · `arXiv cs.AI`
+**3. [Google will save your Lens photos, Search Live recordings, and Translate audio for AI training](https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio)** · `The Verge AI`
 
-代理在部署后会“记住什么”，将决定可控性与泄露风险。
+训练数据边界继续外扩，做多模态产品必须重视隐私与合规设计。
 
-**4. [Less Context, Better Agents: Efficient Context Engineering for Long-Horizon Tool-Using LLM Agents](https://arxiv.org/abs/2606.10209)** · `arXiv cs.AI`
+**4. [EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery](https://huggingface.co/papers/2606.13662)** · `HuggingFace Papers`
 
-长任务代理未必靠更长上下文，工程优化可能更关键。
+自主科研代理走向环境工程，提示 Agent 成败不只在模型本身。
 
-**5. [Give GitHub Copilot CLI real code intelligence with language servers](https://github.blog/ai-and-ml/github-copilot/give-github-copilot-cli-real-code-intelligence-with-language-servers/)** · `GitHub Blog`
+**5. [Can AI Agents Synthesize Scientific Conclusions?](https://arxiv.org/abs/2606.11337)** · `arXiv cs.AI`
 
-把语言服务器接入 Copilot CLI，能显著提升终端编码质量。
+如果 Agent 能综合科研结论，研究工作流与知识发现将被重塑。
 
-**6. [RealMath-Eval: Why SOTA Judges Struggle with Real Human Reasoning](https://arxiv.org/abs/2606.10254)** · `arXiv cs.AI`
+**6. [Search Discipline for Long-Horizon Research Agents](https://arxiv.org/abs/2606.11522)** · `arXiv cs.AI`
 
-评测体系若偏离真人推理，团队会被“高分假象”误导。
+长周期研究 Agent 的搜索纪律，直接决定其可靠性与成本上限。
 
-**7. [xAI fired an engineer who raised alarms about Grok safety, new lawsuit claims](https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/)** · `TechCrunch AI`
+**7. [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona)** · `OpenAI Blog`
 
-安全吹哨与治理争议，会持续影响模型公司的可信度。
+OpenAI 并购动向值得盯紧，往往预示下一步产品与平台能力布局。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**[Deezer launches an AI music detector for other streaming services](https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple)** · `The Verge AI`
 
-一套开源引擎统一跑多模态模型，本地化与可控部署价值很高。
+AI 音乐检测正成为内容平台刚需，适合关注生成内容治理基础设施的团队。
 
-**[Apache Burr: Build reliable AI agents and applications](https://burr.apache.org/)** · `HackerNews`
+**[How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes)** · `OpenAI Blog`
 
-面向可靠 AI 代理的工程框架，适合关注可观测性与稳定性的团队。
+用 Codex 辅助黑洞模拟展示了 AI 在科研编程中的高价值落地范式。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的上限越来越像模型能力，AI 的下限越来越像你的工程纪律。
+> AI 的下一道护城河，不只是更强的模型，而是可复现的能力、可审计的边界与可落地的工程。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Anthropic requires 30 day data retention for Fable and Mythos](https://support.claude.com/en/articles/15425996-data-retention-practices-for-mythos-class-models) · `HackerNews`
-- 📊 [Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable](https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/) · `HackerNews`
-- 🛠️ [AI agent runs amok in Fedora and elsewhere](https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/) · `HackerNews`
-- 🔬 [Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](https://huggingface.co/papers/2606.11926) · `HuggingFace Papers`
-- 🔬 [InternVideo3: Agentify Foundation Models with Multimodal Contextual Reasoning](https://huggingface.co/papers/2606.12195) · `HuggingFace Papers`
-- 🔬 [World Model Self-Distillation: Training World Models to Solve General Tasks](https://huggingface.co/papers/2606.12072) · `HuggingFace Papers`
-- 📊 [Microsoft restricts Claude Fable for employees over data retention concerns](https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally) · `The Verge AI`
-- 📊 [Jedify raises $24M to help companies arm AI agents with context on their business](https://techcrunch.com/2026/06/10/jedify-raises-24m-to-help-companies-arm-ai-agents-with-context-on-their-business/) · `TechCrunch AI`
-- 🔬 [Decart’s new world model can simulate hours of photorealistic driving — with some caveats](https://techcrunch.com/2026/06/10/decarts-new-world-model-can-simulate-hours-of-photorealistic-driving-with-some-caveats/) · `TechCrunch AI`
-- 🛠️ [farion1231/cc-switch: A cross-platform desktop All-in-One assistant for Claud...](https://github.com/farion1231/cc-switch) · `GitHub Trending`
+- 🛠️ [Claude Fable 5: mid-tier results on coding tasks](https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype) · `HackerNews`
+- 🛠️ [Claude Fable is relentlessly proactive](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/) · `HackerNews`
+- 🔬 [EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge](https://huggingface.co/papers/2606.13120) · `HuggingFace Papers`
+- 🔬 [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://huggingface.co/papers/2606.13681) · `HuggingFace Papers`
+- 🔬 [Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning](https://huggingface.co/papers/2606.13106) · `HuggingFace Papers`
+- 🔬 [WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation](https://huggingface.co/papers/2606.13672) · `HuggingFace Papers`
+- 📊 [The future of AI regulation is courting the strangest, most anxious bedfellows](https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms) · `The Verge AI`
+- 📊 [Google won’t just admit it’s feeding YouTube creators to its music AI](https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube) · `The Verge AI`
+- 📊 [Theker just raised $85M to build the factory robot that doesn’t specialize in anything](https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/) · `TechCrunch AI`
+- 🔬 [Knowing When to Ask: Self-Gated Clarification for Hierarchical Language Agents](https://arxiv.org/abs/2606.11349) · `arXiv cs.AI`
 
 
 ---
@@ -87,9 +87,9 @@ AI 代理已触达金融风控红线，安全设计必须前置。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 53 篇 | 20 篇 | **10 篇** |
+| 11 源 | 136 篇 | 48 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-06-11 11:38 UTC+8*
+*生成于 2026-06-12 11:37 UTC+8*
 
 ## 📚 往期简报
 
