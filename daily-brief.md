@@ -6,79 +6,75 @@
 
 ---
 
-## 📅 2026-06-12 周五
+## 📅 2026-06-13 周六
 
 ### 📌 今日焦点
 
-**[Open Reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)** · `HackerNews` ⭐
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
 
-> DeepSeek-R1 的开放复现之所以重要，是因为它把高性能推理模型从“只能看论文”推进到“可验证、可迭代、可移植”的工程现实。开发者应尽快关注其训练配方、数据与评测复现细节，评估能否用于自建推理栈、低成本蒸馏或企业私有化部署。
+> Codex 以轻量终端代理形态切入开发工作流，说明 AI 编程正从聊天窗口走向可组合、可脚本化、可审计的工程接口，这对全球开发者都有直接影响。建议尽快在本地仓库和 CI 辅助场景试用，重点评估权限边界、任务拆解质量与团队集成成本。 
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Anthropic apologizes for invisible Claude Fable guardrails](https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail)** · `HackerNews`
+**1. [How to setup a local coding agent on macOS](https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos)** · `HackerNews`
 
-隐形护栏翻车提醒开发者：模型行为边界必须可审计、可告知。
+本地 coding agent 搭建门槛在下降，个人开发环境将更快进入代理时代。
 
-**2. [Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world](https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/)** · `TechCrunch AI`
+**2. [How we made GitHub Copilot CLI more selective about delegation](https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/)** · `GitHub Blog`
 
-“物理世界 AGI 工程师”获巨资，机器人与工业 AI 融合在加速。
+代理何时该自己做、何时该委派，是提升 Copilot CLI 可控性的关键。
 
-**3. [Google will save your Lens photos, Search Live recordings, and Translate audio for AI training](https://www.theverge.com/tech/947836/google-search-privacy-settings-images-audio)** · `The Verge AI`
+**3. [Arbor: Tree Search as a Cognition Layer for Autonomous Agents](https://arxiv.org/abs/2606.12563)** · `arXiv cs.AI`
 
-训练数据边界继续外扩，做多模态产品必须重视隐私与合规设计。
+Tree Search 给智能体加“思考层”，值得关注复杂任务成功率能否提升。
 
-**4. [EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery](https://huggingface.co/papers/2606.13662)** · `HuggingFace Papers`
+**4. [Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents](https://arxiv.org/abs/2606.12674)** · `arXiv cs.AI`
 
-自主科研代理走向环境工程，提示 Agent 成败不只在模型本身。
+让小模型在推理时进化工具工作流，可能改写低成本 agent 设计。
 
-**5. [Can AI Agents Synthesize Scientific Conclusions?](https://arxiv.org/abs/2606.11337)** · `arXiv cs.AI`
+**5. [Deployment-Centered Evaluation: Predicting Query-Level Rejection Risk in a Clinical LLM System](https://arxiv.org/abs/2606.12702)** · `arXiv cs.AI`
 
-如果 Agent 能综合科研结论，研究工作流与知识发现将被重塑。
+临床 LLM 的拒答风险预测，提示高风险行业必须先做可部署评测。
 
-**6. [Search Discipline for Long-Horizon Research Agents](https://arxiv.org/abs/2606.11522)** · `arXiv cs.AI`
+**6. [Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/)** · `TechCrunch AI`
 
-长周期研究 Agent 的搜索纪律，直接决定其可靠性与成本上限。
+安全叙事反噬成政策后果，开发者需关注模型可用性的合规变量。
 
-**7. [OpenAI to acquire Ona](https://openai.com/index/openai-to-acquire-ona)** · `OpenAI Blog`
+**7. [Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google](https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/)** · `TechCrunch AI`
 
-OpenAI 并购动向值得盯紧，往往预示下一步产品与平台能力布局。
+AI 被大规模用于诈骗，意味着风控、溯源与内容验证将成刚需。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Deezer launches an AI music detector for other streaming services](https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple)** · `The Verge AI`
+**[Making secret scanning more trustworthy: Reducing false positives at scale](https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/)** · `GitHub Blog`
 
-AI 音乐检测正成为内容平台刚需，适合关注生成内容治理基础设施的团队。
-
-**[How an astrophysicist uses Codex to help simulate black holes](https://openai.com/index/using-codex-to-simulate-black-holes)** · `OpenAI Blog`
-
-用 Codex 辅助黑洞模拟展示了 AI 在科研编程中的高价值落地范式。
+秘密扫描降误报直接提升开发者信任度，适合关注安全左移的团队。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的下一道护城河，不只是更强的模型，而是可复现的能力、可审计的边界与可落地的工程。
+> 真正改变软件工程的，不是会写代码的模型，而是能安全进入工作流的代理。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Claude Fable 5: mid-tier results on coding tasks](https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype) · `HackerNews`
-- 🛠️ [Claude Fable is relentlessly proactive](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/) · `HackerNews`
-- 🔬 [EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge](https://huggingface.co/papers/2606.13120) · `HuggingFace Papers`
-- 🔬 [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://huggingface.co/papers/2606.13681) · `HuggingFace Papers`
-- 🔬 [Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning](https://huggingface.co/papers/2606.13106) · `HuggingFace Papers`
-- 🔬 [WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation](https://huggingface.co/papers/2606.13672) · `HuggingFace Papers`
-- 📊 [The future of AI regulation is courting the strangest, most anxious bedfellows](https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms) · `The Verge AI`
-- 📊 [Google won’t just admit it’s feeding YouTube creators to its music AI](https://www.theverge.com/tech/947770/google-lyria-music-ai-lawsuit-youtube) · `The Verge AI`
-- 📊 [Theker just raised $85M to build the factory robot that doesn’t specialize in anything](https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/) · `TechCrunch AI`
-- 🔬 [Knowing When to Ask: Self-Gated Clarification for Hierarchical Language Agents](https://arxiv.org/abs/2606.11349) · `arXiv cs.AI`
+- 💡 [Slightly reducing the sloppiness of AI generated front end](https://envs.net/~volpe/blog/posts/reduce-slop.html) · `HackerNews`
+- 📊 [We've suspended access to Claude Mythos 5 and Claude Fable 5](https://status.claude.com/incidents/s9w82lp9dcn9) · `HackerNews`
+- 📊 [Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’](https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer) · `The Verge AI`
+- 📊 [Mistral is rumored to be raising €3B at €20B valuation](https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/) · `TechCrunch AI`
+- 📊 ["Don't You Just Upload It to ChatGPT?"](https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/) · `HackerNews`
+- 📊 [Open Source AI Must Win](https://opensourceaimustwin.com/?share=v2) · `HackerNews`
+- 📊 [Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it](https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/) · `TechCrunch AI`
+- 🚀 [Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale](https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/) · `TechCrunch AI`
+- 🔬 [ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs](https://arxiv.org/abs/2606.12451) · `arXiv cs.AI`
+- 🔬 [Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation](https://arxiv.org/abs/2606.12594) · `arXiv cs.AI`
 
 
 ---
@@ -87,9 +83,9 @@ AI 音乐检测正成为内容平台刚需，适合关注生成内容治理基�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 48 篇 | 20 篇 | **10 篇** |
+| 11 源 | 136 篇 | 42 篇 | 20 篇 | **9 篇** |
 
-*生成于 2026-06-12 11:37 UTC+8*
+*生成于 2026-06-13 11:25 UTC+8*
 
 ## 📚 往期简报
 
