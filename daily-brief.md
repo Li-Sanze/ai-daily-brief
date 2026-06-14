@@ -6,75 +6,73 @@
 
 ---
 
-## 📅 2026-06-13 周六
+## 📅 2026-06-14 周日
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
+**[Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models](https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink)** · `HackerNews` ⭐
 
-> Codex 以轻量终端代理形态切入开发工作流，说明 AI 编程正从聊天窗口走向可组合、可脚本化、可审计的工程接口，这对全球开发者都有直接影响。建议尽快在本地仓库和 CI 辅助场景试用，重点评估权限边界、任务拆解质量与团队集成成本。 
+> 这条新闻重要在于，它把前沿模型可用性与地缘政治、监管博弈和云厂商影响力直接绑定，开发者对单一模型供应的依赖风险正在被放大。建议团队立即准备多模型与多供应商降级方案，补齐合规审计、地区可用性监控和关键能力替代预案。
 
+  📎 延伸: [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban) · [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security) · [TechCrunch AI](https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/)
 
 ---
 
 ### 🔥 热点速览
 
-**1. [How to setup a local coding agent on macOS](https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos)** · `HackerNews`
+**1. [OpenAI faces investigation from state attorneys general](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/)** · `TechCrunch AI`
 
-本地 coding agent 搭建门槛在下降，个人开发环境将更快进入代理时代。
+头部模型公司遭多州调查，合规、数据治理与商业化边界会更快收紧。
 
-**2. [How we made GitHub Copilot CLI more selective about delegation](https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/)** · `GitHub Blog`
+**2. [Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand](https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/)** · `TechCrunch AI`
 
-代理何时该自己做、何时该委派，是提升 Copilot CLI 可控性的关键。
+跨境 AI 投资受政策反转影响，出海合作与资本路径都需预留变数。
 
-**3. [Arbor: Tree Search as a Cognition Layer for Autonomous Agents](https://arxiv.org/abs/2606.12563)** · `arXiv cs.AI`
+**3. [AI OSS tool repo goes archived over night after raising $7.3M Seed](https://github.com/tensorzero/tensorzero)** · `HackerNews`
 
-Tree Search 给智能体加“思考层”，值得关注复杂任务成功率能否提升。
+开源项目融资后突归档，提醒团队评估依赖项目的治理与Bus Factor。
 
-**4. [Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents](https://arxiv.org/abs/2606.12674)** · `arXiv cs.AI`
+**4. [KPMG pulls report on AI usage due to apparent hallucinations](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/)** · `TechCrunch AI`
 
-让小模型在推理时进化工具工作流，可能改写低成本 agent 设计。
+连审计机构都被幻觉击穿，企业级 AI 上线前必须加入事实核验链路。
 
-**5. [Deployment-Centered Evaluation: Predicting Query-Level Rejection Risk in a Clinical LLM System](https://arxiv.org/abs/2606.12702)** · `arXiv cs.AI`
+**5. [Police officer investigated for using AI to 'create evidence' in multiple cases](https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661)** · `HackerNews`
 
-临床 LLM 的拒答风险预测，提示高风险行业必须先做可部署评测。
+AI 伪造证据进入执法场景，开发者应重视溯源、水印与防篡改设计。
 
-**6. [Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI](https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/)** · `TechCrunch AI`
+**6. [As Anthropic suspends access to new models, India debates its AI future](https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/)** · `TechCrunch AI`
 
-安全叙事反噬成政策后果，开发者需关注模型可用性的合规变量。
-
-**7. [Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google](https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/)** · `TechCrunch AI`
-
-AI 被大规模用于诈骗，意味着风控、溯源与内容验证将成刚需。
+模型访问收紧外溢到国家层面，全球团队需重新评估区域部署与采购策略。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Making secret scanning more trustworthy: Reducing false positives at scale](https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/)** · `GitHub Blog`
+**[TauricResearch/TradingAgents: TradingAgents: Multi-Agents LLM Financial Tradi...](https://github.com/TauricResearch/TradingAgents)** · `GitHub Trending`
 
-秘密扫描降误报直接提升开发者信任度，适合关注安全左移的团队。
+多智能体量化交易框架，适合研究 Agent 协作、评估与金融场景原型。
+
+**[juanfont/headscale: An open source, self-hosted implementation of the Tailsca...](https://github.com/juanfont/headscale)** · `GitHub Trending`
+
+成熟的自托管 Tailscale 控制面替代，适合搭建安全、可控的开发网络。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正改变软件工程的，不是会写代码的模型，而是能安全进入工作流的代理。
+> 当模型能力成为变量时，真正稳定的竞争力是你的系统韧性，而不是某个 API Key。
 
 ---
 
 ### 📎 延伸阅读
 
-- 💡 [Slightly reducing the sloppiness of AI generated front end](https://envs.net/~volpe/blog/posts/reduce-slop.html) · `HackerNews`
-- 📊 [We've suspended access to Claude Mythos 5 and Claude Fable 5](https://status.claude.com/incidents/s9w82lp9dcn9) · `HackerNews`
-- 📊 [Jeff Bezos’ AI startup aims to build an ‘artificial general engineer’](https://www.theverge.com/ai-artificial-intelligence/949005/jeff-bezos-prometheus-artificial-general-engineer) · `The Verge AI`
-- 📊 [Mistral is rumored to be raising €3B at €20B valuation](https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/) · `TechCrunch AI`
-- 📊 ["Don't You Just Upload It to ChatGPT?"](https://correresmidestino.com/dont-you-just-upload-it-to-chatgpt/) · `HackerNews`
-- 📊 [Open Source AI Must Win](https://opensourceaimustwin.com/?share=v2) · `HackerNews`
-- 📊 [Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it](https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/) · `TechCrunch AI`
-- 🚀 [Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale](https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/) · `TechCrunch AI`
-- 🔬 [ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs](https://arxiv.org/abs/2606.12451) · `arXiv cs.AI`
-- 🔬 [Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation](https://arxiv.org/abs/2606.12594) · `arXiv cs.AI`
+- 💡 [AI coding at home without going broke](https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/) · `HackerNews`
+- 🛠️ [Show HN: Paca – Lightweight Jira alternative for human-AI collaboration](https://github.com/Paca-AI/paca) · `HackerNews`
+- 🚀 [Apple’s new AI photo editing tools mostly work, for better and worse](https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on) · `The Verge AI`
+- 🚀 [Siri is good now??](https://www.theverge.com/podcast/949079/siri-ai-good-vergecast) · `The Verge AI`
+- 💡 [My yard is dying, so I made an app for that](https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing) · `The Verge AI`
+- 📊 [The future of Hollywood isn’t feeding prompts into vanilla gen AI models](https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai) · `The Verge AI`
+- 📊 [SpaceX IPO: Live updates on everything you need to know](https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/) · `TechCrunch AI`
 
 
 ---
@@ -83,9 +81,9 @@ AI 被大规模用于诈骗，意味着风控、溯源与内容验证将成刚�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 42 篇 | 20 篇 | **9 篇** |
+| 10 源 | 126 篇 | 21 篇 | 16 篇 | **9 篇** |
 
-*生成于 2026-06-13 11:25 UTC+8*
+*生成于 2026-06-14 11:40 UTC+8*
 
 ## 📚 往期简报
 
