@@ -6,73 +6,66 @@
 
 ---
 
-## 📅 2026-06-14 周日
+## 📅 2026-06-15 周一
 
 ### 📌 今日焦点
 
-**[Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models](https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink)** · `HackerNews` ⭐
+**[milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-> 这条新闻重要在于，它把前沿模型可用性与地缘政治、监管博弈和云厂商影响力直接绑定，开发者对单一模型供应的依赖风险正在被放大。建议团队立即准备多模型与多供应商降级方案，补齐合规审计、地区可用性监控和关键能力替代预案。
+> Milvus 持续走热，说明向量数据库已从概念配套走向 AI 检索与 RAG 系统的核心基础设施。开发者应尽快评估其在召回质量、扩展性与运维成本上的表现，避免把向量存储当成可随意替换的组件。
 
-  📎 延伸: [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban) · [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/949553/anthropic-fable-5-mythos-5-government-national-security) · [TechCrunch AI](https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/)
 
 ---
 
 ### 🔥 热点速览
 
-**1. [OpenAI faces investigation from state attorneys general](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/)** · `TechCrunch AI`
+**1. [Amazon security research reportedly led to the White House’s Anthropic Fable ban](https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban)** · `The Verge AI`
 
-头部模型公司遭多州调查，合规、数据治理与商业化边界会更快收紧。
+模型安全已能直接影响政府采购，企业做 AI 需把合规前置。
 
-**2. [Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand](https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/)** · `TechCrunch AI`
+**2. [Amazon CEO reportedly raised Anthropic model concerns before government crackdown](https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/)** · `TechCrunch AI`
 
-跨境 AI 投资受政策反转影响，出海合作与资本路径都需预留变数。
+大厂高层介入模型风险，预示 AI 竞争正转向安全与政策博弈。
 
-**3. [AI OSS tool repo goes archived over night after raising $7.3M Seed](https://github.com/tensorzero/tensorzero)** · `HackerNews`
+**3. [China may have accessed Mythos](https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos)** · `The Verge AI`
 
-开源项目融资后突归档，提醒团队评估依赖项目的治理与Bus Factor。
+地缘风险正渗入模型供应链，开发者要关注数据与访问边界。
 
-**4. [KPMG pulls report on AI usage due to apparent hallucinations](https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/)** · `TechCrunch AI`
+**4. [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network)** · `OpenAI Blog`
 
-连审计机构都被幻觉击穿，企业级 AI 上线前必须加入事实核验链路。
+生态合作网络会重塑集成机会，独立开发者可借势切入企业市场。
 
-**5. [Police officer investigated for using AI to 'create evidence' in multiple cases](https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661)** · `HackerNews`
+**5. [As AI companies race to go public, who else is along for the ride?](https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/)** · `TechCrunch AI`
 
-AI 伪造证据进入执法场景，开发者应重视溯源、水印与防篡改设计。
+AI 上市潮不只影响资本，也会改变开源、采购与人才流向。
 
-**6. [As Anthropic suspends access to new models, India debates its AI future](https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/)** · `TechCrunch AI`
+**6. [Not everyone is using AI for everything](https://gabrielweinberg.com/p/people-are-consuming-ai-like-they)** · `HackerNews`
 
-模型访问收紧外溢到国家层面，全球团队需重新评估区域部署与采购策略。
+别把 AI 采用率想当然，真实需求验证比追逐风口更重要。
+
+**7. [AI is code – and can't be prompted into being smarter](https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141)** · `HackerNews`
+
+提示词不是魔法，系统能力上限最终仍由模型与工程决定。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[TauricResearch/TradingAgents: TradingAgents: Multi-Agents LLM Financial Tradi...](https://github.com/TauricResearch/TradingAgents)** · `GitHub Trending`
+**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
 
-多智能体量化交易框架，适合研究 Agent 协作、评估与金融场景原型。
-
-**[juanfont/headscale: An open source, self-hosted implementation of the Tailsca...](https://github.com/juanfont/headscale)** · `GitHub Trending`
-
-成熟的自托管 Tailscale 控制面替代，适合搭建安全、可控的开发网络。
+Gitea 适合搭建轻量自托管开发平台，兼顾代码托管、协作与可控性。
 
 ---
 
 ### 💡 今日洞察
 
-> 当模型能力成为变量时，真正稳定的竞争力是你的系统韧性，而不是某个 API Key。
+> AI 的价值，不在于把一切都变成提示词，而在于把真正关键的流程变成可验证的系统。
 
 ---
 
 ### 📎 延伸阅读
 
-- 💡 [AI coding at home without going broke](https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/) · `HackerNews`
-- 🛠️ [Show HN: Paca – Lightweight Jira alternative for human-AI collaboration](https://github.com/Paca-AI/paca) · `HackerNews`
-- 🚀 [Apple’s new AI photo editing tools mostly work, for better and worse](https://www.theverge.com/tech/949360/apple-ai-photo-edit-reframe-extend-clean-up-hands-on) · `The Verge AI`
-- 🚀 [Siri is good now??](https://www.theverge.com/podcast/949079/siri-ai-good-vergecast) · `The Verge AI`
-- 💡 [My yard is dying, so I made an app for that](https://www.theverge.com/ai-artificial-intelligence/942119/vibecoding-backyard-app-gardening-organizing) · `The Verge AI`
-- 📊 [The future of Hollywood isn’t feeding prompts into vanilla gen AI models](https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai) · `The Verge AI`
-- 📊 [SpaceX IPO: Live updates on everything you need to know](https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/) · `TechCrunch AI`
+- 📊 [Rio de Janeiro's "homegrown" LLM appears to be a merge of an existing model](https://github.com/nex-agi/Nex-N2/issues/4) · `HackerNews`
 
 
 ---
@@ -81,9 +74,9 @@ AI 伪造证据进入执法场景，开发者应重视溯源、水印与防篡�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 126 篇 | 21 篇 | 16 篇 | **9 篇** |
+| 10 源 | 127 篇 | 10 篇 | 10 篇 | **9 篇** |
 
-*生成于 2026-06-14 11:40 UTC+8*
+*生成于 2026-06-15 11:55 UTC+8*
 
 ## 📚 往期简报
 
