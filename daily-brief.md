@@ -6,66 +6,43 @@
 
 ---
 
-## 📅 2026-06-15 周一
+## 📅 2026-06-16 周二
 
 ### 📌 今日焦点
 
-**[milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
+**[mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
 
-> Milvus 持续走热，说明向量数据库已从概念配套走向 AI 检索与 RAG 系统的核心基础设施。开发者应尽快评估其在召回质量、扩展性与运维成本上的表现，避免把向量存储当成可随意替换的组件。
+> mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any har
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Amazon security research reportedly led to the White House’s Anthropic Fable ban](https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban)** · `The Verge AI`
+**1. [Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?](https://news.ycombinator.com/item?id=48542100)** · `HackerNews`
 
-模型安全已能直接影响政府采购，企业做 AI 需把合规前置。
+**2. [TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)](https://tinywind.io)** · `HackerNews`
 
-**2. [Amazon CEO reportedly raised Anthropic model concerns before government crackdown](https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/)** · `TechCrunch AI`
+**3. [My Homelab AI Dev Platform](https://rsgm.dev/post/ai-dev-platform/)** · `HackerNews`
 
-大厂高层介入模型风险，预示 AI 竞争正转向安全与政策博弈。
+**4. [Claude Corps](https://www.anthropic.com/news/claude-corps)** · `HackerNews`
 
-**3. [China may have accessed Mythos](https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos)** · `The Verge AI`
-
-地缘风险正渗入模型供应链，开发者要关注数据与访问边界。
-
-**4. [Introducing the OpenAI Partner Network](https://openai.com/index/introducing-openai-partner-network)** · `OpenAI Blog`
-
-生态合作网络会重塑集成机会，独立开发者可借势切入企业市场。
-
-**5. [As AI companies race to go public, who else is along for the ride?](https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/)** · `TechCrunch AI`
-
-AI 上市潮不只影响资本，也会改变开源、采购与人才流向。
-
-**6. [Not everyone is using AI for everything](https://gabrielweinberg.com/p/people-are-consuming-ai-like-they)** · `HackerNews`
-
-别把 AI 采用率想当然，真实需求验证比追逐风口更重要。
-
-**7. [AI is code – and can't be prompted into being smarter](https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141)** · `HackerNews`
-
-提示词不是魔法，系统能力上限最终仍由模型与工程决定。
-
----
-
-### 🛠️ 今日工具
-
-**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
-
-Gitea 适合搭建轻量自托管开发平台，兼顾代码托管、协作与可控性。
-
----
-
-### 💡 今日洞察
-
-> AI 的价值，不在于把一切都变成提示词，而在于把真正关键的流程变成可验证的系统。
+**5. [Why I email complete strangers](https://www.goodinternetmagazine.com/why-i-email-complete-strangers/)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Rio de Janeiro's "homegrown" LLM appears to be a merge of an existing model](https://github.com/nex-agi/Nex-N2/issues/4) · `HackerNews`
+- 🛠️ [OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation](https://huggingface.co/papers/2606.16838) · `HuggingFace Papers`
+- 🛠️ [BadWorld: Adversarial Attacks on World Models](https://huggingface.co/papers/2606.16519) · `HuggingFace Papers`
+- 🛠️ [VisualClaw: A Real-Time, Personalized Agent for the Physical World](https://huggingface.co/papers/2606.16295) · `HuggingFace Papers`
+- 🛠️ [BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering](https://huggingface.co/papers/2606.17049) · `HuggingFace Papers`
+- 🛠️ [DreamX-World 1.0: A General-Purpose Interactive World Model](https://huggingface.co/papers/2606.16993) · `HuggingFace Papers`
+- 🛠️ [We’re strengthening our presence in Alabama through new investments and community support.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/) · `Google AI Blog`
+- 🛠️ [GitHub Copilot CLI for Beginners: Overview of common slash commands](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/) · `GitHub Blog`
+- 🛠️ [Accelerating researchers and developers building multilingual AI with a new open dataset](https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/) · `GitHub Blog`
+- 🛠️ [Inside the fight over Claude Mythos 5](https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls) · `The Verge AI`
+- 🛠️ [Facebook’s new AI Mode search gets its info from public posts](https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook) · `The Verge AI`
 
 
 ---
@@ -74,9 +51,9 @@ Gitea 适合搭建轻量自托管开发平台，兼顾代码托管、协作与�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 127 篇 | 10 篇 | 10 篇 | **9 篇** |
+| 11 源 | 135 篇 | 44 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-15 11:55 UTC+8*
+*生成于 2026-06-16 11:43 UTC+8*
 
 ## 📚 往期简报
 
