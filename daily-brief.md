@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-06-16 周二
+## 📅 2026-06-17 周三
 
 ### 📌 今日焦点
 
-**[mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
 
-> mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any har
+> openai/codex: Lightweight coding agent that runs in your terminal
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?](https://news.ycombinator.com/item?id=48542100)** · `HackerNews`
+**1. [I admire Fabrice Bellard. He is almost certainly a better overall programmer](https://twitter.com/ID_AA_Carmack/status/2064095424420487226)** · `HackerNews`
 
-**2. [TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)](https://tinywind.io)** · `HackerNews`
+**2. [Apple is about to make Hide My Email useless](https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/)** · `HackerNews`
 
-**3. [My Homelab AI Dev Platform](https://rsgm.dev/post/ai-dev-platform/)** · `HackerNews`
+**3. [Has AI already killed self-help nonfiction books?](https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/)** · `HackerNews`
 
-**4. [Claude Corps](https://www.anthropic.com/news/claude-corps)** · `HackerNews`
+**4. [GPT‑NL: a sovereign language model for the Netherlands](https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/)** · `HackerNews`
 
-**5. [Why I email complete strangers](https://www.goodinternetmagazine.com/why-i-email-complete-strangers/)** · `HackerNews`
+**5. [Humiliating IIS servers for fun and jail time](https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation](https://huggingface.co/papers/2606.16838) · `HuggingFace Papers`
-- 🛠️ [BadWorld: Adversarial Attacks on World Models](https://huggingface.co/papers/2606.16519) · `HuggingFace Papers`
-- 🛠️ [VisualClaw: A Real-Time, Personalized Agent for the Physical World](https://huggingface.co/papers/2606.16295) · `HuggingFace Papers`
-- 🛠️ [BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering](https://huggingface.co/papers/2606.17049) · `HuggingFace Papers`
-- 🛠️ [DreamX-World 1.0: A General-Purpose Interactive World Model](https://huggingface.co/papers/2606.16993) · `HuggingFace Papers`
-- 🛠️ [We’re strengthening our presence in Alabama through new investments and community support.](https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/alabama-investment-june-2026/) · `Google AI Blog`
-- 🛠️ [GitHub Copilot CLI for Beginners: Overview of common slash commands](https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/) · `GitHub Blog`
-- 🛠️ [Accelerating researchers and developers building multilingual AI with a new open dataset](https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/) · `GitHub Blog`
-- 🛠️ [Inside the fight over Claude Mythos 5](https://www.theverge.com/ai-artificial-intelligence/950412/anthropic-trump-adminstration-claude-mythos-fable-5-export-controls) · `The Verge AI`
-- 🛠️ [Facebook’s new AI Mode search gets its info from public posts](https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook) · `The Verge AI`
+- 🛠️ [Predicting model behavior before release by simulating deployment](https://openai.com/index/deployment-simulation) · `OpenAI Blog`
+- 🛠️ [Apple 2027 rumors: AirPods with cameras for AI and the second folding iPhone](https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor) · `The Verge AI`
+- 🛠️ [Qualcomm’s latest chip hints that more powerful smart glasses could be on the way](https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables) · `The Verge AI`
+- 🛠️ [SpaceX is officially buying Cursor for $60 billion](https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion) · `The Verge AI`
+- 🛠️ [Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests](https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/) · `TechCrunch AI`
+- 🛠️ [SpaceX valuation balloons to $2.6T, briefly passes Amazon](https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/) · `TechCrunch AI`
+- 🛠️ [Android 17 launches with new multitasking tools as Google expands Gemini features](https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/) · `TechCrunch AI`
+- 🛠️ [Sixty percent of US consumers say ‘AI’ in brand messaging is a turnoff, survey finds](https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/) · `TechCrunch AI`
+- 🛠️ [SpaceX is public: Everything you need to know post-IPO](https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/) · `TechCrunch AI`
+- 🛠️ [A Definition of Good Explanations and the Challenges Explaining LLM Outputs](https://arxiv.org/abs/2606.14838) · `arXiv cs.AI`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 44 篇 | 20 篇 | **6 篇** |
+| 9 源 | 117 篇 | 31 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-16 11:43 UTC+8*
+*生成于 2026-06-17 11:43 UTC+8*
 
 ## 📚 往期简报
 
