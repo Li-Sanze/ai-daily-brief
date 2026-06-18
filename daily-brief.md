@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-06-17 周三
+## 📅 2026-06-18 周四
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-> openai/codex: Lightweight coding agent that runs in your terminal
+> milvus-io/milvus: Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [I admire Fabrice Bellard. He is almost certainly a better overall programmer](https://twitter.com/ID_AA_Carmack/status/2064095424420487226)** · `HackerNews`
+**1. [pingcap/tidb: TiDB is built for agentic workloads that grow unpredictably, wi...](https://github.com/pingcap/tidb)** · `GitHub Trending`
 
-**2. [Apple is about to make Hide My Email useless](https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/)** · `HackerNews`
+**2. [US holds off blacklisting DeepSeek, more than 100 firms deemed security risks](https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/)** · `HackerNews`
 
-**3. [Has AI already killed self-help nonfiction books?](https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/)** · `HackerNews`
+**3. [AI demands more engineering discipline. Not less](https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline)** · `HackerNews`
 
-**4. [GPT‑NL: a sovereign language model for the Netherlands](https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/)** · `HackerNews`
+**4. [The founder's playbook: Building an AI-native startup](https://claude.com/blog/the-founders-playbook)** · `HackerNews`
 
-**5. [Humiliating IIS servers for fun and jail time](https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/)** · `HackerNews`
+**5. [A robot is sprinting towards you. Do you want it running on Claude or Grok?](https://openrouter.ai/blog/insights/royale-last-agent-standing/)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Predicting model behavior before release by simulating deployment](https://openai.com/index/deployment-simulation) · `OpenAI Blog`
-- 🛠️ [Apple 2027 rumors: AirPods with cameras for AI and the second folding iPhone](https://www.theverge.com/tech/950826/apple-airpod-camera-ai-foldable-iphone-rumor) · `The Verge AI`
-- 🛠️ [Qualcomm’s latest chip hints that more powerful smart glasses could be on the way](https://www.theverge.com/gadgets/950229/qualcomm-snapdragon-reality-elite-xr-smart-glasses-wearables) · `The Verge AI`
-- 🛠️ [SpaceX is officially buying Cursor for $60 billion](https://www.theverge.com/ai-artificial-intelligence/950571/spacex-is-officially-buying-cursor-for-60-billion) · `The Verge AI`
-- 🛠️ [Anthropic’s latest feud with the Trump admin may actually help it, sales data suggests](https://techcrunch.com/2026/06/16/anthropics-latest-feud-with-the-trump-admin-may-actually-help-it-sales-data-suggests/) · `TechCrunch AI`
-- 🛠️ [SpaceX valuation balloons to $2.6T, briefly passes Amazon](https://techcrunch.com/2026/06/16/spacex-valuation-balloons-to-2-6t-briefly-passes-amazon/) · `TechCrunch AI`
-- 🛠️ [Android 17 launches with new multitasking tools as Google expands Gemini features](https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/) · `TechCrunch AI`
-- 🛠️ [Sixty percent of US consumers say ‘AI’ in brand messaging is a turnoff, survey finds](https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/) · `TechCrunch AI`
-- 🛠️ [SpaceX is public: Everything you need to know post-IPO](https://techcrunch.com/2026/06/16/spacex-is-public-everything-you-need-to-know-post-ipo/) · `TechCrunch AI`
-- 🛠️ [A Definition of Good Explanations and the Challenges Explaining LLM Outputs](https://arxiv.org/abs/2606.14838) · `arXiv cs.AI`
+- 🛠️ [Launch HN: Adam (YC W25) – Open-Source AI CAD](https://github.com/Adam-CAD/CADAM) · `HackerNews`
+- 🛠️ [Sumi: Open Uniform Diffusion Language Model from Scratch](https://huggingface.co/papers/2606.19005) · `HuggingFace Papers`
+- 🛠️ [Learning User Simulators with Turing Rewards](https://huggingface.co/papers/2606.19336) · `HuggingFace Papers`
+- 🛠️ [Physics-IQ Verified](https://huggingface.co/papers/2606.18943) · `HuggingFace Papers`
+- 🛠️ [Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness](https://huggingface.co/papers/2606.18874) · `HuggingFace Papers`
+- 🛠️ [Introducing LifeSciBench](https://openai.com/index/introducing-life-sci-bench) · `OpenAI Blog`
+- 🛠️ [New research shows how AMIE, our medical AI, could help manage health conditions.](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/) · `Google AI Blog`
+- 🛠️ [From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot](https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware) · `Hugging Face Blog`
+- 🛠️ [Agentic Resource Discovery: Let agents search](https://huggingface.co/blog/agentic-resource-discovery-launch) · `Hugging Face Blog`
+- 🛠️ [Getting more from each token: How Copilot improves context handling and model routing](https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/) · `GitHub Blog`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 9 源 | 117 篇 | 31 篇 | 20 篇 | **6 篇** |
+| 11 源 | 135 篇 | 47 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-17 11:43 UTC+8*
+*生成于 2026-06-18 11:35 UTC+8*
 
 ## 📚 往期简报
 
