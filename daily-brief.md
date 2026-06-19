@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-06-18 周四
+## 📅 2026-06-19 周五
 
 ### 📌 今日焦点
 
-**[milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
+**[seaweedfs/seaweedfs: SeaweedFS is a distributed storage system for object sto...](https://github.com/seaweedfs/seaweedfs)** · `GitHub Trending`
 
-> milvus-io/milvus: Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search
+> seaweedfs/seaweedfs: SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables,
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [pingcap/tidb: TiDB is built for agentic workloads that grow unpredictably, wi...](https://github.com/pingcap/tidb)** · `GitHub Trending`
+**1. [Emacs 31 is around the corner: The changes I'm daily driving](https://www.rahuljuliato.com/posts/emacs-31-around-the-corner)** · `HackerNews`
 
-**2. [US holds off blacklisting DeepSeek, more than 100 firms deemed security risks](https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/)** · `HackerNews`
+**2. [The founder of Craigslist has given away half a billion dollars](https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html)** · `HackerNews`
 
-**3. [AI demands more engineering discipline. Not less](https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline)** · `HackerNews`
+**3. [Noam Shazeer Joins OpenAI](https://twitter.com/NoamShazeer/status/2067400851438932297)** · `HackerNews`
 
-**4. [The founder's playbook: Building an AI-native startup](https://claude.com/blog/the-founders-playbook)** · `HackerNews`
+**4. [Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts](https://gerrymandle.cc/)** · `HackerNews`
 
-**5. [A robot is sprinting towards you. Do you want it running on Claude or Grok?](https://openrouter.ai/blog/insights/royale-last-agent-standing/)** · `HackerNews`
+**5. [Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps](https://tester.army)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Launch HN: Adam (YC W25) – Open-Source AI CAD](https://github.com/Adam-CAD/CADAM) · `HackerNews`
-- 🛠️ [Sumi: Open Uniform Diffusion Language Model from Scratch](https://huggingface.co/papers/2606.19005) · `HuggingFace Papers`
-- 🛠️ [Learning User Simulators with Turing Rewards](https://huggingface.co/papers/2606.19336) · `HuggingFace Papers`
-- 🛠️ [Physics-IQ Verified](https://huggingface.co/papers/2606.18943) · `HuggingFace Papers`
-- 🛠️ [Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness](https://huggingface.co/papers/2606.18874) · `HuggingFace Papers`
-- 🛠️ [Introducing LifeSciBench](https://openai.com/index/introducing-life-sci-bench) · `OpenAI Blog`
-- 🛠️ [New research shows how AMIE, our medical AI, could help manage health conditions.](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/) · `Google AI Blog`
-- 🛠️ [From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot](https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware) · `Hugging Face Blog`
-- 🛠️ [Agentic Resource Discovery: Let agents search](https://huggingface.co/blog/agentic-resource-discovery-launch) · `Hugging Face Blog`
-- 🛠️ [Getting more from each token: How Copilot improves context handling and model routing](https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/) · `GitHub Blog`
+- 🛠️ [S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence](https://huggingface.co/papers/2606.20515) · `HuggingFace Papers`
+- 🛠️ [JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising](https://huggingface.co/papers/2606.20563) · `HuggingFace Papers`
+- 🛠️ [ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://huggingface.co/papers/2606.19980) · `HuggingFace Papers`
+- 🛠️ [Holo-World: Unified Camera, Object and Weather Control for Video World Model](https://huggingface.co/papers/2606.20083) · `HuggingFace Papers`
+- 🛠️ [FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining](https://huggingface.co/papers/2606.20506) · `HuggingFace Papers`
+- 🛠️ [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) · `OpenAI Blog`
+- 🛠️ [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) · `OpenAI Blog`
+- 🛠️ [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases) · `OpenAI Blog`
+- 🛠️ [MosaicLeaks: Can your research agent keep a secret?](https://huggingface.co/blog/ServiceNow/mosaicleaks) · `Hugging Face Blog`
+- 🛠️ [Is it agentic enough? Benchmarking open models on your own tooling](https://huggingface.co/blog/is-it-agentic-enough) · `Hugging Face Blog`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 47 篇 | 20 篇 | **6 篇** |
+| 11 源 | 136 篇 | 44 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-18 11:35 UTC+8*
+*生成于 2026-06-19 11:58 UTC+8*
 
 ## 📚 往期简报
 
