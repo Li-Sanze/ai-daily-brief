@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-06-19 周五
+## 📅 2026-06-20 周六
 
 ### 📌 今日焦点
 
-**[seaweedfs/seaweedfs: SeaweedFS is a distributed storage system for object sto...](https://github.com/seaweedfs/seaweedfs)** · `GitHub Trending`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
 
-> seaweedfs/seaweedfs: SeaweedFS is a distributed storage system for object storage (S3), file systems, and Iceberg tables,
+> openai/codex: Lightweight coding agent that runs in your terminal
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Emacs 31 is around the corner: The changes I'm daily driving](https://www.rahuljuliato.com/posts/emacs-31-around-the-corner)** · `HackerNews`
+**1. [netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-**2. [The founder of Craigslist has given away half a billion dollars](https://www.independent.co.uk/us/money/craigslist-multimillionaire-craig-newmark-b2980681.html)** · `HackerNews`
+**2. [router-for-me/CLIProxyAPI: Wrap Antigravity, ChatGPT Codex, Claude Code, Grok...](https://github.com/router-for-me/CLIProxyAPI)** · `GitHub Trending`
 
-**3. [Noam Shazeer Joins OpenAI](https://twitter.com/NoamShazeer/status/2067400851438932297)** · `HackerNews`
+**3. [wailsapp/wails: Create beautiful applications using Go](https://github.com/wailsapp/wails)** · `GitHub Trending`
 
-**4. [Show HN: Gerrymandle - Daily puzzle game where you redraw electoral districts](https://gerrymandle.cc/)** · `HackerNews`
+**4. [Hyundai buys Boston Dynamics](https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/)** · `HackerNews`
 
-**5. [Launch HN: TesterArmy (YC P26) – Agents that test web and mobile apps](https://tester.army)** · `HackerNews`
+**5. [Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28](https://www.jvm-weekly.com/p/project-valhalla-explained-how-a)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [S-Agent: Spatial Tool-Use Elicits Reasoning for Spatial Intelligence](https://huggingface.co/papers/2606.20515) · `HuggingFace Papers`
-- 🛠️ [JanusMesh: Fast and Zero-Shot 3D Visual Illusion Generation via Cross-Space Denoising](https://huggingface.co/papers/2606.20563) · `HuggingFace Papers`
-- 🛠️ [ENPIRE: Agentic Robot Policy Self-Improvement in the Real World](https://huggingface.co/papers/2606.19980) · `HuggingFace Papers`
-- 🛠️ [Holo-World: Unified Camera, Object and Weather Control for Video World Model](https://huggingface.co/papers/2606.20083) · `HuggingFace Papers`
-- 🛠️ [FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining](https://huggingface.co/papers/2606.20506) · `HuggingFace Papers`
-- 🛠️ [New usage analytics and updated spend controls for enterprises](https://openai.com/index/chatgpt-enterprise-spend-controls) · `OpenAI Blog`
-- 🛠️ [Improving health intelligence in ChatGPT](https://openai.com/index/improving-health-intelligence-in-chatgpt) · `OpenAI Blog`
-- 🛠️ [Using AI to help physicians diagnose rare genetic diseases affecting children](https://openai.com/index/diagnose-rare-childhood-diseases) · `OpenAI Blog`
-- 🛠️ [MosaicLeaks: Can your research agent keep a secret?](https://huggingface.co/blog/ServiceNow/mosaicleaks) · `Hugging Face Blog`
-- 🛠️ [Is it agentic enough? Benchmarking open models on your own tooling](https://huggingface.co/blog/is-it-agentic-enough) · `Hugging Face Blog`
+- 🛠️ [Norway imposes near ban on AI in elementary school](https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/) · `HackerNews`
+- 🛠️ [The AirPods Effect](https://www.theescapenewsletter.com/p/the-airpods-effect) · `HackerNews`
+- 🛠️ [A new bill takes aim at government pressure to silence lawful online speech](https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech) · `HackerNews`
+- 🛠️ [How we built an internal data analytics agent](https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/) · `GitHub Blog`
+- 🛠️ [The film about Sam Altman has been dropped by Amazon MGM](https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped) · `The Verge AI`
+- 🛠️ [Barret Zoph is out at OpenAI again after just five months](https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab) · `The Verge AI`
+- 🛠️ [Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work](https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/) · `TechCrunch AI`
+- 🛠️ [Is the US government’s Anthropic ban accidentally helping the brand?](https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/) · `TechCrunch AI`
+- 🛠️ [The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care](https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/) · `TechCrunch AI`
+- 🛠️ [Billionaire Ambani wants AI in every call, app, and home](https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/) · `TechCrunch AI`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 44 篇 | 20 篇 | **6 篇** |
+| 10 源 | 117 篇 | 33 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-19 11:58 UTC+8*
+*生成于 2026-06-20 10:59 UTC+8*
 
 ## 📚 往期简报
 
