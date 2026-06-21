@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-06-20 周六
+## 📅 2026-06-21 周日
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial i...](https://github.com/ruvnet/RuView)** · `GitHub Trending`
 
-> openai/codex: Lightweight coding agent that runs in your terminal
+> ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, an
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**1. [MHSanaei/3x-ui: Xray panel supporting multi-protocol multi-user expire day & ...](https://github.com/MHSanaei/3x-ui)** · `GitHub Trending`
 
-**2. [router-for-me/CLIProxyAPI: Wrap Antigravity, ChatGPT Codex, Claude Code, Grok...](https://github.com/router-for-me/CLIProxyAPI)** · `GitHub Trending`
+**2. [GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2](https://arrowtsx.dev/bigger-models/)** · `HackerNews`
 
-**3. [wailsapp/wails: Create beautiful applications using Go](https://github.com/wailsapp/wails)** · `GitHub Trending`
+**3. [Temporary Cloudflare accounts for AI agents](https://blog.cloudflare.com/temporary-accounts/)** · `HackerNews`
 
-**4. [Hyundai buys Boston Dynamics](https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/)** · `HackerNews`
+**4. [Loupe – A iOS app that raises awareness about what native apps can see](https://github.com/mysk-research/loupe)** · `HackerNews`
 
-**5. [Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28](https://www.jvm-weekly.com/p/project-valhalla-explained-how-a)** · `HackerNews`
+**5. [Slow breathing modulates brain function and risk behavior](https://www.cell.com/neuron/fulltext/S0896-6273(26)00339-9)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Norway imposes near ban on AI in elementary school](https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/) · `HackerNews`
-- 🛠️ [The AirPods Effect](https://www.theescapenewsletter.com/p/the-airpods-effect) · `HackerNews`
-- 🛠️ [A new bill takes aim at government pressure to silence lawful online speech](https://www.eff.org/deeplinks/2026/06/new-bill-takes-aim-government-pressure-silence-lawful-online-speech) · `HackerNews`
-- 🛠️ [How we built an internal data analytics agent](https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/) · `GitHub Blog`
-- 🛠️ [The film about Sam Altman has been dropped by Amazon MGM](https://www.theverge.com/ai-artificial-intelligence/952906/sam-altman-film-artificial-openai-amazon-mgm-dropped) · `The Verge AI`
-- 🛠️ [Barret Zoph is out at OpenAI again after just five months](https://www.theverge.com/ai-artificial-intelligence/952837/barret-zoph-openai-thinking-machines-lab) · `The Verge AI`
-- 🛠️ [Encryption, spyware, and now Mythos: History shows why cyber export control doesn’t work](https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/) · `TechCrunch AI`
-- 🛠️ [Is the US government’s Anthropic ban accidentally helping the brand?](https://techcrunch.com/video/is-the-us-governments-anthropic-ban-accidentally-helping-the-brand/) · `TechCrunch AI`
-- 🛠️ [The US banned Anthropic’s Fable 5 release, but the numbers don’t seem to care](https://techcrunch.com/podcast/the-us-banned-anthropics-fable-5-release-but-the-numbers-dont-seem-to-care/) · `TechCrunch AI`
-- 🛠️ [Billionaire Ambani wants AI in every call, app, and home](https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/) · `TechCrunch AI`
+- 🛠️ [Show HN: We post-trained a model that pen tests instead of refusing](https://www.argusred.com/cli) · `HackerNews`
+- 🛠️ [The Atlantic created a searchable database of the music used to train AI](https://www.theverge.com/ai-artificial-intelligence/953183/the-atlantic-searchable-database-music-ai-training-data) · `The Verge AI`
+- 🛠️ [Signal’s Meredith Whittaker wants you to remember that AI chatbots ‘are not your friends’](https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/) · `TechCrunch AI`
+- 🛠️ [In the Weights is your new AI-centric vanity search](https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/) · `TechCrunch AI`
+- 🛠️ [Nobel laureate John Jumper is leaving DeepMind for rival Anthropic](https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/) · `TechCrunch AI`
+- 🛠️ [Hidden Anchors in Multi-Agent LLM Deliberation](https://arxiv.org/abs/2606.19494) · `arXiv cs.AI`
+- 🛠️ [DeXposure-Claw: An Agentic System for DeFi Risk Supervision](https://arxiv.org/abs/2606.19501) · `arXiv cs.AI`
+- 🛠️ [LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clin...](https://arxiv.org/abs/2606.19509) · `arXiv cs.AI`
+- 🛠️ [REVEAL++: Differentiable Phenotypic Grouping for Vision-Language Retinal Modeling of Alzheimer's Disease Risk](https://arxiv.org/abs/2606.19522) · `arXiv cs.AI`
+- 🛠️ [Emergent Alignment](https://arxiv.org/abs/2606.19527) · `arXiv cs.AI`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 117 篇 | 33 篇 | 20 篇 | **6 篇** |
+| 10 源 | 118 篇 | 19 篇 | 16 篇 | **6 篇** |
 
-*生成于 2026-06-20 10:59 UTC+8*
+*生成于 2026-06-21 11:50 UTC+8*
 
 ## 📚 往期简报
 
