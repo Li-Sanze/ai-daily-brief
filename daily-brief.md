@@ -6,70 +6,43 @@
 
 ---
 
-## 📅 2026-06-22 周一
+## 📅 2026-06-23 周二
 
 ### 📌 今日焦点
 
-**[Samsung Electronics brings ChatGPT and Codex to employees](https://openai.com/index/samsung-electronics-chatgpt-codex-deployment)** · `OpenAI Blog`
+**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-> 三星将 ChatGPT 和 Codex 引入员工体系，说明生成式 AI 正从试点走向大规模企业协作，开发工具链的组织级落地正在加速。开发者应尽快补齐企业安全、权限隔离与工作流集成能力，避免只停留在个人提效层面。
+> netdata/netdata: The fastest path to AI-powered full stack observability, even for lean teams.
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
+**1. [Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040](https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509)** · `HackerNews`
 
-向量数据库仍是 RAG 基建核心，Milvus 热度反映检索层竞争未结束。
+**2. [The text in Claude Code’s “Extended Thinking” output](https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/)** · `HackerNews`
 
-**2. [Apertus – Open Foundation Model for Sovereign AI](https://apertvs.ai/)** · `HackerNews`
+**3. [Moebius: 0.2B image inpainting model with 10B-level performance](https://hustvl.github.io/Moebius/)** · `HackerNews`
 
-主权 AI 升温，模型可控性与本地部署能力将影响政企采购。
+**4. [Show HN: Oak – Git alternative designed for agents](https://oak.space/oak/oak)** · `HackerNews`
 
-**3. [When the Trump administration cracks down on Anthropic, who benefits?](https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/)** · `TechCrunch AI`
-
-AI 监管博弈会改变模型供给格局，开发者需关注平台风险。
-
-**4. [Identity verification on Claude](https://support.claude.com/en/articles/14328960-identity-verification-on-claude)** · `HackerNews`
-
-模型身份验证收紧，预示高能力 AI 的访问门槛将继续提高。
-
-**5. [Show HN: Recall – fully-local project memory for Claude Code](https://github.com/raiyanyahya/recall)** · `HackerNews`
-
-本地化项目记忆直击 AI 编码痛点，长期上下文正成效率分水岭。
-
-**6. [Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27](https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/)** · `TechCrunch AI`
-
-端侧 AI 体验进入系统级竞争，移动开发者应提前适配新入口。
-
-**7. [Petition against Meta's employee training data collection for ML models](https://mcipetition.com/)** · `HackerNews`
-
-训练数据合规争议持续升温，产品团队需重审数据授权策略。
-
----
-
-### 🛠️ 今日工具
-
-**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
-
-Gitea 仍是轻量自托管协作平台代表，适合搭建可控的开发基础设施。
-
-**[nextlevelbuilder/ui-ux-pro-max-skill: An AI SKILL that provide design intelli...](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** · `GitHub Trending`
-
-面向 UI/UX 的 AI skill 适合前端与设计协作，值得观察其实用性边界。
-
----
-
-### 💡 今日洞察
-
-> AI 不会先取代开发者，但会先取代没有把 AI 接入工作流的开发者。
+**5. [KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking](https://huggingface.co/papers/2606.22807)** · `HuggingFace Papers`
 
 ---
 
 ### 📎 延伸阅读
 
-- 💡 [JSON-LD explained for personal websites](https://hawksley.dev/blog/json-ld-explained-for-personal-websites/) · `HackerNews`
+- 🛠️ [Patch the Planet: a Daybreak initiative to support open source maintainers](https://openai.com/index/patch-the-planet) · `OpenAI Blog`
+- 🛠️ [Daybreak: Tools for securing every organization in the world](https://openai.com/index/daybreak-securing-the-world) · `OpenAI Blog`
+- 🛠️ [Codex-maxxing for long-running work](https://openai.com/index/codex-maxxing-long-running-work) · `OpenAI Blog`
+- 🛠️ [Nvidia says its AI data center design runs hotter to use a lot less water](https://www.theverge.com/tech/954139/nvidia-data-centers-rubin-liquid-cooling) · `The Verge AI`
+- 🛠️ [AI is cursing renters with the promise of impossible homes](https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings) · `The Verge AI`
+- 🛠️ [Read this before you vibe-code another app](https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps) · `The Verge AI`
+- 🛠️ [The running list: major tech layoffs in 2026 where employers cited AI](https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/) · `TechCrunch AI`
+- 🛠️ [OpenAI launches new initiative to help find and patch open-source bugs](https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/) · `TechCrunch AI`
+- 🛠️ [The AI world is getting ‘loopy’](https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/) · `TechCrunch AI`
+- 🛠️ [AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal](https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/) · `TechCrunch AI`
 
 
 ---
@@ -78,9 +51,9 @@ Gitea 仍是轻量自托管协作平台代表，适合搭建可控的开发基�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 9 源 | 107 篇 | 13 篇 | 11 篇 | **10 篇** |
+| 9 源 | 104 篇 | 21 篇 | 17 篇 | **6 篇** |
 
-*生成于 2026-06-22 11:54 UTC+8*
+*生成于 2026-06-23 10:53 UTC+8*
 
 ## 📚 往期简报
 
