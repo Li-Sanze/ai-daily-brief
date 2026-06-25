@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-06-24 周三
+## 📅 2026-06-25 周四
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
 
-> openai/codex: Lightweight coding agent that runs in your terminal
+> infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [AI's Affordability Crisis](https://blog.dshr.org/2026/06/ais-affordability-crisis.html)** · `HackerNews`
+**1. [OpenAI unveils its first custom chip, built by Broadcom](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)** · `HackerNews`
 
-**2. [Don't verify email addresses by sending spam to them](https://milek7.pl/mailverifyspam/)** · `HackerNews`
+**2. [RubyLLM: A Ruby framework for all major AI providers](https://rubyllm.com/)** · `HackerNews`
 
-**3. [Trains halted across Germany because of communication system problem](https://apnews.com/article/germany-trains-halted-communications-radio-problem-deutsche-bahn-e8fd970b2d889f3ae7ce03322d5c726b)** · `HackerNews`
+**3. [PR spam today looks like email spam in the early 2000s](https://www.greptile.com/blog/prs-on-openclaw)** · `HackerNews`
 
-**4. [The Low-Tech AI of Elden Ring](https://nega.tv/posts/low-tech-ai-of-elden-ring.html)** · `HackerNews`
+**4. [Computer use in Gemini 3.5 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/)** · `HackerNews`
 
-**5. [Apple is going to raise device prices, but when?](https://daringfireball.net/linked/2026/06/22/apple-device-prices-when)** · `HackerNews`
+**5. [Anthropic says Alibaba illicitly extracted Claude AI model capabilities](https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [DREAM: Dense Retrieval Embeddings via Autoregressive Modeling](https://huggingface.co/papers/2606.24667) · `HuggingFace Papers`
-- 🛠️ [ReMMD: Realistic Multilingual Multi-Image Agentic Verification for Multimodal Misinformation Detection](https://huggingface.co/papers/2606.24112) · `HuggingFace Papers`
-- 🛠️ [Holistic Data Scheduler for LLM Pre-training via Multi-Objective Reinforcement Learning](https://huggingface.co/papers/2606.24133) · `HuggingFace Papers`
-- 🛠️ [Are Text-to-Image Models Inductivist Turkeys? A Counterfactual Benchmark for Causal Reasoning](https://huggingface.co/papers/2606.24548) · `HuggingFace Papers`
-- 🛠️ [World Value Models for Robotic Manipulation](https://huggingface.co/papers/2606.24742) · `HuggingFace Papers`
-- 🛠️ [Helping build shared standards for advanced AI](https://openai.com/index/helping-build-shared-standards-for-advanced-ai) · `OpenAI Blog`
-- 🛠️ [How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery](https://openai.com/index/gpt-5-immunology-mystery) · `OpenAI Blog`
-- 🛠️ [How Omio is building the future of conversational travel](https://openai.com/index/omio) · `OpenAI Blog`
-- 🛠️ [Build real agentic apps using CUGA: two dozen working examples on a lightweight harness](https://huggingface.co/blog/ibm-research/cuga-apps) · `Hugging Face Blog`
-- 🛠️ [Shipping huggingface_hub every week with AI, open tools, and a human in the loop](https://huggingface.co/blog/huggingface-hub-release-ci) · `Hugging Face Blog`
+- 🛠️ [Autodata: An agentic data scientist to create high quality synthetic data](https://huggingface.co/papers/2606.25996) · `HuggingFace Papers`
+- 🛠️ [DomainShuttle: Freeform Open Domain Subject-driven Text-to-video Generation](https://huggingface.co/papers/2606.26058) · `HuggingFace Papers`
+- 🛠️ [Improved Large Language Diffusion Models](https://huggingface.co/papers/2606.25331) · `HuggingFace Papers`
+- 🛠️ [Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Strea...](https://huggingface.co/papers/2606.25473) · `HuggingFace Papers`
+- 🛠️ [OpenAI and Broadcom unveil LLM-optimized inference chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip) · `OpenAI Blog`
+- 🛠️ [Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel](https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel) · `Hugging Face Blog`
+- 🛠️ [Congresswoman denies staff used AI to write defense funding amendment](https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude) · `The Verge AI`
+- 🛠️ [The $27 million Al proxy war over Alex Bores ends in a draw](https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results) · `The Verge AI`
+- 🛠️ [Figma now has AI motion graphics and shader tools](https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements) · `The Verge AI`
+- 🛠️ [OpenAI reveals its first AI processor: Jalapeño](https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno) · `The Verge AI`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 116 篇 | 43 篇 | 20 篇 | **6 篇** |
+| 10 源 | 113 篇 | 40 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-24 10:53 UTC+8*
+*生成于 2026-06-25 10:53 UTC+8*
 
 ## 📚 往期简报
 
