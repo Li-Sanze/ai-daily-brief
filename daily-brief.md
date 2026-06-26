@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-06-25 周四
+## 📅 2026-06-26 周五
 
 ### 📌 今日焦点
 
-**[infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-> infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge
+> netdata/netdata: The fastest path to AI-powered full stack observability, even for lean teams.
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [OpenAI unveils its first custom chip, built by Broadcom](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)** · `HackerNews`
+**1. [Apple raises prices of MacBooks, iPads](https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/)** · `HackerNews`
 
-**2. [RubyLLM: A Ruby framework for all major AI providers](https://rubyllm.com/)** · `HackerNews`
+**2. [Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion](https://github.com/inkeep/open-knowledge)** · `HackerNews`
 
-**3. [PR spam today looks like email spam in the early 2000s](https://www.greptile.com/blog/prs-on-openclaw)** · `HackerNews`
+**3. [Political bias in AI: Where the AI models stand](https://trakkr.ai/bias)** · `HackerNews`
 
-**4. [Computer use in Gemini 3.5 Flash](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/)** · `HackerNews`
+**4. [Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line](https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true)** · `HackerNews`
 
-**5. [Anthropic says Alibaba illicitly extracted Claude AI model capabilities](https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/)** · `HackerNews`
+**5. [AI children's books, body horror edition](https://lcamtuf.substack.com/p/ai-childrens-books-body-horror-edition)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Autodata: An agentic data scientist to create high quality synthetic data](https://huggingface.co/papers/2606.25996) · `HuggingFace Papers`
-- 🛠️ [DomainShuttle: Freeform Open Domain Subject-driven Text-to-video Generation](https://huggingface.co/papers/2606.26058) · `HuggingFace Papers`
-- 🛠️ [Improved Large Language Diffusion Models](https://huggingface.co/papers/2606.25331) · `HuggingFace Papers`
-- 🛠️ [Causal-rCM: A Unified Teacher-Forcing and Self-Forcing Open Recipe for Autoregressive Diffusion Distillation in Strea...](https://huggingface.co/papers/2606.25473) · `HuggingFace Papers`
-- 🛠️ [OpenAI and Broadcom unveil LLM-optimized inference chip](https://openai.com/index/openai-broadcom-jalapeno-inference-chip) · `OpenAI Blog`
-- 🛠️ [Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel](https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel) · `Hugging Face Blog`
-- 🛠️ [Congresswoman denies staff used AI to write defense funding amendment](https://www.theverge.com/policy/956394/florida-anna-paulina-luna-anthropic-claude) · `The Verge AI`
-- 🛠️ [The $27 million Al proxy war over Alex Bores ends in a draw](https://www.theverge.com/ai-artificial-intelligence/956263/alex-bores-new-york-12th-district-congressional-primary-results) · `The Verge AI`
-- 🛠️ [Figma now has AI motion graphics and shader tools](https://www.theverge.com/tech/955831/figma-code-design-tools-config-2026-announcements) · `The Verge AI`
-- 🛠️ [OpenAI reveals its first AI processor: Jalapeño](https://www.theverge.com/ai-artificial-intelligence/955939/openai-reveals-its-first-ai-processor-jalapeno) · `The Verge AI`
+- 🛠️ [In-Context World Modeling for Robotic Control](https://huggingface.co/papers/2606.26025) · `HuggingFace Papers`
+- 🛠️ [Confidence-Aware Tool Orchestration for Robust Video Understanding](https://huggingface.co/papers/2606.26904) · `HuggingFace Papers`
+- 🛠️ [ViQ: Text-Aligned Visual Quantized Representations at Any Resolution](https://huggingface.co/papers/2606.27313) · `HuggingFace Papers`
+- 🛠️ [OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning](https://huggingface.co/papers/2606.26790) · `HuggingFace Papers`
+- 🛠️ [Qwen-Image-Agent: Bridging the Context Gap in Real-World Image Generation](https://huggingface.co/papers/2606.26907) · `HuggingFace Papers`
+- 🛠️ [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work) · `OpenAI Blog`
+- 🛠️ [Our latest Google Finance upgrades, including a new app](https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/) · `Google AI Blog`
+- 🛠️ [Run a vLLM Server on HF Jobs in One Command](https://huggingface.co/blog/vllm-jobs) · `Hugging Face Blog`
+- 🛠️ [Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks](https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/) · `GitHub Blog`
+- 🛠️ [OpenAI will delay GPT-5.6 after Trump administration request](https://www.theverge.com/ai-artificial-intelligence/957372/openai-will-delay-gpt-5-6-after-trump-administration-request) · `The Verge AI`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 113 篇 | 40 篇 | 20 篇 | **6 篇** |
+| 11 源 | 134 篇 | 42 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-25 10:53 UTC+8*
+*生成于 2026-06-26 10:58 UTC+8*
 
 ## 📚 往期简报
 
