@@ -6,43 +6,40 @@
 
 ---
 
-## 📅 2026-06-27 周六
+## 📅 2026-06-28 周日
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[nextlevelbuilder/ui-ux-pro-max-skill: An AI SKILL that provide design intelli...](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** · `GitHub Trending`
 
-> openai/codex: Lightweight coding agent that runs in your terminal
+> nextlevelbuilder/ui-ux-pro-max-skill: An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**1. [infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
 
-**2. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
+**2. [DSpark: Speculative decoding accelerates LLM inference [pdf]](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf)** · `HackerNews`
 
-**3. [Previewing GPT‑5.6 Sol: a next-generation model](https://openai.com/index/previewing-gpt-5-6-sol/)** · `HackerNews`
+**3. [Asian AI startups launch Mythos-like models](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/)** · `HackerNews`
 
-**4. [U.S. government will decide who gets to use GPT-5.6](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/)** · `HackerNews`
+**4. [Anatomy of a Failed (Nation-State?) Attack](https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/)** · `HackerNews`
 
-**5. [Ultrasound imaging of the brain](https://alephneuro.com/blog/ultrasound-brain)** · `HackerNews`
+**5. [Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work](https://github.com/kageroumado/adrafinil)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [US allows Anthropic to release Mythos to 'trusted partners'](https://www.reuters.com/technology/us-releases-anthropic-model-mythos-some-us-companies-semafor-reports-2026-06-26/) · `HackerNews`
-- 🛠️ [Show HN: Smart model routing directly in Claude, Codex and Cursor](https://github.com/workweave/router) · `HackerNews`
-- 🛠️ [OpenAI unveils GPT-5.6 amid US AI regulatory drama](https://www.theverge.com/ai-artificial-intelligence/957845/openai-gpt-5-6-trump-administration-ai-preview) · `The Verge AI`
-- 🛠️ [Anthropic&#8217;s Mythos mess is only getting worse](https://www.theverge.com/ai-artificial-intelligence/957327/anthropic-mythos-fable-ai-trump-administration-negotiations) · `The Verge AI`
-- 🛠️ [Trump Admin releases Anthropic  Mythos to be used by more than 100 US companies, agencies](https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/) · `TechCrunch AI`
-- 🛠️ [OpenAI limits GPT-5.6 rollout after government request, says restrictions shouldn’t be the norm](https://techcrunch.com/2026/06/26/openai-limits-gpt-5-6-rollout-after-government-request-says-restrictions-shouldnt-be-the-norm/) · `TechCrunch AI`
-- 🛠️ [OpenAI poaches Uber India chief to lead its biggest market outside the US](https://techcrunch.com/2026/06/26/openai-poaches-uber-india-chief-to-lead-its-biggest-market-outside-the-u-s/) · `TechCrunch AI`
-- 🛠️ [Why everyone from OpenAI to SpaceX is building their own chips (and turning up the heat on Nvidia)](https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/) · `TechCrunch AI`
-- 🛠️ [It’s not about Anthropic vs. OpenAI anymore](https://techcrunch.com/2026/06/26/its-not-about-anthropic-vs-openai-anymore/) · `TechCrunch AI`
-- 🛠️ [Detecting and Controlling Sycophancy with Cascading Linear Features](https://arxiv.org/abs/2606.26155) · `arXiv cs.AI`
+- 🛠️ [What Ozempic does to the gut-brain axis](https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis) · `HackerNews`
+- 🛠️ [Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;](https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out) · `The Verge AI`
+- 🛠️ [Why is Apple asking me to pay more for Big Tech’s AI obsession?](https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech) · `The Verge AI`
+- 🛠️ [Anthropic&#8217;s Mythos 5 is back](https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations) · `The Verge AI`
+- 🛠️ [SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype](https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/) · `TechCrunch AI`
+- 🛠️ [Apple Vision Pro exec is reportedly leaving for OpenAI](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/) · `TechCrunch AI`
+- 🛠️ [The fittest founder in the room got cancer. Here’s how he used AI to fight back.](https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/) · `TechCrunch AI`
 
 
 ---
@@ -51,9 +48,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 137 篇 | 33 篇 | 20 篇 | **6 篇** |
+| 10 源 | 127 篇 | 14 篇 | 13 篇 | **6 篇** |
 
-*生成于 2026-06-27 10:48 UTC+8*
+*生成于 2026-06-28 11:29 UTC+8*
 
 ## 📚 往期简报
 
