@@ -6,40 +6,40 @@
 
 ---
 
-## 📅 2026-06-28 周日
+## 📅 2026-06-29 周一
 
 ### 📌 今日焦点
 
-**[nextlevelbuilder/ui-ux-pro-max-skill: An AI SKILL that provide design intelli...](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)** · `GitHub Trending`
+**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-> nextlevelbuilder/ui-ux-pro-max-skill: An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms
+> netdata/netdata: The fastest path to AI-powered full stack observability, even for lean teams.
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**1. [go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
 
-**2. [DSpark: Speculative decoding accelerates LLM inference [pdf]](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf)** · `HackerNews`
+**2. [GLM 5.2 beats Claude in our benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)** · `HackerNews`
 
-**3. [Asian AI startups launch Mythos-like models](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/)** · `HackerNews`
+**3. [I used Claude Code to get a second opinion on my MRI](https://antoine.fi/mri-analysis-using-claude-code-opus)** · `HackerNews`
 
-**4. [Anatomy of a Failed (Nation-State?) Attack](https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/)** · `HackerNews`
+**4. [Professor denounces mass AI fraud on an exam at Brown](https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html)** · `HackerNews`
 
-**5. [Show HN: Adrafinil – keep a lid-closed Mac awake only while agents work](https://github.com/kageroumado/adrafinil)** · `HackerNews`
+**5. [Librepods: AirPods liberated](https://github.com/librepods-org/librepods)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [What Ozempic does to the gut-brain axis](https://www.psychologytoday.com/au/blog/mood-by-microbe/202606/what-ozempic-does-to-the-gut-brain-axis) · `HackerNews`
-- 🛠️ [Margaret Atwood says the problem with AI is &#8216;garbage in, garbage out&#8217;](https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out) · `The Verge AI`
-- 🛠️ [Why is Apple asking me to pay more for Big Tech’s AI obsession?](https://www.theverge.com/report/958678/apple-consumer-price-increase-ai-big-tech) · `The Verge AI`
-- 🛠️ [Anthropic&#8217;s Mythos 5 is back](https://www.theverge.com/ai-artificial-intelligence/958458/anthropic-mythos-5-is-back-trump-negotiations) · `The Verge AI`
-- 🛠️ [SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype](https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/) · `TechCrunch AI`
-- 🛠️ [Apple Vision Pro exec is reportedly leaving for OpenAI](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/) · `TechCrunch AI`
-- 🛠️ [The fittest founder in the room got cancer. Here’s how he used AI to fight back.](https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/) · `TechCrunch AI`
+- 🛠️ [A way to exclude sensitive files issue still open for OpenAI Codex](https://github.com/openai/codex/issues/2847) · `HackerNews`
+- 🛠️ [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) · `OpenAI Blog`
+- 🛠️ [China’s Z.ai claims it can match Mythos on cybersecurity](https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity) · `The Verge AI`
+- 🛠️ [Suno launches Spark incubator program to feed independent artists to its AI machine](https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine) · `The Verge AI`
+- 🛠️ [Prosecutors used ChatGPT logs as evidence in the Palisades fire trial](https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial) · `The Verge AI`
+- 🛠️ [Ford rehires ‘gray beard’ engineers after AI falls short](https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/) · `TechCrunch AI`
+- 🛠️ [Why Wall Street thinks US memory maker Micron is the next Nvidia](https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/) · `TechCrunch AI`
 
 
 ---
@@ -48,9 +48,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 127 篇 | 14 篇 | 13 篇 | **6 篇** |
+| 10 源 | 129 篇 | 17 篇 | 13 篇 | **6 篇** |
 
-*生成于 2026-06-28 11:29 UTC+8*
+*生成于 2026-06-29 11:34 UTC+8*
 
 ## 📚 往期简报
 
