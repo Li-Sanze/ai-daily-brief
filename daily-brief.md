@@ -6,40 +6,43 @@
 
 ---
 
-## 📅 2026-06-29 周一
+## 📅 2026-06-30 周二
 
 ### 📌 今日焦点
 
-**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
 
-> netdata/netdata: The fastest path to AI-powered full stack observability, even for lean teams.
+> openai/codex: Lightweight coding agent that runs in your terminal
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+**1. [The CEO of Mullvad is the main financer of the Swedish Örebro party](https://det.social/@lostgen/116820546568940358)** · `HackerNews`
 
-**2. [GLM 5.2 beats Claude in our benchmarks](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)** · `HackerNews`
+**2. [.self: A new top-level domain designed to support self-hosting](https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/)** · `HackerNews`
 
-**3. [I used Claude Code to get a second opinion on my MRI](https://antoine.fi/mri-analysis-using-claude-code-opus)** · `HackerNews`
+**3. [Ornith-1.0: self-improving open-source models for agentic coding](https://github.com/deepreinforce-ai/Ornith-1)** · `HackerNews`
 
-**4. [Professor denounces mass AI fraud on an exam at Brown](https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html)** · `HackerNews`
+**4. [Working With AI: A concrete example](https://htmx.org/essays/working-with-ai/)** · `HackerNews`
 
-**5. [Librepods: AirPods liberated](https://github.com/librepods-org/librepods)** · `HackerNews`
+**5. [Ornith-1.0: Self-scaffolding LLMs for agentic coding](https://deep-reinforce.com/ornith_1_0.html)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [A way to exclude sensitive files issue still open for OpenAI Codex](https://github.com/openai/codex/issues/2847) · `HackerNews`
-- 🛠️ [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership) · `OpenAI Blog`
-- 🛠️ [China’s Z.ai claims it can match Mythos on cybersecurity](https://www.theverge.com/ai-artificial-intelligence/958804/chinas-z-ai-glm-52-mythos-cybersecurity) · `The Verge AI`
-- 🛠️ [Suno launches Spark incubator program to feed independent artists to its AI machine](https://www.theverge.com/ai-artificial-intelligence/958801/suno-launches-spark-incubator-program-to-feed-independent-artists-to-its-ai-machine) · `The Verge AI`
-- 🛠️ [Prosecutors used ChatGPT logs as evidence in the Palisades fire trial](https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial) · `The Verge AI`
-- 🛠️ [Ford rehires ‘gray beard’ engineers after AI falls short](https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/) · `TechCrunch AI`
-- 🛠️ [Why Wall Street thinks US memory maker Micron is the next Nvidia](https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/) · `TechCrunch AI`
+- 🛠️ [TACO: Tool-Augmented Credit Optimization for Agentic Tool Use](https://huggingface.co/papers/2606.30251) · `HuggingFace Papers`
+- 🛠️ [Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent](https://huggingface.co/papers/2606.30616) · `HuggingFace Papers`
+- 🛠️ [GUICrafter: Weakly-Supervised GUI Agent Leveraging Massive Unannotated Screenshots](https://huggingface.co/papers/2606.29705) · `HuggingFace Papers`
+- 🛠️ [Mapping Europe’s AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu) · `OpenAI Blog`
+- 🛠️ [Ask an AI expert: What exactly is the full stack?](https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/) · `Google AI Blog`
+- 🛠️ [DiScoFormer: One transformer for density and score, across distributions](https://huggingface.co/blog/allenai/discoformer) · `Hugging Face Blog`
+- 🛠️ [Tidal won’t pay royalties on AI-generated music but isn’t banning it outright](https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label) · `The Verge AI`
+- 🛠️ [OpenAI is teasing new hardware… for Codex](https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder) · `The Verge AI`
+- 🛠️ [Lawmakers want to ban AI companies from selling your health data](https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon) · `The Verge AI`
+- 🛠️ [Vibe coding platform Base44 launches own model as AI startups seek defensibility](https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/) · `TechCrunch AI`
 
 
 ---
@@ -48,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 129 篇 | 17 篇 | 13 篇 | **6 篇** |
+| 11 源 | 135 篇 | 35 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-29 11:34 UTC+8*
+*生成于 2026-06-30 10:57 UTC+8*
 
 ## 📚 往期简报
 
