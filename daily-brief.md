@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-06-30 周二
+## 📅 2026-07-01 周三
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
 
-> openai/codex: Lightweight coding agent that runs in your terminal
+> infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [The CEO of Mullvad is the main financer of the Swedish Örebro party](https://det.social/@lostgen/116820546568940358)** · `HackerNews`
+**1. [Claude Code is steganographically marking requests](https://thereallo.dev/blog/claude-code-prompt-steganography)** · `HackerNews`
 
-**2. [.self: A new top-level domain designed to support self-hosting](https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/)** · `HackerNews`
+**2. [Claude Sonnet 5](https://www.anthropic.com/news/claude-sonnet-5)** · `HackerNews`
 
-**3. [Ornith-1.0: self-improving open-source models for agentic coding](https://github.com/deepreinforce-ai/Ornith-1)** · `HackerNews`
+**3. [Claude Science](https://claude.com/product/claude-science)** · `HackerNews`
 
-**4. [Working With AI: A concrete example](https://htmx.org/essays/working-with-ai/)** · `HackerNews`
+**4. [Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5](https://twitter.com/AnthropicAI/status/2072106151890809341)** · `HackerNews`
 
-**5. [Ornith-1.0: Self-scaffolding LLMs for agentic coding](https://deep-reinforce.com/ornith_1_0.html)** · `HackerNews`
+**5. [From brain waves to words: a new path to communication without surgery](https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [TACO: Tool-Augmented Credit Optimization for Agentic Tool Use](https://huggingface.co/papers/2606.30251) · `HuggingFace Papers`
-- 🛠️ [Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent](https://huggingface.co/papers/2606.30616) · `HuggingFace Papers`
-- 🛠️ [GUICrafter: Weakly-Supervised GUI Agent Leveraging Massive Unannotated Screenshots](https://huggingface.co/papers/2606.29705) · `HuggingFace Papers`
-- 🛠️ [Mapping Europe’s AI Workforce Opportunity](https://openai.com/index/mapping-ai-jobs-transition-eu) · `OpenAI Blog`
-- 🛠️ [Ask an AI expert: What exactly is the full stack?](https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/) · `Google AI Blog`
-- 🛠️ [DiScoFormer: One transformer for density and score, across distributions](https://huggingface.co/blog/allenai/discoformer) · `Hugging Face Blog`
-- 🛠️ [Tidal won’t pay royalties on AI-generated music but isn’t banning it outright](https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label) · `The Verge AI`
-- 🛠️ [OpenAI is teasing new hardware… for Codex](https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder) · `The Verge AI`
-- 🛠️ [Lawmakers want to ban AI companies from selling your health data](https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon) · `The Verge AI`
-- 🛠️ [Vibe coding platform Base44 launches own model as AI startups seek defensibility](https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/) · `TechCrunch AI`
+- 🛠️ [BlockPilot: Instance-Adaptive Policy Learning for Diffusion-based Speculative Decoding](https://huggingface.co/papers/2606.31315) · `HuggingFace Papers`
+- 🛠️ [Xiaomi-GUI-0 Technical Report](https://huggingface.co/papers/2606.31410) · `HuggingFace Papers`
+- 🛠️ [MemLearner: Learning to Query Context memory for Video World Models](https://huggingface.co/papers/2606.31734) · `HuggingFace Papers`
+- 🛠️ [How ChatGPT adoption has expanded](https://openai.com/index/how-chatgpt-adoption-has-expanded) · `OpenAI Blog`
+- 🛠️ [Introducing GeneBench-Pro](https://openai.com/index/introducing-genebench-pro) · `OpenAI Blog`
+- 🛠️ [Core dump epidemiology: fixing an 18-year-old bug](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug) · `OpenAI Blog`
+- 🛠️ [Inside Genebench-Pro](https://openai.com/index/genebench-pro/case-studies) · `OpenAI Blog`
+- 🛠️ [Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers](https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/) · `Google AI Blog`
+- 🛠️ [ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration](https://huggingface.co/blog/ibm-research/scarfbench) · `Hugging Face Blog`
+- 🛠️ [How GitHub maintains compliance for open source dependencies](https://github.blog/enterprise-software/governance-and-compliance/how-github-maintains-compliance-for-open-source-dependencies/) · `GitHub Blog`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 35 篇 | 20 篇 | **6 篇** |
+| 11 源 | 135 篇 | 41 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-06-30 10:57 UTC+8*
+*生成于 2026-07-01 11:29 UTC+8*
 
 ## 📚 往期简报
 
