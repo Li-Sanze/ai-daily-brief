@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-07-02 周四
+## 📅 2026-07-03 周五
 
 ### 📌 今日焦点
 
-**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
 
-> netdata/netdata: The fastest path to AI-powered full stack observability, even for lean teams.
+> openai/codex: Lightweight coding agent that runs in your terminal
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Meta caps internal AI token spending](https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/)** · `HackerNews`
+**1. [Spain Orders Blacklist of Palantir from Public and Private Companies](https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv)** · `HackerNews`
 
-**2. [Domain Arithmetic: One-Shot VLA Adaptation under Environmental Shifts](https://huggingface.co/papers/2607.00666)** · `HuggingFace Papers`
+**2. [AI can't be listed as inventor on patent applications, Japan's top court rules](https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/)** · `HackerNews`
 
-**3. [ABot-M0.5: Unified Mobility-and-Manipulation World Action Model](https://huggingface.co/papers/2607.00678)** · `HuggingFace Papers`
+**3. [Claude-real-video － any LLM can watch a video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)** · `HackerNews`
 
-**4. [Valdi: Value Diffusion World Models](https://huggingface.co/papers/2607.00917)** · `HuggingFace Papers`
+**4. [GitHub is proud to announce that you can now obtain your public repo on CD-ROM](https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl)** · `HackerNews`
 
-**5. [Autonomous Scientific Discovery via Iterative Meta-Reflection](https://huggingface.co/papers/2607.01131)** · `HuggingFace Papers`
+**5. [The short leash AI coding method for beating Fable](https://blog.okturtles.org/2026/07/short-leash-ai-method/)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [VideoSearch-R1: Iterative Video Retrieval and Reasoning via Soft Query Refinement](https://huggingface.co/papers/2607.00446) · `HuggingFace Papers`
-- 🛠️ [The latest AI news we announced in June 2026](https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/) · `Google AI Blog`
-- 🛠️ [New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.](https://blog.google/products-and-platforms/products/education/nyc-ai-summit/) · `Google AI Blog`
-- 🛠️ [Hugging Face and Cerebras bring Gemma 4 to real-time voice AI](https://huggingface.co/blog/cerebras-gemma4-voice-ai) · `Hugging Face Blog`
-- 🛠️ [6 security settings every GitHub maintainer should enable this week](https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/) · `GitHub Blog`
-- 🛠️ [Google built a great smart speaker, but Gemini isn’t ready for it](https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home) · `The Verge AI`
-- 🛠️ [SpaceX has an AI device prototype, and it sure sounds phone-ish](https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/) · `TechCrunch AI`
-- 🛠️ [Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller](https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/) · `TechCrunch AI`
-- 🛠️ [Cloudflare’s new policy pushes AI companies to pay for publishers’ content](https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/) · `TechCrunch AI`
-- 🛠️ [Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off](https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/) · `TechCrunch AI`
+- 🛠️ [PACE: A Proxy for Agentic Capability Evaluation](https://huggingface.co/papers/2607.02032) · `HuggingFace Papers`
+- 🛠️ [Representation Distribution Matching for One-Step Visual Generation](https://huggingface.co/papers/2607.02375) · `HuggingFace Papers`
+- 🛠️ [Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs](https://huggingface.co/papers/2607.02466) · `HuggingFace Papers`
+- 🛠️ [Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling](https://huggingface.co/papers/2607.01642) · `HuggingFace Papers`
+- 🛠️ [WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory](https://huggingface.co/papers/2607.02517) · `HuggingFace Papers`
+- 🛠️ [OpenAI floats giving Trump administration 5 percent cut of AI boom](https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump) · `The Verge AI`
+- 🛠️ [Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/) · `TechCrunch AI`
+- 🛠️ [Jersey Mike’s IPO illustrates how bad the AI hype has become](https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/) · `TechCrunch AI`
+- 🛠️ [Meta quietly launches vibe-coded gaming app Pocket](https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/) · `TechCrunch AI`
+- 🛠️ [Anthropic is discussing a new custom chip with Samsung](https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/) · `TechCrunch AI`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 33 篇 | 20 篇 | **6 篇** |
+| 11 源 | 133 篇 | 38 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-07-02 10:54 UTC+8*
+*生成于 2026-07-03 10:37 UTC+8*
 
 ## 📚 往期简报
 
