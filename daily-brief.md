@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-07-03 周五
+## 📅 2026-07-04 周六
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
 
-> openai/codex: Lightweight coding agent that runs in your terminal
+> go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git h
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Spain Orders Blacklist of Palantir from Public and Private Companies](https://clashreport.com/world/articles/spain-orders-blacklist-of-us-tech-giant-palantir-from-public-and-private-companies-fsnc2z17gjv)** · `HackerNews`
+**1. [QuantumNous/new-api: A unified AI model hub for aggregation & distribution. I...](https://github.com/QuantumNous/new-api)** · `GitHub Trending`
 
-**2. [AI can't be listed as inventor on patent applications, Japan's top court rules](https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/)** · `HackerNews`
+**2. [Jamesob's guide to running SOTA LLMs locally](https://github.com/jamesob/local-llm)** · `HackerNews`
 
-**3. [Claude-real-video － any LLM can watch a video](https://github.com/HUANGCHIHHUNGLeo/claude-real-video)** · `HackerNews`
+**3. [Espionage Against the European Parliament](https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/)** · `HackerNews`
 
-**4. [GitHub is proud to announce that you can now obtain your public repo on CD-ROM](https://forms.cloud.microsoft/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR6G-c11n8yFDlQmk4B-QjDxUQkdTTjZLU0EyTFFRV1E3NVRTVTRTWjRHMy4u&route=shorturl)** · `HackerNews`
+**4. [I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination (2025)](https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type)** · `HackerNews`
 
-**5. [The short leash AI coding method for beating Fable](https://blog.okturtles.org/2026/07/short-leash-ai-method/)** · `HackerNews`
+**5. [Ask HN: Is anyone experimenting with different ways of using LLMs for coding?](https://news.ycombinator.com/item?id=48771515)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [PACE: A Proxy for Agentic Capability Evaluation](https://huggingface.co/papers/2607.02032) · `HuggingFace Papers`
-- 🛠️ [Representation Distribution Matching for One-Step Visual Generation](https://huggingface.co/papers/2607.02375) · `HuggingFace Papers`
-- 🛠️ [Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs](https://huggingface.co/papers/2607.02466) · `HuggingFace Papers`
-- 🛠️ [Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling](https://huggingface.co/papers/2607.01642) · `HuggingFace Papers`
-- 🛠️ [WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory](https://huggingface.co/papers/2607.02517) · `HuggingFace Papers`
-- 🛠️ [OpenAI floats giving Trump administration 5 percent cut of AI boom](https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump) · `The Verge AI`
-- 🛠️ [Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/) · `TechCrunch AI`
-- 🛠️ [Jersey Mike’s IPO illustrates how bad the AI hype has become](https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/) · `TechCrunch AI`
-- 🛠️ [Meta quietly launches vibe-coded gaming app Pocket](https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/) · `TechCrunch AI`
-- 🛠️ [Anthropic is discussing a new custom chip with Samsung](https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/) · `TechCrunch AI`
+- 🛠️ [Kagi Changelog (July 2): Heads, tails, and an AI toggle](https://kagi.com/changelog#10959) · `HackerNews`
+- 🛠️ [Anthropic wants to develop its own drugs](https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development) · `The Verge AI`
+- 🛠️ [A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered](https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video) · `The Verge AI`
+- 🛠️ [The only AI glossary you’ll need this year](https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/) · `TechCrunch AI`
+- 🛠️ [The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari](https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/) · `TechCrunch AI`
+- 🛠️ [PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations](https://arxiv.org/abs/2607.01306) · `arXiv cs.AI`
+- 🛠️ [Auto-FL-Research: Agentic Search for Federated Learning Algorithms](https://arxiv.org/abs/2607.01366) · `arXiv cs.AI`
+- 🛠️ [The Wiola Architecture for Efficient Small Language Models](https://arxiv.org/abs/2607.01394) · `arXiv cs.AI`
+- 🛠️ [Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases](https://arxiv.org/abs/2607.01425) · `arXiv cs.AI`
+- 🛠️ [When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations](https://arxiv.org/abs/2607.01426) · `arXiv cs.AI`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 133 篇 | 38 篇 | 20 篇 | **6 篇** |
+| 11 源 | 138 篇 | 26 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-07-03 10:37 UTC+8*
+*生成于 2026-07-04 10:35 UTC+8*
 
 ## 📚 往期简报
 
