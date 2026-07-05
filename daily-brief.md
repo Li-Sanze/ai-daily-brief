@@ -6,43 +6,39 @@
 
 ---
 
-## 📅 2026-07-04 周六
+## 📅 2026-07-05 周日
 
 ### 📌 今日焦点
 
-**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+**[MHSanaei/3x-ui: Xray panel supporting multi-protocol multi-user expire day & ...](https://github.com/MHSanaei/3x-ui)** · `GitHub Trending`
 
-> go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git h
+> MHSanaei/3x-ui: Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Troja
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [QuantumNous/new-api: A unified AI model hub for aggregation & distribution. I...](https://github.com/QuantumNous/new-api)** · `GitHub Trending`
+**1. [wailsapp/wails: Create beautiful applications using Go](https://github.com/wailsapp/wails)** · `GitHub Trending`
 
-**2. [Jamesob's guide to running SOTA LLMs locally](https://github.com/jamesob/local-llm)** · `HackerNews`
+**2. [esengine/DeepSeek-Reasonix: DeepSeek-native AI coding agent for your terminal...](https://github.com/esengine/DeepSeek-Reasonix)** · `GitHub Trending`
 
-**3. [Espionage Against the European Parliament](https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/)** · `HackerNews`
+**3. [GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance](https://github.com/openai/codex/issues/30364)** · `HackerNews`
 
-**4. [I Wasn't Allowed Prompting ChatGPT During My Chalk Talk: This Is Discrimination (2025)](https://inpreparation.substack.com/p/opinion-i-was-not-allowed-to-type)** · `HackerNews`
+**4. [Scientists reverse brain aging, with a nasal spray](https://stories.tamu.edu/news/2026/04/14/scientists-reverse-brain-aging-with-a-nasal-spray/)** · `HackerNews`
 
-**5. [Ask HN: Is anyone experimenting with different ways of using LLMs for coding?](https://news.ycombinator.com/item?id=48771515)** · `HackerNews`
+**5. [Plein Air](https://art.joonas.wtf/)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Kagi Changelog (July 2): Heads, tails, and an AI toggle](https://kagi.com/changelog#10959) · `HackerNews`
-- 🛠️ [Anthropic wants to develop its own drugs](https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development) · `The Verge AI`
-- 🛠️ [A behind-the-scenes look at Midjourney’s medical scanner leaves many questions unanswered](https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video) · `The Verge AI`
-- 🛠️ [The only AI glossary you’ll need this year](https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/) · `TechCrunch AI`
-- 🛠️ [The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari](https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/) · `TechCrunch AI`
-- 🛠️ [PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations](https://arxiv.org/abs/2607.01306) · `arXiv cs.AI`
-- 🛠️ [Auto-FL-Research: Agentic Search for Federated Learning Algorithms](https://arxiv.org/abs/2607.01366) · `arXiv cs.AI`
-- 🛠️ [The Wiola Architecture for Efficient Small Language Models](https://arxiv.org/abs/2607.01394) · `arXiv cs.AI`
-- 🛠️ [Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases](https://arxiv.org/abs/2607.01425) · `arXiv cs.AI`
-- 🛠️ [When Should Service Agents Reconsider? Difficulty-Routed Control in Customer-Service Operations](https://arxiv.org/abs/2607.01426) · `arXiv cs.AI`
+- 🛠️ [The Reports of Jim Carrey's Death Are a Failure Mode](https://tane.dev/2026/07/the-reports-of-jim-carreys-death-are-a-failure-mode/) · `HackerNews`
+- 🛠️ [The fanfiction community is at war with AI — and itself](https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector) · `The Verge AI`
+- 🛠️ [New Google commercial imagines a Declaration of Independence written with help from AI](https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/) · `TechCrunch AI`
+- 🛠️ [Midjourney wants Hollywood studios to reveal the details of their AI usage](https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/) · `TechCrunch AI`
+- 🛠️ [Alibaba reportedly bans employees from using Claude Code](https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/) · `TechCrunch AI`
+- 🛠️ [What is Mistral AI? Everything to know about the OpenAI competitor](https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/) · `TechCrunch AI`
 
 
 ---
@@ -51,9 +47,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 138 篇 | 26 篇 | 20 篇 | **6 篇** |
+| 10 源 | 130 篇 | 12 篇 | 12 篇 | **6 篇** |
 
-*生成于 2026-07-04 10:35 UTC+8*
+*生成于 2026-07-05 10:44 UTC+8*
 
 ## 📚 往期简报
 
