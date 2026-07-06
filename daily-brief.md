@@ -6,39 +6,38 @@
 
 ---
 
-## 📅 2026-07-05 周日
+## 📅 2026-07-06 周一
 
 ### 📌 今日焦点
 
-**[MHSanaei/3x-ui: Xray panel supporting multi-protocol multi-user expire day & ...](https://github.com/MHSanaei/3x-ui)** · `GitHub Trending`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
 
-> MHSanaei/3x-ui: Xray panel supporting multi-protocol multi-user expire day & traffic & IP limit (Vmess, Vless, Troja
+> openai/codex: Lightweight coding agent that runs in your terminal
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [wailsapp/wails: Create beautiful applications using Go](https://github.com/wailsapp/wails)** · `GitHub Trending`
+**1. [infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
 
-**2. [esengine/DeepSeek-Reasonix: DeepSeek-native AI coding agent for your terminal...](https://github.com/esengine/DeepSeek-Reasonix)** · `GitHub Trending`
+**2. [netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-**3. [GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance](https://github.com/openai/codex/issues/30364)** · `HackerNews`
+**3. [New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]](https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf)** · `HackerNews`
 
-**4. [Scientists reverse brain aging, with a nasal spray](https://stories.tamu.edu/news/2026/04/14/scientists-reverse-brain-aging-with-a-nasal-spray/)** · `HackerNews`
+**4. [Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills](https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt)** · `HackerNews`
 
-**5. [Plein Air](https://art.joonas.wtf/)** · `HackerNews`
+**5. [Airplane Boneyards List and Map](https://airplaneboneyards.com/airplane-boneyards-list-and-map.htm)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [The Reports of Jim Carrey's Death Are a Failure Mode](https://tane.dev/2026/07/the-reports-of-jim-carreys-death-are-a-failure-mode/) · `HackerNews`
-- 🛠️ [The fanfiction community is at war with AI — and itself](https://www.theverge.com/tech/960854/ai-fanfiction-ao3-claude-detector) · `The Verge AI`
-- 🛠️ [New Google commercial imagines a Declaration of Independence written with help from AI](https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/) · `TechCrunch AI`
-- 🛠️ [Midjourney wants Hollywood studios to reveal the details of their AI usage](https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/) · `TechCrunch AI`
-- 🛠️ [Alibaba reportedly bans employees from using Claude Code](https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/) · `TechCrunch AI`
-- 🛠️ [What is Mistral AI? Everything to know about the OpenAI competitor](https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/) · `TechCrunch AI`
+- 🛠️ [Delta flight hit by firework while landing at Midway Airport on Fourth of July](https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/) · `HackerNews`
+- 🛠️ [GPT-5.6 Sol Ultra will be in Codex](https://twitter.com/thsottiaux/status/2073933490513752151) · `HackerNews`
+- 🛠️ [Some of the nation’s rich are letting AI teach their kids](https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep) · `The Verge AI`
+- 🛠️ [Infuriating Google commercial imagines the founding fathers embracing AI](https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence) · `The Verge AI`
+- 🛠️ [Amazon will stop accepting new customers for Mechanical Turk](https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/) · `TechCrunch AI`
 
 
 ---
@@ -47,9 +46,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 130 篇 | 12 篇 | 12 篇 | **6 篇** |
+| 10 源 | 127 篇 | 11 篇 | 11 篇 | **6 篇** |
 
-*生成于 2026-07-05 10:44 UTC+8*
+*生成于 2026-07-06 10:51 UTC+8*
 
 ## 📚 往期简报
 
