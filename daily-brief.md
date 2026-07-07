@@ -6,38 +6,39 @@
 
 ---
 
-## 📅 2026-07-06 周一
+## 📅 2026-07-07 周二
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[Real-time map of Great Britain's rail network](https://www.map.signalbox.io)** · `HackerNews`
 
-> openai/codex: Lightweight coding agent that runs in your terminal
+> Real-time map of Great Britain's rail network
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**1. [AMD Ryzen AI Halo – $4k AI Dev Kit](https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo)** · `HackerNews`
 
-**2. [netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**2. [GLM 5.2 and the coming AI margin collapse](https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/)** · `HackerNews`
 
-**3. [New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]](https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf)** · `HackerNews`
+**3. [OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files](https://github.com/iOfficeAI/OfficeCLI)** · `HackerNews`
 
-**4. [Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills](https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt)** · `HackerNews`
+**4. [Ternlight – 7 MB embedding model that runs in browser (WASM)](https://ternlight-demo.vercel.app/)** · `HackerNews`
 
-**5. [Airplane Boneyards List and Map](https://airplaneboneyards.com/airplane-boneyards-list-and-map.htm)** · `HackerNews`
+**5. [I spy](https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy)** · `The Verge AI`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Delta flight hit by firework while landing at Midway Airport on Fourth of July](https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/) · `HackerNews`
-- 🛠️ [GPT-5.6 Sol Ultra will be in Codex](https://twitter.com/thsottiaux/status/2073933490513752151) · `HackerNews`
-- 🛠️ [Some of the nation’s rich are letting AI teach their kids](https://www.theverge.com/ai-artificial-intelligence/961505/wealthy-ai-schools-alpha-forge-prep) · `The Verge AI`
-- 🛠️ [Infuriating Google commercial imagines the founding fathers embracing AI](https://www.theverge.com/ai-artificial-intelligence/961468/google-ai-commercial-founding-fathers-declaration-of-independence) · `The Verge AI`
-- 🛠️ [Amazon will stop accepting new customers for Mechanical Turk](https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/) · `TechCrunch AI`
+- 🛠️ [Microsoft is laying off 4,800 employees](https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox) · `The Verge AI`
+- 🛠️ [The ‘first’ AI-run ransomware attack still needed a human](https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/) · `TechCrunch AI`
+- 🛠️ [US investors will soon get access to SK Hynix, another memory maker riding the AI boom](https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/) · `TechCrunch AI`
+- 🛠️ [Vercel CEO Guillermo Rauch on the fight to split off models from agents](https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/) · `TechCrunch AI`
+- 🛠️ [You can now customize Siri’s pace and expressivity in the latest iOS 27 beta](https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/) · `TechCrunch AI`
+- 🛠️ [Every major tech layoff in 2026 that has name-checked AI](https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/) · `TechCrunch AI`
 
 
 ---
@@ -46,9 +47,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 127 篇 | 11 篇 | 11 篇 | **6 篇** |
+| 10 源 | 125 篇 | 19 篇 | 12 篇 | **6 篇** |
 
-*生成于 2026-07-06 10:51 UTC+8*
+*生成于 2026-07-07 10:45 UTC+8*
 
 ## 📚 往期简报
 
