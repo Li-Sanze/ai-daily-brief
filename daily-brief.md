@@ -6,39 +6,43 @@
 
 ---
 
-## 📅 2026-07-07 周二
+## 📅 2026-07-08 周三
 
 ### 📌 今日焦点
 
-**[Real-time map of Great Britain's rail network](https://www.map.signalbox.io)** · `HackerNews`
+**[Chat Control 1.0 and 2.0 Explained](https://fightchatcontrol.eu/chat-control-overview)** · `HackerNews`
 
-> Real-time map of Great Britain's rail network
+> Chat Control 1.0 and 2.0 Explained
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [AMD Ryzen AI Halo – $4k AI Dev Kit](https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo)** · `HackerNews`
+**1. [Show HN: Davit, a Apple Containers UI](https://davit.app)** · `HackerNews`
 
-**2. [GLM 5.2 and the coming AI margin collapse](https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/)** · `HackerNews`
+**2. [Why skilled workers come to Germany and then leave again](https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162)** · `HackerNews`
 
-**3. [OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files](https://github.com/iOfficeAI/OfficeCLI)** · `HackerNews`
+**3. [Automating AI Away](https://replicated.live/blog/away)** · `HackerNews`
 
-**4. [Ternlight – 7 MB embedding model that runs in browser (WASM)](https://ternlight-demo.vercel.app/)** · `HackerNews`
+**4. [Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop](https://github.com/rowboatlabs/rowboat)** · `HackerNews`
 
-**5. [I spy](https://www.theverge.com/column/961707/smart-glasses-ai-wearables-meta-surveillance-privacy)** · `The Verge AI`
+**5. [SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models](https://huggingface.co/papers/2607.06442)** · `HuggingFace Papers`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [Microsoft is laying off 4,800 employees](https://www.theverge.com/news/961528/microsoft-layoffs-july-2026-sales-xbox) · `The Verge AI`
-- 🛠️ [The ‘first’ AI-run ransomware attack still needed a human](https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/) · `TechCrunch AI`
-- 🛠️ [US investors will soon get access to SK Hynix, another memory maker riding the AI boom](https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/) · `TechCrunch AI`
-- 🛠️ [Vercel CEO Guillermo Rauch on the fight to split off models from agents](https://techcrunch.com/2026/07/06/vercel-ceo-guillermo-rauch-on-the-fight-to-split-off-models-from-agents/) · `TechCrunch AI`
-- 🛠️ [You can now customize Siri’s pace and expressivity in the latest iOS 27 beta](https://techcrunch.com/2026/07/06/you-can-now-customize-siris-pace-and-expressivity-in-the-latest-ios-27-beta/) · `TechCrunch AI`
-- 🛠️ [Every major tech layoff in 2026 that has name-checked AI](https://techcrunch.com/2026/07/06/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/) · `TechCrunch AI`
+- 🛠️ [AlayaWorld: Long-Horizon and Playable Video World Generation](https://huggingface.co/papers/2607.06291) · `HuggingFace Papers`
+- 🛠️ [Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding](https://huggingface.co/papers/2607.05722) · `HuggingFace Papers`
+- 🛠️ [RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation](https://huggingface.co/papers/2607.06558) · `HuggingFace Papers`
+- 🛠️ [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://huggingface.co/papers/2607.06559) · `HuggingFace Papers`
+- 🛠️ [Australian Payments Plus moves faster with ChatGPT and Codex](https://openai.com/index/australian-payments-plus) · `OpenAI Blog`
+- 🛠️ [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg) · `OpenAI Blog`
+- 🛠️ [Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/) · `Google AI Blog`
+- 🛠️ [Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot](https://huggingface.co/blog/skypilot-hf-storage) · `Hugging Face Blog`
+- 🛠️ [Meta’s new Muse Image model can pull other Instagram users into AI photos](https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram) · `The Verge AI`
+- 🛠️ [Anthropic is launching Claude Cowork on mobile and web](https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web) · `The Verge AI`
 
 
 ---
@@ -47,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 125 篇 | 19 篇 | 12 篇 | **6 篇** |
+| 11 源 | 137 篇 | 35 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-07-07 10:45 UTC+8*
+*生成于 2026-07-08 10:24 UTC+8*
 
 ## 📚 往期简报
 
