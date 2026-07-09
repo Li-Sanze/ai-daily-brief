@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-07-08 周三
+## 📅 2026-07-09 周四
 
 ### 📌 今日焦点
 
-**[Chat Control 1.0 and 2.0 Explained](https://fightchatcontrol.eu/chat-control-overview)** · `HackerNews`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
 
-> Chat Control 1.0 and 2.0 Explained
+> openai/codex: Lightweight coding agent that runs in your terminal
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Show HN: Davit, a Apple Containers UI](https://davit.app)** · `HackerNews`
+**1. [infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
 
-**2. [Why skilled workers come to Germany and then leave again](https://www.dw.com/en/germany-migrants-skilled-workers-integration-labor-market-bureaucracy-language-housing/a-77853162)** · `HackerNews`
+**2. [netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-**3. [Automating AI Away](https://replicated.live/blog/away)** · `HackerNews`
+**3. [GPT‑Live](https://openai.com/index/introducing-gpt-live/)** · `HackerNews`
 
-**4. [Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop](https://github.com/rowboatlabs/rowboat)** · `HackerNews`
+**4. [Mistral's Robostral Navigate: a state of the art robotics navigation model](https://mistral.ai/news/robostral-navigate/)** · `HackerNews`
 
-**5. [SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models](https://huggingface.co/papers/2607.06442)** · `HuggingFace Papers`
+**5. [John Deere owners will get the right to repair equipment under FTC settlement](https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02)** · `HackerNews`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [AlayaWorld: Long-Horizon and Playable Video World Generation](https://huggingface.co/papers/2607.06291) · `HuggingFace Papers`
-- 🛠️ [Nemotron-Labs-Diffusion: A Tri-Mode Language Model Unifying Autoregressive, Diffusion, and Self-Speculation Decoding](https://huggingface.co/papers/2607.05722) · `HuggingFace Papers`
-- 🛠️ [RynnWorld-Teleop: An Action-Conditioned World Model for Digital Teleoperation](https://huggingface.co/papers/2607.06558) · `HuggingFace Papers`
-- 🛠️ [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://huggingface.co/papers/2607.06559) · `HuggingFace Papers`
-- 🛠️ [Australian Payments Plus moves faster with ChatGPT and Codex](https://openai.com/index/australian-payments-plus) · `OpenAI Blog`
-- 🛠️ [MUFG aims to become AI-native with OpenAI](https://openai.com/index/mufg) · `OpenAI Blog`
-- 🛠️ [Expanding Managed Agents in Gemini API:  background tasks, remote MCP and more](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/) · `Google AI Blog`
-- 🛠️ [Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot](https://huggingface.co/blog/skypilot-hf-storage) · `Hugging Face Blog`
-- 🛠️ [Meta’s new Muse Image model can pull other Instagram users into AI photos](https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram) · `The Verge AI`
-- 🛠️ [Anthropic is launching Claude Cowork on mobile and web](https://www.theverge.com/ai-artificial-intelligence/961978/anthropic-claude-cowork-mobile-web) · `The Verge AI`
+- 🛠️ [SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence](https://cognition.com/blog/swe-1-7) · `HackerNews`
+- 🛠️ [Show HN: Microsoft releases Flint, a visualization language for AI agents](https://microsoft.github.io/flint-chart/#/) · `HackerNews`
+- 🛠️ [Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation](https://huggingface.co/papers/2607.07608) · `HuggingFace Papers`
+- 🛠️ [Infinite Worlds with Versatile Interactions](https://huggingface.co/papers/2607.07534) · `HuggingFace Papers`
+- 🛠️ [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://huggingface.co/papers/2607.07675) · `HuggingFace Papers`
+- 🛠️ [Our approach to government and national security partnerships](https://openai.com/index/government-national-security-partnerships) · `OpenAI Blog`
+- 🛠️ [Helping K–12 educators build practical AI skills](https://openai.com/index/k-12-educators-practical-skills) · `OpenAI Blog`
+- 🛠️ [Data for Agents](https://huggingface.co/blog/nvidia/open-data-for-agents) · `Hugging Face Blog`
+- 🛠️ [Native-speed vLLM transformers modeling backend](https://huggingface.co/blog/native-speed-vllm-transformers-backend) · `Hugging Face Blog`
+- 🛠️ [Automating cross-repo documentation with GitHub Agentic Workflows](https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/) · `GitHub Blog`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 137 篇 | 35 篇 | 20 篇 | **6 篇** |
+| 11 源 | 135 篇 | 41 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-07-08 10:24 UTC+8*
+*生成于 2026-07-09 10:37 UTC+8*
 
 ## 📚 往期简报
 
