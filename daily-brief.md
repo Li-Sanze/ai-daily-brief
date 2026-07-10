@@ -6,43 +6,43 @@
 
 ---
 
-## 📅 2026-07-09 周四
+## 📅 2026-07-10 周五
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending`
+**[GPT-5.6](https://openai.com/index/gpt-5-6/)** · `HackerNews`
 
-> openai/codex: Lightweight coding agent that runs in your terminal
+> GPT-5.6
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**1. [ChatGPT Work](https://openai.com/index/chatgpt-for-your-most-ambitious-work/)** · `HackerNews`
 
-**2. [netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**2. [AI content is everywhere on social media, especially LinkedIn](https://www.pangram.com/blog/ai-in-your-feed)** · `HackerNews`
 
-**3. [GPT‑Live](https://openai.com/index/introducing-gpt-live/)** · `HackerNews`
+**3. [What's slowing down the AI buildout](https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid)** · `HackerNews`
 
-**4. [Mistral's Robostral Navigate: a state of the art robotics navigation model](https://mistral.ai/news/robostral-navigate/)** · `HackerNews`
+**4. [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://huggingface.co/papers/2607.08741)** · `HuggingFace Papers`
 
-**5. [John Deere owners will get the right to repair equipment under FTC settlement](https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02)** · `HackerNews`
+**5. [Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation](https://huggingface.co/papers/2607.08758)** · `HuggingFace Papers`
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [SWE-1.7 Reach Near GPT 5.5 and Opus Intelligence](https://cognition.com/blog/swe-1-7) · `HackerNews`
-- 🛠️ [Show HN: Microsoft releases Flint, a visualization language for AI agents](https://microsoft.github.io/flint-chart/#/) · `HackerNews`
-- 🛠️ [Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation](https://huggingface.co/papers/2607.07608) · `HuggingFace Papers`
-- 🛠️ [Infinite Worlds with Versatile Interactions](https://huggingface.co/papers/2607.07534) · `HuggingFace Papers`
-- 🛠️ [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://huggingface.co/papers/2607.07675) · `HuggingFace Papers`
-- 🛠️ [Our approach to government and national security partnerships](https://openai.com/index/government-national-security-partnerships) · `OpenAI Blog`
-- 🛠️ [Helping K–12 educators build practical AI skills](https://openai.com/index/k-12-educators-practical-skills) · `OpenAI Blog`
-- 🛠️ [Data for Agents](https://huggingface.co/blog/nvidia/open-data-for-agents) · `Hugging Face Blog`
-- 🛠️ [Native-speed vLLM transformers modeling backend](https://huggingface.co/blog/native-speed-vllm-transformers-backend) · `Hugging Face Blog`
-- 🛠️ [Automating cross-repo documentation with GitHub Agentic Workflows](https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/) · `GitHub Blog`
+- 🛠️ [OpenCoF: Learning to Reason Through Video Generation](https://huggingface.co/papers/2607.08763) · `HuggingFace Papers`
+- 🛠️ [OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators](https://huggingface.co/papers/2607.08766) · `HuggingFace Papers`
+- 🛠️ [GPT-5.6 is now the preferred model in Microsoft 365 Copilot](https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot) · `OpenAI Blog`
+- 🛠️ [GPT-5.5 Bio Bug Bounty](https://openai.com/index/bio-bug-bounty) · `OpenAI Blog`
+- 🛠️ [Microsoft’s carbon emissions went up 25 percent last year](https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026) · `The Verge AI`
+- 🛠️ [Fidji Simo steps down from leading OpenAI’s AGI work due to illness](https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor) · `The Verge AI`
+- 🛠️ [The ChatGPT browser is already dead](https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset) · `The Verge AI`
+- 🛠️ [Google will now tell you if an ad was made with AI](https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label) · `The Verge AI`
+- 🛠️ [Microsoft’s patch Tuesdays are about to get bigger](https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates) · `The Verge AI`
+- 🛠️ [OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter](https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/) · `TechCrunch AI`
 
 
 ---
@@ -51,9 +51,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 41 篇 | 20 篇 | **6 篇** |
+| 11 源 | 136 篇 | 44 篇 | 20 篇 | **6 篇** |
 
-*生成于 2026-07-09 10:37 UTC+8*
+*生成于 2026-07-10 10:40 UTC+8*
 
 ## 📚 往期简报
 
