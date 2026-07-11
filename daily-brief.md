@@ -6,43 +6,75 @@
 
 ---
 
-## 📅 2026-07-10 周五
+## 📅 2026-07-11 周六
 
 ### 📌 今日焦点
 
-**[GPT-5.6](https://openai.com/index/gpt-5-6/)** · `HackerNews`
+**[OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’](https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work)** · `The Verge AI` ⭐
 
-> GPT-5.6
+> GPT-5.6 的正式推出叠加企业向产品 ChatGPT Work，意味着前沿模型能力正从实验室突破快速进入开发与办公主流程。开发者应立即评估其在编码、代理编排与团队知识工作中的收益，同时建立成本、权限与可靠性基线。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [ChatGPT Work](https://openai.com/index/chatgpt-for-your-most-ambitious-work/)** · `HackerNews`
+**1. [GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf)** · `HackerNews` ⭐
 
-**2. [AI content is everywhere on social media, especially LinkedIn](https://www.pangram.com/blog/ai-in-your-feed)** · `HackerNews`
+若数学证明结果可复核，LLM 在科研级推理的可信边界将被重新定义。
 
-**3. [What's slowing down the AI buildout](https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid)** · `HackerNews`
+**2. [mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
 
-**4. [ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation](https://huggingface.co/papers/2607.08741)** · `HuggingFace Papers`
+多模态本地运行需求升温，开发者需提前布局私有化 AI 基础设施。
 
-**5. [Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation](https://huggingface.co/papers/2607.08758)** · `HuggingFace Papers`
+**3. [Better tools made Copilot code review worse. Here’s how we actually improved it.](https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/)** · `GitHub Blog`
+
+代码审查不只靠更强模型，评测与流程设计才决定真实生产效果。
+
+**4. [Show HN: Reverse-engineering web apps into agent tools](https://news.ycombinator.com/item?id=48847834)** · `HackerNews`
+
+把网页逆向成 agent 工具，能显著降低自动化接入老系统成本。
+
+**5. [AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation](https://arxiv.org/abs/2607.06624)** · `arXiv cs.AI`
+
+编码代理进入生产后，轨迹级评估将比单次打分更接近真实质量。
+
+**6. [The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI](https://arxiv.org/abs/2607.06906)** · `arXiv cs.AI`
+
+企业 Agent 成本不只看模型单价，编排方式往往才是 token 黑洞。
+
+**7. [Hugging Face’s CEO on why companies are done renting their AI](https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/)** · `TechCrunch AI`
+
+企业从租用转向自持模型，意味着部署、治理与数据主权成新竞争点。
+
+---
+
+### 🛠️ 今日工具
+
+**[AI Shortlink](https://github.com/flyfish-dev/shortlink)** · `阮一峰周刊`
+
+轻量化 AI 短链接工具适合开发者快速分享模型、提示词与实验入口。
+
+---
+
+### 💡 今日洞察
+
+> 真正拉开 AI 产品差距的，不只是模型更强，而是你是否把能力接进了真实工作流。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [OpenCoF: Learning to Reason Through Video Generation](https://huggingface.co/papers/2607.08763) · `HuggingFace Papers`
-- 🛠️ [OPSD-V: On-Policy Self-Distillation for Post-Training Few-Step Autoregressive Video Generators](https://huggingface.co/papers/2607.08766) · `HuggingFace Papers`
-- 🛠️ [GPT-5.6 is now the preferred model in Microsoft 365 Copilot](https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot) · `OpenAI Blog`
-- 🛠️ [GPT-5.5 Bio Bug Bounty](https://openai.com/index/bio-bug-bounty) · `OpenAI Blog`
-- 🛠️ [Microsoft’s carbon emissions went up 25 percent last year](https://www.theverge.com/tech/963728/microsoft-sustainability-report-2026) · `The Verge AI`
-- 🛠️ [Fidji Simo steps down from leading OpenAI’s AGI work due to illness](https://www.theverge.com/ai-artificial-intelligence/963738/openai-fidji-simo-steps-down-ceo-advisor) · `The Verge AI`
-- 🛠️ [The ChatGPT browser is already dead](https://www.theverge.com/ai-artificial-intelligence/963654/openai-chatgpt-atlas-ai-browser-shut-down-sunset) · `The Verge AI`
-- 🛠️ [Google will now tell you if an ad was made with AI](https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label) · `The Verge AI`
-- 🛠️ [Microsoft’s patch Tuesdays are about to get bigger](https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates) · `The Verge AI`
-- 🛠️ [OpenAI says GPT 5.6 is the ‘preferred model’ for Microsoft Copilot 365 amid breakup chatter](https://techcrunch.com/2026/07/09/openai-says-gpt-5-6-is-the-preferred-model-for-microsoft-copilot-amid-breakup-chatter/) · `TechCrunch AI`
+- 🔬 [Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1](https://arxiv.org/abs/2607.06764) · `arXiv cs.AI`
+- 📊 [How the terrorist group Boko Haram uses frontier AI](https://casp.ac/reports/ai-enabled-terrorism) · `HackerNews`
+- 📊 [How Deutsche Telekom is rewiring telecommunications with AI](https://openai.com/index/deutsche-telekom) · `OpenAI Blog`
+- 🔬 [When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning](https://arxiv.org/abs/2607.06720) · `arXiv cs.AI`
+- 🔬 [Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics](https://arxiv.org/abs/2607.06820) · `arXiv cs.AI`
+- 📊 [Apple sues OpenAI, accuses ex-employees of stealing trade secrets](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) · `HackerNews`
+- 📊 [AI 2040: Plan A](https://ai-2040.com/) · `HackerNews`
+- 📊 [Open source AI matters more than ever, according to Hugging Face’s Clem Delangue](https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/) · `TechCrunch AI`
+- 📊 [SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs](https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/) · `TechCrunch AI`
+- 📊 [Meta turns off the Instagram feature that let users make AI deepfakes of public accounts](https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes) · `The Verge AI`
 
 
 ---
@@ -51,9 +83,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 44 篇 | 20 篇 | **6 篇** |
+| 11 源 | 135 篇 | 33 篇 | 20 篇 | **9 篇** |
 
-*生成于 2026-07-10 10:40 UTC+8*
+*生成于 2026-07-11 10:21 UTC+8*
 
 ## 📚 往期简报
 
