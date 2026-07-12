@@ -6,75 +6,78 @@
 
 ---
 
-## 📅 2026-07-11 周六
+## 📅 2026-07-12 周日
 
 ### 📌 今日焦点
 
-**[OpenAI rolls out GPT-5.6 after government greenlight — and announces ‘ChatGPT Work’](https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work)** · `The Verge AI` ⭐
+**[Apple sues OpenAI for allegedly stealing hardware secrets](https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets)** · `The Verge AI`
 
-> GPT-5.6 的正式推出叠加企业向产品 ChatGPT Work，意味着前沿模型能力正从实验室突破快速进入开发与办公主流程。开发者应立即评估其在编码、代理编排与团队知识工作中的收益，同时建立成本、权限与可靠性基线。
+> 这起诉讼把生成式 AI 的竞争从模型与产品，进一步推向硬件、供应链与知识产权层面，可能影响 AI 设备合作与商业化节奏。开发者应尽快梳理涉及模型接入、设备集成与合作数据边界的合规风险，避免在生态震荡中被动返工。
 
+  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
 
 ---
 
 ### 🔥 热点速览
 
-**1. [GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf)** · `HackerNews` ⭐
+**1. [warpdotdev/warp: Warp is an agentic development environment, born out of the ...](https://github.com/warpdotdev/warp)** · `GitHub Trending`
 
-若数学证明结果可复核，LLM 在科研级推理的可信边界将被重新定义。
+Agentic 终端正重塑开发入口，值得关注下一代 IDE 形态。
 
-**2. [mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**2. [QuantumNous/new-api: A unified AI model hub for aggregation & distribution. I...](https://github.com/QuantumNous/new-api)** · `GitHub Trending`
 
-多模态本地运行需求升温，开发者需提前布局私有化 AI 基础设施。
+多模型统一网关需求持续升温，直接关系成本、兼容性与迁移效率。
 
-**3. [Better tools made Copilot code review worse. Here’s how we actually improved it.](https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/)** · `GitHub Blog`
+**3. [Mesh LLM: distributed AI computing on iroh](https://www.iroh.computer/blog/mesh-llm)** · `HackerNews`
 
-代码审查不只靠更强模型，评测与流程设计才决定真实生产效果。
+分布式 LLM 探索边缘协同新路径，或影响推理部署架构。
 
-**4. [Show HN: Reverse-engineering web apps into agent tools](https://news.ycombinator.com/item?id=48847834)** · `HackerNews`
+**4. [OpenAI bets on families as ChatGPT goes deeper into households](https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/)** · `TechCrunch AI`
 
-把网页逆向成 agent 工具，能显著降低自动化接入老系统成本。
+ChatGPT 向家庭场景渗透，预示 AI 产品留存竞争转向日常入口。
 
-**5. [AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation](https://arxiv.org/abs/2607.06624)** · `arXiv cs.AI`
+**5. [Context Graphs for Proactive Enterprise Agents](https://arxiv.org/abs/2607.07721)** · `arXiv cs.AI`
 
-编码代理进入生产后，轨迹级评估将比单次打分更接近真实质量。
+企业 Agent 从问答走向主动执行，核心瓶颈开始转向上下文建模。
 
-**6. [The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI](https://arxiv.org/abs/2607.06906)** · `arXiv cs.AI`
+**6. [Infinity-Parser2 Technical Report](https://arxiv.org/abs/2607.07836)** · `arXiv cs.AI`
 
-企业 Agent 成本不只看模型单价，编排方式往往才是 token 黑洞。
+解析能力仍是文档智能底座，直接影响 RAG 与自动化流程质量。
 
-**7. [Hugging Face’s CEO on why companies are done renting their AI](https://techcrunch.com/2026/07/10/hugging-faces-ceo-on-why-companies-are-done-renting-their-ai/)** · `TechCrunch AI`
+**7. [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/)** · `TechCrunch AI`
 
-企业从租用转向自持模型，意味着部署、治理与数据主权成新竞争点。
+用户反弹提醒团队：AI 功能上线速度不能快过产品边界设计。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[AI Shortlink](https://github.com/flyfish-dev/shortlink)** · `阮一峰周刊`
+**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-轻量化 AI 短链接工具适合开发者快速分享模型、提示词与实验入口。
+AI 时代系统更复杂，Netdata 适合快速补齐全栈可观测性。
+
+**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+
+想自托管代码协作平台时，Gitea 依旧是轻量且成熟的稳妥选择。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正拉开 AI 产品差距的，不只是模型更强，而是你是否把能力接进了真实工作流。
+> AI 的护城河不只在模型精度，更在你如何把能力安全、稳定地接入真实世界。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🔬 [Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1](https://arxiv.org/abs/2607.06764) · `arXiv cs.AI`
-- 📊 [How the terrorist group Boko Haram uses frontier AI](https://casp.ac/reports/ai-enabled-terrorism) · `HackerNews`
-- 📊 [How Deutsche Telekom is rewiring telecommunications with AI](https://openai.com/index/deutsche-telekom) · `OpenAI Blog`
-- 🔬 [When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning](https://arxiv.org/abs/2607.06720) · `arXiv cs.AI`
-- 🔬 [Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics](https://arxiv.org/abs/2607.06820) · `arXiv cs.AI`
-- 📊 [Apple sues OpenAI, accuses ex-employees of stealing trade secrets](https://9to5mac.com/2026/07/10/apple-sues-openai-trade-secret-theft/) · `HackerNews`
-- 📊 [AI 2040: Plan A](https://ai-2040.com/) · `HackerNews`
-- 📊 [Open source AI matters more than ever, according to Hugging Face’s Clem Delangue](https://techcrunch.com/podcast/open-source-ai-matters-more-than-ever-according-to-hugging-faces-clem-delangue/) · `TechCrunch AI`
-- 📊 [SK Hynix raises $26.5B in the biggest foreign IPO in US history, is urged to build new US fabs](https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/) · `TechCrunch AI`
-- 📊 [Meta turns off the Instagram feature that let users make AI deepfakes of public accounts](https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes) · `The Verge AI`
+- 🛠️ [ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial i...](https://github.com/ruvnet/RuView) · `GitHub Trending`
+- 🔬 [Ghost Font: A font that humans can read but AI cannot](https://www.mixfont.com/ghost-font) · `HackerNews`
+- 🔬 [Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning](https://arxiv.org/abs/2607.07761) · `arXiv cs.AI`
+- 🔬 [Adversarial Social Epistemology for Assemblies of Humans and Large Language Models](https://arxiv.org/abs/2607.07760) · `arXiv cs.AI`
+- 🔬 [Alignment Plausibility: A New Standard for Assuring AI in Healthcare](https://arxiv.org/abs/2607.07766) · `arXiv cs.AI`
+- 📊 [Stop Telling Me to Ask an LLM](https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/) · `HackerNews`
+- 📊 [Reverse centaurs are the answer to the AI paradox (2025)](https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative) · `HackerNews`
+- 💡 [AI Can't Recreate the Thrust Game (But It Can Help You Understand It)](https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/) · `HackerNews`
 
 
 ---
@@ -83,9 +86,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 33 篇 | 20 篇 | **9 篇** |
+| 11 源 | 139 篇 | 25 篇 | 18 篇 | **10 篇** |
 
-*生成于 2026-07-11 10:21 UTC+8*
+*生成于 2026-07-12 10:26 UTC+8*
 
 ## 📚 往期简报
 
