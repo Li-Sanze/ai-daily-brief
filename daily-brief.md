@@ -6,78 +6,71 @@
 
 ---
 
-## 📅 2026-07-12 周日
+## 📅 2026-07-13 周一
 
 ### 📌 今日焦点
 
-**[Apple sues OpenAI for allegedly stealing hardware secrets](https://www.theverge.com/tech/964350/apple-openai-lawsuit-trade-secrets)** · `The Verge AI`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
 
-> 这起诉讼把生成式 AI 的竞争从模型与产品，进一步推向硬件、供应链与知识产权层面，可能影响 AI 设备合作与商业化节奏。开发者应尽快梳理涉及模型接入、设备集成与合作数据边界的合规风险，避免在生态震荡中被动返工。
+> Codex 以终端原生形态把编码代理直接带进开发者主工作流，代表 AI 编程正从聊天窗口走向可执行、可集成、可自动化的基础设施。开发者应尽快评估其在本地代码库、CI 脚本与日常修复任务中的适配性，并建立权限、审计与回滚机制。
 
-  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
 
 ---
 
 ### 🔥 热点速览
 
-**1. [warpdotdev/warp: Warp is an agentic development environment, born out of the ...](https://github.com/warpdotdev/warp)** · `GitHub Trending`
+**1. [vllm-project/vllm: A high-throughput and memory-efficient inference and servi...](https://github.com/vllm-project/vllm)** · `GitHub Trending` ⭐
 
-Agentic 终端正重塑开发入口，值得关注下一代 IDE 形态。
+vLLM 是大模型服务层事实标准候选，关乎成本、吞吐与上线速度。
 
-**2. [QuantumNous/new-api: A unified AI model hub for aggregation & distribution. I...](https://github.com/QuantumNous/new-api)** · `GitHub Trending`
+**2. [Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k](https://systima.ai/blog/claude-code-vs-opencode-token-overhead)** · `HackerNews`
 
-多模型统一网关需求持续升温，直接关系成本、兼容性与迁移效率。
+Agent 的上下文浪费会直接烧钱，提示前开销应纳入性能基线。
 
-**3. [Mesh LLM: distributed AI computing on iroh](https://www.iroh.computer/blog/mesh-llm)** · `HackerNews`
+**3. [What xAI's Grok build CLI sends to xAI: A wire-level analysis](https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547)** · `HackerNews`
 
-分布式 LLM 探索边缘协同新路径，或影响推理部署架构。
+线级抓包揭示工具真实数据边界，选型前必须核查隐私与遥测行为。
 
-**4. [OpenAI bets on families as ChatGPT goes deeper into households](https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/)** · `TechCrunch AI`
+**4. [Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper](https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6)** · `HackerNews`
 
-ChatGPT 向家庭场景渗透，预示 AI 产品留存竞争转向日常入口。
+模型迁移的核心是速度、成本与效果三角，真实案例最有参考价值。
 
-**5. [Context Graphs for Proactive Enterprise Agents](https://arxiv.org/abs/2607.07721)** · `arXiv cs.AI`
+**5. [Mechanistic interpretability researchers applying causality theory to LLMs](https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/)** · `HackerNews`
 
-企业 Agent 从问答走向主动执行，核心瓶颈开始转向上下文建模。
+可解释性若引入因果框架，或将提升调试、对齐与评测方法论。
 
-**6. [Infinity-Parser2 Technical Report](https://arxiv.org/abs/2607.07836)** · `arXiv cs.AI`
+**6. [Old and new apps, via modern coding agents](https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/)** · `HackerNews`
 
-解析能力仍是文档智能底座，直接影响 RAG 与自动化流程质量。
+现代 coding agent 正重塑旧系统维护，值得重估遗留应用改造路径。
 
-**7. [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/)** · `TechCrunch AI`
+**7. [The fight against AI data centers is just beginning](https://www.theverge.com/column/963346/ai-data-centers-fight)** · `The Verge AI`
 
-用户反弹提醒团队：AI 功能上线速度不能快过产品边界设计。
+AI 基础设施的能源与社区阻力，未来会反向影响部署成本与选址。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
 
-AI 时代系统更复杂，Netdata 适合快速补齐全栈可观测性。
+RAGFlow 提供较完整的开源 RAG 工程栈，适合快速验证检索增强应用。
 
-**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+**[milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-想自托管代码协作平台时，Gitea 依旧是轻量且成熟的稳妥选择。
+Milvus 是向量检索基础设施代表项目，适合构建可扩展的语义搜索与记忆层。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的护城河不只在模型精度，更在你如何把能力安全、稳定地接入真实世界。
+> 真正拉开 AI 工程差距的，不是你接入了哪个模型，而是你能否把它变成可度量、可审计、可迭代的系统。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🛠️ [ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial i...](https://github.com/ruvnet/RuView) · `GitHub Trending`
-- 🔬 [Ghost Font: A font that humans can read but AI cannot](https://www.mixfont.com/ghost-font) · `HackerNews`
-- 🔬 [Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning](https://arxiv.org/abs/2607.07761) · `arXiv cs.AI`
-- 🔬 [Adversarial Social Epistemology for Assemblies of Humans and Large Language Models](https://arxiv.org/abs/2607.07760) · `arXiv cs.AI`
-- 🔬 [Alignment Plausibility: A New Standard for Assuring AI in Healthcare](https://arxiv.org/abs/2607.07766) · `arXiv cs.AI`
-- 📊 [Stop Telling Me to Ask an LLM](https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/) · `HackerNews`
-- 📊 [Reverse centaurs are the answer to the AI paradox (2025)](https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative) · `HackerNews`
-- 💡 [AI Can't Recreate the Thrust Game (But It Can Help You Understand It)](https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/) · `HackerNews`
+- 📊 [Apple’s failed self-driving car program left a legacy of powerful AI chips](https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra) · `The Verge AI`
+- 🚀 [Lorde says Ray-Ban Meta AI glasses are ‘not sexy’](https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy) · `The Verge AI`
 
 
 ---
@@ -86,9 +79,9 @@ AI 时代系统更复杂，Netdata 适合快速补齐全栈可观测性。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 139 篇 | 25 篇 | 18 篇 | **10 篇** |
+| 10 源 | 131 篇 | 16 篇 | 12 篇 | **10 篇** |
 
-*生成于 2026-07-12 10:26 UTC+8*
+*生成于 2026-07-13 10:28 UTC+8*
 
 ## 📚 往期简报
 
