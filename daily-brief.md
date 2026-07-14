@@ -6,71 +6,77 @@
 
 ---
 
-## 📅 2026-07-13 周一
+## 📅 2026-07-14 周二
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
+**[Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor](https://get-inscribe.com/blog/apple-speech-api-benchmark.html)** · `HackerNews`
 
-> Codex 以终端原生形态把编码代理直接带进开发者主工作流，代表 AI 编程正从聊天窗口走向可执行、可集成、可自动化的基础设施。开发者应尽快评估其在本地代码库、CI 脚本与日常修复任务中的适配性，并建立权限、审计与回滚机制。
+> Apple 把语音理解能力下放为系统级 API，并直接与 Whisper 等方案对标，意味着端侧语音 AI 的工程门槛和部署路径正在被重写。对开发者而言，值得立即评估 SpeechAnalyzer 在延迟、隐私与成本上的实际表现，并规划 iOS 端语音产品的迁移或双栈方案。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [vllm-project/vllm: A high-throughput and memory-efficient inference and servi...](https://github.com/vllm-project/vllm)** · `GitHub Trending` ⭐
+**1. [Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading](https://arxiv.org/abs/2607.08964)** · `arXiv cs.AI`
 
-vLLM 是大模型服务层事实标准候选，关乎成本、吞吐与上线速度。
+长程任务基准决定 Agent 是否能真正走进生产环境。
 
-**2. [Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k](https://systima.ai/blog/claude-code-vs-opencode-token-overhead)** · `HackerNews`
+**2. [KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scaling](https://arxiv.org/abs/2607.09153)** · `arXiv cs.AI`
 
-Agent 的上下文浪费会直接烧钱，提示前开销应纳入性能基线。
+奖励模型提效若成立，将直接改善多代理推理成本结构。
 
-**3. [What xAI's Grok build CLI sends to xAI: A wire-level analysis](https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547)** · `HackerNews`
+**3. [GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning](https://arxiv.org/abs/2607.08894)** · `arXiv cs.AI`
 
-线级抓包揭示工具真实数据边界，选型前必须核查隐私与遥测行为。
+规划能力仍是 Agent 瓶颈，这类搜索方法值得持续跟踪。
 
-**4. [Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper](https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6)** · `HackerNews`
+**4. [ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning](https://arxiv.org/abs/2607.09059)** · `arXiv cs.AI`
 
-模型迁移的核心是速度、成本与效果三角，真实案例最有参考价值。
+程序合成正逼近 ARC 难题，可能影响自动编程评测范式。
 
-**5. [Mechanistic interpretability researchers applying causality theory to LLMs](https://cacm.acm.org/news/can-we-understand-how-large-language-models-reason/)** · `HackerNews`
+**5. [Anthropic starts localizing Claude pricing for India, its biggest market after the US](https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/)** · `TechCrunch AI`
 
-可解释性若引入因果框架，或将提升调试、对齐与评测方法论。
+Claude 本地定价显示全球化计费正在成为模型落地关键变量。
 
-**6. [Old and new apps, via modern coding agents](https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/)** · `HackerNews`
+**6. [Satya Nadella has issued a shocking warning to companies using AI](https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/)** · `TechCrunch AI`
 
-现代 coding agent 正重塑旧系统维护，值得重估遗留应用改造路径。
+大厂高管的 AI 警告，往往预示企业采购与治理将收紧。
 
-**7. [The fight against AI data centers is just beginning](https://www.theverge.com/column/963346/ai-data-centers-fight)** · `The Verge AI`
+**7. [Samsung Health app threatens data deletion if users opt out AI training](https://neow.in/cWsyMTV3)** · `HackerNews`
 
-AI 基础设施的能源与社区阻力，未来会反向影响部署成本与选址。
+AI 训练与用户数据边界再起争议，合规设计不能后补。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**[Show HN: Jacquard, a programming language for AI-written, human-reviewed code](https://github.com/jbwinters/jacquard-lang)** · `HackerNews`
 
-RAGFlow 提供较完整的开源 RAG 工程栈，适合快速验证检索增强应用。
+为 AI 生成、人类审阅的协作编程提供新语言思路，适合关注 AI 原生开发流程的人试用。
 
-**[milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
+**[Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents](https://github.com/morganwilliscloud/billai-bass)** · `HackerNews`
 
-Milvus 是向量检索基础设施代表项目，适合构建可扩展的语义搜索与记忆层。
+有趣但不止于玩具，展示了 Agents 与硬件交互的低门槛原型能力。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正拉开 AI 工程差距的，不是你接入了哪个模型，而是你能否把它变成可度量、可审计、可迭代的系统。
+> 真正改变开发的，不是模型会不会说，而是它能不能在约束中稳定完成任务。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Apple’s failed self-driving car program left a legacy of powerful AI chips](https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra) · `The Verge AI`
-- 🚀 [Lorde says Ray-Ban Meta AI glasses are ‘not sexy’](https://www.theverge.com/ai-artificial-intelligence/964539/lorde-says-ray-ban-meta-ai-glasses-are-not-sexy) · `The Verge AI`
+- 📊 [Video-generation startup PixVerse raises $439M, valuation soars past $2B](https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/) · `TechCrunch AI`
+- 📊 [Hermes agent maker Nous Research in talks for new funding at $1.5B valuation](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/) · `TechCrunch AI`
+- 🔬 [CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions](https://arxiv.org/abs/2607.08774) · `arXiv cs.AI`
+- 🚀 [Siri AI is already changing how I use my iPhone](https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on) · `The Verge AI`
+- 📊 [The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI](https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims) · `The Verge AI`
+- 🚀 [Waze is getting a bunch of new AI-powered features](https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty) · `The Verge AI`
+- 📊 [Sam Altman’s space data center trash talk is what most experts already believe](https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/) · `TechCrunch AI`
+- 🛠️ [Claude Code plugin that plays a Mr. Meeseeks voice line whene Claude is waiting](https://github.com/thephw/claude-meseeks) · `HackerNews`
 
 
 ---
@@ -79,9 +85,9 @@ Milvus 是向量检索基础设施代表项目，适合构建可扩展的语义�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 131 篇 | 16 篇 | 12 篇 | **10 篇** |
+| 11 源 | 137 篇 | 28 篇 | 18 篇 | **10 篇** |
 
-*生成于 2026-07-13 10:28 UTC+8*
+*生成于 2026-07-14 10:07 UTC+8*
 
 ## 📚 往期简报
 
