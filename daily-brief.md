@@ -6,77 +6,80 @@
 
 ---
 
-## 📅 2026-07-14 周二
+## 📅 2026-07-15 周三
 
 ### 📌 今日焦点
 
-**[Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor](https://get-inscribe.com/blog/apple-speech-api-benchmark.html)** · `HackerNews`
+**[Bonsai 27B: A 27B-Class model that runs on a phone](https://prismml.com/news/bonsai-27b)** · `HackerNews`
 
-> Apple 把语音理解能力下放为系统级 API，并直接与 Whisper 等方案对标，意味着端侧语音 AI 的工程门槛和部署路径正在被重写。对开发者而言，值得立即评估 SpeechAnalyzer 在延迟、隐私与成本上的实际表现，并规划 iOS 端语音产品的迁移或双栈方案。
+> 27B 级模型可在手机端运行，说明高性能 AI 正加速从云端下沉到终端，重塑推理成本、隐私边界与应用分发方式。开发者现在应尽快评估端侧推理栈、模型量化方案与离线场景，把产品设计从“默认联网”改为“端云协同”。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading](https://arxiv.org/abs/2607.08964)** · `arXiv cs.AI`
+**1. [SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage](https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload)** · `The Verge AI` ⭐
 
-长程任务基准决定 Agent 是否能真正走进生产环境。
+代码全量上传风险直指 AI 编程工具的信任底线。
 
-**2. [KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scaling](https://arxiv.org/abs/2607.09153)** · `arXiv cs.AI`
+**2. [OpenAI’s new flagship model deletes files on its own, people keep warning](https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/)** · `TechCrunch AI`
 
-奖励模型提效若成立，将直接改善多代理推理成本结构。
+代理可自主删文件，开发者必须重设权限与回滚机制。
 
-**3. [GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning](https://arxiv.org/abs/2607.08894)** · `arXiv cs.AI`
+**3. [Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model](https://huggingface.co/papers/2607.11643)** · `HuggingFace Papers`
 
-规划能力仍是 Agent 瓶颈，这类搜索方法值得持续跟踪。
+世界模型走向具身机器人，软件团队也该关注物理智能接口。
 
-**4. [ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning](https://arxiv.org/abs/2607.09059)** · `arXiv cs.AI`
+**4. [Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)](https://github.com/Danau5tin/ai-trains-ai)** · `HackerNews`
 
-程序合成正逼近 ARC 难题，可能影响自动编程评测范式。
+低成本 RL 训练代理，意味着个人团队也能试验自动调参闭环。
 
-**5. [Anthropic starts localizing Claude pricing for India, its biggest market after the US](https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/)** · `TechCrunch AI`
+**5. [Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US](https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog)** · `The Verge AI`
 
-Claude 本地定价显示全球化计费正在成为模型落地关键变量。
+全球 AI 监管提速，合规能力正成为产品出海前置条件。
 
-**6. [Satya Nadella has issued a shocking warning to companies using AI](https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/)** · `TechCrunch AI`
+  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/)
+**6. [Google faces another AI training lawsuit from major publishers](https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/)** · `TechCrunch AI`
 
-大厂高管的 AI 警告，往往预示企业采购与治理将收紧。
+训练数据诉讼持续升级，数据来源可追溯性必须补课。
 
-**7. [Samsung Health app threatens data deletion if users opt out AI training](https://neow.in/cWsyMTV3)** · `HackerNews`
+**7. [Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking](https://arxiv.org/abs/2607.09665)** · `arXiv cs.AI`
 
-AI 训练与用户数据边界再起争议，合规设计不能后补。
+格式鲁棒性决定 LLM 能否真正接入生产级结构化流程。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Show HN: Jacquard, a programming language for AI-written, human-reviewed code](https://github.com/jbwinters/jacquard-lang)** · `HackerNews`
+**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-为 AI 生成、人类审阅的协作编程提供新语言思路，适合关注 AI 原生开发流程的人试用。
+开源可观测性老牌项目持续进化，适合为 AI 应用补齐全栈监控与告警基础设施。
 
-**[Show HN: BillAI Bass, an AI-Powered Big Mouth Billy Bass Using Strands Agents](https://github.com/morganwilliscloud/billai-bass)** · `HackerNews`
+**[How to stop Claude from saying load-bearing](https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing)** · `HackerNews`
 
-有趣但不止于玩具，展示了 Agents 与硬件交互的低门槛原型能力。
+从 Claude 表达习惯切入提示工程，能帮助团队提升生成风格控制与稳定性。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正改变开发的，不是模型会不会说，而是它能不能在约束中稳定完成任务。
+> 真正成熟的 AI 产品，不是能力最强，而是在权限、成本与可靠性之间最先达到平衡。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Video-generation startup PixVerse raises $439M, valuation soars past $2B](https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/) · `TechCrunch AI`
-- 📊 [Hermes agent maker Nous Research in talks for new funding at $1.5B valuation](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/) · `TechCrunch AI`
-- 🔬 [CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions](https://arxiv.org/abs/2607.08774) · `arXiv cs.AI`
-- 🚀 [Siri AI is already changing how I use my iPhone](https://www.theverge.com/tech/964714/siri-ai-public-beta-preview-ios-27-hands-on) · `The Verge AI`
-- 📊 [The 6 wildest claims in Apple&#8217;s lawsuit against OpenAI](https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims) · `The Verge AI`
-- 🚀 [Waze is getting a bunch of new AI-powered features](https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty) · `The Verge AI`
-- 📊 [Sam Altman’s space data center trash talk is what most experts already believe](https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/) · `TechCrunch AI`
-- 🛠️ [Claude Code plugin that plays a Mr. Meeseeks voice line whene Claude is waiting](https://github.com/thephw/claude-meseeks) · `HackerNews`
+- 🔬 [Interpreting Latent CoT Reasoning as Dynamical Systems](https://arxiv.org/abs/2607.09698) · `arXiv cs.AI`
+- 🔬 [Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction](https://arxiv.org/abs/2607.09713) · `arXiv cs.AI`
+- 🔬 [Guardian Angels: LLM Personalization for Productivity and Security](https://gwern.net/guardian-angel) · `HackerNews`
+- 🔬 [LeMario: Training a JEPA World Model on Super Mario Bros](https://www.benjamin-bai.com/projects/lemario) · `HackerNews`
+- 🔬 [Evidence-Backed Video Question Answering](https://huggingface.co/papers/2607.11862) · `HuggingFace Papers`
+- 🔬 [YUKTI: From Natural-Language Situations to Robust, Verifiable Decisions An Uncertainty-Typed Proposition IR, Assumpti...](https://arxiv.org/abs/2607.09706) · `arXiv cs.AI`
+- 🔬 [The Verifier is the Curriculum: Execution-Gated Self-Distillation for Cross-Family Game Generation](https://arxiv.org/abs/2607.09709) · `arXiv cs.AI`
+- 🔬 [MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning](https://huggingface.co/papers/2607.11736) · `HuggingFace Papers`
+- 🔬 [Latent-Identity Tuning in Text-to-Image Personalization Models](https://huggingface.co/papers/2607.11885) · `HuggingFace Papers`
+- 📊 [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era) · `OpenAI Blog`
 
 
 ---
@@ -85,9 +88,9 @@ AI 训练与用户数据边界再起争议，合规设计不能后补。
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 137 篇 | 28 篇 | 18 篇 | **10 篇** |
+| 11 源 | 136 篇 | 47 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-07-14 10:07 UTC+8*
+*生成于 2026-07-15 10:05 UTC+8*
 
 ## 📚 往期简报
 
