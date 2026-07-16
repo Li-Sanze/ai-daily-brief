@@ -6,80 +6,79 @@
 
 ---
 
-## 📅 2026-07-15 周三
+## 📅 2026-07-16 周四
 
 ### 📌 今日焦点
 
-**[Bonsai 27B: A 27B-Class model that runs on a phone](https://prismml.com/news/bonsai-27b)** · `HackerNews`
+**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
 
-> 27B 级模型可在手机端运行，说明高性能 AI 正加速从云端下沉到终端，重塑推理成本、隐私边界与应用分发方式。开发者现在应尽快评估端侧推理栈、模型量化方案与离线场景，把产品设计从“默认联网”改为“端云协同”。
+> Codex 把编程代理直接带进终端，意味着 AI 编码正从聊天窗口走向开发者真实工作流，影响范围和落地速度都很大。开发者应尽快用它接入本地仓库、测试与 CI 流程，验证哪些编码任务已适合交给代理自动完成。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [SpaceXAI&#8217;s Grok programming tool was uploading its users&#8217; entire codebase to cloud storage](https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload)** · `The Verge AI` ⭐
+**1. [Apple Intelligence approved for launch in China with Alibaba’s Qwen AI](https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/)** · `TechCrunch AI`
 
-代码全量上传风险直指 AI 编程工具的信任底线。
+苹果在中国落地 AI，预示全球应用生态与模型合作格局将重排。
 
-**2. [OpenAI’s new flagship model deletes files on its own, people keep warning](https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/)** · `TechCrunch AI`
+**2. [Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling](https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/)** · `TechCrunch AI`
 
-代理可自主删文件，开发者必须重设权限与回滚机制。
+开源模型新玩家入场，给垂直场景调优和私有部署更多选择。
 
-**3. [Xiaomi-Robotics-U0: Unified Embodied Synthesis with World Foundation Model](https://huggingface.co/papers/2607.11643)** · `HuggingFace Papers`
+**3. [infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
 
-世界模型走向具身机器人，软件团队也该关注物理智能接口。
+RAGFlow 热度高，说明企业级检索增强仍是最可交付的 AI 方向。
 
-**4. [Show HN: I RL-trained an agent that trains models with RL (for ~$1.3k)](https://github.com/Danau5tin/ai-trains-ai)** · `HackerNews`
+**4. [Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/)** · `TechCrunch AI`
 
-低成本 RL 训练代理，意味着个人团队也能试验自动调参闭环。
+AI 竞争正转向实施能力，开发者价值将更多体现在集成与落地。
 
-**5. [Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US](https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog)** · `The Verge AI`
+**5. [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red)** · `OpenAI Blog`
 
-全球 AI 监管提速，合规能力正成为产品出海前置条件。
+模型自我改进走向鲁棒性，值得关注未来评测与安全训练范式。
 
-  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/)
-**6. [Google faces another AI training lawsuit from major publishers](https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/)** · `TechCrunch AI`
+**6. [GRID: Grammar-Railed Decoding for Enterprise SQL Generation](https://arxiv.org/abs/2607.11951)** · `arXiv cs.AI`
 
-训练数据诉讼持续升级，数据来源可追溯性必须补课。
+企业 SQL 生成最怕不稳定，语法约束解码直指生产可用性。
 
-**7. [Format Sensitivity Index: Token-Controlled Prompt Wrapper Robustness and Schema Compliance in LLM Benchmarking](https://arxiv.org/abs/2607.09665)** · `arXiv cs.AI`
+**7. [Designing Agent-Ready Websites for AI Web Agents: A Framework for Machine Readability, Actionability, and Decision Re...](https://arxiv.org/abs/2607.12056)** · `arXiv cs.AI`
 
-格式鲁棒性决定 LLM 能否真正接入生产级结构化流程。
+为 AI 代理设计网站，可能成为继 SEO 之后的新一代基础能力。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[Open-source memory for coding agents, synced over SSH](https://github.com/vshulcz/deja-vu/)** · `HackerNews`
 
-开源可观测性老牌项目持续进化，适合为 AI 应用补齐全栈监控与告警基础设施。
+给编码代理补上可同步记忆层，适合多机协作和长期任务场景。
 
-**[How to stop Claude from saying load-bearing](https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing)** · `HackerNews`
+**[What building Shippy taught us about building agents](https://huggingface.co/blog/allenai/shippy-tech-blog)** · `Hugging Face Blog`
 
-从 Claude 表达习惯切入提示工程，能帮助团队提升生成风格控制与稳定性。
+从真实项目复盘 agent 构建经验，能直接指导你的产品与工程设计。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正成熟的 AI 产品，不是能力最强，而是在权限、成本与可靠性之间最先达到平衡。
+> 未来最有价值的开发者，不是会不会用 AI，而是能不能把 AI 接进真实系统并稳定交付的人。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🔬 [Interpreting Latent CoT Reasoning as Dynamical Systems](https://arxiv.org/abs/2607.09698) · `arXiv cs.AI`
-- 🔬 [Closed-Loop Control with Rule-Aligned Small Language Models and Multi-Agent Self-Correction](https://arxiv.org/abs/2607.09713) · `arXiv cs.AI`
-- 🔬 [Guardian Angels: LLM Personalization for Productivity and Security](https://gwern.net/guardian-angel) · `HackerNews`
-- 🔬 [LeMario: Training a JEPA World Model on Super Mario Bros](https://www.benjamin-bai.com/projects/lemario) · `HackerNews`
-- 🔬 [Evidence-Backed Video Question Answering](https://huggingface.co/papers/2607.11862) · `HuggingFace Papers`
-- 🔬 [YUKTI: From Natural-Language Situations to Robust, Verifiable Decisions An Uncertainty-Typed Proposition IR, Assumpti...](https://arxiv.org/abs/2607.09706) · `arXiv cs.AI`
-- 🔬 [The Verifier is the Curriculum: Execution-Gated Self-Distillation for Cross-Family Game Generation](https://arxiv.org/abs/2607.09709) · `arXiv cs.AI`
-- 🔬 [MET: Theory-Grounded and Culture-Aware Multilingual Moral Reasoning](https://huggingface.co/papers/2607.11736) · `HuggingFace Papers`
-- 🔬 [Latent-Identity Tuning in Text-to-Image Personalization Models](https://huggingface.co/papers/2607.11885) · `HuggingFace Papers`
-- 📊 [How to manage AI investments in the agentic era](https://openai.com/index/managing-ai-investments-in-agentic-era) · `OpenAI Blog`
+- 🚀 [OpenAI finally launches hardware… for Codex](https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch) · `The Verge AI`
+- 🔬 [Operationalising Multi-Dimensional Evaluation for Conversational Agents: A Scalable, Governed Pipeline with Selective...](https://arxiv.org/abs/2607.12085) · `arXiv cs.AI`
+- 📊 [Governments, companies, nonprofits should invest in free, open source AI [pdf]](https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf) · `HackerNews`
+- 🔬 [Introducing Real World VoiceEQ: Measuring the human quality of voice AI](https://huggingface.co/blog/real-world-voiceeq) · `Hugging Face Blog`
+- 📊 [Suno snatched millions of songs from YouTube, Genius, and Deezer](https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack) · `The Verge AI`
+- 🚀 [OpenAI may announce a ChatGPT smart speaker this year](https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device) · `The Verge AI`
+- 📊 [Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic](https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/) · `TechCrunch AI`
+- 📊 [Hack suggests AI music generator Suno scraped YouTube for training data](https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/) · `TechCrunch AI`
+- 🔬 [In-Context Reinforcement Learning under Non-Stationarity: A Survey](https://arxiv.org/abs/2607.11906) · `arXiv cs.AI`
+- 🔬 [Graph Feedback Controls Consensus and Clique Formation in Open-Weight Language-Model Populations](https://arxiv.org/abs/2607.12077) · `arXiv cs.AI`
 
 
 ---
@@ -88,9 +87,9 @@
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 47 篇 | 20 篇 | **10 篇** |
+| 11 源 | 138 篇 | 42 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-07-15 10:05 UTC+8*
+*生成于 2026-07-16 10:14 UTC+8*
 
 ## 📚 往期简报
 
