@@ -6,79 +6,79 @@
 
 ---
 
-## 📅 2026-07-16 周四
+## 📅 2026-07-17 周五
 
 ### 📌 今日焦点
 
-**[openai/codex: Lightweight coding agent that runs in your terminal](https://github.com/openai/codex)** · `GitHub Trending` ⭐
+**[Apple Intelligence approved for launch in China with Alibaba and Baidu](https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/)** · `TechCrunch AI`
 
-> Codex 把编程代理直接带进终端，意味着 AI 编码正从聊天窗口走向开发者真实工作流，影响范围和落地速度都很大。开发者应尽快用它接入本地仓库、测试与 CI 流程，验证哪些编码任务已适合交给代理自动完成。
+> Apple Intelligence 获准在中国落地，意味着全球头部终端 AI 生态开始真正进入本地合规与本土模型协作阶段，影响将波及应用分发、Agent 接入和跨区域产品策略。开发者应尽快评估 iOS 端 AI 功能的中国区适配方案，准备面向阿里/百度生态的接口、数据治理与上线合规流程。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Apple Intelligence approved for launch in China with Alibaba’s Qwen AI](https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/)** · `TechCrunch AI`
+**1. [openinterpreter/openinterpreter: A coding agent for open models like Kimi K3](https://github.com/openinterpreter/openinterpreter)** · `GitHub Trending`
 
-苹果在中国落地 AI，预示全球应用生态与模型合作格局将重排。
+开源 Coding Agent 热度高，值得关注本地模型编程工作流成熟度。
 
-**2. [Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling](https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/)** · `TechCrunch AI`
+**2. [LM Studio Bionic: the AI agent for open models](https://lmstudio.ai/blog/introducing-lm-studio-bionic)** · `HackerNews`
 
-开源模型新玩家入场，给垂直场景调优和私有部署更多选择。
+本地 Agent 平台继续进化，私有部署与离线开发将更有吸引力。
 
-**3. [infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**3. [Claude can now use your 1Password credentials for you](https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration)** · `The Verge AI`
 
-RAGFlow 热度高，说明企业级检索增强仍是最可交付的 AI 方向。
+Agent 开始调用密码凭证，权限边界与审计设计将成刚需。
 
-**4. [Anthropic, Blackstone bet the next trillion-dollar AI business is implementation, not just models](https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/)** · `TechCrunch AI`
+**4. [Google’s AI Mode now lets you link and interact with select apps](https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/)** · `TechCrunch AI`
 
-AI 竞争正转向实施能力，开发者价值将更多体现在集成与落地。
+Google 把 AI 接进应用层，预示跨应用 Agent 编排进入实战。
 
-**5. [GPT-Red: Unlocking Self-Improvement for Robustness](https://openai.com/index/unlocking-self-improvement-gpt-red)** · `OpenAI Blog`
+**5. [NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval](https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb)** · `Hugging Face Blog`
 
-模型自我改进走向鲁棒性，值得关注未来评测与安全训练范式。
+检索嵌入再刷新榜单，RAG 与 Agent 记忆质量可能直接受益。
 
-**6. [GRID: Grammar-Railed Decoding for Enterprise SQL Generation](https://arxiv.org/abs/2607.11951)** · `arXiv cs.AI`
+**6. [Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models](https://arxiv.org/abs/2607.13172)** · `arXiv cs.AI`
 
-企业 SQL 生成最怕不稳定，语法约束解码直指生产可用性。
+安全 Agent 训练走向偏好+解释监督，关系到可控性落地。
 
-**7. [Designing Agent-Ready Websites for AI Web Agents: A Framework for Machine Readability, Actionability, and Decision Re...](https://arxiv.org/abs/2607.12056)** · `arXiv cs.AI`
+**7. [Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157)** · `arXiv cs.AI`
 
-为 AI 代理设计网站，可能成为继 SEO 之后的新一代基础能力。
+长程 Agent 记忆基础设施正在企业化，影响多步任务稳定性。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Open-source memory for coding agents, synced over SSH](https://github.com/vshulcz/deja-vu/)** · `HackerNews`
+**[warpdotdev/warp: Warp is an agentic development environment, born out of the ...](https://github.com/warpdotdev/warp)** · `GitHub Trending`
 
-给编码代理补上可同步记忆层，适合多机协作和长期任务场景。
+Agentic 终端形态持续升温，适合关注下一代开发环境的人上手评估。
 
-**[What building Shippy taught us about building agents](https://huggingface.co/blog/allenai/shippy-tech-blog)** · `Hugging Face Blog`
+**[GPT Crawler](https://github.com/BuilderIO/gpt-crawler)** · `阮一峰周刊`
 
-从真实项目复盘 agent 构建经验，能直接指导你的产品与工程设计。
+面向站点内容抓取与语料构建，适合做私有知识库和训练前数据准备。
 
 ---
 
 ### 💡 今日洞察
 
-> 未来最有价值的开发者，不是会不会用 AI，而是能不能把 AI 接进真实系统并稳定交付的人。
+> AI 的下一场竞争，不只是模型更强，而是谁先把能力接进真实世界的权限、记忆与工作流。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🚀 [OpenAI finally launches hardware… for Codex](https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch) · `The Verge AI`
-- 🔬 [Operationalising Multi-Dimensional Evaluation for Conversational Agents: A Scalable, Governed Pipeline with Selective...](https://arxiv.org/abs/2607.12085) · `arXiv cs.AI`
-- 📊 [Governments, companies, nonprofits should invest in free, open source AI [pdf]](https://www.siegelendowment.org/wp-content/uploads/2026/07/fortune-david-siegel-open-source-ai.pdf) · `HackerNews`
-- 🔬 [Introducing Real World VoiceEQ: Measuring the human quality of voice AI](https://huggingface.co/blog/real-world-voiceeq) · `Hugging Face Blog`
-- 📊 [Suno snatched millions of songs from YouTube, Genius, and Deezer](https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack) · `The Verge AI`
-- 🚀 [OpenAI may announce a ChatGPT smart speaker this year](https://www.theverge.com/ai-artificial-intelligence/965670/openai-chatgpt-ai-smart-speaker-hardware-device) · `The Verge AI`
-- 📊 [Microsoft is reportedly training salespeople to talk down OpenAI and Anthropic](https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/) · `TechCrunch AI`
-- 📊 [Hack suggests AI music generator Suno scraped YouTube for training data](https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/) · `TechCrunch AI`
-- 🔬 [In-Context Reinforcement Learning under Non-Stationarity: A Survey](https://arxiv.org/abs/2607.11906) · `arXiv cs.AI`
-- 🔬 [Graph Feedback Controls Consensus and Clique Formation in Open-Weight Language-Model Populations](https://arxiv.org/abs/2607.12077) · `arXiv cs.AI`
+- 🚀 [NotebookLM is now Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/) · `HackerNews`
+- 🔬 [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://huggingface.co/papers/2607.14777) · `HuggingFace Papers`
+- 🚀 [Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8](https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/) · `TechCrunch AI`
+- 🔬 [Detecting LLM-Generated Texts with “Classical” Machine Learning](https://blog.lyc8503.net/en/post/llm-classifier/) · `HackerNews`
+- 💡 [How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM](https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model) · `HackerNews`
+- 🔬 [RoboTTT: Context Scaling for Robot Policies](https://huggingface.co/papers/2607.15275) · `HuggingFace Papers`
+- 🔬 [Video = World + Event Stream](https://huggingface.co/papers/2607.15038) · `HuggingFace Papers`
+- 📊 [xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;](https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam) · `The Verge AI`
+- 🛠️ [Roblox launches an AI-powered game-creation feature in its mobile app](https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/) · `TechCrunch AI`
+- 🔬 [OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets](https://arxiv.org/abs/2607.13037) · `arXiv cs.AI`
 
 
 ---
@@ -87,9 +87,9 @@ AI 竞争正转向实施能力，开发者价值将更多体现在集成与落�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 138 篇 | 42 篇 | 20 篇 | **10 篇** |
+| 11 源 | 137 篇 | 47 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-07-16 10:14 UTC+8*
+*生成于 2026-07-17 10:23 UTC+8*
 
 ## 📚 往期简报
 
