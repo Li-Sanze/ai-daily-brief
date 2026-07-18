@@ -6,79 +6,80 @@
 
 ---
 
-## 📅 2026-07-17 周五
+## 📅 2026-07-18 周六
 
 ### 📌 今日焦点
 
-**[Apple Intelligence approved for launch in China with Alibaba and Baidu](https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/)** · `TechCrunch AI`
+**[The state of open source AI](https://stateofopensource.ai/)** · `HackerNews`
 
-> Apple Intelligence 获准在中国落地，意味着全球头部终端 AI 生态开始真正进入本地合规与本土模型协作阶段，影响将波及应用分发、Agent 接入和跨区域产品策略。开发者应尽快评估 iOS 端 AI 功能的中国区适配方案，准备面向阿里/百度生态的接口、数据治理与上线合规流程。
+> 开源 AI 的生态格局正在决定未来模型、工具链与基础设施的控制权，这对所有开发者的技术选型和长期成本都至关重要。建议开发者立即盘点自身对闭源模型与平台的依赖，优先评估可替代的开源模型、数据与部署栈。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [openinterpreter/openinterpreter: A coding agent for open models like Kimi K3](https://github.com/openinterpreter/openinterpreter)** · `GitHub Trending`
+**1. [Apple targets dozens of OpenAI employees with legal letters](https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166)** · `HackerNews`
 
-开源 Coding Agent 热度高，值得关注本地模型编程工作流成熟度。
+顶级人才争夺升级，预示大模型竞争将外溢到法律与组织战。
 
-**2. [LM Studio Bionic: the AI agent for open models](https://lmstudio.ai/blog/introducing-lm-studio-bionic)** · `HackerNews`
+  📎 延伸: [The Verge AI](https://www.theverge.com/podcast/967244/apple-openai-lawsuit-vergecast)
+**2. [Databricks hits $188B valuation, extending its run as AI’s favorite second act](https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/)** · `TechCrunch AI`
 
-本地 Agent 平台继续进化，私有部署与离线开发将更有吸引力。
+Databricks 高估值说明数据与 AI 平台层仍是最稳的价值承载点。
 
-**3. [Claude can now use your 1Password credentials for you](https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration)** · `The Verge AI`
+**3. [Patreon stops asking AI bots not to scrape — and starts blocking them](https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/)** · `TechCrunch AI`
 
-Agent 开始调用密码凭证，权限边界与审计设计将成刚需。
+反爬从声明转向技术封锁，开发者需重视数据获取合规与稳定性。
 
-**4. [Google’s AI Mode now lets you link and interact with select apps](https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/)** · `TechCrunch AI`
+**4. [Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers](https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel)** · `Hugging Face Blog`
 
-Google 把 AI 接进应用层，预示跨应用 Agent 编排进入实战。
+视频与图像模型微调门槛继续下降，多模态应用迭代会明显提速。
 
-**5. [NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval](https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb)** · `Hugging Face Blog`
+**5. [Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution](https://arxiv.org/abs/2607.13069)** · `arXiv cs.AI`
 
-检索嵌入再刷新榜单，RAG 与 Agent 记忆质量可能直接受益。
+黑盒审计 CoT 依赖性，有助于把模型可解释性带进真实评测流程。
 
-**6. [Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models](https://arxiv.org/abs/2607.13172)** · `arXiv cs.AI`
+**6. [Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104)** · `arXiv cs.AI`
 
-安全 Agent 训练走向偏好+解释监督，关系到可控性落地。
+Agent 自我改进正从概念走向系统化，值得关注可控性与评测框架。
 
-**7. [Oracle Agent Memory as an Enterprise Memory Substrate for Long-Horizon AI Agents](https://arxiv.org/abs/2607.13157)** · `arXiv cs.AI`
+**7. [Google Vids now lets you star in your own AI videos](https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/)** · `TechCrunch AI`
 
-长程 Agent 记忆基础设施正在企业化，影响多步任务稳定性。
+AI 视频正从生成走向“可出演”，企业内容生产链会被重新定义。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[warpdotdev/warp: Warp is an agentic development environment, born out of the ...](https://github.com/warpdotdev/warp)** · `GitHub Trending`
+**[ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial i...](https://github.com/ruvnet/RuView)** · `GitHub Trending`
 
-Agentic 终端形态持续升温，适合关注下一代开发环境的人上手评估。
+把普通 WiFi 信号变成空间感知与生命体征监测，展示低成本感知 AI 的新交互边界。
 
-**[GPT Crawler](https://github.com/BuilderIO/gpt-crawler)** · `阮一峰周刊`
+**[Oh My HuggingFace](https://github.com/oh-my-hf/ohmyhf)** · `阮一峰周刊`
 
-面向站点内容抓取与语料构建，适合做私有知识库和训练前数据准备。
+面向 Hugging Face 生态的实用整理，适合开发者快速补齐模型、数据集与工具链认知。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的下一场竞争，不只是模型更强，而是谁先把能力接进真实世界的权限、记忆与工作流。
+> AI 的护城河不只在模型参数里，更在谁能掌控开放生态、数据入口与部署路径。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🚀 [NotebookLM is now Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/) · `HackerNews`
-- 🔬 [SEED: Self-Evolving On-Policy Distillation for Agentic Reinforcement Learning](https://huggingface.co/papers/2607.14777) · `HuggingFace Papers`
-- 🚀 [Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8](https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/) · `TechCrunch AI`
-- 🔬 [Detecting LLM-Generated Texts with “Classical” Machine Learning](https://blog.lyc8503.net/en/post/llm-classifier/) · `HackerNews`
-- 💡 [How to Train a Gen AI Kick Drum Model on Your Old Linux Desktop with 6GB VRAM](https://www.zhinit.dev/blog/training-a-kick-drum-diffusion-model) · `HackerNews`
-- 🔬 [RoboTTT: Context Scaling for Robot Policies](https://huggingface.co/papers/2607.15275) · `HuggingFace Papers`
-- 🔬 [Video = World + Event Stream](https://huggingface.co/papers/2607.15038) · `HuggingFace Papers`
-- 📊 [xAI sues a man for using Grok to generate CSAM &#8216;deepfakes&#8217;](https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam) · `The Verge AI`
-- 🛠️ [Roblox launches an AI-powered game-creation feature in its mobile app](https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/) · `TechCrunch AI`
-- 🔬 [OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets](https://arxiv.org/abs/2607.13037) · `arXiv cs.AI`
+- 📊 [Why the first GPU financiers are turning to inference chips in a $400 million deal](https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/) · `TechCrunch AI`
+- 📊 [A scorecard for the AI age](https://openai.com/index/a-scorecard-for-the-ai-age) · `OpenAI Blog`
+- 📊 [How Apple’s big lawsuit could disrupt OpenAI’s IPO plans](https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/) · `TechCrunch AI`
+- 📊 [Kaiser nurses say AI, workplace surveillance are making their jobs, care worse](https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/) · `HackerNews`
+- 🚀 [Create, edit and star in videos with two Google Vids updates](https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/) · `Google AI Blog`
+- 🚀 [TikTok is testing an AI likeness detection tool](https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool) · `The Verge AI`
+- 📊 [New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state](https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies) · `The Verge AI`
+- 🚀 [Google is renaming NotebookLM to Gemini Notebook](https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm) · `The Verge AI`
+- 🔬 [SPINE: Bridging the Cyber-Physical Gap with Agentic AI](https://arxiv.org/abs/2607.13049) · `arXiv cs.AI`
+- 🔬 [Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools](https://arxiv.org/abs/2607.13115) · `arXiv cs.AI`
 
 
 ---
@@ -87,9 +88,9 @@ Agentic 终端形态持续升温，适合关注下一代开发环境的人上手
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 137 篇 | 47 篇 | 20 篇 | **10 篇** |
+| 11 源 | 136 篇 | 35 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-07-17 10:23 UTC+8*
+*生成于 2026-07-18 10:06 UTC+8*
 
 ## 📚 往期简报
 
