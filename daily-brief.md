@@ -6,69 +6,75 @@
 
 ---
 
-## 📅 2026-07-20 周一
+## 📅 2026-07-21 周二
 
 ### 📌 今日焦点
 
-**[vllm-project/vllm: A high-throughput and memory-efficient inference and servi...](https://github.com/vllm-project/vllm)** · `GitHub Trending` ⭐
+**[China’s open-weights AI strategy is winning](https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/)** · `HackerNews`
 
-> vLLM 已成为开源大模型推理栈的关键基础设施，它直接影响模型服务成本、吞吐和工程可复制性。开发者应尽快评估用 vLLM 替换或补充现有推理层，重点验证并发性能、显存占用与生产可观测性。
+> 这条重要，因为开源权重之争正从模型能力延伸到生态主导权，直接影响开发者未来能构建在什么样的 AI 基础设施之上。开发者应尽快评估 Qwen、Kimi 等开源/开放权重方案在成本、可控性与合规上的替代价值，避免单一闭源供应商锁定。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [bytedance/deer-flow: An open-source long-horizon SuperAgent harness that rese...](https://github.com/bytedance/deer-flow)** · `GitHub Trending`
+**1. [router-for-me/CLIProxyAPI: Wrap Antigravity, ChatGPT Codex, Claude Code, Grok...](https://github.com/router-for-me/CLIProxyAPI)** · `GitHub Trending`
 
-长程自主 Agent 正从演示走向工程化，值得提前布局评测与安全护栏。
+统一多家编码模型接口，能显著降低代理与工具链切换成本。
 
-**2. [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/)** · `HackerNews`
+**2. [Safety and alignment in an era of long-horizon models](https://openai.com/index/safety-alignment-long-horizon-models)** · `OpenAI Blog`
 
-Claude Code 底层换栈说明 AI 编码工具正持续追求更高性能与更低延迟。
+长程代理落地前，安全与对齐将决定哪些场景能真正上线。
 
-**3. [OpenAI reduces Codex Model Context Size from 372k to 272k](https://github.com/openai/codex/pull/33972/files)** · `HackerNews`
+**3. [Anthropic’s landmark $1.5B copyright settlement is approved](https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved/)** · `TechCrunch AI`
 
-上下文窗口调整会直接影响代码生成、RAG 和提示词设计的成本边界。
+版权判例会重塑训练数据、生成内容与企业采购风控标准。
 
-**4. [Ollama: All Aboard Open Models](https://ollama.com/blog/all-aboard-open-models)** · `HackerNews`
+**4. [Google is working on a new AI chip designed to make Gemini more efficient](https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/)** · `TechCrunch AI`
 
-开放模型本地运行生态继续升温，私有化部署与边缘 AI 机会在扩大。
+芯片自研进展将影响 Gemini 成本结构、性能上限与供应格局。
 
-**5. [AI advice made people less accurate but more confident – sudy](https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study)** · `HackerNews`
+**5. [AI’s most important protocol is getting a little bit easier to use](https://techcrunch.com/2026/07/20/ais-most-important-protocol-is-getting-a-little-bit-easier-to-use/)** · `TechCrunch AI`
 
-AI 提升信心不等于提升正确率，产品设计必须加入校验与反馈机制。
+关键协议更易用，意味着跨模型工具生态有望加速标准化。
 
-**6. [Moonshot AI suspends new subscriptions due to Kimi K3 demand](https://twitter.com/kimi_moonshot/status/2078855608565207130)** · `HackerNews`
+**6. [Do Coding Agents Need Executable World Models, Simplification, and Verification to Solve ARC-AGI-3?](https://arxiv.org/abs/2607.15439)** · `arXiv cs.AI`
 
-订阅暂停反映高性能模型需求爆发，推理供给仍是行业核心瓶颈。
+编码代理若要突破 ARC，验证与可执行环境可能比参数更关键。
 
-**7. [Nonprofit Current AI is racing to build the World Wide Web of AI, free for all](https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/)** · `TechCrunch AI`
+**7. [Claude Fable produced a counterexample to the Jacobian Conjecture](https://xcancel.com/__alpoge__/status/2079028340955197566)** · `HackerNews`
 
-开放 AI 基础设施若成型，将影响数据、模型与协议层的长期标准化。
+AI 触及前沿数学，提醒开发者关注高价值科研辅助的新边界。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+**[AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery](https://arxiv.org/abs/2607.15367)** · `arXiv cs.AI`
 
-Gitea 适合团队快速自建轻量研发平台，与本地 AI 工作流和私有代码仓天然契合。
+本地多代理语音助手方案完整，适合参考离线、可控的智能体架构设计。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 最危险的错误，不是答不上来，而是用流畅的语气让你停止怀疑。
+> AI 的下一场竞争，不只是谁模型更强，而是谁先把能力变成开发者可复用的基础设施。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Can an Apple lawsuit derail OpenAI’s hardware plans?](https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/) · `TechCrunch AI`
-- 📊 [What to watch for after Jensen Huang’s Japan visit](https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/) · `TechCrunch AI`
-- 📊 [I hate that I don’t hate this song made with Suno](https://www.theverge.com/entertainment/967678/1010benja-semiramis-dream-suno-ai-music) · `The Verge AI`
-- 📊 [‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’](https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/) · `TechCrunch AI`
+- 📊 [China delivers a one-two punch to America’s AI dominance](https://www.theverge.com/ai-artificial-intelligence/967781/chinese-ai-models-open-source-moonshot-kimi-k3-alibaba-qwen) · `The Verge AI`
+- 📊 [Kimi K3, Qwen 3.8, and Anthropic's (Potential) Unravelling](https://www.emergingtrajectories.com/lh/frontier-lab-economics/) · `HackerNews`
+- 📊 [Agent swarms and the new model economics](https://cursor.com/blog/agent-swarm-model-economics) · `HackerNews`
+- 📊 [Here are the 30,000 songs Sony is suing Udio&#8217;s AI music generator over](https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright) · `The Verge AI`
+- 📊 [OpenAI is scared of open-weight models. Should the US be?](https://techcrunch.com/2026/07/20/openai-is-scared-of-open-weight-models-should-the-us-be/) · `TechCrunch AI`
+- 🔬 [How we measured AI writing across arXiv, and where the measurement breaks](https://unslop.run/blog/measuring-ai-writing-on-arxiv) · `HackerNews`
+- 📊 [YouTube clarifies policies around AI slop and upsetting videos](https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/) · `TechCrunch AI`
+- 🔬 [Cura 1T: Specialized Model for Agentic Healthcare](https://arxiv.org/abs/2607.15314) · `arXiv cs.AI`
+- 🔬 [DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings](https://arxiv.org/abs/2607.15418) · `arXiv cs.AI`
+- 🚀 [Adobe’s ‘natural look’ camera app embraces generative AI](https://www.theverge.com/tech/967791/adobe-indigo-camera-app-ai-playground-update) · `The Verge AI`
 
 
 ---
@@ -77,9 +83,9 @@ Gitea 适合团队快速自建轻量研发平台，与本地 AI 工作流和私�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 130 篇 | 13 篇 | 13 篇 | **9 篇** |
+| 11 源 | 136 篇 | 34 篇 | 20 篇 | **9 篇** |
 
-*生成于 2026-07-20 10:38 UTC+8*
+*生成于 2026-07-21 10:23 UTC+8*
 
 ## 📚 往期简报
 
