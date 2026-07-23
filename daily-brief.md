@@ -6,79 +6,80 @@
 
 ---
 
-## 📅 2026-07-22 周三
+## 📅 2026-07-23 周四
 
 ### 📌 今日焦点
 
-**[Google releases three new Gemini models — but no 3.5 Pro](https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/)** · `TechCrunch AI` ⭐
+**[AMD commits up to $5 billion to  Anthropic](https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal)** · `The Verge AI` ⭐
 
-> Google 一口气放出三款 Gemini 新模型，说明模型竞争已从“谁更大”转向“谁更好用、谁更便宜”。开发者应尽快对比这些版本的延迟、成本和能力边界，决定是否切换默认模型或做多模型路由。
+> AMD 向 Anthropic 承诺最高 50 亿美元，说明顶级模型竞争已从算法赛道升级为算力、资本与生态的全面战争。开发者应提前布局多云与多模型架构，避免未来在芯片供应、推理成本和平台绑定上被动。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [OpenAI says Hugging Face was breached by its pre-release models](https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/)** · `TechCrunch AI` ⭐
+**1. [OpenAI says it accidentally hacked Hugging Face with a new AI system](https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai)** · `The Verge AI` ⭐
 
-模型预发布阶段的安全事件，提醒团队把隔离、审计和访问控制前置到评测流程。
+暴露前沿模型真实风险边界，安全测试与沙箱隔离该提上日程。
 
-**2. [US threatens sanctions against Chinese AI models over IP theft](https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/)** · `TechCrunch AI`
+  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/)
+**2. [OpenAI’s AI spending spree has ballooned to $750B](https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/)** · `TechCrunch AI` ⭐
 
-美国开始把 AI 模型纳入地缘与 IP 风险框架，合规已是产品设计的一部分。
+巨额投入会传导为更强模型，也会传导为更高平台依赖。
 
-**3. [PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection](https://arxiv.org/abs/2607.16199)** · `arXiv cs.AI`
+**3. [Introducing OpenAI Presence](https://openai.com/index/introducing-openai-presence)** · `OpenAI Blog`
 
-多智能体系统最脆弱的不是推理，而是规划阶段，安全测试要前移。
+OpenAI 正在扩展产品触点，开发者要关注新入口带来的集成机会。
 
-**4. [Deterministic Replay for AI Agent Systems](https://arxiv.org/abs/2607.16200)** · `arXiv cs.AI`
+**4. [SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI](https://arxiv.org/abs/2607.18239)** · `arXiv cs.AI`
 
-确定性回放会显著提升 Agent 排障效率，值得纳入生产调试工具链。
+权力寻求可测量，Agent 安全评估将从口号走向工程指标。
 
-**5. [Judge approves $1.5B Anthropic settlement for pirated books used to train Claude](https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63)** · `HackerNews`
+**5. [SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD](https://huggingface.co/papers/2607.20145)** · `HuggingFace Papers`
 
-Anthropic 版权和解落地后，训练数据治理会直接影响模型公司的现金流与合作边界。
+国产算力上的全参数后训练进展，值得关注替代训练栈成熟度。
 
-**6. [Music streamer Deezer says more than 50% of daily uploads are AI-generated](https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/)** · `TechCrunch AI`
+**6. [SLPO: Scaling Latent Reasoning via a Surrogate Policy](https://huggingface.co/papers/2607.19691)** · `HuggingFace Papers`
 
-AI 音乐洪流正在改变内容平台的审核、推荐和版权策略。
+潜在推理扩展若成立，可能重塑高性价比 reasoning 训练路径。
 
-**7. [Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge](https://qwen.ai/blog?id=qwen-image-3.0)** · `HackerNews`
+**7. [Google justifies its massive AI spending with a booming cloud business](https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/)** · `TechCrunch AI`
 
-Qwen 图像模型继续强化本土多模态供给，适合关注中文场景生成质量。
+云厂商 AI 投入与云收入绑定更紧，企业采购会更偏平台化。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-RAGFlow 是成熟的开源 RAG 引擎，适合快速搭建可控、可扩展的检索增强应用。
+开源可观测性老牌项目持续进化到 AI 场景，适合小团队低成本搭建全栈监控。
 
-**[Jack Dorsey is taking on Slack with Buzz, a group chat platform for teams and their AI agents](https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/)** · `TechCrunch AI`
+**[Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance](https://arxiv.org/abs/2607.18246)** · `arXiv cs.AI`
 
-Buzz 把团队聊天、AI agent 和 Git 结合，适合想验证“协作即工作流”的团队。
+聚焦确定性运行时和治理前置，对构建可控 Agent 系统很有启发。
 
 ---
 
 ### 💡 今日洞察
 
-> 最贵的不是模型调用费，而是把安全、合规和可观测性留到最后补课。
+> AI 的下一场竞争，不是谁先会生成答案，而是谁先把成本、可靠性与安全做成默认能力。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [OpenAI and Hugging Face address security incident during model evaluation](https://openai.com/index/hugging-face-model-evaluation-security-incident/) · `HackerNews`
-- 🚀 [Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) · `HackerNews`
-- 🚀 [Google launches a cheaper alternative to large AI security models like Mythos](https://www.theverge.com/tech/968572/google-gemini-flash-cyber-ai-security-model) · `The Verge AI`
-- 🔬 [Masked Diffusion Language Models are Strong and Steerable Text-Based World Models for Agentic RL](https://arxiv.org/abs/2607.16204) · `arXiv cs.AI`
-- 📊 [Anthropic’s $1.5 billion book piracy settlement approved by judge](https://www.theverge.com/ai-artificial-intelligence/968724/anthropic-authors-settlement-ai-copyright-approved) · `The Verge AI`
-- 🔬 [Rater State Bias in RLHF Preference Data: An Audit Framework](https://arxiv.org/abs/2607.16195) · `arXiv cs.AI`
-- 🔬 [Democratizing AI with Small Language Models: Structured Benchmarking and Parameter-Efficient Fine-Tuning for Local De...](https://arxiv.org/abs/2607.16202) · `arXiv cs.AI`
-- 🔬 [Masked Visual Actions for Unified World Modeling](https://huggingface.co/papers/2607.19343) · `HuggingFace Papers`
-- 📊 [America needs to stop getting shocked by Chinese AI](https://www.theverge.com/ai-artificial-intelligence/968136/chinese-ai-models-another-sputnik-moment) · `The Verge AI`
-- 🚀 [Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting](https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git) · `HackerNews`
+- 📊 [Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable](https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/) · `TechCrunch AI`
+- 🚀 [Introducing the ChatGPT for small business program](https://openai.com/index/introducing-chatgpt-small-business-program) · `OpenAI Blog`
+- 🔬 [The State of Simulation for Physical AI: An Overview](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai) · `Hugging Face Blog`
+- 🛠️ [Copilot vs. raw API access: What are you actually paying for?](https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/) · `GitHub Blog`
+- 🛠️ [BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data](https://arxiv.org/abs/2607.18241) · `arXiv cs.AI`
+- 🔬 [From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI](https://arxiv.org/abs/2607.18243) · `arXiv cs.AI`
+- 🔬 [Beyond Accuracy and Cost: Latency-Aware LLM Query Routing for Dynamic Workloads](https://arxiv.org/abs/2607.18253) · `arXiv cs.AI`
+- 💡 [Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample](https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56) · `HackerNews`
+- 🔬 [Reading and Steering Representations of Materials-Science Mechanisms in an Open-Weight Language Model](https://huggingface.co/papers/2607.20058) · `HuggingFace Papers`
+- 📊 [Advancing the next era of national science](https://openai.com/index/advancing-the-next-era-of-national-science) · `OpenAI Blog`
 
 
 ---
@@ -87,9 +88,9 @@ Buzz 把团队聊天、AI agent 和 Git 结合，适合想验证“协作即工�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 134 篇 | 44 篇 | 20 篇 | **10 篇** |
+| 11 源 | 133 篇 | 50 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-07-22 10:21 UTC+8*
+*生成于 2026-07-23 10:27 UTC+8*
 
 ## 📚 往期简报
 
