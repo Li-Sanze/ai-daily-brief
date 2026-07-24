@@ -6,80 +6,80 @@
 
 ---
 
-## 📅 2026-07-23 周四
+## 📅 2026-07-24 周五
 
 ### 📌 今日焦点
 
-**[AMD commits up to $5 billion to  Anthropic](https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal)** · `The Verge AI` ⭐
+**[AMD takes on Nvidia with its Helios AI rack-scale system](https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/)** · `TechCrunch AI`
 
-> AMD 向 Anthropic 承诺最高 50 亿美元，说明顶级模型竞争已从算法赛道升级为算力、资本与生态的全面战争。开发者应提前布局多云与多模型架构，避免未来在芯片供应、推理成本和平台绑定上被动。
+> AMD 推出机架级 Helios，标志着 AI 基础设施竞争正从单卡性能升级到整栈系统之争，这会直接影响训练/推理成本、供给格局与生态选择。开发者应尽早验证多厂商兼容栈，评估 CUDA 之外的部署路径，降低对单一 GPU 平台的锁定风险。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [OpenAI says it accidentally hacked Hugging Face with a new AI system](https://www.theverge.com/ai-artificial-intelligence/968988/openai-hugging-face-hack-ai)** · `The Verge AI` ⭐
+**1. [Startup founders urge U.S. government not to shut off Chinese open weight AI](https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992)** · `HackerNews`
 
-暴露前沿模型真实风险边界，安全测试与沙箱隔离该提上日程。
+开源权重已成地缘政治议题，开发者需重视模型可得性风险。
 
-  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/)
-**2. [OpenAI’s AI spending spree has ballooned to $750B](https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/)** · `TechCrunch AI` ⭐
+**2. [OpenAI is making big claims as it rolls out ChatGPT Health to everyone](https://www.theverge.com/ai-artificial-intelligence/970115/openai-chatgpt-health-launch-claims)** · `The Verge AI`
 
-巨额投入会传导为更强模型，也会传导为更高平台依赖。
+健康场景落地最考验安全与合规，AI 产品边界正在抬高。
 
-**3. [Introducing OpenAI Presence](https://openai.com/index/introducing-openai-presence)** · `OpenAI Blog`
+  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/)
+**3. [NEXUS: Structured Runtime Safety for Tool-Using LLM Agents](https://arxiv.org/abs/2607.19356)** · `arXiv cs.AI`
 
-OpenAI 正在扩展产品触点，开发者要关注新入口带来的集成机会。
+会用工具的 Agent 走向生产后，运行时安全将成为必选项。
 
-**4. [SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI](https://arxiv.org/abs/2607.18239)** · `arXiv cs.AI`
+**4. [LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning](https://arxiv.org/abs/2607.19358)** · `arXiv cs.AI`
 
-权力寻求可测量，Agent 安全评估将从口号走向工程指标。
+长上下文效率提升，决定复杂 Agent 和 RAG 的成本天花板。
 
-**5. [SLAI T-Rex: Full-Parameter Post-training of the DeepSeek-V4 Family on Ascend SuperPOD](https://huggingface.co/papers/2607.20145)** · `HuggingFace Papers`
+**5. [DARPA, U.S. Air Force fly AI-controlled F-16](https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16)** · `HackerNews`
 
-国产算力上的全参数后训练进展，值得关注替代训练栈成熟度。
+高风险物理系统接入 AI，验证与可控性问题将外溢到更多行业。
 
-**6. [SLPO: Scaling Latent Reasoning via a Surrogate Policy](https://huggingface.co/papers/2607.19691)** · `HuggingFace Papers`
+**6. [Lawmakers prepare bill requiring AI ‘kill switch’](https://www.theverge.com/ai-artificial-intelligence/969939/lawmakers-ai-kill-switch-proposal)** · `The Verge AI`
 
-潜在推理扩展若成立，可能重塑高性价比 reasoning 训练路径。
+监管开始瞄准强制控制机制，企业需提前设计可关停能力。
 
-**7. [Google justifies its massive AI spending with a booming cloud business](https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/)** · `TechCrunch AI`
+**7. [Google’s Gemini nears billion-user milestone](https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/)** · `TechCrunch AI`
 
-云厂商 AI 投入与云收入绑定更紧，企业采购会更偏平台化。
+接近十亿用户意味着分发入口固化，应用层竞争将更依赖平台协同。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents](https://github.com/onecli/onecli)** · `HackerNews`
 
-开源可观测性老牌项目持续进化到 AI 场景，适合小团队低成本搭建全栈监控。
+开源凭证网关直击 Agent 安全痛点，适合构建最小权限的工具调用链。
 
-**[Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance](https://arxiv.org/abs/2607.18246)** · `arXiv cs.AI`
+**[Bringing Nunchaku 4-bit Diffusion Inference to Diffusers](https://huggingface.co/blog/nunchaku-diffusers)** · `Hugging Face Blog`
 
-聚焦确定性运行时和治理前置，对构建可控 Agent 系统很有启发。
+4-bit 扩散推理进入 Diffusers，可显著降低图像生成部署门槛与显存成本。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的下一场竞争，不是谁先会生成答案，而是谁先把成本、可靠性与安全做成默认能力。
+> AI 的下一场竞争，不只是谁更聪明，而是谁能更便宜、更安全、更可控地运行。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Treasury threatens sanctions after White House claims Moonshot distilled Anthropic’s Fable](https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/) · `TechCrunch AI`
-- 🚀 [Introducing the ChatGPT for small business program](https://openai.com/index/introducing-chatgpt-small-business-program) · `OpenAI Blog`
-- 🔬 [The State of Simulation for Physical AI: An Overview](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai) · `Hugging Face Blog`
-- 🛠️ [Copilot vs. raw API access: What are you actually paying for?](https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/) · `GitHub Blog`
-- 🛠️ [BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data](https://arxiv.org/abs/2607.18241) · `arXiv cs.AI`
-- 🔬 [From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI](https://arxiv.org/abs/2607.18243) · `arXiv cs.AI`
-- 🔬 [Beyond Accuracy and Cost: Latency-Aware LLM Query Routing for Dynamic Workloads](https://arxiv.org/abs/2607.18253) · `arXiv cs.AI`
-- 💡 [Terrence Tao's ChatGPT Conversation about the Jacobian Conjecture Counterexample](https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56) · `HackerNews`
-- 🔬 [Reading and Steering Representations of Materials-Science Mechanisms in an Open-Weight Language Model](https://huggingface.co/papers/2607.20058) · `HuggingFace Papers`
-- 📊 [Advancing the next era of national science](https://openai.com/index/advancing-the-next-era-of-national-science) · `OpenAI Blog`
+- 📊 [OpenAI’s accidental attack against Hugging Face is science fiction that happened](https://simonwillison.net/2026/Jul/22/openai-cyberattack/) · `HackerNews`
+- 🔬 [Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction](https://huggingface.co/papers/2607.20911) · `HuggingFace Papers`
+- 🔬 [ICAE-Bench: Evaluating Coding Agents as Interactive Project Builders](https://huggingface.co/papers/2607.21217) · `HuggingFace Papers`
+- 📊 [AI Companies Are Trying to Hide a Staggering Amount of Debt](https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet) · `HackerNews`
+- 🚀 [Launching Health in ChatGPT](https://openai.com/index/health-in-chatgpt) · `OpenAI Blog`
+- 🚀 [Claude’s voice mode is now available for Opus and Sonnet](https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai) · `The Verge AI`
+- 🛠️ [Runway launches AI model router as generative media gets crowded](https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/) · `TechCrunch AI`
+- 🔬 [Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX](https://arxiv.org/abs/2607.19353) · `arXiv cs.AI`
+- 🔬 [GraphVid: Interactive Graph-Controllable Video Generation](https://huggingface.co/papers/2607.21580) · `HuggingFace Papers`
+- 🔬 [Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers](https://huggingface.co/papers/2607.21594) · `HuggingFace Papers`
 
 
 ---
@@ -88,9 +88,9 @@ OpenAI 正在扩展产品触点，开发者要关注新入口带来的集成机�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 133 篇 | 50 篇 | 20 篇 | **10 篇** |
+| 11 源 | 135 篇 | 48 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-07-23 10:27 UTC+8*
+*生成于 2026-07-24 10:24 UTC+8*
 
 ## 📚 往期简报
 
