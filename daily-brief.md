@@ -6,80 +6,77 @@
 
 ---
 
-## 📅 2026-07-25 周六
+## 📅 2026-07-26 周日
 
 ### 📌 今日焦点
 
-**[Claude Opus 5](https://www.anthropic.com/news/claude-opus-5)** · `HackerNews` ⭐
+**[Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities](https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release)** · `The Verge AI` ⭐
 
-> Claude Opus 5 代表顶级通用模型竞争进入新阶段，直接影响代码生成、智能代理和企业落地的能力基线。开发者应尽快用真实业务任务对比现有主力模型，评估其在成本、延迟与可靠性上的替换价值。
+> Anthropic 发布 Opus 5 属于顶级模型层面的能力升级，直接影响应用上限、评测基线与多模型选型格局。开发者应尽快用真实业务任务复测 Claude 路线的性价比、上下文策略与工具调用表现，而不是只看榜单。
 
-  📎 延伸: [The Verge AI](https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release) · [TechCrunch AI](https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/)
 
 ---
 
 ### 🔥 热点速览
 
-**1. [As US weighs response to Chinese AI, industry urges against broad open-weight restrictions](https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/)** · `TechCrunch AI`
+**1. [vllm-project/vllm: A high-throughput and memory-efficient inference and servi...](https://github.com/vllm-project/vllm)** · `GitHub Trending` ⭐
 
-开源权重监管若收紧，将直接改变模型分发、微调与本地部署策略。
+vLLM 已成推理基础设施事实标准，关注它就是关注降本增效。
 
-**2. [OpenAI’s new voice mode makes it to the ChatGPT desktop app](https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/)** · `TechCrunch AI`
+**2. [bytedance/deer-flow: An open-source long-horizon SuperAgent harness that rese...](https://github.com/bytedance/deer-flow)** · `GitHub Trending`
 
-桌面端原生语音交互成熟后，多模态助手的产品形态和调用链都要重写。
+长程 Agent 开源框架加速落地，适合评估复杂任务自动化边界。
 
-**3. [How AI guardrails are impeding the work of offensive cybersecurity researchers](https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/)** · `TechCrunch AI`
+**3. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
 
-安全护栏正在影响红队研究，开发者需关注能力边界与合规平衡。
+向量数据库仍是 RAG 底座，Milvus 动向关系到检索规模与性能。
 
-**4. [JAXBench: Benchmarking Autonomous TPU Kernel Optimization](https://arxiv.org/abs/2607.20466)** · `arXiv cs.AI`
+**4. [The new rules of context engineering for Claude 5 generation models](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models)** · `HackerNews`
 
-TPU 内核优化自动化若跑通，将重塑基础设施层的性能工程范式。
+上下文工程正取代提示工程，直接决定 Claude 5 应用效果上限。
 
-**5. [DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding](https://arxiv.org/abs/2607.20467)** · `arXiv cs.AI`
+**5. [Open-weight AI is having its Kubernetes moment](https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/)** · `HackerNews`
 
-免训练推理加速更容易落地，值得所有追求低延迟的应用团队关注。
+开源权重生态进入平台化阶段，未来部署范式可能像 K8s 一样收敛。
 
-**6. [InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents](https://arxiv.org/abs/2607.20468)** · `arXiv cs.AI`
+**6. [Running a 28.9M parameter LLM on an $8 microcontroller](https://github.com/slvDev/esp32-ai)** · `HackerNews`
 
-AI Agent 开始优化推理系统本身，评测基准会决定下一轮工程方向。
+超小设备跑 LLM 的突破，提示边缘 AI 正从概念走向可工程化。
 
-**7. [Meta is making its AI chatbot more like an assistant](https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update)** · `The Verge AI`
+**7. [LLM Usage in Debian: Three Proposals](https://www.debian.org/vote/2026/vote_002)** · `HackerNews`
 
-聊天机器人向助手演进，意味着状态管理、工具调用和记忆能力更关键。
+Debian 讨论 LLM 使用规则，预示 AI 将更深进入基础软件治理。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[mudler/LocalAI: LocalAI is the open-source AI engine. Run any model - LLMs, v...](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-本地统一运行多类模型的开源引擎，适合做私有化、多模态与边缘部署实验。
+AI 原生可观测性需求激增，Netdata 适合快速补齐全栈监控能力。
 
-**[The case for a cooldown: Why Dependabot now waits before issuing version updates](https://github.blog/security/supply-chain-security/the-case-for-a-cooldown-why-dependabot-now-waits-before-issuing-version-updates/)** · `GitHub Blog`
+**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
 
-Dependabot 冷却期机制能减少版本升级噪音，帮助团队更稳地治理依赖。
+Gitea 适合自托管开发协作，在 AI 时代更利于代码与模型资产内控。
 
 ---
 
 ### 💡 今日洞察
 
-> 真正拉开 AI 团队差距的，不是接入了哪个模型，而是谁更快把模型变成可验证、可迭代、可上线的系统。
+> 谁掌握上下文工程，谁就掌握了大模型从会说到会做的分水岭。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Nvidia, Microsoft, Meta warn against overregulating open-weight models](https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html) · `HackerNews`
-- 💡 [Claude Cookbook](https://platform.claude.com/cookbook/) · `HackerNews`
-- 📊 [Be skeptical of OpenAI's rogue hacker agent story](https://www.theguardian.com/technology/2026/jul/24/openai-rogue-hacker) · `HackerNews`
-- 🚀 [Alexa Plus is getting an AI update to handle more complicated instructions](https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices) · `The Verge AI`
-- 🛠️ [Bluesky’s AI assistant Attie expands into an open social research tool](https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/) · `TechCrunch AI`
-- 🔬 [Stochastic Sampling is Epistemically Shallow: The Dimensionality Gap Between Temperature Variation and Model Diversit...](https://arxiv.org/abs/2607.20464) · `arXiv cs.AI`
-- 🛠️ [moby/moby: The Moby Project - a collaborative project for the container ecosy...](https://github.com/moby/moby) · `GitHub Trending`
-- 🚀 [I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else](https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/) · `TechCrunch AI`
-- 🔬 [Marking the Wrong Symptoms: Evaluating LLM Watermarks in Medical Texts](https://arxiv.org/abs/2607.20462) · `arXiv cs.AI`
-- 📊 [IRGC claims it destroyed Amazon's Bahrain data center](https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/) · `HackerNews`
+- 🚀 [Anthropic launches Opus 5](https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/) · `TechCrunch AI`
+- 📊 [DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]](https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf) · `HackerNews`
+- 📊 [Why Cognition bought Poke: AI personality is becoming a competitive advantage](https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/) · `TechCrunch AI`
+- 📊 [One fallen power line exposed a growing AI data center problem. Here’s how to fix it.](https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/) · `TechCrunch AI`
+- 📊 [Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M](https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/) · `TechCrunch AI`
+- 📊 [Midjourney acquired the astrology app Co-Star](https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/) · `TechCrunch AI`
+- 📊 [You can’t ignore Google Zero anymore](https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast) · `The Verge AI`
+- 📊 [The tech-broification of American science has officially begun](https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants) · `The Verge AI`
 
 
 ---
@@ -88,9 +85,9 @@ Dependabot 冷却期机制能减少版本升级噪音，帮助团队更稳地治
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 136 篇 | 37 篇 | 20 篇 | **10 篇** |
+| 10 源 | 128 篇 | 23 篇 | 18 篇 | **10 篇** |
 
-*生成于 2026-07-25 10:22 UTC+8*
+*生成于 2026-07-26 10:28 UTC+8*
 
 ## 📚 往期简报
 
