@@ -6,77 +6,71 @@
 
 ---
 
-## 📅 2026-07-26 周日
+## 📅 2026-07-27 周一
 
 ### 📌 今日焦点
 
-**[Anthropic releases Opus 5 with ‘close’ to Fable 5’s capabilities](https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release)** · `The Verge AI` ⭐
+**[infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
 
-> Anthropic 发布 Opus 5 属于顶级模型层面的能力升级，直接影响应用上限、评测基线与多模型选型格局。开发者应尽快用真实业务任务复测 Claude 路线的性价比、上下文策略与工具调用表现，而不是只看榜单。
+> RAGFlow 成为今日焦点，因为 RAG 仍是企业级 AI 落地最关键的工程层，而高热度开源引擎往往会迅速影响团队的技术选型与架构实践。开发者应尽快评估其在检索、知识库管理与工作流编排上的能力，和现有 LangChain/LlamaIndex/自研方案做一次基准对比。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [vllm-project/vllm: A high-throughput and memory-efficient inference and servi...](https://github.com/vllm-project/vllm)** · `GitHub Trending` ⭐
+**1. [Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/)** · `TechCrunch AI`
 
-vLLM 已成推理基础设施事实标准，关注它就是关注降本增效。
+安全事件会重塑模型平台信任机制，开发者需把透明度与密钥治理前置。
 
-**2. [bytedance/deer-flow: An open-source long-horizon SuperAgent harness that rese...](https://github.com/bytedance/deer-flow)** · `GitHub Trending`
+**2. [Terence Tao: Mathematics in the Age of AI [pdf]](https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf)** · `HackerNews`
 
-长程 Agent 开源框架加速落地，适合评估复杂任务自动化边界。
+顶级数学家讨论 AI，值得开发者重新思考推理与形式化能力边界。
 
-**3. [milvus-io/milvus: Milvus is a high-performance, cloud-native vector database ...](https://github.com/milvus-io/milvus)** · `GitHub Trending`
+**3. [Monday.com is the latest tech company to blame AI for layoffs — here are 20 others](https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/)** · `TechCrunch AI`
 
-向量数据库仍是 RAG 底座，Milvus 动向关系到检索规模与性能。
+AI 与裁员绑定正在影响组织决策，开发者应关注效率叙事背后的岗位变化。
 
-**4. [The new rules of context engineering for Claude 5 generation models](https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models)** · `HackerNews`
+**4. [ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial i...](https://github.com/ruvnet/RuView)** · `GitHub Trending`
 
-上下文工程正取代提示工程，直接决定 Claude 5 应用效果上限。
+用 WiFi 做空间感知展示了低成本感知新方向，AIoT 开发者尤其值得关注。
 
-**5. [Open-weight AI is having its Kubernetes moment](https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/)** · `HackerNews`
+**5. [Making sense of the panic over Chinese AI](https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/)** · `TechCrunch AI`
 
-开源权重生态进入平台化阶段，未来部署范式可能像 K8s 一样收敛。
+关于中国 AI 的舆论波动会影响开源、供应链与模型选型判断。
 
-**6. [Running a 28.9M parameter LLM on an $8 microcontroller](https://github.com/slvDev/esp32-ai)** · `HackerNews`
+**6. [US citizen charged after GrapheneOS phone wipes during airport search](https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html)** · `HackerNews`
 
-超小设备跑 LLM 的突破，提示边缘 AI 正从概念走向可工程化。
+设备擦除争议提醒开发者：端侧安全、隐私保护与合规场景正更敏感。
 
-**7. [LLM Usage in Debian: Three Proposals](https://www.debian.org/vote/2026/vote_002)** · `HackerNews`
+**7. [Are brain waves the next unlock for physical AI?](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/)** · `TechCrunch AI`
 
-Debian 讨论 LLM 使用规则，预示 AI 将更深进入基础软件治理。
+脑波接口若接入物理 AI，将打开人机协同的新输入层，值得提前跟踪。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[The New AI Superpowers: Focus and Followthrough](https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and)** · `HackerNews`
 
-AI 原生可观测性需求激增，Netdata 适合快速补齐全栈监控能力。
+从工作方法而非模型能力切入，适合开发者建立更稳定的 AI 协作流程。
 
-**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+**[It's not empowering to hand off the details](https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/)** · `HackerNews`
 
-Gitea 适合自托管开发协作，在 AI 时代更利于代码与模型资产内控。
+提醒团队别把关键细节外包给 AI，有助于改进代码审查与责任边界。
 
 ---
 
 ### 💡 今日洞察
 
-> 谁掌握上下文工程，谁就掌握了大模型从会说到会做的分水岭。
+> AI 最有价值的不是替你思考，而是把你的思考放大到可以执行、验证与迭代。
 
 ---
 
 ### 📎 延伸阅读
 
-- 🚀 [Anthropic launches Opus 5](https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/) · `TechCrunch AI`
-- 📊 [DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]](https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf) · `HackerNews`
-- 📊 [Why Cognition bought Poke: AI personality is becoming a competitive advantage](https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/) · `TechCrunch AI`
-- 📊 [One fallen power line exposed a growing AI data center problem. Here’s how to fix it.](https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/) · `TechCrunch AI`
-- 📊 [Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M](https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/) · `TechCrunch AI`
-- 📊 [Midjourney acquired the astrology app Co-Star](https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/) · `TechCrunch AI`
-- 📊 [You can’t ignore Google Zero anymore](https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast) · `The Verge AI`
-- 📊 [The tech-broification of American science has officially begun](https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants) · `The Verge AI`
+- 📊 [Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech](https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/) · `TechCrunch AI`
+- 📊 [London Gatwick has launched a robotic airport parking service](https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/) · `HackerNews`
 
 
 ---
@@ -85,9 +79,9 @@ Gitea 适合自托管开发协作，在 AI 时代更利于代码与模型资产�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 128 篇 | 23 篇 | 18 篇 | **10 篇** |
+| 10 源 | 126 篇 | 12 篇 | 12 篇 | **10 篇** |
 
-*生成于 2026-07-26 10:28 UTC+8*
+*生成于 2026-07-27 10:35 UTC+8*
 
 ## 📚 往期简报
 
