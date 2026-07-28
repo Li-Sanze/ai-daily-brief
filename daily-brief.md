@@ -6,71 +6,80 @@
 
 ---
 
-## 📅 2026-07-27 周一
+## 📅 2026-07-28 周二
 
 ### 📌 今日焦点
 
-**[infiniflow/ragflow: RAGFlow is a leading open-source Retrieval-Augmented Gene...](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**[Kimi-K3 on HuggingFace](https://huggingface.co/moonshotai/Kimi-K3)** · `HackerNews` ⭐
 
-> RAGFlow 成为今日焦点，因为 RAG 仍是企业级 AI 落地最关键的工程层，而高热度开源引擎往往会迅速影响团队的技术选型与架构实践。开发者应尽快评估其在检索、知识库管理与工作流编排上的能力，和现有 LangChain/LlamaIndex/自研方案做一次基准对比。
+> Kimi-K3 登上 HuggingFace 代表高性能开源模型继续向全球主流分发渠道渗透，这会直接影响开发者的选型、微调与部署成本。建议尽快评测它在你业务任务上的效果、上下文表现与推理成本，并与现有开源/闭源方案做基准对比。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/)** · `TechCrunch AI`
+**1. [Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic](https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity)** · `The Verge AI`
 
-安全事件会重塑模型平台信任机制，开发者需把透明度与密钥治理前置。
+AI 安全联盟洗牌，开发者需关注未来安全标准由谁主导。
 
-**2. [Terence Tao: Mathematics in the Age of AI [pdf]](https://teorth.github.io/tao-web/slides/age-of-ai-icm-2026.pdf)** · `HackerNews`
+**2. [PSA: Your Claude shared chats and Artifacts may have ended up on Google](https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/)** · `TechCrunch AI`
 
-顶级数学家讨论 AI，值得开发者重新思考推理与形式化能力边界。
+共享链接泄露到搜索引擎，提醒团队重审默认公开与数据治理。
 
-**3. [Monday.com is the latest tech company to blame AI for layoffs — here are 20 others](https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/)** · `TechCrunch AI`
+**3. [Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research](https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/)** · `TechCrunch AI`
 
-AI 与裁员绑定正在影响组织决策，开发者应关注效率叙事背后的岗位变化。
+SSI 联手 Nvidia，说明算力与安全研究的绑定正进一步加深。
 
-**4. [ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial i...](https://github.com/ruvnet/RuView)** · `GitHub Trending`
+**4. [MAI-Cyber-1-Flash inside MDASH](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/)** · `HackerNews`
 
-用 WiFi 做空间感知展示了低成本感知新方向，AIoT 开发者尤其值得关注。
+安全模型进入实战平台，值得关注 AI 安防从论文走向产品化。
 
-**5. [Making sense of the panic over Chinese AI](https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/)** · `TechCrunch AI`
+  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/)
+**5. [AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems](https://arxiv.org/abs/2607.21604)** · `arXiv cs.AI`
 
-关于中国 AI 的舆论波动会影响开源、供应链与模型选型判断。
+Agent 记忆成本是落地瓶颈，KV 复用可能直接改善长链路性能。
 
-**6. [US citizen charged after GrapheneOS phone wipes during airport search](https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html)** · `HackerNews`
+**6. [Coupled Hierarchical Search over Topology and Execution for Agentic Workflow Synthesis](https://arxiv.org/abs/2607.21609)** · `arXiv cs.AI`
 
-设备擦除争议提醒开发者：端侧安全、隐私保护与合规场景正更敏感。
+自动合成 Agent 工作流，有望降低多步骤系统的设计门槛。
 
-**7. [Are brain waves the next unlock for physical AI?](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/)** · `TechCrunch AI`
+**7. [Why China is giving away its best AI models](https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies)** · `The Verge AI`
 
-脑波接口若接入物理 AI，将打开人机协同的新输入层，值得提前跟踪。
+中国模型开放策略正在重塑全球开源生态与价格竞争格局。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[The New AI Superpowers: Focus and Followthrough](https://www.rickmanelius.com/p/the-new-ai-superpowers-focus-and)** · `HackerNews`
+**[harry0703/MoneyPrinterTurbo: 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD s...](https://github.com/harry0703/MoneyPrinterTurbo)** · `GitHub Trending`
 
-从工作方法而非模型能力切入，适合开发者建立更稳定的 AI 协作流程。
+高热度开源自动化短视频生成项目，适合快速验证内容生产工作流。
 
-**[It's not empowering to hand off the details](https://davidnicholaswilliams.com/its-not-empowering-to-hand-off-the-details/)** · `HackerNews`
+**[Show HN: FeyNoBg – Automatic background removal model and training library](https://usefeyn.com/blog/feynobg/)** · `HackerNews`
 
-提醒团队别把关键细节外包给 AI，有助于改进代码审查与责任边界。
+自动抠图模型加训练库一体化，适合做视觉工具链与私有化部署。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 最有价值的不是替你思考，而是把你的思考放大到可以执行、验证与迭代。
+> AI 的真正护城河，不是模型参数规模，而是把能力安全、稳定地接入真实工作流。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech](https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/) · `TechCrunch AI`
-- 📊 [London Gatwick has launched a robotic airport parking service](https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/) · `HackerNews`
+- 📊 [OpenAI’s Hugging Face breach has reignited the debate over alignment and control](https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/) · `TechCrunch AI`
+- 🔬 [Securing Multimodal AI through Internal Information Decomposition](https://arxiv.org/abs/2607.21600) · `arXiv cs.AI`
+- 🔬 [Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices](https://arxiv.org/abs/2607.21602) · `arXiv cs.AI`
+- 🔬 [SCOPE and SCION: A Benchmark and an Auditable Reference Pipeline for Schema Induction and Fusion from Text](https://arxiv.org/abs/2607.21610) · `arXiv cs.AI`
+- 🛠️ [Self-contained highly-portable Python distributions](https://gregoryszorc.com/docs/python-build-standalone/main/) · `HackerNews`
+- 📊 [How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work) · `OpenAI Blog`
+- 💡 [The harness is all you need (mostly)](https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/) · `GitHub Blog`
+- 📊 [Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI](https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/) · `TechCrunch AI`
+- 📊 [Google’s AI search is rapidly becoming the default, new data shows](https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/) · `TechCrunch AI`
+- 💡 [Modern email can be built from borrowed parts](https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/) · `HackerNews`
 
 
 ---
@@ -79,9 +88,9 @@ AI 与裁员绑定正在影响组织决策，开发者应关注效率叙事背�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 10 源 | 126 篇 | 12 篇 | 12 篇 | **10 篇** |
+| 11 源 | 135 篇 | 33 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-07-27 10:35 UTC+8*
+*生成于 2026-07-28 10:10 UTC+8*
 
 ## 📚 往期简报
 
