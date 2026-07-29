@@ -1,9 +1,7 @@
 name: Feishu Push
 
 on:
-  schedule:
-    - cron: '30 0 * * *'  # 00:30 UTC = 08:30 Beijing
-  workflow_dispatch:       # Manual trigger
+  workflow_dispatch:  # Manual only; automatic push is disabled
 
 jobs:
   push:

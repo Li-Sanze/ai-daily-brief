@@ -35,7 +35,7 @@ plans:
       priority_source: null
       priority_confirmed_at: null
       status: "designed"
-      note: "方案已设计；待用户确认后启动实施"
+      note: "方案已设计；Phase 3（内容升级）已拆出至 20260729_content_upgrade 实施；剩余图片部分（Phase 1/2/4）待用户决策"
     advice:
       suggested_priority: "p1"
       suggested_source: "heuristic_v1"
@@ -46,4 +46,22 @@ plans:
       suggested_at: "2026-05-17T12:44:00+08:00"
     meta:
       source: "manual"
-      updated_at: "2026-05-17T12:44:00+08:00"
+      updated_at: "2026-07-29T00:00:00+08:00"
+
+  - plan_id: "20260729_content_upgrade"
+    snapshot:
+      path: ".sopify-skills/plan/20260729_content_upgrade"
+      title: "内容升级（行业数据/技术趋势/专家观点板块）"
+      level: "light"
+      topic_key: "content_upgrade"
+      lifecycle_state: "developed"
+      created_at: "2026-07-29T00:00:00+08:00"
+    governance:
+      priority: "p1"
+      priority_source: "manual"
+      priority_confirmed_at: "2026-07-29T00:00:00+08:00"
+      status: "developed"
+      note: "从 20260517 方案 Phase 3 拆出；代码已完成，待用户审计验收"
+    meta:
+      source: "manual"
+      updated_at: "2026-07-29T00:00:00+08:00"

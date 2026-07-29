@@ -44,6 +44,9 @@ STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候
 3. 选 1-2 个作为"今日工具"（优先开源项目，不要和焦点/速览重复），写 1 句推荐理由
 4. 提取或创作 1 条与 AI 相关的金句
 5. 标记哪些候选条目是同一事件的补充来源
+6. 行业数据（可选）：仅当候选新闻的标题或摘要中明确出现具体数字（融资金额、交易规模、用户量等）时，提取为 industry_data（最多 3 条）。数字必须来自原文，禁止推测或编造。没有则输出空数组
+7. 技术趋势（可选）：仅当 2 条以上候选新闻反映同一技术方向时，归纳为 tech_trends（最多 2 条）。这是跨条目归纳，不是单条新闻复述，不要重复焦点/速览已表达的单条内容。没有则输出空数组
+8. 专家观点（可选）：仅当标题或摘要中明确包含具名人物的直接引言时，提取为 expert_quotes（最多 2 条）。禁止创作或改写引言。没有则输出空数组
 
 选稿标准：
 - 重大模型发布/技术突破 > 工具更新 > 行业分析
@@ -71,6 +74,28 @@ Respond in JSON:
     }
   ],
   "quote": "一句金句...",
+  "industry_data": [
+    {
+      "event": "某公司完成 B 轮融资",
+      "value": "$410M",
+      "source_index": 3
+    }
+  ],
+  "tech_trends": [
+    {
+      "trend": "趋势名（8字以内）",
+      "description": "1-2句跨条目归纳...",
+      "related_indices": [0, 5]
+    }
+  ],
+  "expert_quotes": [
+    {
+      "person": "人名",
+      "title": "身份",
+      "quote": "原文引言...",
+      "source_index": 7
+    }
+  ],
   "related_groups": [
     {
       "primary_index": 0,
@@ -129,6 +154,7 @@ def _run_stage1(items: list[NewsItem], config: dict) -> list[dict]:
                         "source": item.source,
                         "score": item.score,
                         "published": item.published.isoformat(),
+                        "summary": (item.summary or "")[:200],
                         "category": entry.get("category", "tool"),
                         "importance": importance,
                         "topic_key": entry.get("topic_key", f"item-{i+idx}"),
@@ -147,6 +173,7 @@ def _run_stage1(items: list[NewsItem], config: dict) -> list[dict]:
                     "source": item.source,
                     "score": item.score,
                     "published": item.published.isoformat(),
+                    "summary": (item.summary or "")[:200],
                     "category": "tool",
                     "importance": 5,
                     "topic_key": f"fallback-{len(scored)}",
@@ -204,6 +231,7 @@ def _run_stage2(candidates: list[dict], config: dict) -> dict:
         f"[{i}] {item['title']} | source={item['source']} | score={item['score']} | "
         f"category={item['category']} | importance={item['importance']} | "
         f"related={len(item.get('related_sources', []))} sources"
+        + (f"\n    摘要: {item['summary']}" if item.get("summary") else "")
         for i, item in enumerate(candidates)
     )
 
@@ -216,7 +244,7 @@ def _run_stage2(candidates: list[dict], config: dict) -> dict:
                 {"role": "system", "content": STAGE2_PROMPT},
                 {"role": "user", "content": f"今日候选新闻（{len(candidates)} 条）:\n\n{candidate_text}"},
             ],
-            max_tokens=2048,
+            max_tokens=4096,
             temperature=0.4,
             response_format={"type": "json_object"},
         )
@@ -235,6 +263,9 @@ def _run_stage2(candidates: list[dict], config: dict) -> dict:
             "highlights": [{"index": i, "editorial": ""} for i in range(1, min(6, len(candidates)))],
             "tools": [],
             "quote": "",
+            "industry_data": [],
+            "tech_trends": [],
+            "expert_quotes": [],
             "related_groups": [],
         }
 
