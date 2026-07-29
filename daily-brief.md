@@ -6,80 +6,79 @@
 
 ---
 
-## 📅 2026-07-28 周二
+## 📅 2026-07-29 周三
 
 ### 📌 今日焦点
 
-**[Kimi-K3 on HuggingFace](https://huggingface.co/moonshotai/Kimi-K3)** · `HackerNews` ⭐
+**[Gemini API Managed Agents: 3.6 Flash, hooks, and more](https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/)** · `Google AI Blog` ⭐
 
-> Kimi-K3 登上 HuggingFace 代表高性能开源模型继续向全球主流分发渠道渗透，这会直接影响开发者的选型、微调与部署成本。建议尽快评测它在你业务任务上的效果、上下文表现与推理成本，并与现有开源/闭源方案做基准对比。
+> Google把 Gemini API 从模型调用推进到托管 Agent 基础设施层，这直接影响未来应用如何编排工具、状态与执行流程。开发者应尽快评估 managed agents、hooks 与 3.6 Flash 在现有工作流中的替换价值，优先验证延迟、可控性和成本。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic](https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity)** · `The Verge AI`
+**1. [Scientific computing in the age of agentic AI](https://openai.com/index/scientific-computing-agentic-ai)** · `OpenAI Blog`
 
-AI 安全联盟洗牌，开发者需关注未来安全标准由谁主导。
+Agent 正在进入科研计算，开发者该关注高价值专业场景的落地范式。
 
-**2. [PSA: Your Claude shared chats and Artifacts may have ended up on Google](https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/)** · `TechCrunch AI`
+**2. [Recursive Superintelligence signs $410M compute deal with Amazon](https://techcrunch.com/2026/07/28/recursive-superintelligence-signs-400-compute-deal-with-amazon/)** · `TechCrunch AI`
 
-共享链接泄露到搜索引擎，提醒团队重审默认公开与数据治理。
+算力交易规模持续放大，基础设施成本将深刻影响模型与产品路线。
 
-**3. [Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research](https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/)** · `TechCrunch AI`
+**3. [Perplexity’s Personal Computer turns Windows PCs into AI agents](https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents)** · `The Verge AI`
 
-SSI 联手 Nvidia，说明算力与安全研究的绑定正进一步加深。
+PC 级 AI Agent 若成熟，将重塑桌面自动化与企业终端入口。
 
-**4. [MAI-Cyber-1-Flash inside MDASH](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/)** · `HackerNews`
+**4. [Cursor makes its biggest India push yet ahead of SpaceX acquisition with localized pricing](https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/)** · `TechCrunch AI`
 
-安全模型进入实战平台，值得关注 AI 安防从论文走向产品化。
+AI 编码工具开始拼全球化与定价，本地市场策略会加速开发者迁移。
 
-  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/)
-**5. [AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems](https://arxiv.org/abs/2607.21604)** · `arXiv cs.AI`
+**5. [Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy](https://arxiv.org/abs/2607.22554)** · `arXiv cs.AI`
 
-Agent 记忆成本是落地瓶颈，KV 复用可能直接改善长链路性能。
+准确率之外看一致性，才能真正评估 LLM 在生产环境的可靠性。
 
-**6. [Coupled Hierarchical Search over Topology and Execution for Agentic Workflow Synthesis](https://arxiv.org/abs/2607.21609)** · `arXiv cs.AI`
+**6. [Codifying the Judge: Scalable Evaluation via Program Distillation](https://arxiv.org/abs/2607.22561)** · `arXiv cs.AI`
 
-自动合成 Agent 工作流，有望降低多步骤系统的设计门槛。
+把评测器蒸馏成程序，可能显著降低大规模模型评估成本。
 
-**7. [Why China is giving away its best AI models](https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies)** · `The Verge AI`
+**7. [Disrupting supply chain attacks on npm and GitHub Actions](https://github.blog/security/supply-chain-security/disrupting-supply-chain-attacks-on-npm-and-github-actions/)** · `GitHub Blog`
 
-中国模型开放策略正在重塑全球开源生态与价格竞争格局。
+供应链攻击仍是开发者刚需议题，CI/CD 安全必须前置到默认流程。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[harry0703/MoneyPrinterTurbo: 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD s...](https://github.com/harry0703/MoneyPrinterTurbo)** · `GitHub Trending`
+**[warpdotdev/warp: Warp is an agentic development environment, born out of the ...](https://github.com/warpdotdev/warp)** · `GitHub Trending`
 
-高热度开源自动化短视频生成项目，适合快速验证内容生产工作流。
+Warp 把终端、AI 与开发工作流整合为 agentic 环境，值得体验下一代命令行交互。
 
-**[Show HN: FeyNoBg – Automatic background removal model and training library](https://usefeyn.com/blog/feynobg/)** · `HackerNews`
+**[go-gitea/gitea: Git with a cup of tea! Painless self-hosted all-in-one softwa...](https://github.com/go-gitea/gitea)** · `GitHub Trending`
 
-自动抠图模型加训练库一体化，适合做视觉工具链与私有化部署。
+Gitea 适合需要自主可控、轻量自托管代码协作平台的团队快速落地。
 
 ---
 
 ### 💡 今日洞察
 
-> AI 的真正护城河，不是模型参数规模，而是把能力安全、稳定地接入真实工作流。
+> 未来的竞争不只是模型更强，而是谁先把 Agent 接进真实工作流。
 
 ---
 
 ### 📎 延伸阅读
 
-- 📊 [OpenAI’s Hugging Face breach has reignited the debate over alignment and control](https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/) · `TechCrunch AI`
-- 🔬 [Securing Multimodal AI through Internal Information Decomposition](https://arxiv.org/abs/2607.21600) · `arXiv cs.AI`
-- 🔬 [Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices](https://arxiv.org/abs/2607.21602) · `arXiv cs.AI`
-- 🔬 [SCOPE and SCION: A Benchmark and an Auditable Reference Pipeline for Schema Induction and Fusion from Text](https://arxiv.org/abs/2607.21610) · `arXiv cs.AI`
-- 🛠️ [Self-contained highly-portable Python distributions](https://gregoryszorc.com/docs/python-build-standalone/main/) · `HackerNews`
-- 📊 [How AI is expanding what people do at work](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work) · `OpenAI Blog`
-- 💡 [The harness is all you need (mostly)](https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/) · `GitHub Blog`
-- 📊 [Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI](https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/) · `TechCrunch AI`
-- 📊 [Google’s AI search is rapidly becoming the default, new data shows](https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/) · `TechCrunch AI`
-- 💡 [Modern email can be built from borrowed parts](https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/) · `HackerNews`
+- 📊 [AI’s finally expensive enough to make Wall Street nervous](https://www.theverge.com/ai-artificial-intelligence/972119/ai-stock-fall-google-capex) · `The Verge AI`
+- 📊 [Hugging Face is being used to easily undress women and children](https://www.theverge.com/ai-artificial-intelligence/971723/hugging-face-nudify-deepfake-undress-women-children) · `The Verge AI`
+- 📊 [Sam Altman is ready to decelerate](https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/) · `TechCrunch AI`
+- 📊 [Now is the time to give LLMs access to the ACM digital library](https://cacm.acm.org/opinion/now-is-the-time-to-give-llms-access-to-the-acm-digital-library/) · `HackerNews`
+- 💡 [GitHub Copilot app for Beginners: Getting started](https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-getting-started/) · `GitHub Blog`
+- 📊 [AI leaders sign a statement asking the government to do something about automated AI](https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta) · `The Verge AI`
+- 📊 [Cyera agrees to acquire Oasis Security for $1B to safeguard proliferating AI agents](https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/) · `TechCrunch AI`
+- 📊 [Fish Audio raises $52M seed to build AI voice models for creators and enterprises](https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/) · `TechCrunch AI`
+- 🔬 [DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs](https://arxiv.org/abs/2607.22555) · `arXiv cs.AI`
+- 🛠️ [netdata/netdata: The fastest path to AI-powered full stack observability, eve...](https://github.com/netdata/netdata) · `GitHub Trending`
 
 
 ---
@@ -88,9 +87,9 @@ Agent 记忆成本是落地瓶颈，KV 复用可能直接改善长链路性能�
 
 | 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |
 |:---:|:---:|:---:|:---:|:---:|
-| 11 源 | 135 篇 | 33 篇 | 20 篇 | **10 篇** |
+| 11 源 | 138 篇 | 37 篇 | 20 篇 | **10 篇** |
 
-*生成于 2026-07-28 10:10 UTC+8*
+*生成于 2026-07-29 10:14 UTC+8*
 
 ## 📚 往期简报
 
