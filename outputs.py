@@ -14,43 +14,11 @@ BEIJING_TZ = timezone(timedelta(hours=8))
 
 logger = logging.getLogger(__name__)
 
-CATEGORY_EMOJI = {
-    "product": "🚀",
-    "tool": "🛠️",
-    "research": "🔬",
-    "industry": "📊",
-    "tutorial": "💡",
-}
-
 BRIEF_HEADER = """# 🤖 AI Daily Brief
 
-> 每日 AI / 开发者工具链精选简报 · GitHub Actions + GPT 自动策展
-
-[![Daily Update](https://github.com/{repo}/actions/workflows/daily-news.yml/badge.svg)](https://github.com/{repo}/actions/workflows/daily-news.yml)
-
----
-
 """
 
-BRIEF_FOOTER = """
----
-
-## 📊 数据概览
-
-{stats_line}
-
-## 📚 往期简报
-
-查看 [archives/](./archives/) 目录浏览历史简报。
-
-## 🔧 工作原理
-
-1. **数据采集**: HackerNews · GitHub Trending · HuggingFace · 阮一峰周刊 · Reddit · RSS (9 源)
-2. **智能筛选**: GPT 两阶段策展 — 打分聚类 → 主编选稿
-3. **每日更新**: GitHub Actions 定时运行，自动发布
-
-👉 回到 [项目主页 (README)](./README.md)
-"""
+BRIEF_FOOTER = "[往期简报](./archives/) · [项目说明](./README.md)\n"
 
 
 def _source_badge(source: str) -> str:
@@ -77,6 +45,14 @@ def _truncate_title(title: str, max_len: int = 120) -> str:
     return title
 
 
+def _display_title(selection: dict, item: dict) -> str:
+    """Prefer the editor's Chinese short title for selected items."""
+    title_zh = selection.get("title_zh")
+    if isinstance(title_zh, str) and title_zh.strip():
+        return title_zh.strip()
+    return _truncate_title(item["title"])
+
+
 def _format_related(item: dict) -> str:
     """Format related sources as inline links."""
     related = item.get("related_sources", [])
@@ -91,26 +67,25 @@ def _importance_star(item: dict, threshold: int = 9) -> str:
     return " ⭐" if item.get("importance", 0) >= threshold else ""
 
 
-def format_daily_brief(curation_result: dict, config: dict, pipeline_stats: dict = None) -> str:
+def format_daily_brief(curation_result: dict, config: dict) -> str:
     """Generate daily brief README content."""
     candidates = curation_result["candidates"]
     brief = curation_result["brief"]
-    repo = os.environ.get("GITHUB_REPOSITORY", "statefulai/ai-daily-brief")
     date = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
     weekday_zh = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
     weekday = weekday_zh[datetime.now(BEIJING_TZ).weekday()]
 
-    content = BRIEF_HEADER.format(repo=repo)
+    content = BRIEF_HEADER
     content += f"## 📅 {date} {weekday}\n\n"
 
     # === 今日焦点 ===
     focus = brief.get("focus", {})
     focus_idx = focus.get("index", 0)
-    if focus_idx < len(candidates):
+    if isinstance(focus_idx, int) and 0 <= focus_idx < len(candidates):
         focus_item = candidates[focus_idx]
         star = _importance_star(focus_item)
         content += f"### 📌 今日焦点\n\n"
-        content += f"**[{_truncate_title(focus_item['title'])}]({focus_item['url']})** · `{focus_item['source']}`{star}\n\n"
+        content += f"**[{_display_title(focus, focus_item)}]({focus_item['url']})** · `{focus_item['source']}`{star}\n\n"
         content += f"> {focus.get('editorial', '')}\n\n"
         content += _format_related(focus_item)
         content += "\n---\n\n"
@@ -121,12 +96,12 @@ def format_daily_brief(curation_result: dict, config: dict, pipeline_stats: dict
         content += f"### 🔥 热点速览\n\n"
         for num, hl in enumerate(highlights, 1):
             idx = hl.get("index", 0)
-            if idx < len(candidates):
+            if isinstance(idx, int) and 0 <= idx < len(candidates):
                 item = candidates[idx]
                 editorial = hl.get("editorial", "")
                 star = _importance_star(item)
 
-                content += f"**{num}. [{_truncate_title(item['title'])}]({item['url']})** · `{item['source']}`{star}\n\n"
+                content += f"**{num}. [{_display_title(hl, item)}]({item['url']})** · `{item['source']}`{star}\n\n"
                 if editorial:
                     content += f"{editorial}\n\n"
                 related_text = _format_related(item)
@@ -144,36 +119,19 @@ def format_daily_brief(curation_result: dict, config: dict, pipeline_stats: dict
         content += f"### 🛠️ 今日工具\n\n"
         for tool in tools_to_show:
             idx = tool.get("index", 0)
-            if idx < len(candidates):
+            if isinstance(idx, int) and 0 <= idx < len(candidates):
                 item = candidates[idx]
                 reason = tool.get("reason", "")
-                content += f"**[{_truncate_title(item['title'])}]({item['url']})** · `{item['source']}`\n\n"
+                content += f"**[{_display_title(tool, item)}]({item['url']})** · `{item['source']}`\n\n"
                 if reason:
                     content += f"{reason}\n\n"
         content += "---\n\n"
 
-    # === 延伸阅读 (remaining candidates not selected) ===
-    selected_indices = set(used_indices)
-    for tool in tools:
-        selected_indices.add(tool.get("index", -1))
-
-    remaining = [
-        (i, item) for i, item in enumerate(candidates)
-        if i not in selected_indices
-    ]
-    quote = brief.get("quote", "")
     industry_data = brief.get("industry_data") or []
-    tech_trends = brief.get("tech_trends") or []
-    expert_quotes = brief.get("expert_quotes") or []
     if not isinstance(industry_data, list):
         industry_data = []
-    if not isinstance(tech_trends, list):
-        tech_trends = []
-    if not isinstance(expert_quotes, list):
-        expert_quotes = []
     industry_data = [item for item in industry_data if isinstance(item, dict)]
-    tech_trends = [item for item in tech_trends if isinstance(item, dict)]
-    expert_quotes = [item for item in expert_quotes if isinstance(item, dict)]
+    industry_data_to_show = industry_data if len(industry_data) >= 2 else []
 
     def _candidate_link(idx) -> str:
         if isinstance(idx, int) and 0 <= idx < len(candidates):
@@ -185,69 +143,22 @@ def format_daily_brief(curation_result: dict, config: dict, pipeline_stats: dict
     # (it would collide with the footer's leading ---)
     tail_sections = []
 
-    if quote:
-        tail_sections.append(f"### 💡 今日洞察\n\n> {quote}\n\n")
-
-    if industry_data:
+    if industry_data_to_show:
         section = "### 📊 行业数据\n\n"
-        section += "| 事件 | 数据 | 来源 |\n|------|:---:|:---:|\n"
-        for d in industry_data[:3]:
-            event = str(d.get("event", "")).replace("|", "/")
-            value = str(d.get("value", "")).replace("|", "/")
+        section += "| 指标 | 数值 | 说明 | 来源 |\n|------|:---:|------|:---:|\n"
+        for d in industry_data_to_show[:3]:
+            metric = str(d.get("metric", "")).replace("|", "/")
+            value = f"{d.get('value', '')} {d.get('unit', '')}".strip().replace("|", "/")
+            context = str(d.get("context", "")).replace("|", "/")
             link = _candidate_link(d.get("source_index")) or "—"
-            section += f"| {event} | {value} | {link} |\n"
-        tail_sections.append(section + "\n")
-
-    if tech_trends:
-        section = "### 🏗️ 技术趋势\n\n"
-        for t in tech_trends[:2]:
-            section += f"- **{t.get('trend', '')}**: {t.get('description', '')}\n"
-            related_indices = t.get("related_indices") or []
-            if not isinstance(related_indices, list):
-                related_indices = []
-            links = [l for l in (_candidate_link(i) for i in related_indices[:3]) if l]
-            if links:
-                section += f"  📎 {' · '.join(links)}\n"
-        tail_sections.append(section + "\n")
-
-    if expert_quotes:
-        section = "### 💬 专家观点\n\n"
-        for q in expert_quotes[:2]:
-            link = _candidate_link(q.get("source_index"))
-            if not link:
-                continue
-            person = q.get("person", "")
-            person_title = q.get("title", "")
-            who = f"**{person}**" + (f"（{person_title}）" if person_title else "")
-            section += f"> {q.get('quote', '')} —— {who} · 来源：{link}\n\n"
-        if section != "### 💬 专家观点\n\n":
-            tail_sections.append(section)
-
-    if remaining:
-        section = "### 📎 延伸阅读\n\n"
-        for i, item in remaining[:10]:
-            cat_emoji = CATEGORY_EMOJI.get(item.get("category", ""), "•")
-            section += f"- {cat_emoji} [{_truncate_title(item['title'])}]({item['url']}) · `{item['source']}`\n"
+            section += f"| {metric} | {value} | {context} | {link} |\n"
         tail_sections.append(section + "\n")
 
     content += "---\n\n".join(tail_sections)
+    if tail_sections:
+        content += "---\n\n"
 
-    # Stats footer
-    if pipeline_stats:
-        gen_time = datetime.now(BEIJING_TZ).strftime("%Y-%m-%d %H:%M UTC+8")
-        stats_line = (
-            f"| 数据源 | 原始条目 | 过滤后 | AI 评分 | 精选 |\n"
-            f"|:---:|:---:|:---:|:---:|:---:|\n"
-            f"| {pipeline_stats.get('sources', '?')} 源 | "
-            f"{pipeline_stats.get('raw', '?')} 篇 | "
-            f"{pipeline_stats.get('filtered', '?')} 篇 | "
-            f"{pipeline_stats.get('scored', '?')} 篇 | "
-            f"**{pipeline_stats.get('selected', '?')} 篇** |\n\n"
-            f"*生成于 {gen_time}*"
-        )
-    else:
-        stats_line = ""
-    content += BRIEF_FOOTER.format(stats_line=stats_line)
+    content += BRIEF_FOOTER
     return content
 
 
@@ -288,75 +199,52 @@ def write_archive(curation_result: dict, config: dict):
     # Focus
     focus = brief.get("focus", {})
     focus_idx = focus.get("index", 0)
-    if focus_idx < len(candidates):
+    if isinstance(focus_idx, int) and 0 <= focus_idx < len(candidates):
         item = candidates[focus_idx]
-        content += f"## 📌 焦点: [{item['title']}]({item['url']})\n\n"
+        content += f"## 📌 焦点: [{_display_title(focus, item)}]({item['url']})\n\n"
         content += f"{focus.get('editorial', '')}\n\n"
 
     # Highlights
     content += f"## 🔥 速览\n\n"
     for hl in highlights:
         idx = hl.get("index", 0)
-        if idx < len(candidates):
+        if isinstance(idx, int) and 0 <= idx < len(candidates):
             item = candidates[idx]
-            content += f"### [{item['title']}]({item['url']})\n\n"
+            content += f"### [{_display_title(hl, item)}]({item['url']})\n\n"
             content += f"- **Source**: {item['source']}\n"
-            content += f"- **Category**: {item.get('category', '')}\n"
-            content += f"- **Importance**: {item.get('importance', 5)}/10\n"
             content += f"- **编辑点评**: {hl.get('editorial', '')}\n\n"
 
-    # Full candidate list
+    # Tools
+    tools = brief.get("tools") or []
+    if tools:
+        content += "## 🛠️ 工具\n\n"
+        for tool in tools:
+            idx = tool.get("index", 0)
+            if isinstance(idx, int) and 0 <= idx < len(candidates):
+                item = candidates[idx]
+                content += f"### [{_display_title(tool, item)}]({item['url']})\n\n"
+                content += f"{tool.get('reason', '')}\n\n"
+
     industry_data = brief.get("industry_data") or []
     if not isinstance(industry_data, list):
         industry_data = []
     industry_data = [item for item in industry_data if isinstance(item, dict)]
     if industry_data:
         content += "## 📊 行业数据\n\n"
-        content += "| 事件 | 数据 | 来源 |\n|------|:---:|:---:|\n"
+        content += "| 指标 | 数值 | 说明 | 来源 |\n|------|:---:|------|:---:|\n"
         for d in industry_data[:3]:
-            event = str(d.get("event", "")).replace("|", "/")
-            value = str(d.get("value", "")).replace("|", "/")
+            metric = str(d.get("metric", "")).replace("|", "/")
+            value = f"{d.get('value', '')} {d.get('unit', '')}".strip().replace("|", "/")
+            context = str(d.get("context", "")).replace("|", "/")
             link = _candidate_link(d.get("source_index")) or "—"
-            content += f"| {event} | {value} | {link} |\n"
+            content += f"| {metric} | {value} | {context} | {link} |\n"
         content += "\n"
 
-    tech_trends = brief.get("tech_trends") or []
-    if not isinstance(tech_trends, list):
-        tech_trends = []
-    tech_trends = [item for item in tech_trends if isinstance(item, dict)]
-    if tech_trends:
-        content += "## 🏗️ 技术趋势\n\n"
-        for t in tech_trends[:2]:
-            content += f"- **{t.get('trend', '')}**: {t.get('description', '')}\n"
-            related_indices = t.get("related_indices") or []
-            if not isinstance(related_indices, list):
-                related_indices = []
-            links = [l for l in (_candidate_link(i) for i in related_indices[:3]) if l]
-            if links:
-                content += f"  📎 {' · '.join(links)}\n"
-        content += "\n"
-
-    expert_quotes = brief.get("expert_quotes") or []
-    if not isinstance(expert_quotes, list):
-        expert_quotes = []
-    expert_quotes = [item for item in expert_quotes if isinstance(item, dict)]
-    if expert_quotes:
-        section = "## 💬 专家观点\n\n"
-        for q in expert_quotes[:2]:
-            link = _candidate_link(q.get("source_index"))
-            if not link:
-                continue
-            person = q.get("person", "")
-            person_title = q.get("title", "")
-            who = f"**{person}**" + (f"（{person_title}）" if person_title else "")
-            section += f"> {q.get('quote', '')} —— {who} · 来源：{link}\n\n"
-        if section != "## 💬 专家观点\n\n":
-            content += section
-
-    content += f"## 📋 全部候选 ({len(candidates)} 条)\n\n"
+    content += f"<details>\n<summary>完整候选与内部评分（{len(candidates)} 条）</summary>\n\n"
     for i, item in enumerate(candidates):
         content += f"{i+1}. [{item['title']}]({item['url']}) — {item['source']} "
         content += f"(importance: {item.get('importance', 5)}, topic: {item.get('topic_key', '')})\n"
+    content += "\n</details>\n"
 
     path = Path(directory) / f"{date}.md"
     path.write_text(content, encoding="utf-8")

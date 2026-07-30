@@ -214,22 +214,13 @@ async def run(args: argparse.Namespace):
         print(json.dumps(curation_result, ensure_ascii=False, indent=2))
         return
 
-    # Pipeline stats for output footer
-    pipeline_stats = {
-        "raw": len(raw_items),
-        "filtered": len(items),
-        "scored": len(candidates),
-        "selected": 1 + len(brief.get("highlights", [])) + len(brief.get("tools", [])),
-        "sources": len(set(item.source for item in raw_items)),
-    }
-
     # 6. Output
     logger.info("=== Writing outputs ===")
     output_cfg = config.get("output", {})
 
     # README (daily brief format)
     if output_cfg.get("github_readme", {}).get("enabled", True):
-        readme_content = format_daily_brief(curation_result, output_cfg.get("github_readme", {}), pipeline_stats)
+        readme_content = format_daily_brief(curation_result, output_cfg.get("github_readme", {}))
         readme_path = output_cfg.get("github_readme", {}).get("file", "README.md")
         write_readme(readme_content, readme_path)
 

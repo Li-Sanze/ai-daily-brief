@@ -95,9 +95,17 @@ class SummarizerTest(unittest.TestCase):
         candidates = [candidate(index) for index in range(6)]
         client = MagicMock()
         client.chat.completions.create.return_value = completion({
-            "focus": {"index": 0, "editorial": "这条新闻值得关注。"},
+            "focus": {
+                "index": 0,
+                "title_zh": "焦点新闻",
+                "editorial": "事实：发生了变化；影响：需要评估。",
+            },
             "highlights": [
-                {"index": index, "editorial": ""}
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": "",
+                }
                 for index in range(1, 6)
             ],
             "tools": [],
@@ -111,24 +119,29 @@ class SummarizerTest(unittest.TestCase):
 
     def test_stage2_accepts_publishable_editorials(self):
         candidates = [candidate(index) for index in range(7)]
+        candidates[6]["category"] = "tool"
         brief = {
             "focus": {
                 "index": 0,
-                "editorial": "这项变化会影响开发者的模型选择，建议先在测试环境验证。",
+                "title_zh": "模型选择发生变化",
+                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可重新评估生产选型。",
             },
             "highlights": [
                 {
                     "index": index,
-                    "editorial": "这条进展关系到开发成本与落地可靠性。",
+                    "title_zh": f"开发进展{index}",
+                    "editorial": "新模型降低了推理延迟，开发团队可减少线上等待时间。",
                 }
                 for index in range(1, 6)
             ],
             "tools": [
                 {
                     "index": 6,
-                    "reason": "适合需要本地部署能力的开发团队试用。",
+                    "title_zh": "本地部署工具",
+                    "reason": "入选依据：来自今日 Test 候选，摘要明确给出新版本；用途：适合需要本地部署能力的团队试用。",
                 }
             ],
+            "industry_data": [],
         }
         client = MagicMock()
         client.chat.completions.create.return_value = completion(brief)
@@ -137,6 +150,144 @@ class SummarizerTest(unittest.TestCase):
             result = _run_stage2(candidates, {})
 
         self.assertEqual(result, brief)
+
+    def test_stage2_rejects_selection_without_chinese_title(self):
+        candidates = [candidate(index) for index in range(6)]
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "English only",
+                "editorial": "事实：发生了变化；影响：需要评估。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                }
+                for index in range(1, 6)
+            ],
+            "tools": [],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with (
+            patch("summarizer.create_client", return_value=client),
+            self.assertRaisesRegex(CurationError, "focus editorial"),
+        ):
+            _run_stage2(candidates, {})
+
+    def test_stage2_rejects_generic_tool_reason(self):
+        candidates = [candidate(index) for index in range(7)]
+        candidates[6]["category"] = "tool"
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "焦点新闻",
+                "editorial": "事实：发生了变化；影响：需要评估。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                }
+                for index in range(1, 6)
+            ],
+            "tools": [
+                {
+                    "index": 6,
+                    "title_zh": "开源工具",
+                    "reason": "适合开发团队试用。",
+                }
+            ],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with (
+            patch("summarizer.create_client", return_value=client),
+            self.assertRaisesRegex(CurationError, "tool recommendation"),
+        ):
+            _run_stage2(candidates, {})
+
+    def test_stage2_rejects_opaque_highlight_explanation(self):
+        candidates = [candidate(index) for index in range(6)]
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "焦点新闻",
+                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": (
+                        "两项案例提供了早期证据。"
+                        if index == 1
+                        else "新模型降低了推理延迟，可能影响部署成本。"
+                    ),
+                }
+                for index in range(1, 6)
+            ],
+            "tools": [],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with (
+            patch("summarizer.create_client", return_value=client),
+            self.assertRaisesRegex(CurationError, "highlight editorial"),
+        ):
+            _run_stage2(candidates, {})
+
+    def test_stage2_keeps_only_traceable_industry_data(self):
+        candidates = [candidate(index) for index in range(8)]
+        candidates[6]["summary"] = "该系统可以 32 Hz 的频率实时运行。"
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "实时模型提速",
+                "editorial": "事实：系统达到实时运行；影响：端侧部署门槛降低。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                }
+                for index in range(1, 6)
+            ],
+            "tools": [],
+            "industry_data": [
+                {
+                    "metric": "实时运行频率",
+                    "value": "32",
+                    "unit": "Hz",
+                    "context": "该系统达到实时运行速度",
+                    "source_index": 6,
+                },
+                {
+                    "metric": "项目热度",
+                    "value": "86381",
+                    "unit": "分",
+                    "context": "内部采集器给出的热度",
+                    "source_index": 1,
+                },
+            ],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with patch("summarizer.create_client", return_value=client):
+            result = _run_stage2(candidates, {})
+
+        self.assertEqual(
+            result["industry_data"],
+            [brief["industry_data"][0]],
+        )
 
 
 if __name__ == "__main__":
