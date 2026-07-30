@@ -13,6 +13,11 @@ from sources import NewsItem
 
 logger = logging.getLogger(__name__)
 
+
+class CurationError(RuntimeError):
+    """Raised when the LLM cannot produce a publishable daily brief."""
+
+
 # Stage 1: Score and classify
 STAGE1_PROMPT = """You are an AI news analyst. Score and classify these items.
 
@@ -39,8 +44,8 @@ Rules:
 STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候选新闻中策展今日简报。
 
 要求：
-1. 选 1 条作为"今日焦点"，写 2 句编辑评论（第 1 句说为什么重要，第 2 句给开发者行动建议）
-2. 选 5-8 条作为"热点速览"，每条写 1 句编辑观点（不是摘要，是"为什么开发者应该关注"，控制在 50 字以内）
+1. 选 1 条作为"今日焦点"，写 2 句编辑评论（第 1 句用通俗中文说明发生了什么，第 2 句说明为什么值得关注或给出行动建议）
+2. 选 5-8 条作为"热点速览"，每条用 1 句通俗中文说明"发生了什么、为什么值得关注"，控制在 50 字以内
 3. 选 1-2 个作为"今日工具"（优先开源项目，不要和焦点/速览重复），写 1 句推荐理由
 4. 提取或创作 1 条与 AI 相关的金句
 5. 标记哪些候选条目是同一事件的补充来源
@@ -54,6 +59,7 @@ STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候
 - importance 分数高的优先
 - 避免同一事件重复占位，用"延伸阅读"聚合
 - 工具区不要选已经出现在焦点或速览中的条目
+- 面向普通中文读者，不默认读者了解英文缩写或专业术语；无法避免时用短语解释
 
 Respond in JSON:
 {
@@ -110,7 +116,11 @@ def create_client(config: dict) -> OpenAI:
     """Create OpenAI client with DuckCoding relay config."""
     return OpenAI(
         api_key=os.environ.get("OPENAI_API_KEY", ""),
-        base_url=config.get("base_url", "https://api.duckcoding.ai/v1"),
+        base_url=(
+            os.environ.get("OPENAI_BASE_URL")
+            or config.get("base_url")
+            or "https://api.duckcoding.ai/v1"
+        ),
         timeout=120.0,
     )
 
@@ -143,9 +153,38 @@ def _run_stage1(items: list[NewsItem], config: dict) -> list[dict]:
             )
 
             result = json.loads(response.choices[0].message.content)
-            for entry in result.get("items", []):
+            entries = result.get("items")
+            expected_indices = set(range(len(batch)))
+            if (
+                not isinstance(entries, list)
+                or len(entries) != len(batch)
+                or {
+                    entry.get("index")
+                    for entry in entries
+                    if isinstance(entry, dict)
+                } != expected_indices
+            ):
+                raise CurationError(
+                    f"Stage1 batch {i//batch_size + 1} returned incomplete scoring"
+                )
+
+            for entry in entries:
                 idx = entry.get("index", 0)
                 importance = entry.get("importance", 0)
+                if (
+                    type(idx) is not int
+                    or type(importance) is not int
+                    or not 1 <= importance <= 10
+                    or entry.get("category") not in {
+                        "product", "tool", "research", "industry", "tutorial"
+                    }
+                    or not isinstance(entry.get("topic_key"), str)
+                    or not entry["topic_key"].strip()
+                ):
+                    raise CurationError(
+                        f"Stage1 batch {i//batch_size + 1} returned invalid scoring"
+                    )
+
                 if idx < len(batch) and importance >= 3:
                     item = batch[idx]
                     scored.append({
@@ -162,23 +201,14 @@ def _run_stage1(items: list[NewsItem], config: dict) -> list[dict]:
                     })
 
             logger.info(f"Stage1 batch {i//batch_size + 1}: "
-                        f"{len(batch)} → {sum(1 for e in result.get('items', []) if e.get('importance', 0) >= 3)} scored (importance≥3)")
+                        f"{len(batch)} → {sum(1 for e in entries if e.get('importance', 0) >= 3)} scored (importance≥3)")
 
+        except CurationError:
+            raise
         except Exception as e:
-            logger.error(f"Stage1 batch {i//batch_size + 1} failed: {e}")
-            for item in batch:
-                scored.append({
-                    "title": item.title,
-                    "url": item.url,
-                    "source": item.source,
-                    "score": item.score,
-                    "published": item.published.isoformat(),
-                    "summary": (item.summary or "")[:200],
-                    "category": "tool",
-                    "importance": 5,
-                    "topic_key": f"fallback-{len(scored)}",
-                    "tags": item.tags,
-                })
+            raise CurationError(
+                f"Stage1 batch {i//batch_size + 1} failed: {e}"
+            ) from e
 
     scored.sort(key=lambda x: (-x["importance"], -x["score"]))
     return scored
@@ -224,6 +254,9 @@ def _cluster_and_select_candidates(scored: list[dict], max_candidates: int = 20)
 
 def _run_stage2(candidates: list[dict], config: dict) -> dict:
     """Stage 2: Editor-in-chief curation."""
+    if not candidates:
+        raise CurationError("Stage1 produced no publishable candidates")
+
     client = create_client(config)
     model = os.environ.get("AI_NEWS_MODEL", config.get("model", "gpt-5.4"))
 
@@ -250,24 +283,72 @@ def _run_stage2(candidates: list[dict], config: dict) -> dict:
         )
 
         brief = json.loads(response.choices[0].message.content)
+        _validate_brief(brief, len(candidates))
         logger.info(f"Stage2: focus={brief.get('focus', {}).get('index')}, "
                      f"highlights={len(brief.get('highlights', []))}, "
                      f"tools={len(brief.get('tools', []))}")
         return brief
 
+    except CurationError:
+        raise
     except Exception as e:
-        logger.error(f"Stage2 curation failed: {e}")
-        # Fallback: first item as focus, next 5 as highlights
-        return {
-            "focus": {"index": 0, "editorial": candidates[0]["title"] if candidates else ""},
-            "highlights": [{"index": i, "editorial": ""} for i in range(1, min(6, len(candidates)))],
-            "tools": [],
-            "quote": "",
-            "industry_data": [],
-            "tech_trends": [],
-            "expert_quotes": [],
-            "related_groups": [],
-        }
+        raise CurationError(f"Stage2 curation failed: {e}") from e
+
+
+def _validate_brief(brief: dict, candidate_count: int):
+    """Reject incomplete or non-Chinese editorial output before publication."""
+    if not isinstance(brief, dict):
+        raise CurationError("Stage2 returned an invalid brief")
+
+    def valid_index(value) -> bool:
+        return type(value) is int and 0 <= value < candidate_count
+
+    def readable_chinese(value) -> bool:
+        return (
+            isinstance(value, str)
+            and bool(value.strip())
+            and any("\u4e00" <= char <= "\u9fff" for char in value)
+        )
+
+    focus = brief.get("focus")
+    if (
+        not isinstance(focus, dict)
+        or not valid_index(focus.get("index"))
+        or not readable_chinese(focus.get("editorial"))
+    ):
+        raise CurationError("Stage2 returned an unusable focus editorial")
+
+    highlights = brief.get("highlights")
+    minimum_highlights = min(5, max(candidate_count - 1, 0))
+    if (
+        not isinstance(highlights, list)
+        or not minimum_highlights <= len(highlights) <= 8
+    ):
+        raise CurationError("Stage2 returned an invalid highlight selection")
+
+    selected_indices = {focus["index"]}
+    for highlight in highlights:
+        if (
+            not isinstance(highlight, dict)
+            or not valid_index(highlight.get("index"))
+            or highlight["index"] in selected_indices
+            or not readable_chinese(highlight.get("editorial"))
+        ):
+            raise CurationError("Stage2 returned an unusable highlight editorial")
+        selected_indices.add(highlight["index"])
+
+    tools = brief.get("tools", [])
+    if not isinstance(tools, list):
+        raise CurationError("Stage2 returned an invalid tool selection")
+    for tool in tools:
+        if (
+            not isinstance(tool, dict)
+            or not valid_index(tool.get("index"))
+            or tool["index"] in selected_indices
+            or not readable_chinese(tool.get("reason"))
+        ):
+            raise CurationError("Stage2 returned an unusable tool recommendation")
+        selected_indices.add(tool["index"])
 
 
 def curate_daily_brief(items: list[NewsItem], config: dict) -> dict:
