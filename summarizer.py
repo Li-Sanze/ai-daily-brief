@@ -14,6 +14,15 @@ from sources import NewsItem
 
 logger = logging.getLogger(__name__)
 
+OPAQUE_REFERENCE_PATTERN = re.compile(
+    r"(?:"
+    r"\b(?:two|three|four|multiple|2|3|4)\s+"
+    r"(?:\w+\s+){0,2}(?:settings|case studies|cases|methods)\b"
+    r"|(?:两项|两个|多项).{0,12}(?:设置|案例|方法)"
+    r")",
+    re.IGNORECASE,
+)
+
 
 class CurationError(RuntimeError):
     """Raised when the LLM cannot produce a publishable daily brief."""
@@ -244,12 +253,23 @@ def _run_stage2(candidates: list[dict], config: dict) -> dict:
     client = create_client(config)
     model = os.environ.get("AI_NEWS_MODEL", config.get("model", "gpt-5.4"))
 
+    eligible_candidates = [
+        (i, item)
+        for i, item in enumerate(candidates)
+        if not OPAQUE_REFERENCE_PATTERN.search(item.get("title", ""))
+    ]
+    required_editorial_items = 1 + min(5, max(len(candidates) - 1, 0))
+    if len(eligible_candidates) < required_editorial_items:
+        raise CurationError(
+            "Stage2 has too few self-contained candidates for publication"
+        )
+
     candidate_text = "\n".join(
         f"[{i}] {item['title']} | source={item['source']} | "
         f"category={item['category']} | importance={item['importance']} | "
         f"related={len(item.get('related_sources', []))} sources"
         + (f"\n    摘要: {item['summary']}" if item.get("summary") else "")
-        for i, item in enumerate(candidates)
+        for i, item in eligible_candidates
     )
 
     try:
@@ -259,7 +279,7 @@ def _run_stage2(candidates: list[dict], config: dict) -> dict:
             model=editorial_model,
             messages=[
                 {"role": "system", "content": STAGE2_PROMPT},
-                {"role": "user", "content": f"今日候选新闻（{len(candidates)} 条）:\n\n{candidate_text}"},
+                {"role": "user", "content": f"今日候选新闻（{len(eligible_candidates)} 条）:\n\n{candidate_text}"},
             ],
             max_tokens=4096,
             temperature=0.4,
@@ -308,6 +328,7 @@ def _validate_brief(brief: dict, candidates: list[dict]):
     def concrete_editorial(value) -> bool:
         return (
             readable_chinese(value)
+            and not OPAQUE_REFERENCE_PATTERN.search(value)
             and not any(phrase in value for phrase in opaque_phrases)
         )
 

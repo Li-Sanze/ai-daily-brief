@@ -225,7 +225,7 @@ class SummarizerTest(unittest.TestCase):
                     "index": index,
                     "title_zh": f"速览新闻{index}",
                     "editorial": (
-                        "两项案例提供了早期证据。"
+                        "两项 API 设置让分数提升了。"
                         if index == 1
                         else "新模型降低了推理延迟，可能影响部署成本。"
                     ),
@@ -242,6 +242,35 @@ class SummarizerTest(unittest.TestCase):
             self.assertRaisesRegex(CurationError, "highlight editorial"),
         ):
             _run_stage2(candidates, {})
+
+    def test_stage2_excludes_opaque_candidate_titles(self):
+        candidates = [candidate(index) for index in range(7)]
+        candidates[1]["title"] = "How two API settings tripled benchmark scores"
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "焦点新闻",
+                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                }
+                for index in range(2, 7)
+            ],
+            "tools": [],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with patch("summarizer.create_client", return_value=client):
+            _run_stage2(candidates, {})
+
+        prompt = client.chat.completions.create.call_args.kwargs["messages"][1]["content"]
+        self.assertNotIn("How two API settings", prompt)
+        self.assertIn("[2] News 2", prompt)
 
     def test_stage2_keeps_only_traceable_industry_data(self):
         candidates = [candidate(index) for index in range(8)]
