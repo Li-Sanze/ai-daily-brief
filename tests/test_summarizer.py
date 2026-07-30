@@ -98,7 +98,7 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "焦点新闻",
-                "editorial": "事实：发生了变化；影响：需要评估。",
+                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
@@ -130,7 +130,7 @@ class SummarizerTest(unittest.TestCase):
                 {
                     "index": index,
                     "title_zh": f"开发进展{index}",
-                    "editorial": "新模型降低了推理延迟，开发团队可减少线上等待时间。",
+                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少线上等待时间。",
                 }
                 for index in range(1, 6)
             ],
@@ -156,13 +156,13 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "English only",
-                "editorial": "事实：发生了变化；影响：需要评估。",
+                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
-                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
                 }
                 for index in range(1, 6)
             ],
@@ -184,13 +184,13 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "焦点新闻",
-                "editorial": "事实：发生了变化；影响：需要评估。",
+                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
-                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
                 }
                 for index in range(1, 6)
             ],
@@ -226,7 +226,7 @@ class SummarizerTest(unittest.TestCase):
                     "editorial": (
                         "两项 API 设置让分数提升了。"
                         if index == 1
-                        else "新模型降低了推理延迟，可能影响部署成本。"
+                        else "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。"
                     ),
                 }
                 for index in range(1, 6)
@@ -255,7 +255,7 @@ class SummarizerTest(unittest.TestCase):
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
-                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
                 }
                 for index in range(2, 7)
             ],
@@ -285,7 +285,7 @@ class SummarizerTest(unittest.TestCase):
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
-                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
                 }
                 for index in range(1, 6)
             ],
@@ -305,6 +305,82 @@ class SummarizerTest(unittest.TestCase):
             self.assertRaisesRegex(CurationError, "tool recommendation"),
         ):
             _run_stage2(candidates, {})
+
+    def test_stage2_retries_company_concentrated_selection(self):
+        candidates = [candidate(index) for index in range(7)]
+        candidates[0]["title"] = "Microsoft model launch"
+        candidates[1]["title"] = "Microsoft Copilot update"
+        candidates[2]["title"] = "Microsoft investment results"
+        candidates[3]["title"] = "Google model update"
+        candidates[4]["title"] = "Meta agent launch"
+        candidates[5]["title"] = "OpenAI research program"
+        candidates[6]["title"] = "Anthropic safety release"
+
+        def brief_with_highlights(indices):
+            return {
+                "focus": {
+                    "index": 0,
+                    "title_zh": "微软模型发布",
+                    "editorial": "事实：微软发布新模型；影响：开发团队可重新评估模型选择。",
+                },
+                "highlights": [
+                    {
+                        "index": index,
+                        "title_zh": f"行业动态{index}",
+                        "editorial": "事实：厂商发布新能力；影响：开发团队需评估工具选择。",
+                    }
+                    for index in indices
+                ],
+                "tools": [],
+            }
+
+        invalid_brief = brief_with_highlights([1, 2, 3, 4, 5])
+        valid_brief = brief_with_highlights([1, 3, 4, 5, 6])
+        client = MagicMock()
+        client.chat.completions.create.side_effect = [
+            completion(invalid_brief),
+            completion(valid_brief),
+        ]
+
+        with patch("summarizer.create_client", return_value=client):
+            result = _run_stage2(candidates, {})
+
+        self.assertEqual(result, valid_brief)
+        self.assertEqual(client.chat.completions.create.call_count, 2)
+        retry_prompt = client.chat.completions.create.call_args.kwargs["messages"][-1]["content"]
+        self.assertIn("more than two editorial items about Microsoft", retry_prompt)
+
+    def test_stage2_rejects_vague_reader_impact(self):
+        candidates = [candidate(index) for index in range(6)]
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "焦点新闻",
+                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": (
+                        "事实：厂商发布新模型；影响：行业竞争进一步公开化。"
+                        if index == 1
+                        else "事实：新模型降低了延迟；影响：开发团队可减少部署成本。"
+                    ),
+                }
+                for index in range(1, 6)
+            ],
+            "tools": [],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with (
+            patch("summarizer.create_client", return_value=client),
+            self.assertRaisesRegex(CurationError, "concrete reader impact"),
+        ):
+            _run_stage2(candidates, {})
+
 
 if __name__ == "__main__":
     unittest.main()

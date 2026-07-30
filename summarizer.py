@@ -26,6 +26,23 @@ INTERNAL_TERM_PATTERN = re.compile(
     r"\bimportance\b|内部评分|候选编号",
     re.IGNORECASE,
 )
+ORGANIZATION_ALIASES = {
+    "OpenAI": ("openai",),
+    "Microsoft": ("microsoft",),
+    "Anthropic": ("anthropic", "claude"),
+    "Meta": ("meta", "zuckerberg"),
+    "Google": ("google", "gemini", "deepmind"),
+    "NVIDIA": ("nvidia",),
+    "Apple": ("apple",),
+    "Amazon": ("amazon", "aws"),
+    "xAI": ("xai", "grok"),
+}
+CONCRETE_IMPACT_TERMS = (
+    "开发者", "团队", "研究者", "企业", "用户", "工具", "工作流",
+    "成本", "价格", "费用", "安全", "权限", "部署", "接口", "api",
+    "采购", "迁移", "集成", "模型选择", "供应商", "开源", "社区",
+    "申请", "试用", "使用门槛", "硬件",
+)
 
 
 class CurationError(RuntimeError):
@@ -59,13 +76,15 @@ STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候
 
 要求：
 1. 选 1 条作为"今日焦点"，提供 18 字以内的中文短标题；编辑评论严格写成"事实：……；影响：……"，只写候选信息能支持的内容
-2. 候选不少于 6 条时，恰好选 5 条作为"热点速览"；每条提供 18 字以内的中文短标题，点评用 1 句写清"事实和影响"，控制在 50 字以内
+2. 候选不少于 6 条时，恰好选 5 条作为"热点速览"；每条提供 18 字以内的中文短标题，点评严格写成"事实：……；影响：……"，控制在 50 字以内
 3. 选 0-2 个作为"今日工具"（优先开源项目，不要和焦点/速览重复）。只有能从来源或标题摘要说明"为什么今天入选"时才选择；理由严格写成"入选依据：来自今日实际来源名，……；用途：……"，不能只写常规简介
 选稿标准：
 - 重大模型发布/技术突破 > 工具更新 > 行业分析
 - 全球影响力大的事件优先作为焦点
 - 避免同一事件重复占位
+- 今日焦点与热点速览合计，同一主要公司最多 2 条
 - 每条入选内容必须不点链接也能理解：写清具体对象、动作或结果及其影响
+- "影响"必须落到开发者、团队或用户的工具选择、工作流、成本、安全、部署、采购或近期动作；不要只写赛道升温、竞争公开化、资本分化
 - 禁止用"两个设置、两项案例、该研究、这一方法"等指代词代替关键信息；候选信息不足以说明具体内容时不要入选，也不要补写猜测
 - 工具区不要选已经出现在焦点或速览中的条目
 - 面向普通中文读者，不默认读者了解英文缩写或专业术语；无法避免时用短语解释
@@ -85,7 +104,7 @@ Respond in JSON:
     {
       "index": 1,
       "title_zh": "中文短标题",
-      "editorial": "1句具体点评，50字以内"
+      "editorial": "事实：……；影响：……"
     }
   ],
   "tools": [
@@ -265,26 +284,54 @@ def _run_stage2(candidates: list[dict], config: dict) -> dict:
         for i, item in eligible_candidates
     )
 
-    try:
-        # Use editorial model (higher quality) for Stage 2
-        editorial_model = config.get("model_editorial", model)
-        response = client.chat.completions.create(
-            model=editorial_model,
-            messages=[
-                {"role": "system", "content": STAGE2_PROMPT},
-                {"role": "user", "content": f"今日候选新闻（{len(eligible_candidates)} 条）:\n\n{candidate_text}"},
-            ],
-            max_tokens=4096,
-            temperature=0.4,
-            response_format={"type": "json_object"},
-        )
+    base_messages = [
+        {"role": "system", "content": STAGE2_PROMPT},
+        {
+            "role": "user",
+            "content": (
+                f"今日候选新闻（{len(eligible_candidates)} 条）:\n\n"
+                f"{candidate_text}"
+            ),
+        },
+    ]
+    validation_error = None
 
-        brief = json.loads(response.choices[0].message.content)
-        _validate_brief(brief, candidates)
-        logger.info(f"Stage2: focus={brief.get('focus', {}).get('index')}, "
-                     f"highlights={len(brief.get('highlights', []))}, "
-                     f"tools={len(brief.get('tools', []))}")
-        return brief
+    try:
+        # Use editorial model (higher quality) for Stage 2.
+        # Retry once only when the JSON is valid but fails publication rules.
+        editorial_model = config.get("model_editorial", model)
+        for attempt in range(2):
+            messages = list(base_messages)
+            if validation_error:
+                messages.append({
+                    "role": "user",
+                    "content": (
+                        f"上次选稿不符合发布规则：{validation_error}。"
+                        "请重新选择并输出完整 JSON。"
+                    ),
+                })
+            response = client.chat.completions.create(
+                model=editorial_model,
+                messages=messages,
+                max_tokens=4096,
+                temperature=0.4,
+                response_format={"type": "json_object"},
+            )
+
+            brief = json.loads(response.choices[0].message.content)
+            try:
+                _validate_brief(brief, candidates)
+            except CurationError as error:
+                if attempt == 0:
+                    validation_error = str(error)
+                    logger.warning(f"Stage2 retrying after validation: {error}")
+                    continue
+                raise
+
+            logger.info(f"Stage2: focus={brief.get('focus', {}).get('index')}, "
+                        f"highlights={len(brief.get('highlights', []))}, "
+                        f"tools={len(brief.get('tools', []))}")
+            return brief
 
     except CurationError:
         raise
@@ -330,16 +377,34 @@ def _validate_brief(brief: dict, candidates: list[dict]):
             and not any(phrase in value for phrase in opaque_phrases)
         )
 
+    def has_concrete_impact(value) -> bool:
+        if not isinstance(value, str) or "影响：" not in value:
+            return False
+        impact = value.split("影响：", 1)[1].lower()
+        return any(term in impact for term in CONCRETE_IMPACT_TERMS)
+
+    def primary_organization(index: int):
+        title = candidates[index].get("title", "").lower()
+        matches = []
+        for organization, aliases in ORGANIZATION_ALIASES.items():
+            positions = [title.find(alias) for alias in aliases if alias in title]
+            if positions:
+                matches.append((min(positions), organization))
+        return min(matches)[1] if matches else None
+
     focus = brief.get("focus")
     if (
         not isinstance(focus, dict)
         or not valid_index(focus.get("index"))
         or not readable_title(focus.get("title_zh"))
         or not concrete_editorial(focus.get("editorial"))
-        or not focus["editorial"].strip().startswith("事实：")
-        or "影响：" not in focus["editorial"]
     ):
         raise CurationError("Stage2 returned an unusable focus editorial")
+    if (
+        not focus["editorial"].strip().startswith("事实：")
+        or not has_concrete_impact(focus["editorial"])
+    ):
+        raise CurationError("focus lacks a concrete reader impact")
 
     highlights = brief.get("highlights")
     expected_highlights = min(5, max(candidate_count - 1, 0))
@@ -359,7 +424,23 @@ def _validate_brief(brief: dict, candidates: list[dict]):
             or not concrete_editorial(highlight.get("editorial"))
         ):
             raise CurationError("Stage2 returned an unusable highlight editorial")
+        if (
+            not highlight["editorial"].strip().startswith("事实：")
+            or not has_concrete_impact(highlight["editorial"])
+        ):
+            raise CurationError("highlight lacks a concrete reader impact")
         selected_indices.add(highlight["index"])
+
+    organization_counts = {}
+    for index in selected_indices:
+        organization = primary_organization(index)
+        if not organization:
+            continue
+        organization_counts[organization] = organization_counts.get(organization, 0) + 1
+        if organization_counts[organization] > 2:
+            raise CurationError(
+                f"more than two editorial items about {organization}"
+            )
 
     tools = brief.get("tools", [])
     if not isinstance(tools, list) or len(tools) > 2:
