@@ -127,37 +127,6 @@ def format_daily_brief(curation_result: dict, config: dict) -> str:
                     content += f"{reason}\n\n"
         content += "---\n\n"
 
-    industry_data = brief.get("industry_data") or []
-    if not isinstance(industry_data, list):
-        industry_data = []
-    industry_data = [item for item in industry_data if isinstance(item, dict)]
-    industry_data_to_show = industry_data if len(industry_data) >= 2 else []
-
-    def _candidate_link(idx) -> str:
-        if isinstance(idx, int) and 0 <= idx < len(candidates):
-            c = candidates[idx]
-            return f"[{c['source']}]({c['url']})"
-        return ""
-
-    # Tail sections joined by dividers; last one must not emit a trailing ---
-    # (it would collide with the footer's leading ---)
-    tail_sections = []
-
-    if industry_data_to_show:
-        section = "### 📊 行业数据\n\n"
-        section += "| 指标 | 数值 | 说明 | 来源 |\n|------|:---:|------|:---:|\n"
-        for d in industry_data_to_show[:3]:
-            metric = str(d.get("metric", "")).replace("|", "/")
-            value = f"{d.get('value', '')} {d.get('unit', '')}".strip().replace("|", "/")
-            context = str(d.get("context", "")).replace("|", "/")
-            link = _candidate_link(d.get("source_index")) or "—"
-            section += f"| {metric} | {value} | {context} | {link} |\n"
-        tail_sections.append(section + "\n")
-
-    content += "---\n\n".join(tail_sections)
-    if tail_sections:
-        content += "---\n\n"
-
     content += BRIEF_FOOTER
     return content
 
@@ -182,12 +151,6 @@ def write_archive(curation_result: dict, config: dict):
 
     candidates = curation_result["candidates"]
     brief = curation_result["brief"]
-
-    def _candidate_link(idx) -> str:
-        if isinstance(idx, int) and 0 <= idx < len(candidates):
-            c = candidates[idx]
-            return f"[{c['source']}]({c['url']})"
-        return ""
 
     content = f"# AI Daily Brief — {date} {weekday}\n\n"
     content += f"> Generated at {datetime.now(BEIJING_TZ).strftime('%Y-%m-%d %H:%M CST')}\n\n"
@@ -224,21 +187,6 @@ def write_archive(curation_result: dict, config: dict):
                 item = candidates[idx]
                 content += f"### [{_display_title(tool, item)}]({item['url']})\n\n"
                 content += f"{tool.get('reason', '')}\n\n"
-
-    industry_data = brief.get("industry_data") or []
-    if not isinstance(industry_data, list):
-        industry_data = []
-    industry_data = [item for item in industry_data if isinstance(item, dict)]
-    if industry_data:
-        content += "## 📊 行业数据\n\n"
-        content += "| 指标 | 数值 | 说明 | 来源 |\n|------|:---:|------|:---:|\n"
-        for d in industry_data[:3]:
-            metric = str(d.get("metric", "")).replace("|", "/")
-            value = f"{d.get('value', '')} {d.get('unit', '')}".strip().replace("|", "/")
-            context = str(d.get("context", "")).replace("|", "/")
-            link = _candidate_link(d.get("source_index")) or "—"
-            content += f"| {metric} | {value} | {context} | {link} |\n"
-        content += "\n"
 
     content += f"<details>\n<summary>完整候选与内部评分（{len(candidates)} 条）</summary>\n\n"
     for i, item in enumerate(candidates):

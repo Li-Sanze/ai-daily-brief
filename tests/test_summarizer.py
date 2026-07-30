@@ -141,7 +141,6 @@ class SummarizerTest(unittest.TestCase):
                     "reason": "入选依据：来自今日 Test 候选，摘要明确给出新版本；用途：适合需要本地部署能力的团队试用。",
                 }
             ],
-            "industry_data": [],
         }
         client = MagicMock()
         client.chat.completions.create.return_value = completion(brief)
@@ -271,53 +270,6 @@ class SummarizerTest(unittest.TestCase):
         prompt = client.chat.completions.create.call_args.kwargs["messages"][1]["content"]
         self.assertNotIn("How two API settings", prompt)
         self.assertIn("[2] News 2", prompt)
-
-    def test_stage2_keeps_only_traceable_industry_data(self):
-        candidates = [candidate(index) for index in range(8)]
-        candidates[6]["summary"] = "该系统可以 32 Hz 的频率实时运行。"
-        brief = {
-            "focus": {
-                "index": 0,
-                "title_zh": "实时模型提速",
-                "editorial": "事实：系统达到实时运行；影响：端侧部署门槛降低。",
-            },
-            "highlights": [
-                {
-                    "index": index,
-                    "title_zh": f"速览新闻{index}",
-                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
-                }
-                for index in range(1, 6)
-            ],
-            "tools": [],
-            "industry_data": [
-                {
-                    "metric": "实时运行频率",
-                    "value": "32",
-                    "unit": "Hz",
-                    "context": "该系统达到实时运行速度",
-                    "source_index": 6,
-                },
-                {
-                    "metric": "项目热度",
-                    "value": "86381",
-                    "unit": "分",
-                    "context": "内部采集器给出的热度",
-                    "source_index": 1,
-                },
-            ],
-        }
-        client = MagicMock()
-        client.chat.completions.create.return_value = completion(brief)
-
-        with patch("summarizer.create_client", return_value=client):
-            result = _run_stage2(candidates, {})
-
-        self.assertEqual(
-            result["industry_data"],
-            [brief["industry_data"][0]],
-        )
-
 
 if __name__ == "__main__":
     unittest.main()

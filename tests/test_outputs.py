@@ -44,15 +44,6 @@ def curation_result() -> dict:
                     "reason": "入选依据：来自今日 Test 候选；用途：适合需要本地部署的团队试用。",
                 }
             ],
-            "industry_data": [
-                {
-                    "metric": "运行频率",
-                    "value": "32",
-                    "unit": "Hz",
-                    "context": "端侧模型实时运行",
-                    "source_index": 10,
-                }
-            ],
         },
     }
 
@@ -73,7 +64,7 @@ class OutputsTest(unittest.TestCase):
         self.assertNotIn("## 📊 数据概览", content)
         self.assertNotIn("## 🔧 工作原理", content)
         self.assertNotIn("数据链路", content)
-        self.assertNotIn("### 📊 行业数据", content)
+        self.assertNotIn("行业数据", content)
         self.assertNotIn("### 📎 延伸阅读", content)
         self.assertNotIn("Original English Title", content)
         self.assertNotIn("---\n\n\n---", content)
@@ -91,27 +82,9 @@ class OutputsTest(unittest.TestCase):
         self.assertIn("### [今日工具中文标题]", content)
         self.assertIn("<details>", content)
         self.assertIn("<summary>完整候选与内部评分（14 条）</summary>", content)
+        self.assertNotIn("行业数据", content)
         self.assertNotIn("- **Category**:", content)
         self.assertNotIn("- **Importance**:", content)
-
-    def test_daily_brief_shows_industry_data_only_with_multiple_rows(self):
-        result = curation_result()
-        result["brief"]["industry_data"].append(
-            {
-                "metric": "显存占用",
-                "value": "1",
-                "unit": "GB",
-                "context": "端侧模型运行显存低于该数值",
-                "source_index": 11,
-            }
-        )
-
-        content = format_daily_brief(result, {})
-
-        self.assertIn("### 📊 行业数据", content)
-        self.assertIn("| 运行频率 | 32 Hz |", content)
-        self.assertIn("| 显存占用 | 1 GB |", content)
-
 
 if __name__ == "__main__":
     unittest.main()

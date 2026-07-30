@@ -57,8 +57,6 @@ STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候
 1. 选 1 条作为"今日焦点"，提供 18 字以内的中文短标题；编辑评论严格写成"事实：……；影响：……"，只写候选信息能支持的内容
 2. 候选不少于 6 条时，恰好选 5 条作为"热点速览"；每条提供 18 字以内的中文短标题，点评用 1 句写清"事实和影响"，控制在 50 字以内
 3. 选 0-2 个作为"今日工具"（优先开源项目，不要和焦点/速览重复）。只有能从来源或标题摘要说明"为什么今天入选"时才选择；理由严格写成"入选依据：来自今日实际来源名，……；用途：……"，不能只写常规简介
-4. 行业数据（可选）：仅提取未进入焦点/速览/工具的候选中，标题或摘要明确给出的、能回答"什么指标、多少、什么单位、在什么语境下"的数据（最多 3 条）。日期、月份、内部评分、importance 和缺少单位的数字都不是行业数据。没有则输出空数组
-
 选稿标准：
 - 重大模型发布/技术突破 > 工具更新 > 行业分析
 - 全球影响力大的事件优先作为焦点
@@ -91,15 +89,6 @@ Respond in JSON:
       "index": 5,
       "title_zh": "中文短标题",
       "reason": "入选依据：来自今日 GitHub Trending；用途：适合……"
-    }
-  ],
-  "industry_data": [
-    {
-      "metric": "融资规模",
-      "value": "410",
-      "unit": "百万美元",
-      "context": "某公司完成 B 轮融资",
-      "source_index": 3
     }
   ]
 }"""
@@ -381,53 +370,6 @@ def _validate_brief(brief: dict, candidates: list[dict]):
             raise CurationError("Stage2 returned an unusable tool recommendation")
         selected_indices.add(tool["index"])
 
-    # Optional data should disappear when it cannot be traced to a candidate.
-    # This keeps a malformed optional section from blocking the whole brief.
-    industry_data = brief.get("industry_data") or []
-    if not isinstance(industry_data, list):
-        industry_data = []
-    date_units = {
-        "年", "月", "日", "季度", "月份", "日期",
-        "year", "years", "month", "months", "day", "days",
-    }
-    validated_data = []
-    for item in industry_data[:3]:
-        if (
-            not isinstance(item, dict)
-            or not valid_index(item.get("source_index"))
-            or item["source_index"] in selected_indices
-        ):
-            continue
-        metric = item.get("metric")
-        value = item.get("value")
-        unit = item.get("unit")
-        context = item.get("context")
-        if (
-            not readable_chinese(metric)
-            or not isinstance(value, str)
-            or not value.strip()
-            or not isinstance(unit, str)
-            or not unit.strip()
-            or unit.strip().lower() in date_units
-            or not readable_chinese(context)
-        ):
-            continue
-
-        numeric_tokens = {
-            token.replace(",", "")
-            for token in re.findall(r"\d+(?:[.,]\d+)*", value)
-        }
-        source = candidates[item["source_index"]]
-        source_text = f"{source.get('title', '')} {source.get('summary', '')}"
-        source_numbers = {
-            token.replace(",", "")
-            for token in re.findall(r"\d+(?:[.,]\d+)*", source_text)
-        }
-        if not numeric_tokens or numeric_tokens.isdisjoint(source_numbers):
-            continue
-        validated_data.append(item)
-    brief["industry_data"] = validated_data
-
 
 def curate_daily_brief(items: list[NewsItem], config: dict) -> dict:
     """
@@ -439,8 +381,7 @@ def curate_daily_brief(items: list[NewsItem], config: dict) -> dict:
             "brief": {            # editor's selections
                 "focus": {...},
                 "highlights": [...],
-                "tools": [...],
-                "industry_data": [...]
+                "tools": [...]
             }
         }
     """
