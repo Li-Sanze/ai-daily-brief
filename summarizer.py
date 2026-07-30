@@ -22,6 +22,10 @@ OPAQUE_REFERENCE_PATTERN = re.compile(
     r")",
     re.IGNORECASE,
 )
+INTERNAL_TERM_PATTERN = re.compile(
+    r"\bimportance\b|内部评分|候选编号",
+    re.IGNORECASE,
+)
 
 
 class CurationError(RuntimeError):
@@ -60,7 +64,6 @@ STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候
 选稿标准：
 - 重大模型发布/技术突破 > 工具更新 > 行业分析
 - 全球影响力大的事件优先作为焦点
-- importance 分数高的优先
 - 避免同一事件重复占位
 - 每条入选内容必须不点链接也能理解：写清具体对象、动作或结果及其影响
 - 禁止用"两个设置、两项案例、该研究、这一方法"等指代词代替关键信息；候选信息不足以说明具体内容时不要入选，也不要补写猜测
@@ -68,6 +71,7 @@ STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候
 - 面向普通中文读者，不默认读者了解英文缩写或专业术语；无法避免时用短语解释
 - 生僻缩写或英文术语首次出现时，用 4-8 个中文字补充含义
 - 中文和英文或数字相邻时留一个空格，例如"评估 GPT-5.6 成本"
+- 面向读者的标题、点评和推荐理由不得出现 importance、内部评分或候选编号
 - 避免"值得关注、释放信号、敲响警钟、预示未来"等空泛套话，优先写可验证的变化、影响对象和行动含义
 
 Respond in JSON:
@@ -255,7 +259,7 @@ def _run_stage2(candidates: list[dict], config: dict) -> dict:
 
     candidate_text = "\n".join(
         f"[{i}] {item['title']} | source={item['source']} | "
-        f"category={item['category']} | importance={item['importance']} | "
+        f"category={item['category']} | "
         f"related={len(item.get('related_sources', []))} sources"
         + (f"\n    摘要: {item['summary']}" if item.get("summary") else "")
         for i, item in eligible_candidates
@@ -306,7 +310,11 @@ def _validate_brief(brief: dict, candidates: list[dict]):
         )
 
     def readable_title(value) -> bool:
-        return readable_chinese(value) and len(value.strip()) <= 30
+        return (
+            readable_chinese(value)
+            and len(value.strip()) <= 30
+            and not INTERNAL_TERM_PATTERN.search(value)
+        )
 
     opaque_phrases = (
         "两个设置", "两项设置", "两个案例", "两项案例",
@@ -318,6 +326,7 @@ def _validate_brief(brief: dict, candidates: list[dict]):
         return (
             readable_chinese(value)
             and not OPAQUE_REFERENCE_PATTERN.search(value)
+            and not INTERNAL_TERM_PATTERN.search(value)
             and not any(phrase in value for phrase in opaque_phrases)
         )
 
@@ -363,6 +372,7 @@ def _validate_brief(brief: dict, candidates: list[dict]):
             or candidates[tool["index"]].get("category") != "tool"
             or not readable_title(tool.get("title_zh"))
             or not readable_chinese(tool.get("reason"))
+            or INTERNAL_TERM_PATTERN.search(tool["reason"])
             or "入选依据" not in tool["reason"]
             or "用途" not in tool["reason"]
             or candidates[tool["index"]].get("source") not in tool["reason"]

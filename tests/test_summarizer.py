@@ -269,7 +269,42 @@ class SummarizerTest(unittest.TestCase):
 
         prompt = client.chat.completions.create.call_args.kwargs["messages"][1]["content"]
         self.assertNotIn("How two API settings", prompt)
+        self.assertNotIn("importance=", prompt)
         self.assertIn("[2] News 2", prompt)
+
+    def test_stage2_rejects_internal_importance_in_tool_reason(self):
+        candidates = [candidate(index) for index in range(7)]
+        candidates[6]["category"] = "tool"
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "焦点新闻",
+                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": "新模型降低了推理延迟，可能影响部署成本。",
+                }
+                for index in range(1, 6)
+            ],
+            "tools": [
+                {
+                    "index": 6,
+                    "title_zh": "开源工具",
+                    "reason": "入选依据：来自今日 Test，importance 为 8；用途：统一管理代码代理。",
+                }
+            ],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with (
+            patch("summarizer.create_client", return_value=client),
+            self.assertRaisesRegex(CurationError, "tool recommendation"),
+        ):
+            _run_stage2(candidates, {})
 
 if __name__ == "__main__":
     unittest.main()
