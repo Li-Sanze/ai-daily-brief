@@ -75,8 +75,8 @@ Rules:
 STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候选新闻中策展今日简报。
 
 要求：
-1. 选 1 条作为"今日焦点"，提供 18 字以内的中文短标题；编辑评论严格写成"事实：……；影响：……"，只写候选信息能支持的内容
-2. 候选不少于 6 条时，恰好选 5 条作为"热点速览"；每条提供 18 字以内的中文短标题，点评严格写成"事实：……；影响：……"，控制在 50 字以内
+1. 选 1 条作为"今日焦点"，提供 18 字以内的中文短标题；编辑评论严格写成"要点：……；影响：……"，只写候选信息能支持的内容
+2. 候选不少于 6 条时，恰好选 5 条作为"热点速览"；每条提供 18 字以内的中文短标题，点评严格写成"要点：……；影响：……"，控制在 50 字以内
 3. 选 0-2 个作为"今日工具"（优先开源项目，不要和焦点/速览重复）。只有能从来源或标题摘要说明"为什么今天入选"时才选择；理由严格写成"入选依据：来自今日实际来源名，……；用途：……"，不能只写常规简介
 选稿标准：
 - 重大模型发布/技术突破 > 工具更新 > 行业分析
@@ -84,6 +84,7 @@ STAGE2_PROMPT = """你是一位面向开发者的 AI 技术日报主编。从候
 - 避免同一事件重复占位
 - 今日焦点与热点速览合计，同一主要公司最多 2 条
 - 每条入选内容必须不点链接也能理解：写清具体对象、动作或结果及其影响
+- "要点"直接写具体对象、动作或结果；来源已在标题旁展示，不重复来源名，也不要复述英文文章标题
 - "影响"必须落到开发者、团队或用户的工具选择、工作流、成本、安全、部署、采购或近期动作；不要只写赛道升温、竞争公开化、资本分化
 - 禁止用"两个设置、两项案例、该研究、这一方法"等指代词代替关键信息；候选信息不足以说明具体内容时不要入选，也不要补写猜测
 - 工具区不要选已经出现在焦点或速览中的条目
@@ -98,13 +99,13 @@ Respond in JSON:
   "focus": {
     "index": 0,
     "title_zh": "中文短标题",
-    "editorial": "事实：……；影响：……"
+    "editorial": "要点：……；影响：……"
   },
   "highlights": [
     {
       "index": 1,
       "title_zh": "中文短标题",
-      "editorial": "事实：……；影响：……"
+      "editorial": "要点：……；影响：……"
     }
   ],
   "tools": [
@@ -400,12 +401,10 @@ def _validate_brief(brief: dict, candidates: list[dict]):
         or not concrete_editorial(focus.get("editorial"))
     ):
         raise CurationError("Stage2 returned an unusable focus editorial")
-    if (
-        not focus["editorial"].strip().startswith("事实：")
-        or not has_concrete_impact(focus["editorial"])
-    ):
+    if not focus["editorial"].strip().startswith("要点："):
+        raise CurationError("focus lacks the required point label")
+    if not has_concrete_impact(focus["editorial"]):
         raise CurationError("focus lacks a concrete reader impact")
-
     highlights = brief.get("highlights")
     expected_highlights = min(5, max(candidate_count - 1, 0))
     if (
@@ -424,10 +423,9 @@ def _validate_brief(brief: dict, candidates: list[dict]):
             or not concrete_editorial(highlight.get("editorial"))
         ):
             raise CurationError("Stage2 returned an unusable highlight editorial")
-        if (
-            not highlight["editorial"].strip().startswith("事实：")
-            or not has_concrete_impact(highlight["editorial"])
-        ):
+        if not highlight["editorial"].strip().startswith("要点："):
+            raise CurationError("highlight lacks the required point label")
+        if not has_concrete_impact(highlight["editorial"]):
             raise CurationError("highlight lacks a concrete reader impact")
         selected_indices.add(highlight["index"])
 

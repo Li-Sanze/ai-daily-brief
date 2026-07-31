@@ -64,6 +64,17 @@ def clean_markdown(text: str) -> str:
     text = re.sub(r"^>\s*(.+)$", r"「\1」", text, flags=re.MULTILINE)
     # Convert inline code `source` to 「source」for better card readability
     text = re.sub(r"`([^`]+)`", r"「\1」", text)
+    # Feishu cannot resolve repository-relative Markdown links.
+    repository = os.environ.get("GITHUB_REPOSITORY", "").strip()
+    if repository:
+        text = text.replace(
+            "](./archives/)",
+            f"](https://github.com/{repository}/tree/main/archives)",
+        )
+        text = text.replace(
+            "](./README.md)",
+            f"](https://github.com/{repository}/blob/main/README.md)",
+        )
     # Convert markdown tables to key:value text
     lines = text.split("\n")
     result = []

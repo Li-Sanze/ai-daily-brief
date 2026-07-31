@@ -27,7 +27,7 @@ def curation_result() -> dict:
             "focus": {
                 "index": 0,
                 "title_zh": "焦点中文标题",
-                "editorial": "事实：模型已更新；影响：开发者需要重新评估选型。",
+                "editorial": "要点：模型已更新；影响：开发者需要重新评估选型。",
             },
             "highlights": [
                 {

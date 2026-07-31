@@ -98,7 +98,7 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "焦点新闻",
-                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
@@ -124,13 +124,13 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "模型选择发生变化",
-                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可重新评估生产选型。",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可重新评估生产选型。",
             },
             "highlights": [
                 {
                     "index": index,
                     "title_zh": f"开发进展{index}",
-                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少线上等待时间。",
+                    "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少线上等待时间。",
                 }
                 for index in range(1, 6)
             ],
@@ -156,13 +156,13 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "English only",
-                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
-                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
+                    "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
                 }
                 for index in range(1, 6)
             ],
@@ -184,13 +184,13 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "焦点新闻",
-                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
-                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
+                    "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
                 }
                 for index in range(1, 6)
             ],
@@ -217,7 +217,7 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "焦点新闻",
-                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
@@ -226,7 +226,7 @@ class SummarizerTest(unittest.TestCase):
                     "editorial": (
                         "两项 API 设置让分数提升了。"
                         if index == 1
-                        else "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。"
+                        else "要点：新模型降低了推理延迟；影响：开发团队可减少部署成本。"
                     ),
                 }
                 for index in range(1, 6)
@@ -249,13 +249,13 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "焦点新闻",
-                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
-                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
+                    "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
                 }
                 for index in range(2, 7)
             ],
@@ -279,13 +279,13 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "焦点新闻",
-                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
-                    "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
+                    "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少部署成本。",
                 }
                 for index in range(1, 6)
             ],
@@ -321,13 +321,13 @@ class SummarizerTest(unittest.TestCase):
                 "focus": {
                     "index": 0,
                     "title_zh": "微软模型发布",
-                    "editorial": "事实：微软发布新模型；影响：开发团队可重新评估模型选择。",
+                    "editorial": "要点：微软发布新模型；影响：开发团队可重新评估模型选择。",
                 },
                 "highlights": [
                     {
                         "index": index,
                         "title_zh": f"行业动态{index}",
-                        "editorial": "事实：厂商发布新能力；影响：开发团队需评估工具选择。",
+                        "editorial": "要点：厂商发布新能力；影响：开发团队需评估工具选择。",
                     }
                     for index in indices
                 ],
@@ -356,16 +356,16 @@ class SummarizerTest(unittest.TestCase):
             "focus": {
                 "index": 0,
                 "title_zh": "焦点新闻",
-                "editorial": "事实：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
             },
             "highlights": [
                 {
                     "index": index,
                     "title_zh": f"速览新闻{index}",
                     "editorial": (
-                        "事实：厂商发布新模型；影响：行业竞争进一步公开化。"
+                        "要点：厂商发布新模型；影响：行业竞争进一步公开化。"
                         if index == 1
-                        else "事实：新模型降低了延迟；影响：开发团队可减少部署成本。"
+                        else "要点：新模型降低了延迟；影响：开发团队可减少部署成本。"
                     ),
                 }
                 for index in range(1, 6)
@@ -381,6 +381,32 @@ class SummarizerTest(unittest.TestCase):
         ):
             _run_stage2(candidates, {})
 
+    def test_stage2_rejects_legacy_fact_label(self):
+        candidates = [candidate(index) for index in range(6)]
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "焦点新闻",
+                "editorial": "事实：新模型降低了延迟；影响：开发团队可减少部署成本。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": "要点：新模型降低了延迟；影响：开发团队可减少部署成本。",
+                }
+                for index in range(1, 6)
+            ],
+            "tools": [],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with (
+            patch("summarizer.create_client", return_value=client),
+            self.assertRaisesRegex(CurationError, "required point label"),
+        ):
+            _run_stage2(candidates, {})
 
 if __name__ == "__main__":
     unittest.main()
