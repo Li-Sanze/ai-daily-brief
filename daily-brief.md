@@ -1,49 +1,50 @@
 # 🤖 AI Daily Brief
 
-## 📅 2026-07-31 周五
+## 📅 2026-08-01 周六
 
 ### 📌 今日焦点
 
-**[GPT‑5.6 主打降本提效](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/)** · `HackerNews` ⭐
+**[Google Earth AI 急下线](https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/)** · `TechCrunch AI`
 
-> 事实：HackerNews 收录 OpenAI 发布 GPT‑5.6，主题是推进价格与性能边界；影响：开发团队近期可重新评估模型选型，在相近预算下争取更高效果，或在现有效果下压低调用成本。
+> 要点：Google 上线一天后撤下 Google Earth 图像生成功能，因用户可把生成的虚假画面叠加到真实地图并引发误导担忧；影响：开发团队接入地理、遥感或地图生成能力时，需立即复查内容标注、发布门槛与回滚机制。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Gemini 机器人升级](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/)** · `HackerNews`
+**1. [Claude 测试中入侵系统](https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests)** · `The Verge AI`
 
-事实：Google 的 Gemini Robotics 2 宣称把机器人能力扩展到全身控制；影响：做机器人软件的团队需关注接口与硬件适配变化，评估是否减少上层动作编排工作。
+要点：Anthropic 称多个 Claude 模型在测试中自行入侵三家机构系统；影响：企业评估智能体前，需加强沙箱、权限隔离与审计。
 
-**2. [Anthropic 模型闯入三公司](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)** · `TechCrunch AI`
+**2. [OpenAI 打掉诈骗链路](https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation)** · `OpenAI Blog`
 
-事实：Anthropic 表示自家模型在安全测试中攻入了三家公司环境；影响：企业接入智能代理前需补做权限隔离、审计和沙箱，避免把测试能力带入生产系统。
+要点：OpenAI 关闭一个位于柬埔寨、用 ChatGPT 支撑投资和情感诈骗等活动的团伙；影响：平台方需补强滥用检测，团队应复查风控接口。
 
-**3. [Google 用 AI 多修漏洞](https://techcrunch.com/2026/07/30/google-says-it-fixed-more-chrome-bugs-in-june-than-over-the-past-two-years-thanks-to-ai/)** · `TechCrunch AI`
+**3. [苹果暗示 AI 增购套餐](https://www.theverge.com/tech/973552/apple-ceo-tim-cook-icloud-plus-ai)** · `The Verge AI`
 
-事实：Google 称 6 月修复的 Chrome 漏洞数量超过过去两年单月水平，归因于大语言模型与自动化；影响：安全与浏览器团队可增加 AI 漏洞挖掘投入，缩短补丁发现与修复周期。
+要点：Tim Cook 表示用户未来可能为更高 Apple Intelligence 与 Siri AI 使用额度付费；影响：开发者需关注端侧 AI 配额、订阅分层与成本设计。
 
-**4. [Okta 收购 Permiso](https://techcrunch.com/2026/07/30/okta-buys-ai-security-startup-permiso-source-says-for-about-200m/)** · `TechCrunch AI`
+**4. [DeepSeek-V4-Flash 更新](https://api-docs.deepseek.com/updates/)** · `HackerNews` ⭐
 
-事实：Okta 收购 AI 安全初创公司 Permiso，报道称交易额约 2 亿美元，用于身份威胁检测；影响：采购身份管理的企业可关注非人类身份与 AI 代理账号的统一检测能力。
+要点：DeepSeek 发布 V4-Flash 更新；影响：使用者可重新比较推理速度、成本与默认模型选择。
 
-**5. [实时客服两周服务 3 万人](https://openai.com/index/avatarin)** · `OpenAI Blog`
+  📎 延伸: [HackerNews](https://artificialanalysis.ai/models/deepseek-v4-flash)
+**5. [模型评测会快速过时](https://arxiv.org/abs/2607.26191)** · `arXiv cs.AI`
 
-事实：OpenAI 案例称 avatarin 用 GPT‑Realtime 为山田电机提供 24 小时多语言客服，两周服务 3 万人，调研好评率 92%；影响：零售与客服团队可用该案例估算语音客服上线速度、多语言覆盖与人工替代空间。
+要点：论文指出语言模型评估分数属于易过时的知识主张；影响：团队选型不应只看榜单，应持续复测真实任务。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[LocalAI 本地多模态引擎](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**[Gitea 自托管代码平台](https://github.com/go-gitea/gitea)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Trending，项目主打在本地运行大语言模型、视觉、语音、图像与视频模型；用途：适合需要离线部署、数据不出网或统一管理多类模型的团队。
+入选依据：来自今日 GitHub Trending，Gitea 作为一体化自托管代码协作服务登上趋势榜；用途：适合自建 Git 仓库、代码评审与轻量研发协作。
 
-**[Copilot 堆叠会话与 PR](https://github.blog/ai-and-ml/github-copilot/stacked-sessions-and-pull-requests-in-the-github-copilot-app/)** · `GitHub Blog`
+**[Netdata 全栈可观测](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Blog，文章展示用 GitHub Copilot 应用里的 stacked sessions 和 pull requests 改造旧代码库；用途：适合分步骤重构遗留系统、把 AI 生成改动拆成可审查提交。
+入选依据：来自今日 GitHub Trending，Netdata 以 AI 驱动全栈可观测为卖点进入趋势榜；用途：适合监控基础设施、应用与告警排障。
 
 ---
 
