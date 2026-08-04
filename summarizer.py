@@ -38,7 +38,7 @@ ORGANIZATION_ALIASES = {
     "xAI": ("xai", "grok"),
 }
 CONCRETE_IMPACT_TERMS = (
-    "开发者", "团队", "研究者", "企业", "用户", "工具", "工作流",
+    "开发者", "工程师", "团队", "研究者", "企业", "用户", "工具", "工作流",
     "成本", "价格", "费用", "安全", "权限", "部署", "接口", "api",
     "采购", "迁移", "集成", "模型选择", "供应商", "开源", "社区",
     "申请", "试用", "使用门槛", "硬件",
@@ -379,9 +379,12 @@ def _validate_brief(brief: dict, candidates: list[dict]):
         )
 
     def has_concrete_impact(value) -> bool:
-        if not isinstance(value, str) or "影响：" not in value:
+        if not isinstance(value, str):
             return False
-        impact = value.split("影响：", 1)[1].lower()
+        normalized = value.replace("影响:", "影响：")
+        if "影响：" not in normalized:
+            return False
+        impact = normalized.split("影响：", 1)[1].lower()
         return any(term in impact for term in CONCRETE_IMPACT_TERMS)
 
     def primary_organization(index: int):
