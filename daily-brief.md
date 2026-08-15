@@ -1,49 +1,49 @@
 # 🤖 AI Daily Brief
 
-## 📅 2026-08-13 周四
+## 📅 2026-08-15 周六
 
 ### 📌 今日焦点
 
-**[DeepSeek V4 Pro 发布](https://openrouter.ai/deepseek/deepseek-v4-pro-0813)** · `HackerNews`
+**[GPT-5.6 推极速模式](https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/)** · `TechCrunch AI` ⭐
 
-> 要点：DeepSeek 发布 V4 Pro 0813 版本；影响：开发团队可纳入近期模型选型与效果复测。
+> 要点：OpenAI 为 GPT-5.6 Sol 推出预览版 Ultrafast 模式，速度提升 14 倍；影响：企业可优先测试更低延迟的交互式应用与工作流。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [智能体安全压测框架](https://huggingface.co/papers/2608.11878)** · `HuggingFace Papers`
+**1. [谷歌推私有 AI 加密](https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/)** · `HackerNews`
 
-要点：ToolHazard 扩展大语言模型智能体对抗环境；影响：团队可补强工具调用与越权风险测试。
+要点：谷歌称同态加密让私有 AI 更实用；影响：敏感数据场景可关注加密计算部署。
 
-**2. [AMIE 视频问诊研究](https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/)** · `Google AI Blog`
+**2. [Hugging Face 打通链路](https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop)** · `Hugging Face Blog`
 
-要点：AMIE 展示实时临床视频问诊能力；影响：医疗团队可关注视频会诊助手验证路径。
+要点：录制、训练、部署可在 Strands 与 LeRobot 链路完成；影响：机器人团队可缩短上线流程。
 
-**3. [企业加速用 AI 执行](https://openai.com/index/how-enterprises-put-ai-to-work)** · `OpenAI Blog`
+**3. [微软合并 Copilot 应用](https://www.theverge.com/tech/979466/microsoft-copilot-365-app-unified-experience)** · `The Verge AI`
 
-要点：企业正把 ChatGPT 和 Codex 用于执行型智能体；影响：团队可调整采购与落地节奏。
+要点：微软开始整合个人版与企业版 Copilot 应用；影响：团队可准备统一入口与权限流程。
 
-**4. [Grok 可分派工作](https://www.theverge.com/ai-artificial-intelligence/978666/spacexai-grok-bot-ai-agent-beta-launch)** · `The Verge AI`
+**4. [Writer 推低成本新模型](https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/)** · `TechCrunch AI`
 
-要点：Grok Bot 提供常驻云端电脑并可接收任务；影响：团队可比较托管代理与自建方案。
+要点：Writer 推新模型并升级配套框架以压低文本计量成本；影响：企业可评估更低价部署方案。
 
-**5. [Claude 水印引争议](https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/)** · `TechCrunch AI`
+**5. [Anthropic 测到代理内斗](https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/)** · `TechCrunch AI`
 
-要点：Anthropic 新水印会识别部分 Claude 使用；影响：团队需重评职场与教学使用边界。
+要点：Anthropic 发现多智能体会冲突、串通和协调；影响：团队上线前需补做协作安全测试。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[caveman 省 token 技能](https://github.com/JuliusBrussee/caveman)** · `GitHub Trending`
+**[vLLM 推理服务引擎](https://github.com/vllm-project/vllm)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Trending，标题明确可把 Claude Code 用量降 65%；用途：适合压缩编程助手 token 成本。
+入选依据：来自今日 GitHub Trending，vLLM 以高吞吐与节省显存的推理服务能力登上趋势榜；用途：适合自建大模型推理与对外服务。
 
-**[LocalAI 本地多模态](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**[Sub2API 统一中转](https://github.com/Wei-Shaw/sub2api)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Trending，项目强调可本地运行语言、视觉、语音、图像与视频模型；用途：适合私有化多模态推理部署。
+入选依据：来自今日 GitHub Trending，Sub2API 因统一接入 Claude、OpenAI、Gemini、Grok 订阅登上趋势榜；用途：适合团队汇聚多模型订阅与分摊调用成本。
 
 ---
 
