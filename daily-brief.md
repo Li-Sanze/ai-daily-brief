@@ -1,50 +1,49 @@
 # 🤖 AI Daily Brief
 
-## 📅 2026-08-17 周一
+## 📅 2026-08-18 周二
 
 ### 📌 今日焦点
 
-**[OpenAI 解散备战团队](https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team)** · `The Verge AI`
+**[GPT-5.6 Sol 半价](https://openrouter.ai/openai/gpt-5.6-sol)** · `HackerNews` ⭐
 
-> 要点：OpenAI 据报于上月底解散负责评估模型严重风险并制定缓解方案的备战团队；影响：采用 OpenAI 模型的团队需更重视自测、合规与上线前风险审查
+> 要点：GPT-5.6 Sol 价格下调 50%；影响：开发者可重算多模态模型预算与默认选型。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [ChatGPT 记录电脑操作](https://www.theverge.com/ai-artificial-intelligence/980742/chatgpts-computer-history-tracks-your-clicks-and-keystrokes)** · `The Verge AI`
+**1. [Copilot 修复酿漏洞](https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug)** · `HackerNews`
 
-要点：macOS 版新增 Computer History，记录点击和按键并学习操作；影响：自动化更强，但团队需审查训练数据与隐私边界
+要点：Copilot Autofix 生成的修复建议导致 Snowflake 的 Jira 被入侵；影响：上线前需审计自动修复代码与权限。
 
-**2. [Stripe 收购 OpenRouter](https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion)** · `HackerNews`
+**2. [Stripe 拟购 OpenRouter](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/)** · `TechCrunch AI`
 
-要点：Stripe 将以超 70 亿美元收购 AI 公司 OpenRouter；影响：使用 OpenRouter 的团队需关注合同、定价与账号体系变化
+要点：报道称 Stripe 将以逾 70 亿美元收购模型网关 OpenRouter；影响：模型聚合采购与计费可能向支付平台集中。
 
-  📎 延伸: [TechCrunch AI](https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/)
-**3. [英伟达缩减融资担保](https://www.reuters.com/business/nvidia-scales-back-250-billion-openai-data-center-guarantee-wsj-reports-2026-08-14/)** · `HackerNews`
+**3. [Claude 文本隐水印](https://www.theverge.com/ai-artificial-intelligence/980869/anthropic-claude-watermarks-synthid-text-system)** · `The Verge AI`
 
-要点：英伟达大幅减少可能为 OpenAI 基础设施融资提供的担保；影响：相关算力建设节奏与采购预期或更谨慎
+要点：Anthropic 说明将为 Claude 生成文本加入不可见水印；影响：内容生成与合规团队需评估检测和披露流程。
 
-**4. [字节开源长程代理](https://github.com/bytedance/deer-flow)** · `GitHub Trending` ⭐
+**4. [Groq 转向云服务](https://techcrunch.com/2026/08/17/groq-raises-350m-to-fuel-its-pivot-from-ai-chips-to-neocloud/)** · `TechCrunch AI`
 
-要点：deer-flow 开源长周期 SuperAgent 超级代理框架，可研究、写代码与内容生成；影响：团队可评估多步骤代理的自建方案
+要点：Groq 融资 3.5 亿美元，并从 AI 芯片转向云服务；影响：团队采购推理算力时可新增云供应商。
 
-**5. [Unsloth 本地训练界面](https://github.com/unslothai/unsloth)** · `GitHub Trending` ⭐
+**5. [OpenAI 发防守指南](https://openai.com/index/the-defenders-window)** · `OpenAI Blog`
 
-要点：Unsloth 提供本地界面，可运行并训练大语言模型和扩散模型；影响：个人与小团队可更快验证本地训练流程
+要点：OpenAI 介绍 AI 时代攻防变化，并给出安全团队可立即采取的做法；影响：安全团队可据此调整检测和响应流程。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[LocalAI 本地多模态引擎](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**[Caveman 省 Token 技能](https://github.com/JuliusBrussee/caveman)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Trending，支持在任意硬件本地运行大语言模型、视觉、语音、图像与视频模型；用途：适合统一自托管多模态推理环境
+入选依据：来自今日 GitHub Trending，项目宣称可通过精简表达把 Claude Code 的 token 用量降 65%；用途：适合压低代码代理调用成本。
 
-**[Netdata 全栈观测](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[Agentao 本地代理运行时](https://arxiv.org/abs/2608.13574)** · `arXiv cs.AI`
 
-入选依据：来自今日 GitHub Trending，主打面向精简团队的 AI 驱动全栈可观测性；用途：适合快速搭建基础设施与应用监控
+入选依据：来自今日 arXiv cs.AI，论文提出带治理、本地优先的工具调用代理运行时；用途：适合在本地状态、持久记忆和外部协议间受控执行。
 
 ---
 
