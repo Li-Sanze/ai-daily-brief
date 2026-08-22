@@ -449,6 +449,37 @@ class SummarizerTest(unittest.TestCase):
         self.assertEqual(result, brief)
         self.assertEqual(client.chat.completions.create.call_count, 1)
 
+    def test_stage2_accepts_concrete_impact_without_keyword_allowlist(self):
+        candidates = [candidate(index) for index in range(6)]
+        brief = {
+            "focus": {
+                "index": 0,
+                "title_zh": "焦点新闻",
+                "editorial": "要点：新模型降低了推理延迟；影响：开发团队可减少等待时间。",
+            },
+            "highlights": [
+                {
+                    "index": index,
+                    "title_zh": f"速览新闻{index}",
+                    "editorial": (
+                        "要点：模型推理速度提升；影响：可缩短评测周期并减少等待。"
+                        if index == 1
+                        else "要点：新模型降低了延迟；影响：开发团队可减少部署成本。"
+                    ),
+                }
+                for index in range(1, 6)
+            ],
+            "tools": [],
+        }
+        client = MagicMock()
+        client.chat.completions.create.return_value = completion(brief)
+
+        with patch("summarizer.create_client", return_value=client):
+            result = _run_stage2(candidates, {})
+
+        self.assertEqual(result, brief)
+        self.assertEqual(client.chat.completions.create.call_count, 1)
+
     def test_stage2_rejects_legacy_fact_label(self):
         candidates = [candidate(index) for index in range(6)]
         brief = {

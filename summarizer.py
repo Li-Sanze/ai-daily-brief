@@ -37,11 +37,9 @@ ORGANIZATION_ALIASES = {
     "Amazon": ("amazon", "aws"),
     "xAI": ("xai", "grok"),
 }
-CONCRETE_IMPACT_TERMS = (
-    "开发者", "工程师", "团队", "研究者", "企业", "用户", "工具", "工作流",
-    "成本", "价格", "费用", "安全", "权限", "部署", "接口", "api",
-    "采购", "迁移", "集成", "模型选择", "供应商", "开源", "社区",
-    "申请", "试用", "使用门槛", "硬件",
+VAGUE_IMPACT_PHRASES = (
+    "赛道升温", "竞争公开化", "竞争进一步公开化", "资本分化",
+    "值得关注", "释放信号", "敲响警钟", "预示未来",
 )
 
 
@@ -152,6 +150,7 @@ def _run_stage1(items: list[NewsItem], config: dict) -> list[dict]:
                 {"role": "system", "content": STAGE1_PROMPT},
                 {"role": "user", "content": batch_text},
             ]
+            # Repair one incomplete response, then remain fail-closed.
             for attempt in range(2):
                 response = client.chat.completions.create(
                     model=model,
@@ -173,10 +172,13 @@ def _run_stage1(items: list[NewsItem], config: dict) -> list[dict]:
                     if isinstance(entries, list)
                     else []
                 )
+                received_index_set = {
+                    index for index in received_indices if type(index) is int
+                }
                 if (
                     isinstance(entries, list)
                     and len(entries) == len(batch)
-                    and set(received_indices) == expected_indices
+                    and received_index_set == expected_indices
                 ):
                     break
 
@@ -408,8 +410,15 @@ def _validate_brief(brief: dict, candidates: list[dict]):
         normalized = value.replace("影响:", "影响：")
         if "影响：" not in normalized:
             return False
-        impact = normalized.split("影响：", 1)[1].lower()
-        return any(term in impact for term in CONCRETE_IMPACT_TERMS)
+        impact = normalized.split("影响：", 1)[1].strip()
+        # Reject known vague prose instead of requiring a brittle keyword allowlist.
+        has_chinese = any("\u4e00" <= char <= "\u9fff" for char in impact)
+        meaningful_length = sum(char.isalnum() for char in impact)
+        return (
+            has_chinese
+            and meaningful_length >= 6
+            and not any(phrase in impact for phrase in VAGUE_IMPACT_PHRASES)
+        )
 
     def primary_organization(index: int):
         title = candidates[index].get("title", "").lower()
@@ -453,7 +462,9 @@ def _validate_brief(brief: dict, candidates: list[dict]):
         if not highlight["editorial"].strip().startswith("要点："):
             raise CurationError("highlight lacks the required point label")
         if not has_concrete_impact(highlight["editorial"]):
-            raise CurationError("highlight lacks a concrete reader impact")
+            raise CurationError(
+                f"highlight {highlight['index']} lacks a concrete reader impact"
+            )
         selected_indices.add(highlight["index"])
 
     organization_counts = {}
