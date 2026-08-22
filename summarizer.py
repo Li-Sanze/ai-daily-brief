@@ -66,6 +66,7 @@ Respond in JSON:
 }
 
 Rules:
+- Return exactly one item for every input index, including off-topic items; never omit or duplicate an index
 - relevance: "core" (directly about AI/ML/dev-tools) | "adjacent" (tech industry or developer-adjacent) | "off-topic" (unrelated to AI/developers)
 - category: "product" | "tool" | "research" | "industry" | "tutorial"
 - importance: 1-10 (impact on AI developers; off-topic items MUST receive importance ≤ 2, adjacent items typically 3-5)
@@ -147,32 +148,55 @@ def _run_stage1(items: list[NewsItem], config: dict) -> list[dict]:
         )
 
         try:
-            response = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": STAGE1_PROMPT},
-                    {"role": "user", "content": batch_text},
-                ],
-                max_tokens=config.get("max_tokens", 1024),
-                temperature=0.2,
-                response_format={"type": "json_object"},
-            )
-
-            result = json.loads(response.choices[0].message.content)
-            entries = result.get("items")
-            expected_indices = set(range(len(batch)))
-            if (
-                not isinstance(entries, list)
-                or len(entries) != len(batch)
-                or {
-                    entry.get("index")
-                    for entry in entries
-                    if isinstance(entry, dict)
-                } != expected_indices
-            ):
-                raise CurationError(
-                    f"Stage1 batch {i//batch_size + 1} returned incomplete scoring"
+            messages = [
+                {"role": "system", "content": STAGE1_PROMPT},
+                {"role": "user", "content": batch_text},
+            ]
+            for attempt in range(2):
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=messages,
+                    max_tokens=config.get("max_tokens", 1024),
+                    temperature=0.2,
+                    response_format={"type": "json_object"},
                 )
+
+                result = json.loads(response.choices[0].message.content)
+                entries = result.get("items")
+                expected_indices = set(range(len(batch)))
+                received_indices = (
+                    [
+                        entry.get("index")
+                        for entry in entries
+                        if isinstance(entry, dict)
+                    ]
+                    if isinstance(entries, list)
+                    else []
+                )
+                if (
+                    isinstance(entries, list)
+                    and len(entries) == len(batch)
+                    and set(received_indices) == expected_indices
+                ):
+                    break
+
+                error = CurationError(
+                    f"Stage1 batch {i//batch_size + 1} returned incomplete scoring "
+                    f"(expected indices {sorted(expected_indices)}, "
+                    f"received {received_indices})"
+                )
+                if attempt == 0:
+                    logger.warning(f"Stage1 retrying after validation: {error}")
+                    messages.append({
+                        "role": "user",
+                        "content": (
+                            f"The previous response was incomplete. Return exactly "
+                            f"{len(batch)} items, one for each index from 0 to "
+                            f"{len(batch) - 1}. Do not omit off-topic items."
+                        ),
+                    })
+                    continue
+                raise error
 
             for entry in entries:
                 idx = entry.get("index", 0)

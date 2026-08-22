@@ -70,7 +70,42 @@ class SummarizerTest(unittest.TestCase):
         ):
             _run_stage1([item], {})
 
-    def test_stage1_rejects_incomplete_scoring(self):
+    def test_stage1_retries_incomplete_scoring(self):
+        items = [
+            NewsItem(title=f"News {index}", url=f"https://example.com/{index}", source="Test")
+            for index in range(2)
+        ]
+        client = MagicMock()
+        incomplete = completion({
+            "items": [{
+                "index": 0,
+                "category": "research",
+                "importance": 8,
+                "topic_key": "topic-0",
+            }]
+        })
+        complete = completion({
+            "items": [
+                {
+                    "index": index,
+                    "category": "research",
+                    "importance": 8,
+                    "topic_key": f"topic-{index}",
+                }
+                for index in range(2)
+            ]
+        })
+        client.chat.completions.create.side_effect = [incomplete, complete]
+
+        with patch("summarizer.create_client", return_value=client):
+            result = _run_stage1(items, {})
+
+        self.assertEqual(len(result), 2)
+        self.assertEqual(client.chat.completions.create.call_count, 2)
+        retry_prompt = client.chat.completions.create.call_args.kwargs["messages"][-1]["content"]
+        self.assertIn("Return exactly 2 items", retry_prompt)
+
+    def test_stage1_rejects_incomplete_scoring_after_retry(self):
         items = [
             NewsItem(title=f"News {index}", url=f"https://example.com/{index}", source="Test")
             for index in range(2)
@@ -87,9 +122,11 @@ class SummarizerTest(unittest.TestCase):
 
         with (
             patch("summarizer.create_client", return_value=client),
-            self.assertRaisesRegex(CurationError, "incomplete scoring"),
+            self.assertRaisesRegex(CurationError, "expected indices.*received"),
         ):
             _run_stage1(items, {})
+
+        self.assertEqual(client.chat.completions.create.call_count, 2)
 
     def test_stage2_rejects_empty_editorial(self):
         candidates = [candidate(index) for index in range(6)]
