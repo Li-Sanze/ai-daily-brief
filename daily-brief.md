@@ -1,49 +1,49 @@
 # 🤖 AI Daily Brief
 
-## 📅 2026-08-22 周六
+## 📅 2026-08-23 周日
 
 ### 📌 今日焦点
 
-**[DeepSeek 视觉试验版](https://api-docs.deepseek.com/guides/vision/)** · `HackerNews`
+**[论文复现 AI 队友](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/)** · `TechCrunch AI`
 
-> 要点：DeepSeek 出现 v4-flash-vision-exp 视觉版本；影响：多模态模型的测试与选型可提前展开。
+> 要点：Inherent 发布 Faraday，主打复现科研论文；影响：科研团队可用它缩短验证和原型探索时间。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [ChatGPT 接入苹果短信](https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/)** · `TechCrunch AI`
+**1. [Claude Code 降耗测试](https://twitter.com/argofowl/status/2091150597374537729)** · `HackerNews`
 
-要点：ChatGPT 增加 Apple Messages 插件，可代发文本；影响：发短信流程可更自动化。
+要点：Claude Code 正在测试更低“用力”档位；影响：团队可按任务强度控成本与质量。
 
-**2. [谷歌给媒体加首选入口](https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/)** · `TechCrunch AI`
+**2. [顶级实验室缺封控](https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/)** · `TechCrunch AI`
 
-要点：Google 让读者把媒体设为首选来源，覆盖 Search、Discover、News；影响：媒体有新入口争取点击。
+要点：头部 AI 实验室公开的失控模型封控方案很少；影响：采购和安全评审会更看重可审计措施。
 
-**3. [Micro1 冲到 5 亿营收](https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/)** · `TechCrunch AI`
+**3. [Harness 比模型关键](https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/)** · `TechCrunch AI`
 
-要点：Micro1 年化营收达 5 亿美元；影响：AI 训练数据采购与供给竞争更紧。
+要点：研究称先调好 agent harness，弱模型也能稳做任务；影响：投入可从换模型转向流程调优。
 
-**4. [OpenAI 企业用户回升](https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/)** · `TechCrunch AI`
+**4. [OpenAI 改挺安全法](https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/)** · `TechCrunch AI`
 
-要点：企业用户在 OpenAI 与 Anthropic 间切换更频繁；影响：模型采购更难形成长期绑定。
+要点：OpenAI 呼吁加州强化 AI 安全法案 SB 53；影响：在加州布局的团队要关注合规要求。
 
-**5. [多智能体要控并发](https://arxiv.org/abs/2608.18092)** · `arXiv cs.AI`
+**5. [AI 水帖按钮破百万](https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message)** · `The Verge AI`
 
-要点：论文主张多智能体系统应先做并发控制；影响：代理协作和任务编排要把冲突管理前置。
+要点：LinkedIn 的“像 AI 水帖”按钮点击已超百万；影响：内容审核会更依赖一键反馈。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[LocalAI 本地推理引擎](https://github.com/mudler/LocalAI)** · `GitHub Trending`
+**[vLLM 推理引擎](https://github.com/vllm-project/vllm)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Trending，标题显示可在任意硬件运行多种模型；用途：适合本地部署、自托管推理和私有数据场景。
+入选依据：来自今日 GitHub Trending；用途：适合大模型高吞吐推理与服务部署。
 
-**[Netdata 全栈可观测](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[Pake 网页变桌面](https://github.com/tw93/Pake)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Trending，标题强调 AI 驱动的全栈可观测性；用途：适合精简团队做监控、告警和故障定位。
+入选依据：来自今日 GitHub Trending；用途：适合把网页一键封装成桌面应用。
 
 ---
 
