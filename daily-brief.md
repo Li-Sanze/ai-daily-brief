@@ -1,49 +1,49 @@
 # 🤖 AI Daily Brief
 
-## 📅 2026-08-23 周日
+## 📅 2026-08-24 周一
 
 ### 📌 今日焦点
 
-**[论文复现 AI 队友](https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/)** · `TechCrunch AI`
+**[Anthropic 强模遇冷](https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245)** · `HackerNews`
 
-> 要点：Inherent 发布 Faraday，主打复现科研论文；影响：科研团队可用它缩短验证和原型探索时间。
+> 要点：Anthropic 的最强模型用户吸引力弱于更便宜工具；影响：团队选型会更看调用成本和替代方案。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Claude Code 降耗测试](https://twitter.com/argofowl/status/2091150597374537729)** · `HackerNews`
+**1. [四模型控平板](https://ericpardee.github.io/fire-hd-ownership/)** · `HackerNews`
 
-要点：Claude Code 正在测试更低“用力”档位；影响：团队可按任务强度控成本与质量。
+要点：作者用 4 个 AI 模型和 266 美元拿下平板控制权，GLM-5.3 当天完成；影响：便于对比多模型在代理任务上的效率。
 
-**2. [顶级实验室缺封控](https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/)** · `TechCrunch AI`
+**2. [版权书训练争议](https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/)** · `TechCrunch AI`
 
-要点：头部 AI 实验室公开的失控模型封控方案很少；影响：采购和安全评审会更看重可审计措施。
+要点：文章讨论用受版权保护图书训练 AI 是否违法；影响：数据授权和合规审查会更严格。
 
-**3. [Harness 比模型关键](https://techcrunch.com/2026/08/21/nvidia-just-showed-that-the-harness-not-the-ai-model-is-now-the-real-hero/)** · `TechCrunch AI`
+**3. [哈佛 AI 讲师头像](https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/)** · `TechCrunch AI`
 
-要点：研究称先调好 agent harness，弱模型也能稳做任务；影响：投入可从换模型转向流程调优。
+要点：HBS Foundry 用教师 AI 头像给路演和董事会演练反馈；影响：培训产品可减少真人导师占用时间。
 
-**4. [OpenAI 改挺安全法](https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/)** · `TechCrunch AI`
+**4. [Flock 遭反弹](https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/)** · `TechCrunch AI`
 
-要点：OpenAI 呼吁加州强化 AI 安全法案 SB 53；影响：在加州布局的团队要关注合规要求。
+要点：Flock Safety 因监控技术可能被滥用而面临更大反弹；影响：安防采购和部署会更重视权限与审计。
 
-**5. [AI 水帖按钮破百万](https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message)** · `The Verge AI`
+**5. [家庭日历免付费](https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/)** · `TechCrunch AI`
 
-要点：LinkedIn 的“像 AI 水帖”按钮点击已超百万；影响：内容审核会更依赖一键反馈。
+要点：Linkdaze 把 AI 饭菜单等功能直接开放给家庭日历；影响：家庭场景可减少订阅门槛。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[vLLM 推理引擎](https://github.com/vllm-project/vllm)** · `GitHub Trending`
+**[Deer Flow 开源代理](https://github.com/bytedance/deer-flow)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Trending；用途：适合大模型高吞吐推理与服务部署。
+入选依据：来自今日 GitHub Trending，标题明确写出开源且面向研究、编码、创作的长程代理；用途：适合需要多步骤自动化与原型生成的团队。
 
-**[Pake 网页变桌面](https://github.com/tw93/Pake)** · `GitHub Trending`
+**[Rust 终端编程代理](https://github.com/Hmbown/CodeWhale)** · `GitHub Trending`
 
-入选依据：来自今日 GitHub Trending；用途：适合把网页一键封装成桌面应用。
+入选依据：来自今日 GitHub Trending，标题直接标明是 Rust 实现的开源终端编程代理；用途：适合在命令行里做代码生成、修改和执行。
 
 ---
 
