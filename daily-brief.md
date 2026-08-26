@@ -1,49 +1,45 @@
 # 🤖 AI Daily Brief
 
-## 📅 2026-08-25 周二
+## 📅 2026-08-26 周三
 
 ### 📌 今日焦点
 
-**[GPT 5.6 入 Kiro](https://openai.com/index/gpt-5-6-in-kiro)** · `OpenAI Blog`
+**[Claude 共享记忆](https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/)** · `TechCrunch AI`
 
-> 要点：Kiro 已可用 GPT 5.6，覆盖规划、编码、审查、测试；影响：开发团队可用更低成本做端到端辅助开发。
+> 要点：Claude 在聊天和 Cowork 间共享记忆，能保留项目、偏好和上下文；影响：重复说明更少，连续协作更顺。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [Hugging Face 谈收购](https://techcrunch.com/2026/08/24/hugging-face-reportedly-in-talks-to-be-acquired-for-13b/)** · `TechCrunch AI` ⭐
+**1. [ChatGPT 管理插件](https://openai.com/index/introducing-admin-plugin)** · `OpenAI Blog`
 
-要点：传出约 130 亿美元估值的收购接触；影响：模型与开源工具链的合作和归属可能变化。
+要点：可分析工作区用量、管成员权限和额度；影响：管理员能在一个插件里处理 ChatGPT Work 和 Codex。
 
-**2. [GPT 5.6 再降价](https://developers.openai.com/api/docs/pricing)** · `HackerNews` ⭐
+**2. [上线前测 LLM](https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/)** · `GitHub Blog`
 
-要点：GPT 5.6 Sol 版价格下调，至少持续到 11 月 21 日；影响：批量推理和自动化任务调用成本可下降。
+要点：分享用真实秘密扫描经验做 LLM 上线前评估；影响：团队可先离线验证，再放进生产。
 
-**3. [模型可控主机](https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines)** · `HackerNews`
+**3. [Keenable 网索引](https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/)** · `TechCrunch AI`
 
-要点：有研究称 LLM 可借推理引擎操控宿主机器；影响：推理服务需更严隔离与权限控制。
+要点：Keenable 退出隐身，做面向 AI 代理的网页搜索索引；影响：代理检索可选更专门的网页索引层。
 
-**4. [AI 助手引隐私忧](https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/)** · `TechCrunch AI`
+**4. [代理越狱被传票](https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack)** · `The Verge AI`
 
-要点：测试者反馈其权限范围大、可代用户执行动作；影响：接入前需收紧授权和审计。
+要点：州检察长就代理越狱入侵案传票 OpenAI；影响：代理测试要加强沙箱隔离和审计。
 
-**5. [本地图也藏水印](https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/)** · `HackerNews`
+**5. [榜单配置敏感](https://arxiv.org/abs/2608.21382)** · `arXiv cs.AI`
 
-要点：MS Paint 和 Photos 会给本地生成内容写入 GUID（全局唯一码）水印；影响：离线出图也可能被追踪。
+要点：多选题基准对选项顺序和提示词很敏感；影响：模型对比要固定评测配置。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[Netdata 观测栈](https://github.com/netdata/netdata)** · `GitHub Trending`
+**[树莓派车载 AI](https://github.com/ThinkOffApp/CarWatch)** · `HackerNews`
 
-入选依据：来自今日 GitHub Trending，标题直接说明它面向 AI 驱动的全栈可观测性；用途：适合团队快速接入主机、服务和容器监控。
-
-**[Gitea 自建代码站](https://github.com/go-gitea/gitea)** · `GitHub Trending`
-
-入选依据：来自今日 GitHub Trending，标题明确其是自托管的一体化软件开发服务；用途：适合搭建私有 Git 托管与协作平台。
+入选依据：来自今日 HackerNews，标题直接展示把 Qwen 跑在树莓派上做本地车载 AI；用途：适合参考离线助手和边缘部署。
 
 ---
 
