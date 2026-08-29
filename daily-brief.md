@@ -1,45 +1,49 @@
 # 🤖 AI Daily Brief
 
-## 📅 2026-08-28 周五
+## 📅 2026-08-29 周六
 
 ### 📌 今日焦点
 
-**[Google AI 模式管旅行](https://techcrunch.com/2026/08/27/googles-ai-mode-can-now-track-flight-prices-help-book-hotels-and-more/)** · `TechCrunch AI`
+**[Anthropic胜诉](https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/)** · `TechCrunch AI`
 
-> 要点：Google 的 AI Mode 新增机票价格跟踪、酒店预订协助等功能，正从信息检索转向代办部分行程；影响：用户与团队可直接在搜索入口完成比价和预订，旅行产品需评估与 Google 流量入口的竞争或接入。
+> 要点：法院认定其被标为供应链风险违法；影响：政府合作与采购阻碍可能减轻。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [百家公司联防失控 AI](https://techcrunch.com/2026/08/27/openai-anthropic-google-and-100-other-companies-call-for-action-to-defend-against-rogue-ai/)** · `TechCrunch AI`
+**1. [Lambda借款买芯片](https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/)** · `TechCrunch AI`
 
-要点：百余公司联署倡议防失控 AI；影响：团队需关注新安全标准与采购要求
+要点：Lambda 借 10 亿美元债务买 Nvidia 芯片；影响：算力扩张更依赖融资。
 
-**2. [Photoshop 强化 AI](https://www.theverge.com/tech/985491/adobe-photoshop-ai-assisted-editor-markup)** · `The Verge AI`
+**2. [AI自改进初现](https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/)** · `TechCrunch AI`
 
-要点：Photoshop 测试 AI 辅助编辑界面；影响：设计团队可集中试用生成式功能
+要点：自动系统在 10 个失配行为基准上全提升；影响：自我改进流程更可测。
 
-**3. [Android 内存限制收紧](https://techcrunch.com/2026/08/27/ais-memory-crunch-is-coming-for-android-apps/)** · `TechCrunch AI`
+**3. [OpenAI办泰国加速器](https://openai.com/index/supporting-next-generation-ai-startups-thailand)** · `OpenAI Blog`
 
-要点：Android 应用将面临更严内存限制；影响：开发者需压缩占用并加强低端机测试
+要点：OpenAI 联合泰国部委办 8 周加速器，扶持 10 个创业项目；影响：原型到产品转化更快。
 
-**4. [Plaud AI 耳机登场](https://techcrunch.com/2026/08/27/plauds-new-earphones-come-with-an-esim-enabled-case-for-talking-to-ai-agents/)** · `TechCrunch AI`
+**4. [数据中心排污可隐](https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit)** · `The Verge AI`
 
-要点：Plaud 推耳机与 eSIM 盒接入 AI 代理；影响：可评估录音、转写、助手一体设备
+要点：EPA 拟让数据中心更难公开空气污染信息；影响：选址与合规评估更难。
 
-**5. [科研代理终端基准](https://www.terminal-bench-science.ai/announcement)** · `HackerNews`
+**5. [开放权重公司受捧](https://techcrunch.com/2026/08/28/open-weight-ai-companies-are-the-valleys-hottest-acquisition-targets/)** · `TechCrunch AI`
 
-要点：Terminal-Bench-Science 评测科研代理流程；影响：团队可用统一基准比较代理能力
+要点：开放权重 AI 公司成并购热门标的；影响：开源模型路线退出窗口变多。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[AI 工程笔记本合集](https://github.com/calmrocks/ai-engineer-notebooks)** · `HackerNews`
+**[Netdata AI 可观测](https://github.com/netdata/netdata)** · `GitHub Trending`
 
-入选依据：来自今日 HackerNews，标题明确提供免费、免框架且可在 Colab 运行的检索增强、智能体、评测笔记本；用途：快速搭建实验、教学演示与方案验证
+入选依据：来自今日 GitHub Trending，标题明确是 AI 驱动的全栈可观测；用途：适合快速接入监控、日志和告警。
+
+**[Gitea 自托管开发](https://github.com/go-gitea/gitea)** · `GitHub Trending`
+
+入选依据：来自今日 GitHub Trending，标题说明它是一体化自托管开发服务；用途：适合搭建私有 Git 代码托管与协作。
 
 ---
 
