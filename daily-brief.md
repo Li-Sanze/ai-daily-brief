@@ -1,45 +1,45 @@
 # 🤖 AI Daily Brief
 
-## 📅 2026-08-31 周一
+## 📅 2026-09-01 周二
 
 ### 📌 今日焦点
 
-**[索尼华纳诉 Anthropic](https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/)** · `TechCrunch AI`
+**[ChatGPT 全球扩张](https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads)** · `OpenAI Blog`
 
-> 要点：索尼音乐和华纳起诉 Anthropic，指控其大规模盗版侵权；影响：模型训练数据合规和版权风险会影响采购与自建选择。
+> 要点：ChatGPT 年化营收达到 10 亿美元并继续全球扩展；影响：免费和低价版本覆盖更广，团队更容易纳入日常工作流。
 
 
 ---
 
 ### 🔥 热点速览
 
-**1. [HF 黑客复盘](https://thezvi.wordpress.com/2026/08/29/metr-and-redwood-offer-holy-postmortem-of-the-huggingface-hack/)** · `HackerNews`
+**1. [英伟达押注联发科](https://techcrunch.com/2026/08/31/nvidias-3-5b-mediatek-bet-reveals-its-plan-for-tackling-big-techs-ai-chip-buildout/)** · `TechCrunch AI`
 
-要点：METR 和 Redwood 发布 HuggingFace 被黑复盘；影响：团队会更重视仓库权限、密钥和依赖管理。
+要点：英伟达向联发科投 35 亿美元；影响：自研芯片增多时，AI 供应链更依赖既有生态。
 
-**2. [Haiku R1 beta6 发布](https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6)** · `HackerNews`
+**2. [Clipto 视频检索](https://techcrunch.com/2026/08/31/three-year-old-ai-media-search-startup-clipto-hits-a-250m-valuation/)** · `TechCrunch AI`
 
-要点：Haiku R1 的 beta6 版本已发布；影响：使用者可据新版本测试兼容性和升级路径。
+要点：Clipto 用 AI 检索海量视频，ARR 1500 万美元且已盈利；影响：视频资产检索可直接按 SaaS 采购。
 
-**3. [美筑机器人围栏](https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/)** · `TechCrunch AI`
+**3. [Blue Voice 警务写作](https://techcrunch.com/2026/08/31/harvard-law-dropout-raises-6m-for-blue-voice-to-build-a-harvey-for-police-officers/)** · `TechCrunch AI`
 
-要点：美国加强对外国产无人机和机器人的限制；影响：采购、部署和供应链可能转向替代方案。
+要点：Blue Voice 训练部门法律、地方法规和流程；影响：警务写作可用本地合规模型，减少检索和审稿。
 
-**4. [卡特彼勒 AI 部署法](https://techcrunch.com/2026/08/30/caterpillar-is-bringing-to-ai-deployment-what-it-learned-from-automating-mining/)** · `TechCrunch AI`
+**4. [Mac mini 需求激增](https://www.macrumors.com/2026/08/30/apple-unexpected-mac-mini-and-studio-demand/)** · `HackerNews`
 
-要点：卡特彼勒把矿区自动化经验用于 AI 部署；影响：企业落地会更看重远程运维和稳定性。
+要点：AI 需求推高 Mac mini 和 Mac Studio 订单；影响：本地算力采购可能更难及时拿货。
 
-**5. [得州停批 Flock 摄像](https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras)** · `The Verge AI`
+**5. [Debian 放行 AI 代码](https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy)** · `The Verge AI`
 
-要点：得州州长冻结更多 Flock AI 摄像头州拨款；影响：公共安全采购和监控部署将更谨慎。
+要点：Debian 允许开发、维护和文档使用 AI；影响：Linux 贡献流程可纳入 AI 辅助，但合规责任更清晰。
 
 ---
 
 ### 🛠️ 今日工具
 
-**[RAGFlow 检索引擎](https://github.com/infiniflow/ragflow)** · `GitHub Trending`
+**[Claude Code 自动模式](https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/)** · `HackerNews`
 
-入选依据：来自今日 GitHub Trending；用途：适合搭建开源 RAG 检索问答服务。
+入选依据：来自今日 HackerNews，标题显示 Claude Code Opus 5 Auto Mode 有新更新；用途：适合关注自动编程模式和代理式开发流程。
 
 ---
 
